@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="FDS">
+  <artifact type="jar" build-on-make="true" name="FDS">
     <output-path>$PROJECT_DIR$/out/artifacts/FDS</output-path>
     <root id="archive" name="FDS.jar">
       <element id="module-output" name="FDS_ROTS" />

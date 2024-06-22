@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c14a506a-f13a-4b30-937d-284c4c8eb12a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FDS.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ExerelinCore.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Graphics.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/LazyLib_Console.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/LunaLib_Kotlin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/MagicLib_Kotlin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_compiler_jdk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FDS_ROTS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FDS_ROTS.iml" afterDir="false" />
-    </list>
+    <list default="true" id="c14a506a-f13a-4b30-937d-284c4c8eb12a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +32,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "G:/Games/Starsector/mods/FDS_ROTS/FDS_ROTS",
     "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15527344",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
