@@ -4,7 +4,6 @@ import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.PluginPick;
 import com.fs.starfarer.api.campaign.CampaignPlugin.PickPriority;
-import com.fs.starfarer.api.campaign.listeners.ListenerManagerAPI;
 import com.fs.starfarer.api.combat.MissileAIPlugin;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
@@ -14,7 +13,7 @@ import data.scripts.campaign.FDS_MaintenanceBotsBonus;
 import data.scripts.weapons.ai.FDS_CustomMissileAI;
 import data.scripts.weapons.ai.FDS_PDMissileAI;
 import data.scripts.world.FDSGen;
-import data.scripts.FDSLunaSettings;
+import scripts.FDSLunaSettings;
 import exerelin.campaign.SectorManager;
 import java.io.IOException;
 import java.util.Iterator;
@@ -29,10 +28,6 @@ import org.apache.log4j.Logger;
 public class FDSPlugin extends BaseModPlugin {
    public static boolean fdsStoryline = false;
    public Logger FDSlog = Logger.getLogger(this.getClass());
-
-   public void setListenersIfNeeded() {
-      ListenerManagerAPI l = Global.getSector().getListenerManager();
-   }
 
    public void configureXStream(XStream x) {
       x.alias("FDS_MaintenanceBotsBonus", FDS_MaintenanceBotsBonus.class);
@@ -74,8 +69,6 @@ public class FDSPlugin extends BaseModPlugin {
    }
 
    public void onGameLoad(boolean WasEnabledBefore) {
-      setListenersIfNeeded();
-      ListenerManagerAPI l = Global.getSector().getListenerManager();
       updateLunaSettings();
    }
 
