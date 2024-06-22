@@ -32,7 +32,7 @@ public class FDS_modPlugin extends BaseModPlugin {
     public static boolean fdsStoryline = false;
     public static boolean droidMechanics = false;
 
-    public FDSPlugin() {
+    public FDS_modPlugin() {
     }
 
     private static void loadSettings() throws IOException, JSONException {
@@ -70,13 +70,13 @@ public class FDS_modPlugin extends BaseModPlugin {
             loadSettings();
         } catch (JSONException | IOException var4) {
             loadDefaultSettings();
-            Global.getLogger(FDSPlugin.class).log(Level.ERROR, "Settings loading failed, using default values");
+            Global.getLogger(FDS_modPlugin.class).log(Level.ERROR, "Settings loading failed, using default values");
         } catch (RuntimeException var5) {
             loadDefaultSettings();
-            Global.getLogger(FDSPlugin.class).log(Level.WARN, "Settings file not found, using default values");
+            Global.getLogger(FDS_modPlugin.class).log(Level.WARN, "Settings file not found, using default values");
         } catch (Exception var6) {
             loadDefaultSettings();
-            Global.getLogger(FDSPlugin.class).log(Level.ERROR, "Settings file failed to load due to unknown reasons, using default values");
+            Global.getLogger(FDS_modPlugin.class).log(Level.ERROR, "Settings file failed to load due to unknown reasons, using default values");
         }
 
         try {
