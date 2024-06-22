@@ -18,7 +18,7 @@ The defaultValue decides which one is selected by default, the secondaryValue cr
 Can be retrieved as a String.",,,Examples
 ,,,,,,,,
 ,,,,,,,,
-fds_header,Fringe Defense Syndicate,Header,These are settings for Fringe Defense Syndicate.,,,,,FDS
-fds_droidmechanics,FDS Maintenance Bots Toggle,Boolean,true,,""Droid Mechanics" is an attempt to recreate the "Extra Crew" mechanics from the mod "Starsector+" but with "Maintenance Bots" instead of crew. The buff formula is pretty much as follows: (maintenanceBotsInCargo / 2) / fleetTotalSuppliesPerMonth Short answer: Having twice as many "Maintenance Bots" as the total fleet supply cost per month provides the maximum buff possible.",,,FDS
-#fds_storyline,FDS Storyline Toggle,Boolean,true,,"Enables or Disables the FDS storyline(not yet functional).",,,FDS
+fds_header,Fringe Defense Syndicate - Return of the Syndicate,Header,These are settings for Fringe Defense Syndicate.,,,,,FDS_ROTS
+fds_droidmechanics,FDS Maintenance Bots Toggle,Boolean,false,,""Droid Mechanics" is an attempt to recreate the "Extra Crew" mechanics from the mod "Starsector+" but with "Maintenance Bots" instead of crew. The buff formula is pretty much as follows: (maintenanceBotsInCargo / 2) / fleetTotalSuppliesPerMonth Short answer: Having twice as many "Maintenance Bots" as the total fleet supply cost per month provides the maximum buff possible.",,,FDS_ROTS
+#fds_storyline,FDS Storyline Toggle,Boolean,false,,"Enables or Disables the FDS storyline(not yet functional).",,,FDS_ROTS
 ,,,,,,,,
