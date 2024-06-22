@@ -1,9 +1,9 @@
 {
-  "id":"FDS",
-  "name":"Fringe Defence Syndicate",
-  "author":"Johnny Cocks",
+  "id":"FDS_ROTS",
+  "name":"Fringe Defence Syndicate - Return of the Syndicate",
+  "author":"MnHebi",
   "version":"0.11.1m",
-  "description":"The Fringe Defence Syndicate. LazyLib and MagicLib Required!",
+  "description":"The Fringe Defence Syndicate originally by Johny Cocks(Johny Cocas on forums). Return of the Syndicate that updates the mod to Starsector 0.97 by MnHebi. LazyLib and MagicLib Required!",
   "gameVersion":"0.97",
   "totalConversion":"false",
   "modPlugin":"data.scripts.FDSPlugin",
