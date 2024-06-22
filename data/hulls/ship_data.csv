@@ -35,7 +35,7 @@ Shame,fds_shame,Light Carrier,Fringe Defence Syndicate,targetingfeed,10,4000,250
 Desolation,fds_desolation,Destroyer,Fringe Defence Syndicate,burndrive,9,5000,450,7000,7000,450,120,,75,50,35,25,25,820,FRONT,,270,0.4,1,,,50,60,75,110,2,55,8,40000,5,12,400,0.25,12,12,,"fds_bp, fds_mil_bp",,0.1,2,2,229
 Pride,fds_pride,Destroyer,Fringe Defence Syndicate,highenergyfocus,10,5500,500,8000,8000,520,115,,80,65,40,25,25,950,FRONT,,270,0.4,0.8,,,60,120,100,120,2,60,8,42000,5,15,360,0.25,15,15,,"fds_bp, fds_mil_bp",,0.1,2,2,230
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Atonement,fds_atonement,Cruiser,Fringe Defence Syndicate,interdictor,20,5000,600,6000,6000,450,120,,50,20,20,15,20,1300,OMNI,,120,0.25,1.4,,,125,175,180,90,3,30,7,250000,3,20,360,0.25,35,35,,"fds_bp, rare_bp",,0.1,2,3,19
+Atonement,fds_atonement,Cruiser,Fringe Defence Syndicate,fds_signature_dampener,20,5000,600,6000,6000,450,120,,50,20,20,15,20,1300,OMNI,,120,0.25,1.4,,,125,175,180,90,3,30,7,250000,3,20,360,0.25,35,35,,"fds_bp, rare_bp",,0.1,2,3,19
 Submission,fds_submission,Cruiser,Fringe Defence Syndicate,maneuveringjets,10,7000,750,7500,7500,250,115,,65,35,25,13,20,1000,OMNI,,160,0.2,1.2,,,100,600,200,300,3,100,9,80000,3,20,420,0.25,20,20,,"fds_bp, fds_mil_bp",,0.1,2,3,19
 Revenge,fds_revenge,Missile Cruiser,Fringe Defence Syndicate,forgevats,14,7500,800,8000,8000,400,160,,40,18,15,10,16,2280,OMNI,,140,0.5,0.8,,,170,280,200,350,3,70,8,100000,4,15,420,0.25,22,22,,"fds_bp, rare_bp",,0.1,2,3,409
 Wrath,fds_wrath,Cruiser,Fringe Defence Syndicate,ammofeed,14,8000,900,10000,10000,800,205,,40,18,15,10,12,2450,OMNI,,120,0.4,0.8,,,170,320,300,450,3,150,8,120000,4,15,420,0.25,24,24,,"fds_bp, rare_bp",,0.1,2,3,415
@@ -43,9 +43,10 @@ Retaliation,fds_retaliation,Battlecarrier,Fringe Defence Syndicate,plasmajets,15
 Fear,fds_fear,Heavy Cruiser,Fringe Defence Syndicate,burndrive,16,10000,1100,15000,15000,780,165,,40,20,15,10,10,2280,OMNI,,120,0.4,0.9,,,220,300,200,340,10,34,8,140000,4,12,520,0.25,20,20,,"fds_bp, rare_bp",,0.1,2,3,21
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Hatred,fds_hatred,Battleship,Fringe Defence Syndicate,burndrive,25,17000,1500,20000,20000,1000,275,2,28,12,12,5,5,3500,OMNI,,120,0.3,0.9,,,460,1200,400,500,10,50,7,320000,4,15,600,0.25,40,40,,"fds_bp, rare_bp",,0.1,2,4,24
-Suffering,fds_suffering,Battleship,Fringe Defence Syndicate,displacer_degraded,28,20000,1600,22000,22000,1200,300,,26,10,10,4,4,3600,OMNI,,120,0.3,0.8,,,500,1200,450,400,10,40,7,350000,3,20,660,0.25,50,50,,"fds_bp, rare_bp",,0.1,2,4,25
+Suffering,fds_suffering,Battleship,Fringe Defence Syndicate,fds_quantum_generator,28,20000,1600,22000,22000,1200,300,,26,10,10,4,4,3600,OMNI,,120,0.3,0.8,,,500,1200,450,400,10,40,7,350000,3,20,660,0.25,50,50,,"fds_bp, rare_bp",,0.1,2,4,25
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Torture,fds_torture,Heavy Battleship,Fringe Defence Syndicate,burndrive,32,22000,1700,18000,18000,1400,320,2,30,10,10,5,5,4200,OMNI,,120,0.3,0.9,,,720,1500,450,780,15,52,7,450000,2,20,660,0.25,60,60,,"fds_bp, rare_bp",,0.1,2,4,30
 Terror,fds_terror,Heavy Battleship,Fringe Defence Syndicate,fds_overclocked_sensor_array,40,25000,1800,26000,26000,1500,400,2,28,8,7,4,4,4500,OMNI,,120,0.3,0.8,,,750,1600,450,780,15,52,7,500000,2,22,660,0.25,75,75,,"fds_bp, rare_bp",,0.1,2,4,31
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Wroth,fds_wroth,Dreadnaught,Fringe Defence Syndicate,fds_yeetdrive,60,100000,3000,75000,75000,10000,1000,,20,20,15,5,5,10000,OMNI,,120,0.2,0.75,,,2000,5000,2000,2000,50,40,6,100000000,1,25,3600,0.25,100,100,"UNBOARDABLE, HIDE_IN_CODEX",,,0.1,2,4,32
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
