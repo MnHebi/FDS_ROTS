@@ -1,11 +1,12 @@
 {
-    "masterVersionFile":"https://raw.githubusercontent.com/MnHebi/FDS_ROTS/main/FDS.version",
-    "modName":"Fringe Defence Syndicate - Return of the Syndicate",
-    "modThreadId":12243,
-    "modVersion":
-    {
-        "major":0,
-        "minor":11,
-        "patch":1m
-    }
+    "masterVersionFile": "https://raw.githubusercontent.com/MnHebi/FDS_ROTS/main/FDS.version",
+    "modName": "Fringe Defence Syndicate - Return of the Syndicate",
+    "modThreadId": 12243,
+    "modVersion": {
+        "major": 0,
+        "minor": 11,
+        "patch": 1m
+    },
+	"directDownloadURL": "https://github.com/MnHebi/FDS_ROTS/releases/download/0.11.1m/FDS_ROTS.zip",
+	"changelogURL": "https://raw.githubusercontent.com/MnHebi/FDS_ROTS/main/Changelog.txt"
 }
