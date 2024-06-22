@@ -1,7 +1,8 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="FDS">
-    <output-path>$PROJECT_DIR$/out/artifacts/FDS_ROTS</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/FDS</output-path>
     <root id="archive" name="FDS.jar">
+      <element id="module-output" name="FDS_ROTS" />
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
       </element>
