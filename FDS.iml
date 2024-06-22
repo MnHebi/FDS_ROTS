@@ -12,5 +12,6 @@
     <orderEntry type="library" name="LazyLib-Console" level="project" />
     <orderEntry type="library" name="Graphics" level="project" />
     <orderEntry type="library" name="ExerelinCore" level="project" />
+    <orderEntry type="library" name="LunaLib-Kotlin" level="project" />
   </component>
 </module>

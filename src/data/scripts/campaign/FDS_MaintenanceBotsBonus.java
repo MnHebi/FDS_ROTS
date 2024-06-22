@@ -7,7 +7,6 @@ import com.fs.starfarer.api.campaign.StarSystemAPI;
 import com.fs.starfarer.api.campaign.BuffManagerAPI.Buff;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
-import data.scripts.FDSPlugin;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -20,7 +19,6 @@ public class FDS_MaintenanceBotsBonus implements EveryFrameScript {
    private final IntervalUtil interval = new IntervalUtil(0.5F, 0.5F);
 
    public void advance(float amount) {
-      if (FDSPlugin.droidMechanics) {
          this.interval.advance(amount);
          if (this.interval.intervalElapsed()) {
             this.fleets.clear();
@@ -90,7 +88,6 @@ public class FDS_MaintenanceBotsBonus implements EveryFrameScript {
                }
             }
          }
-      }
    }
 
    public boolean isDone() {

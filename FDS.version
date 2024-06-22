@@ -1,11 +1,11 @@
 {
     "masterVersionFile":"https://bitbucket.org/MadHSSniper/fds/downloads/FDS.version",
     "modName":"Fringe Defence Syndicate",
-    "modThreadId":12243,
+    "modThreadId":"12243",
     "modVersion":
     {
         "major":0,
         "minor":11,
-        "patch":0
+        "patch":"1m"
     }
 }

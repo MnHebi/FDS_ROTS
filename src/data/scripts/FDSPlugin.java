@@ -4,6 +4,7 @@ import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.PluginPick;
 import com.fs.starfarer.api.campaign.CampaignPlugin.PickPriority;
+import com.fs.starfarer.api.campaign.listeners.ListenerManagerAPI;
 import com.fs.starfarer.api.combat.MissileAIPlugin;
 import com.fs.starfarer.api.combat.MissileAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
@@ -13,6 +14,7 @@ import data.scripts.campaign.FDS_MaintenanceBotsBonus;
 import data.scripts.weapons.ai.FDS_CustomMissileAI;
 import data.scripts.weapons.ai.FDS_PDMissileAI;
 import data.scripts.world.FDSGen;
+import data.scripts.FDSLunaSettings;
 import exerelin.campaign.SectorManager;
 import java.io.IOException;
 import java.util.Iterator;
@@ -22,20 +24,14 @@ import org.dark.shaders.util.ShaderLib;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import org.apache.log4j.Logger;
+
 public class FDSPlugin extends BaseModPlugin {
-   private static final String SETTINGS_FILE = "FDS_OPTIONS.ini";
    public static boolean fdsStoryline = false;
-   public static boolean droidMechanics = false;
+   public Logger FDSlog = Logger.getLogger(this.getClass());
 
-   private static void loadSettings() throws IOException, JSONException {
-      JSONObject settings = Global.getSettings().loadJSON("FDS_OPTIONS.ini");
-      fdsStoryline = false;
-      droidMechanics = settings.getBoolean("droidMechanics");
-   }
-
-   private static void loadDefaultSettings() {
-      fdsStoryline = false;
-      droidMechanics = false;
+   public void setListenersIfNeeded() {
+      ListenerManagerAPI l = Global.getSector().getListenerManager();
    }
 
    public void configureXStream(XStream x) {
@@ -59,19 +55,6 @@ public class FDSPlugin extends BaseModPlugin {
       }
 
       try {
-         loadSettings();
-      } catch (JSONException | IOException var4) {
-         loadDefaultSettings();
-         Global.getLogger(FDSPlugin.class).log(Level.ERROR, "Settings loading failed, using default values");
-      } catch (RuntimeException var5) {
-         loadDefaultSettings();
-         Global.getLogger(FDSPlugin.class).log(Level.WARN, "Settings file not found, using default values");
-      } catch (Exception var6) {
-         loadDefaultSettings();
-         Global.getLogger(FDSPlugin.class).log(Level.ERROR, "Settings file failed to load due to unknown reasons, using default values");
-      }
-
-      try {
          Global.getSettings().getScriptClassLoader().loadClass("org.dark.shaders.util.ShaderLib");
          ShaderLib.init();
          LightData.readLightDataCSV("data/lights/FDS_Light.csv");
@@ -90,11 +73,35 @@ public class FDSPlugin extends BaseModPlugin {
       }
    }
 
-   public void onGameLoad(boolean newGame) {
-      if (droidMechanics) {
+   public void onGameLoad(boolean WasEnabledBefore) {
+      setListenersIfNeeded();
+      ListenerManagerAPI l = Global.getSector().getListenerManager();
+      updateLunaSettings();
+   }
+
+   public void updateLunaSettings() {
+      Boolean droidMechanics = FDSLunaSettings.DroidMechanicsToggle();
+      Boolean storyline = FDSLunaSettings.StorylineToggle();
+      if (droidMechanics)
+      {
+         FDSlog.info("FDS Enabled Maintenace Droids");
          Global.getSector().addTransientScript(new FDS_MaintenanceBotsBonus());
       }
-
+      if (!droidMechanics)
+      {
+         FDSlog.info("FDS Disabled Maintenace Droids");
+         Global.getSector().removeTransientScript(new FDS_MaintenanceBotsBonus());
+      }
+      if (storyline)
+      {
+         FDSlog.info("FDS Enabled Storyline");
+         fdsStoryline = true;
+      }
+      if (!storyline)
+      {
+         FDSlog.info("FDS Disabled Storyline");
+         fdsStoryline = false;
+      }
    }
 
    public PluginPick<MissileAIPlugin> pickMissileAI(MissileAPI missile, ShipAPI launchingShip) {
