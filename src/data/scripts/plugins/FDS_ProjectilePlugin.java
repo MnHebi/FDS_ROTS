@@ -190,7 +190,7 @@ public class FDS_ProjectilePlugin extends BaseEveryFrameCombatPlugin {
                float closestSquareDistance = Float.MAX_VALUE;
                listSize = finalList.size();
 
-               for(int j = 0; j < listSize; ++j) {
+               for(j = 0; j < listSize; ++j) {
                   ShipAPI ship = (ShipAPI)finalList.get(j);
                   float squareDistance = MathUtils.getDistanceSquared(loc, ship.getLocation());
                   if (squareDistance < closestSquareDistance) {
@@ -212,7 +212,7 @@ public class FDS_ProjectilePlugin extends BaseEveryFrameCombatPlugin {
                float forceMultiplier = vel.length() / speed;
 
                Vector2f actualVel;
-               for(int j = 0; j < particleCount; ++j) {
+               for(j = 0; j < particleCount; ++j) {
                   actualVel = MathUtils.getRandomPointOnCircumference((Vector2f)null, speedScalar / rangeScalar * forceMultiplier * MathUtils.getRandomNumberInRange(splitForceMin, splitForceMax));
                   actualVel.scale((float)Math.random() + 0.75F);
                   Vector2f.add(vel, actualVel, actualVel);
