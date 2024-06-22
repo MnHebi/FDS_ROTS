@@ -8,8 +8,6 @@ import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.SectorGeneratorPlugin;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
-import com.fs.starfarer.api.campaign.events.CampaignEventManagerAPI;
-import com.fs.starfarer.api.campaign.events.CampaignEventTarget;
 import com.fs.starfarer.api.impl.campaign.DerelictShipEntityPlugin.DerelictShipData;
 import com.fs.starfarer.api.impl.campaign.DerelictShipEntityPlugin.DerelictType;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
@@ -24,8 +22,6 @@ import com.fs.starfarer.api.impl.campaign.rulecmd.salvage.special.ShipRecoverySp
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
 import com.fs.starfarer.api.util.WeightedRandomPicker;
-import data.scripts.FDSPlugin;
-import data.scripts.campaign.FDS_Storyline;
 import data.scripts.world.FDS_AddMarket;
 import java.awt.Color;
 import java.util.ArrayList;
@@ -47,14 +43,6 @@ public class FDS_PythagorasSystem implements SectorGeneratorPlugin {
       PlanetAPI odium = system.addPlanet("odiumPlanet", pythagoras1, "Odium", "fds_desert", 25.0F, 104.0F, 4000.0F, 100.0F);
       odium.setFaction("independent");
       FDS_AddMarket.FDS_AddMarket("independent", odium, (ArrayList)null, "Odium", 3, new ArrayList(Arrays.asList("farmland_poor", "rare_ore_moderate", "volatiles_plentiful", "population_4", "vice_demand", "hot", "organized_crime", "arid")), new ArrayList(Arrays.asList("refining", "spaceport", "farming", "fuelprod", "mining", "population")), new ArrayList(Arrays.asList("storage", "black_market", "open_market")), 0.25F);
-      if (FDSPlugin.fdsStoryline) {
-         new FDS_Storyline();
-         CampaignEventManagerAPI eventManager = Global.getSector().getEventManager();
-         CampaignEventTarget target = new CampaignEventTarget(odium);
-         target.setExtra(Misc.genUID());
-         FDS_Storyline event = (FDS_Storyline)eventManager.primeEvent(target, "FDS_Storyline", this);
-         eventManager.startEvent(event);
-      }
 
       JumpPointAPI odiumJumpPoint = Global.getFactory().createJumpPoint("odiumJumpPoint", "Odium Jump-Point");
       OrbitAPI orbit = Global.getFactory().createCircularOrbit(pythagoras1, 70.0F, 4000.0F, 100.0F);

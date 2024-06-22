@@ -26,7 +26,7 @@ import org.json.JSONObject;
 import org.apache.log4j.Logger;
 
 public class FDSPlugin extends BaseModPlugin {
-   public static boolean fdsStoryline = false;
+   //public static boolean fdsStoryline = false;
    public Logger FDSlog = Logger.getLogger(this.getClass());
 
    public void configureXStream(XStream x) {
@@ -74,7 +74,7 @@ public class FDSPlugin extends BaseModPlugin {
 
    public void updateLunaSettings() {
       Boolean droidMechanics = FDSLunaSettings.DroidMechanicsToggle();
-      Boolean storyline = FDSLunaSettings.StorylineToggle();
+      //Boolean storyline = FDSLunaSettings.StorylineToggle();
       if (droidMechanics)
       {
          FDSlog.info("FDS Enabled Maintenace Droids");
@@ -85,16 +85,17 @@ public class FDSPlugin extends BaseModPlugin {
          FDSlog.info("FDS Disabled Maintenace Droids");
          Global.getSector().removeTransientScript(new FDS_MaintenanceBotsBonus());
       }
-      if (storyline)
-      {
-         FDSlog.info("FDS Enabled Storyline");
-         fdsStoryline = true;
-      }
-      if (!storyline)
-      {
-         FDSlog.info("FDS Disabled Storyline");
-         fdsStoryline = false;
-      }
+      // Lets bury this for now, they never got anywhere with this, just a copy of the storyline mission with deprecated code. Deleted the module.
+      //if (storyline)
+      //{
+      //   FDSlog.info("FDS Enabled Storyline");
+      //   fdsStoryline = true;
+      //}
+      //if (!storyline)
+      //{
+      //   FDSlog.info("FDS Disabled Storyline");
+      //   fdsStoryline = false;
+      //}
    }
 
    public PluginPick<MissileAIPlugin> pickMissileAI(MissileAPI missile, ShipAPI launchingShip) {

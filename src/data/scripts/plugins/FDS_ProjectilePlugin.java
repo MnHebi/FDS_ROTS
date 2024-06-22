@@ -16,6 +16,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import org.magiclib.plugins.MagicTrailPlugin;
 import org.lazywizard.lazylib.CollisionUtils;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
@@ -286,7 +287,7 @@ public class FDS_ProjectilePlugin extends BaseEveryFrameCombatPlugin {
          SpriteAPI spriteToUse = Global.getSettings().getSprite("trails", (String)TRAIL_SPRITES.get(specID));
          Vector2f offsetPoint = new Vector2f((float)Math.cos(Math.toRadians((double)proj.getFacing())) * 1.0F, (float)Math.sin(Math.toRadians((double)proj.getFacing())) * 1.0F);
          Vector2f spawnPosition = new Vector2f(offsetPoint.x + proj.getLocation().x, offsetPoint.y + proj.getLocation().y);
-         MagicTrailPlugin.AddTrailMemberAdvanced(proj, (Float)this.projectileTrailIDs.get(proj), spriteToUse, spawnPosition, 0.0F, 0.0F, proj.getFacing() - 180.0F, 0.0F, 0.0F, (Float)START_SIZE.get(specID), (Float)END_SIZE.get(specID), (Color)TRAIL_COLOR.get(specID), (Color)FADE_COLOR.get(specID), (Float)TRAIL_OPACITY.get(specID), (Float)DURATION_IN.get(specID), (Float)DURATION_MAIN.get(specID), (Float)DURATION_FADE.get(specID), 770, 1, (Float)LOOP_LENGTH.get(specID), (Float)SCROLL_SPEED.get(specID), new Vector2f(0.0F, 0.0F), (Map)null);
+         MagicTrailPlugin.addTrailMemberAdvanced(proj, (Float)this.projectileTrailIDs.get(proj), spriteToUse, spawnPosition, 0.0F, 0.0F, proj.getFacing() - 180.0F, 0.0F, 0.0F, (Float)START_SIZE.get(specID), (Float)END_SIZE.get(specID), (Color)TRAIL_COLOR.get(specID), (Color)FADE_COLOR.get(specID), (Float)TRAIL_OPACITY.get(specID), (Float)DURATION_IN.get(specID), (Float)DURATION_MAIN.get(specID), (Float)DURATION_FADE.get(specID), 770, 1, (Float)LOOP_LENGTH.get(specID), (Float)SCROLL_SPEED.get(specID), new Vector2f(0.0F, 0.0F), (Map)null);
          if (this.projectileSecondaryTrailIDs.get(proj) == null) {
             this.projectileSecondaryTrailIDs.put(proj, MagicTrailPlugin.getUniqueID());
          }
@@ -305,7 +306,7 @@ public class FDS_ProjectilePlugin extends BaseEveryFrameCombatPlugin {
          Vector2f baseVelocity = new Vector2f(0.0F, projectileVelocity.getY());
          Vector2f lateralVelocity = VectorUtils.rotate(baseVelocity, proj.getFacing());
          spriteToUse = Global.getSettings().getSprite("trails", "fds_jagged_trail");
-         MagicTrailPlugin.AddTrailMemberAdvanced(proj, (Float)this.projectileSecondaryTrailIDs.get(proj), spriteToUse, spawnPosition, 0.0F, MathUtils.getRandomNumberInRange(0.0F, 200.0F), proj.getFacing() - 180.0F, 0.0F, MathUtils.getRandomNumberInRange(-400.0F, 400.0F), (Float)START_SIZE.get(specID), (Float)END_SIZE.get(specID), (Color)FADE_COLOR.get(specID), (Color)FADE_COLOR.get(specID), 0.3F * opacityMult, (Float)DURATION_IN.get(specID), 0.2F, (Float)DURATION_FADE.get(specID) + 0.2F, 770, 1, (Float)LOOP_LENGTH.get(specID), (Float)SCROLL_SPEED.get(specID), lateralVelocity, (Map)null);
+         MagicTrailPlugin.addTrailMemberAdvanced(proj, (Float)this.projectileSecondaryTrailIDs.get(proj), spriteToUse, spawnPosition, 0.0F, MathUtils.getRandomNumberInRange(0.0F, 200.0F), proj.getFacing() - 180.0F, 0.0F, MathUtils.getRandomNumberInRange(-400.0F, 400.0F), (Float)START_SIZE.get(specID), (Float)END_SIZE.get(specID), (Color)FADE_COLOR.get(specID), (Color)FADE_COLOR.get(specID), 0.3F * opacityMult, (Float)DURATION_IN.get(specID), 0.2F, (Float)DURATION_FADE.get(specID) + 0.2F, 770, 1, (Float)LOOP_LENGTH.get(specID), (Float)SCROLL_SPEED.get(specID), lateralVelocity, (Map)null);
       }
    }
 
