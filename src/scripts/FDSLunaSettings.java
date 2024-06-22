@@ -13,13 +13,14 @@ public class FDSLunaSettings {
         return droidmechanics;
     }
 
-    public static Boolean StorylineToggle(){
-        Boolean storyline = false;
-        if (Global.getSettings().getModManager().isModEnabled("lunalib"))
-        {
-            storyline = LunaSettings.getBoolean("FDS","fds_storyline");
-        }
-        return storyline;
-    }
+    // This was never implemented properly, cut it out.
+    //public static Boolean StorylineToggle(){
+    //   Boolean storyline = false;
+    //   if (Global.getSettings().getModManager().isModEnabled("lunalib"))
+    //  {
+    //      storyline = LunaSettings.getBoolean("FDS","fds_storyline");
+    //  }
+    //  return storyline;
+    //}
 
 }

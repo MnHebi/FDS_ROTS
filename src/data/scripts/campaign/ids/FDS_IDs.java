@@ -12,7 +12,6 @@ public class FDS_IDs {
    public static final String STATION_GOLAN_II = "fds_station_golan_ii";
    public static final String STATION_GOLAN_III = "fds_station_golan_iii";
    public static final String STATION_DEATH_STAR = "fds_station_death_star";
-   public static final String SETTINGS_STORY = "fdsStoryline";
    public static final String SETTINGS_DROIDS = "droidMechanics";
    public static final String LABEL_FRINGE = "fds_fringe_label";
    public static final String BUFF_MAINTENANCE_BOTS = "fds_maintenanceBotsBonus";
