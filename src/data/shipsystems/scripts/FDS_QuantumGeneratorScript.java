@@ -125,7 +125,7 @@ public class FDS_QuantumGeneratorScript extends BaseShipSystemScript {
                            float size = MathUtils.getRandomNumberInRange(5.0F, 20.0F);
                            engine.addSmoothParticle(this.entryPoint, vel, size, 1.0F, duration, this.bluish);
                         } else {
-                           Vector2f t = new Vector2f(this.entryPoint.x + vel.x, this.entryPoint.y + vel.y);
+                           t = new Vector2f(this.entryPoint.x + vel.x, this.entryPoint.y + vel.y);
                            engine.spawnEmpArc(ship, this.entryPoint, (CombatEntityAPI)null, new SimpleEntity(t), DamageType.OTHER, 0.0F, 0.0F, 10000.0F, (String)null, (float)Math.random() * (radius / 25.0F) + 5.0F, this.bluish, Color.WHITE);
                         }
                      }
@@ -158,7 +158,7 @@ public class FDS_QuantumGeneratorScript extends BaseShipSystemScript {
                   vel = MathUtils.getRandomPointInCircle((Vector2f)null, radius);
                   if (ShaderLib.isOnScreen(ship.getLocation(), radius)) {
                      if ((float)Math.random() <= 0.5F) {
-                        float duration = MathUtils.getRandomNumberInRange(0.25F, 1.0F);
+                        duration = MathUtils.getRandomNumberInRange(0.25F, 1.0F);
                         duration = MathUtils.getRandomNumberInRange(5.0F, 20.0F);
                         engine.addSmoothParticle(ship.getLocation(), vel, duration, 1.0F, duration, this.bluish);
                      } else {

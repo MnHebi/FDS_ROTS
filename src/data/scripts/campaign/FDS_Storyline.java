@@ -401,7 +401,7 @@ public class FDS_Storyline extends BaseEventPlugin {
 
       while(i$.hasNext()) {
          FleetMemberAPI member = (FleetMemberAPI)i$.next();
-         Iterator i$ = member.getVariant().getHullSpec().getAllWeaponSlotsCopy().iterator();
+         i$ = member.getVariant().getHullSpec().getAllWeaponSlotsCopy().iterator();
 
          while(i$.hasNext()) {
             WeaponSlotAPI slot = (WeaponSlotAPI)i$.next();

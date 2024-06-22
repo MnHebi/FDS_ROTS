@@ -85,7 +85,7 @@ public class FDSPlugin extends BaseModPlugin {
 
    public void onNewGame() {
       boolean hasNexerelin = Global.getSettings().getModManager().isModEnabled("nexerelin");
-      if (!hasNexerelin || SectorManager.getCorvusMode()) {
+      if (!hasNexerelin || SectorManager.getManager().isCorvusMode()) {
          (new FDSGen()).generate(Global.getSector());
       }
    }

@@ -49,7 +49,7 @@ public class FDS_MaintenanceBotsBonus implements EveryFrameScript {
 
                float bots = fleet.getCargo().getCommodityQuantity("maintenance_bots");
                float suppliesPerMonth = 0.0F;
-               Iterator i$ = fleet.getFleetData().getMembersListCopy().iterator();
+               i$ = fleet.getFleetData().getMembersListCopy().iterator();
 
                while(i$.hasNext()) {
                   FleetMemberAPI member = (FleetMemberAPI)i$.next();
@@ -72,7 +72,7 @@ public class FDS_MaintenanceBotsBonus implements EveryFrameScript {
                   supplyPct = totalRecoveryBonus * -20.0F;
                }
 
-               Iterator i$ = fleet.getFleetData().getMembersListCopy().iterator();
+               i$ = fleet.getFleetData().getMembersListCopy().iterator();
 
                while(i$.hasNext()) {
                   FleetMemberAPI member = (FleetMemberAPI)i$.next();

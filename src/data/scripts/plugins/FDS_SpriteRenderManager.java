@@ -230,7 +230,7 @@ public class FDS_SpriteRenderManager extends BaseEveryFrameCombatPlugin {
 
          if (!SCREENSPACE.isEmpty()) {
             ViewportAPI screen = Global.getCombatEngine().getViewport();
-            Iterator iter = SCREENSPACE.iterator();
+            iter = SCREENSPACE.iterator();
 
             label185:
             while(true) {
