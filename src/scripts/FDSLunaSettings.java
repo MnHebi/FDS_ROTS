@@ -8,7 +8,7 @@ public class FDSLunaSettings {
         Boolean droidmechanics = false;
         if (Global.getSettings().getModManager().isModEnabled("lunalib"))
         {
-            droidmechanics = LunaSettings.getBoolean("FDS","fds_droidmechanics");
+            droidmechanics = LunaSettings.getBoolean("FDS_ROTS","fds_droidmechanics");
         }
         return droidmechanics;
     }

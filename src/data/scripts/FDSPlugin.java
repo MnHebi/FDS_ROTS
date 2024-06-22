@@ -57,7 +57,6 @@ public class FDSPlugin extends BaseModPlugin {
          message = System.lineSeparator() + System.lineSeparator() + "GraphicsLib is required to run at least one of the mods you have installed." + System.lineSeparator() + System.lineSeparator() + "You can download GraphicsLib at http://fractalsoftworks.com/forum/index.php?topic=10982" + System.lineSeparator();
          throw new ClassNotFoundException(message);
       }
-
       this.generateCustomCategories();
    }
 
@@ -66,6 +65,10 @@ public class FDSPlugin extends BaseModPlugin {
       if (!hasNexerelin || SectorManager.getManager().isCorvusMode()) {
          (new FDSGen()).generate(Global.getSector());
       }
+   }
+
+   public void onNewGameAfterProcGen() {
+      this.generateCustomCategories();
    }
 
    public void onGameLoad(boolean WasEnabledBefore) {
@@ -300,11 +303,23 @@ public class FDSPlugin extends BaseModPlugin {
          }
 
          if (spec.getId().equals("fds_crystal_caves_no_pick")) {
-            spec.getMultipliers().put("fds_cryovolcanic", 50.0F);
+            spec.getMultipliers().put("barren", 90.0F);
+            spec.getMultipliers().put("fds_cryovolcanic", 75.0F);
+            spec.getMultipliers().put("cat_cryovolcanic", 75.0F);
+            spec.getMultipliers().put("rocky_ice", 75.0F);
+            spec.getMultipliers().put("cat_frozen", 50.0F);
+            spec.getMultipliers().put("toxic_cold", 75.0F);
+            spec.getMultipliers().put("tundra", 75.0F);
          }
 
          if (spec.getId().equals("fds_crystal_caves")) {
-            spec.getMultipliers().put("fds_cryovolcanic", 1.0F);
+            spec.getMultipliers().put("fds_cryovolcanic", 25.0F);
+            spec.getMultipliers().put("barren", 10.0F);
+            spec.getMultipliers().put("rocky_ice", 25.0F);
+            spec.getMultipliers().put("cat_frozen", 50.0F);
+            spec.getMultipliers().put("cat_cryovolcanic", 25.0F);
+            spec.getMultipliers().put("toxic_cold", 25.0F);
+            spec.getMultipliers().put("tundra", 25.0F);
          }
       }
 

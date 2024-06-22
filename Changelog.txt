@@ -1,3 +1,14 @@
+[2024/06/22]
+(v0.11.1m)
+	Changes:
+		- Decompiled old java scripts and recompiled them for Starsector 0.97a
+		- Removed deprecated story module that had no content and was more related to the old Star Wars version
+		- Adjusted ship hull chances to fit current Starsector standards
+		- Increased chances of Energy Crystal Cave market condition spawning, it should be most noticeable on Frozen worlds
+		- Added dependencies into modinfo
+		- Renamed mod to Fringe Defense Syndicate - Return of the Syndicate to indicate new maintainer
+		- Moved "Droid Mechanics" setting into LunaLib settings
+
 [2019/10/15]
 (v0.11.0)
 	Additions:
