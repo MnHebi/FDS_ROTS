@@ -1,0 +1,37 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 12,
+  "fluxVents": 16,
+  "goalVariant": true,
+  "hullId": "fds_atonement",
+  "hullMods": [
+    "targetingunit",
+    "stabilizedshieldemitter",
+    "auxiliarythrusters"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_atonement_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 5": "fds_heavy_autoblaster_cannon",
+        "WS 6": "fds_heavy_autoblaster_cannon",
+        "WS 7": "fds_heavy_autoblaster_cannon",
+        "WS 8": "fds_heavy_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_ii",
+        "WS 2": "fds_pd_laser_mk_ii",
+        "WS 9": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

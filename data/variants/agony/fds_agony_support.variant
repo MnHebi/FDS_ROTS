@@ -1,0 +1,49 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "fds_agony",
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_agony_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heatseeker",
+        "WS0002": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "taclaser",
+        "WS0004": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_pd_laser_mk_iii",
+        "WS0006": "fds_pd_laser_mk_iii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_light_pd_blaster",
+        "WS0008": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

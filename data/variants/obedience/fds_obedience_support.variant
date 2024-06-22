@@ -1,0 +1,32 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "fds_obedience",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_obedience_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "heatseeker",
+                "WS0004": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_pd_laser_mk_ii",
+                "WS0002": "fds_pd_laser_mk_ii",
+                "WS0005": "fds_pd_laser_mk_iii",
+                "WS0006": "fds_pd_laser_mk_iii",
+                "WS0007": "fds_pd_laser_mk_ii"
+            }
+        }
+    ]
+}

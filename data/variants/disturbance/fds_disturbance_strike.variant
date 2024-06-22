@@ -1,0 +1,42 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 8,
+  "fluxVents": 7,
+  "goalVariant": true,
+  "hullId": "fds_disturbance",
+  "hullMods": [
+    "auxiliarythrusters",
+    "targetingunit",
+    "fds_maintenance_bots"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_disturbance_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_disturbance_blaster_L",
+        "WS0002": "fds_disturbance_blaster_P"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "reaper",
+        "WS0008": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ioncannon",
+        "WS0004": "ioncannon"
+      }
+    }
+  ],
+  "wings": []
+}

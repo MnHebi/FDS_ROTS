@@ -1,0 +1,68 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 22,
+  "fluxVents": 21,
+  "goalVariant": true,
+  "hullId": "fds_terror",
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter",
+    "fds_maintenance_bots"
+  ],
+  "permaMods": [],
+  "quality": 0.6,
+  "variantId": "fds_terror_elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0017": "fds_tali_mrm",
+        "WS0018": "fds_tali_mrm",
+        "WS0023": "annihilatorpod",
+        "WS0024": "annihilatorpod",
+        "WS0031": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "fds_heavy_autoblaster_battery",
+        "WS0014": "fds_heavy_autoblaster_battery",
+        "WS0021": "fds_dual_autoblaster_cannon",
+        "WS0022": "fds_dual_autoblaster_cannon",
+        "WS0027": "fds_heavy_autoblaster_cannon",
+        "WS0028": "fds_heavy_autoblaster_cannon",
+        "WS0029": "fds_council_spear",
+        "WS0030": "fds_council_spear",
+        "WS0034": "taclaser",
+        "WS0035": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pdburst",
+        "WS0008": "pdburst",
+        "WS0009": "fds_light_pd_blaster",
+        "WS0010": "fds_light_pd_blaster",
+        "WS0011": "pdburst",
+        "WS0012": "pdburst",
+        "WS0015": "fds_light_pd_blaster",
+        "WS0016": "fds_light_pd_blaster",
+        "WS0019": "fds_pd_laser_mk_iii",
+        "WS0020": "fds_pd_laser_mk_iii",
+        "WS0025": "fds_pd_laser_mk_iii",
+        "WS0026": "fds_pd_laser_mk_iii",
+        "WS0032": "pdburst",
+        "WS0033": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": [
+    "fds_guilt_wing",
+    "fds_distress_wing"
+  ]
+}

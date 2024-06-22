@@ -1,0 +1,52 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 18,
+    "fluxVents": 18,
+    "goalVariant": true,
+    "hullId": "fds_desolation",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_desolation_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "lightmg",
+                "WS0012": "lightmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "fds_ion_battery",
+                "WS0004": "fds_ion_battery"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "harpoon",
+                "WS0010": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_light_pd_blaster",
+                "WS0002": "fds_light_pd_blaster",
+                "WS0005": "fds_pd_laser_mk_iii",
+                "WS0006": "fds_pd_laser_mk_iii",
+                "WS0007": "fds_pd_laser_mk_iii",
+                "WS0008": "fds_pd_laser_mk_iii"
+            }
+        }
+    ]
+}

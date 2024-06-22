@@ -1,0 +1,114 @@
+{
+	### PLANETS ###
+	"fds_tundra":{
+		"name":"Tundra",
+		"descriptionId":"tundra",
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,140,160,100],
+		"texture":"graphics/FDS/planets/fds_tundra.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[255,255,255,255],
+		"isStar":false,
+		"lightPosition":[12,-2,-3], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"fds_cryovolcanic":{
+		"name":"Cryovolcanic",  #cryovolcanic
+		"descriptionId":"cryovolcanic",
+		"tilt":-40, # left-right (>0 tilts to the left)
+		"pitch":12, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-2.6, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.32, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":38, #  minimum thickness in pixels
+		"atmosphereColor":[70,110,130,100],
+		"texture":"graphics/FDS/planets/fds_cryovolcanic.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[50,100,100,255],
+		"isStar":false,
+		"lightPosition":[-5,-0.5,9], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[70,115,140,235],
+		"cloudRotation":-6, # degrees/second, optional
+	},
+	"fds_desert":{
+		"name":"Desert",  #desert
+		"descriptionId":"desert",
+		"tilt":30, # left-right (>0 tits to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.1, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":40, #  minimum thickness in pixels
+		"atmosphereColor":[150,150,145,100],
+		"texture":"graphics/FDS/planets/fds_desert.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[255,120,0,255],
+		"isStar":false,
+		"lightPosition":[-2,2,7], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+	"fds_gas_giant":{
+		"name":"Red Gas Giant",
+		"descriptionId":"gas_giant",
+		"tilt":-10, # left-right (>0 tilts to the left)
+		"pitch":-15, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.2, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":62, #  minimum thickness in pixels - used when radius * atmosphereThickness is really low
+		"atmosphereColor":[180,40,0,100],
+		"texture":"graphics/FDS/planets/fds_gas_giant.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[180,40,0,255],
+		"isStar":false,
+		"isGasGiant":true,
+		"lightPosition":[5,-2,3], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"cloudTexture":"graphics/planets/clouds_banded01.png", # omit for no cloud layer
+		"cloudColor":[180,40,0,200],
+		"cloudRotation":-7, # degrees/second, optional
+	},
+	"fds_lava":{
+		"name":"Volcanic",
+		"descriptionId":"lava",
+		"tilt":-20, # left-right (>0 tilts to the left)
+		"pitch":-5, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3.5, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.1, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":30, #  minimum thickness in pixels
+		"atmosphereColor":[215,50,15,60],
+		"texture":"graphics/FDS/planets/fds_lava.png",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[225,50,50,255],
+		"isStar":false,
+		"lightPosition":[0,0,50], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+		"glowTexture":"graphics/FDS/planets/fds_lava_glow.png", # omit for no glow layer
+		"glowColor":[255,255,255,255],
+		"useReverseLightForGlow":false,
+	},
+	"fds_frozen":{
+		"name":"Frozen",
+		"descriptionId":"frozen",
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-3, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":12, #  minimum thickness in pixels
+		"atmosphereColor":[100,140,160,155],
+		"texture":"graphics/FDS/planets/fds_frozen.jpg",
+		"icon":"graphics/warroom/icon_planet.png",
+		"iconColor":[225,225,255,255],
+		"isStar":false,
+		"lightPosition":[12,-2,-3], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	},
+}
+
+
+
+
+

@@ -1,0 +1,49 @@
+{
+  "displayName": "Close Support",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "fds_remorse",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_remorse",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_light_blaster",
+        "WS0002": "fds_light_blaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "fds_tali_mrm_single",
+        "WS0004": "fds_tali_mrm_single",
+        "WS0006": "fds_tali_mrm_single",
+        "WS0007": "fds_tali_mrm_single"
+	  }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_light_pd_blaster"
+	  }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

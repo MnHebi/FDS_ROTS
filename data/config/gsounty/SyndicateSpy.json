@@ -1,0 +1,22 @@
+{
+    "faction":"fringe_defence_syndicate",
+    "firstname":"Thrar",
+    "lastname":"Nuubben",
+    "gender":"M",    # M/F/N  (Male, female, any)
+    "officerlevel":-1, # Per default if -1, put the officerLevel max of your settings.
+	"officerPersonality":"aggressive",
+    "mainShip":"fds_rancour_elite", # Flagship variant
+	"advships":[
+		["fds_disturbance_elite",2,"aggressive"],
+		["fds_grief_mk_ii_assault",2,"aggressive"],
+		["fds_sorrow_strike",3,"aggressive"],
+		["lasher_luddic_path_Raider",5,"aggressive"],
+		["fds_fidelity_standard",3,"aggressive"],
+		["fds_loyalty_support",2,"aggressive"]
+	],
+    "reward":250000, # Bounty reward.
+    "description":"Captain Nuubben has been secretly providing information to the Hegemony, and thus has been granted a spot on the bounty list. He is flying a Rancour-class Destroyer and is considered to be dangerous. Proceed with caution.",
+    "dialog":"You will try to take me down, and you will fail!",
+    "avatar":"graphics/portraits/portrait_mercenary01.png", # Portrait of the Gladiator
+	"dsrandom":1,
+}

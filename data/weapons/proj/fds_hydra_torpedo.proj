@@ -1,0 +1,22 @@
+{
+	"id":"fds_hydra_torpedo",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/FDS/missiles/fds_hydra.png",
+	"size":[11,22],	
+	"center":[5.5,11],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":180, # purely visual
+	"engineSpec":{"turnAcc":75,
+				  "turnRate":50,
+				  "acc":200,
+				  "dec":175},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-12, 0],
+				    "style":"TORPEDO",
+				    "width":6.0,
+				    "length":30.0,
+				    "angle":180.0}]
+}

@@ -1,0 +1,44 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 6,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "fds_despair",
+    "hullMods": [
+        "auxiliarythrusters",
+        "targetingunit"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_despair_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "fds_hydra_3x_rack",
+                "WS0008": "fds_hydra_3x_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_light_autoblaster_cannon",
+                "WS0002": "fds_light_autoblaster_cannon",
+                "WS0009": "fds_light_autoblaster_cannon",
+                "WS0010": "fds_remnant_dagger"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "fds_pd_laser_mk_ii",
+                "WS0004": "fds_pd_laser_mk_ii",
+                "WS0005": "fds_pd_laser_mk_ii",
+                "WS0006": "fds_pd_laser_mk_ii"
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "baseHullId": "fds_prudence",
+  "baseValueMult": 1.5,
+  "descriptionId": "prudence",
+  "descriptionPrefix": "Elite",
+  "hullDesignation": "Gunship",
+  "hullName": "Prudence Mk. II",
+  "ordnancePoints": 35,
+  "restoreToBaseHull": false,
+  "skinHullId": "fds_prudence_e",
+  "spriteName": "graphics/FDS/ships/fds_prudence_mk_ii.png"
+}

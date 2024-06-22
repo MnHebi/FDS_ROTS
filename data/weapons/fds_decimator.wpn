@@ -1,0 +1,38 @@
+{
+	"id":"fds_decimator",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":1000,
+	"turretSprite":"graphics/FDS/weapons/fds_decimator_turret.png",
+	"turretGunSprite":"graphics/FDS/weapons/fds_decimator_turret_recoil.png",
+    "turretGlowSprite":"graphics/FDS/weapons/fds_decimator_turret_glow.png",
+	"hardpointSprite":"graphics/FDS/weapons/fds_decimator_hardpoint.png",
+	"hardpointGunSprite":"graphics/FDS/weapons/fds_decimator_hardpoint_recoil.png",
+    "hardpointGlowSprite":"graphics/FDS/weapons/fds_decimator_hardpoint_glow.png",	
+	"visualRecoil":12.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"interruptibleBurst":true,
+	"turretOffsets":[40, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[34, 0],
+	"hardpointAngleOffsets":[0],
+	"fringeColor":[155,0,0,255],
+	"coreColor":[255,255,255,255],
+    "glowColor":[255,155,155,255],
+	"width":10.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":240.0,
+	"pixelsPerTexel":5.0,
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":75.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":25.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":40.0,
+					   "particleDuration":0.5,
+					   "particleCount":50,
+					   "particleColor":[255,50,50,200]},
+	"projectileSpecId":"fds_decimator_shot",  # projectile that will be fired
+	"fireSoundTwo":"fds_decimator_fire",
+}

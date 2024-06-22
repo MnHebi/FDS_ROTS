@@ -1,0 +1,507 @@
+name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Light Mortar,lightmortar,FALSE,small,ballistic,,,,TRUE,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,VANILLA_TECH,,20,,,,10,15,,10,10,10,5,10,2,,5,5,,10,,,4,,20,20,10,,5,,,2.5,10,10,10
+Stinger-class Proximity Mine,fragbomb,FALSE,small,ballistic,,,TRUE,TRUE,,,,FRAGMENTATION,,,,TRUE,TRUE,,,VANILLA_TECH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Machine Gun,lightmg,FALSE,small,ballistic,,,,TRUE,,,,KINETIC,TRUE,,,TRUE,TRUE,,,VANILLA_TECH,,20,20,20,,10,15,,10,10,10,15,10,10,,5,,,10,,,8,,20,20,15,,5,,,2.5,10,10,10
+Light Autocannon,lightac,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,VANILLA_TECH,,20,20,10,,10,15,,10,10,10,10,10,10,,5,5,,10,,,6,,20,20,15,,5,,,2.5,10,10,10
+Standard Bomb Bay,bomb,FALSE,small,ballistic,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,VANILLA_TECH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vulcan Cannon,vulcan,FALSE,small,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,VANILLA_TECH,,10,10,20,20,10,10,,10,10,10,15,10,10,,5,5,,5,,,6,,10,10,10,,5,,,2.5,10,10,10
+Cluster Bomb Bay,clusterbomb,FALSE,small,ballistic,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,VANILLA_TECH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Assault Gun,lightag,FALSE,small,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,VANILLA_TECH,,10,20,20,20,10,10,5,10,10,10,15,10,10,5,5,5,,5,,,6,,7.5,15,15,,5,,10,2.5,10,10,10
+Light Dual Autocannon,lightdualac,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,VANILLA_TECH,,10,20,10,10,10,10,,10,10,10,10,10,10,5,5,5,,5,,,4,,10,15,15,,5,,,2.5,10,10,10
+Light Dual Machine Gun,lightdualmg,FALSE,small,ballistic,,,,TRUE,,,,KINETIC,TRUE,,,TRUE,TRUE,,,VANILLA_TECH,,10,20,20,10,10,10,5,,,10,15,10,10,10,5,,,5,,,6,,7.5,15,15,,5,,10,2.5,10,10,10
+Railgun,railgun,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,VANILLA_TECH,4,10,10,20,20,10,10,10,,,10,15,,10,10,5,5,,5,,,6,,10,10,10,,5,,20,5,10,10,10
+Light Needler,lightneedler,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,VANILLA_TECH,3,,,10,20,10,5,10,,,,15,,10,10,5,5,,,,,2,,10,,10,,5,,20,5,10,10,10
+Arbalest Autocannon,arbalest,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,VANILLA_TECH,,20,,10,,10,15,,10,10,10,10,10,2,,5,5,,10,,,6,,20,20,10,,5,,,2.5,10,10,10
+Flak Cannon,flak,FALSE,medium,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,VANILLA_TECH,,10,20,10,,10,10,,10,10,10,10,10,10,,5,,,5,,,4,,10,15,15,,5,,,2.5,10,10,10
+Thumper,shredder,FALSE,medium,ballistic,,,,TRUE,,,,FRAGMENTATION,TRUE,,,,,,,VANILLA_TECH,,10,,10,,10,10,,10,10,10,10,10,2,,,5,,5,,,4,,10,10,10,,5,,,2.5,10,10,10
+Assault Chaingun,chaingun,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,VANILLA_TECH,,10,20,20,20,10,10,5,10,10,10,15,10,10,5,5,5,,5,,,6,,7.5,15,15,,5,,10,2.5,10,10,10
+Heavy Autocannon,heavyac,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,VANILLA_TECH,,10,20,10,10,10,10,,10,10,10,10,10,10,5,5,5,,5,,,4,,10,15,15,,5,,,2.5,10,10,10
+Dual Flak Cannon,dualflak,FALSE,medium,ballistic,,,,,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,VANILLA_TECH,,10,20,20,20,10,10,10,,,10,15,10,10,10,5,,,5,,,6,,10,15,15,,,,20,5,10,10,10
+Heavy Machine Gun,heavymg,FALSE,medium,ballistic,,,,TRUE,,,,KINETIC,TRUE,,,TRUE,TRUE,,,VANILLA_TECH,,10,20,20,10,10,10,,,,10,15,10,10,5,5,,,5,,,6,,10,15,15,,5,,,2.5,10,10,10
+Heavy Mortar,heavymortar,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,VANILLA_TECH,,10,20,20,20,10,10,5,10,10,10,15,10,2,5,5,5,,5,,,6,,7.5,15,15,,5,,10,2.5,10,10,10
+Heavy Mauler,heavymauler,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,TRUE,,,,TRUE,,VANILLA_TECH,2,10,10,20,20,10,10,10,,,10,15,,10,10,,5,,5,,,6,,10,10,10,,5,,20,5,10,10,10
+Hypervelocity Driver,hveldriver,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,VANILLA_TECH,4,10,10,20,20,10,10,10,,,10,15,,10,10,,5,,5,,,6,,10,10,10,,5,,20,5,10,10,10
+Heavy Needler,heavyneedler,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,VANILLA_TECH,3,,,10,20,10,5,10,,,,15,,10,10,5,5,,,,,2,,10,,10,,5,,20,5,10,10,10
+Hellbore Cannon,hellbore,FALSE,large,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,VANILLA_TECH,,10,20,10,,10,10,,10,10,10,10,10,2,,5,,,5,,,4,,10,15,15,,5,,,2.5,10,10,10
+Mark IX Autocannon,mark9,FALSE,large,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,VANILLA_TECH,,10,20,10,10,10,10,,10,10,10,10,10,10,,5,,,5,,,4,,10,15,15,,5,,,2.5,10,10,10
+Devastator Cannon,devastator,FALSE,large,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,TRUE,,,,VANILLA_TECH,3,10,20,10,10,10,10,,10,10,10,10,10,10,,5,,,5,,,4,,10,15,15,,5,,,2.5,10,10,10
+Hephaestus Assault Gun,hephag,FALSE,large,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,VANILLA_TECH,2,10,20,20,20,10,10,5,10,10,10,15,10,10,5,5,,,5,,,6,,7.5,15,15,,5,,10,2.5,10,10,10
+Mjolnir Cannon,mjolnir,FALSE,large,ballistic,,,,,,,,ENERGY,TRUE,,,TRUE,,,,VANILLA_TECH,5,,10,20,20,10,5,10,,,10,15,,10,10,5,,,,,,4,,10,10,10,,5,,20,5,10,10,10
+Gauss Cannon,gauss,FALSE,large,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,VANILLA_TECH,5,10,10,20,20,10,10,10,,,10,15,,10,10,5,,,5,,,6,,10,10,10,,5,,20,5,10,10,10
+Storm Needler,multineedler,FALSE,large,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,VANILLA_TECH,3,,,10,20,10,5,10,,,,15,,10,10,5,,,,,,2,,10,,10,,5,,20,5,10,10,10
+Harpoon MRM (Single),harpoon_single,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,,,VANILLA_TECH,3,5,20,10,,5,5,,5,5,5,7.5,10,10,,2.5,2.5,,2.5,,,3,,5,12.5,12.5,,2.5,5,,2.5,5,5,5
+Sabot SRM (Single),sabot_single,FALSE,small,missile,,,TRUE,TRUE,,,,KINETIC,,TRUE,,,,,,VANILLA_TECH,2,5,10,10,,5,5,,5,5,5,7.5,10,10,,2.5,2.5,,2.5,,,3,,5,7.5,7.5,,2.5,5,,2.5,5,5,5
+Atropos-class Torpedo (Single),atropos_single,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,VANILLA_TECH,4,,5,10,10,5,2.5,10,,,5,7.5,,10,,2.5,2.5,,,,,2,,10,5,5,,,3,10,10,5,5,5
+Reaper-class Torpedo,reaper,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,,,,VANILLA_TECH,3,10,20,20,20,10,10,20,10,10,10,15,,10,10,5,5,,5,,,6,,15,15,15,,5,5,20,20,10,10,10
+Annihilator Rocket Launcher,annihilator,FALSE,small,missile,,,,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,VANILLA_TECH,,20,20,20,20,10,15,10,10,10,10,15,10,10,5,5,5,,10,,,8,,15,20,15,,5,3,10,10,10,10,10
+Swarmer SRM Launcher,swarmer,FALSE,small,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,,,TRUE,,,,VANILLA_TECH,,10,10,20,10,10,10,10,10,10,10,15,10,10,5,5,5,,5,,,6,,10,10,10,,5,3,10,10,10,10,10
+Harpoon MRM,harpoon,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,,,VANILLA_TECH,3,10,40,20,20,10,10,20,10,10,10,15,10,10,10,5,5,,5,,,6,,15,25,25,,5,5,20,20,10,10,10
+Sabot SRM,sabot,FALSE,small,missile,,,TRUE,TRUE,,,,KINETIC,,TRUE,,,,,,VANILLA_TECH,2,10,20,20,20,10,10,20,10,10,10,15,10,10,10,5,5,,5,,,6,,15,15,15,,5,5,20,20,10,10,10
+Hammer-class Torpedo,hammer,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,,,,VANILLA_TECH,,20,10,10,10,10,15,10,40,20,20,10,10,2,5,5,5,,10,,,6,,15,15,10,,5,3,10,10,10,10,10
+Salamander MRM,heatseeker,FALSE,small,missile,,,,TRUE,,,,FRAGMENTATION,,TRUE,,,,,TRUE,VANILLA_TECH,4,10,20,20,10,10,10,20,10,10,10,15,,10,10,5,5,,5,,,6,,15,15,15,,5,5,20,20,10,10,10
+Atropos-class Torpedo Rack,atropos,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,VANILLA_TECH,4,,10,20,20,5,2.5,20,,,5,12.5,,10,5,2.5,2.5,,,,,4,,20,10,7.5,,,1.5,20,20,5,5,5
+Annihilator Rocket Pod,annihilatorpod,FALSE,medium,missile,,,,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,VANILLA_TECH,,10,20,20,20,10,10,10,10,10,10,15,10,10,5,5,5,,5,,,6,,10,15,15,,5,3,10,10,10,10,10
+Harpoon MRM Pod,harpoonpod,FALSE,medium,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,,,VANILLA_TECH,3,10,40,20,20,10,10,20,10,10,10,15,10,10,10,5,5,,5,,,6,,15,25,25,,5,5,20,20,10,10,10
+Pilum LRM Launcher,pilum,FALSE,medium,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,VANILLA_TECH,,10,20,20,10,10,10,10,10,10,10,15,10,10,5,,5,,5,,,6,,10,15,15,,5,3,10,10,10,10,10
+Sabot SRM Pod,sabotpod,FALSE,medium,missile,,,TRUE,TRUE,,,,KINETIC,,TRUE,,,,,,VANILLA_TECH,2,10,20,20,20,10,10,20,10,10,10,15,10,10,10,5,5,,5,,,6,,15,15,15,,5,5,20,20,10,10,10
+Salamander MRM Pod,salamanderpod,FALSE,medium,missile,,,,TRUE,,,,FRAGMENTATION,,TRUE,,,,,TRUE,VANILLA_TECH,4,10,20,20,10,10,10,20,10,10,10,15,,10,10,5,5,,5,,,6,,15,15,15,,5,5,20,20,10,10,10
+Typhoon Reaper Launcher,typhoon,FALSE,medium,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,,,,VANILLA_TECH,3,,20,20,20,10,5,20,10,10,10,15,,10,10,5,5,,,,,4,,20,20,15,,5,5,20,20,10,10,10
+Proximity Charge Launcher,phasecl,FALSE,medium,missile,,,,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,TRUE,,,,VANILLA_TECH,,10,,10,10,10,10,20,,,10,10,,10,10,5,5,,5,,,4,,15,10,10,,5,3,20,20,10,10,10
+Locust SRM Launcher,locust,FALSE,large,missile,,,,TRUE,,,,FRAGMENTATION,,TRUE,,TRUE,TRUE,,,VANILLA_TECH,,10,10,20,10,10,10,10,10,10,10,15,10,10,5,5,,,5,,,6,,10,10,10,,5,3,10,10,10,10,10
+Hammer Barrage,hammerrack,FALSE,large,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,,,,VANILLA_TECH,,20,10,10,10,10,15,10,40,20,20,10,10,2,5,5,5,,10,,,6,,15,15,10,,5,3,10,10,10,10,10
+Squall MLRS,squall,FALSE,large,missile,,,,TRUE,,,,KINETIC,TRUE,TRUE,,,,,,VANILLA_TECH,3,10,,10,20,10,10,20,,,10,15,,10,10,5,,,5,,,4,,15,10,10,,5,3,20,20,10,10,10
+Hurricane MIRV Launcher,hurricane,FALSE,large,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,TRUE,TRUE,,,,,,VANILLA_TECH,5,10,10,20,20,10,10,20,10,10,10,15,,10,10,5,,,5,,,6,,15,10,10,,5,5,20,20,10,10,10
+Cyclone Reaper Launcher,cyclone,FALSE,large,missile,,,,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,,,,VANILLA_TECH,3,,20,20,20,10,5,20,,,10,15,,10,10,5,,,,,,4,,20,20,15,,5,5,20,20,10,10,10
+Mining Laser,mininglaser,FALSE,small,energy,,,,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,VANILLA_TECH,,20,,,,10,15,,10,10,10,5,10,2,,5,5,,10,,,4,,20,20,10,,5,,,5,10,10,10
+PD Laser,pdlaser,FALSE,small,energy,,,,TRUE,,,TRUE,ENERGY,,,,TRUE,TRUE,,,VANILLA_TECH,,20,20,10,,10,15,10,10,10,10,10,10,10,5,5,5,,10,,,6,,15,20,15,,5,,10,10,10,10,10
+Tactical Laser,taclaser,FALSE,small,energy,,,,TRUE,,,,ENERGY,,TRUE,,,,TRUE,,VANILLA_TECH,2,10,10,20,20,10,10,20,10,10,10,15,,10,10,5,5,,5,,,6,,15,10,10,,5,,10,20,10,10,10
+Ion Cannon,ioncannon,FALSE,small,energy,,,,TRUE,,,,ENERGY,TRUE,,,,,,TRUE,VANILLA_TECH,3,10,,20,20,10,10,20,,,10,15,,10,10,5,5,,5,,,6,,15,10,10,,5,,20,20,10,10,10
+IR Pulse Laser,irpulse,FALSE,small,energy,,,,,,,,ENERGY,TRUE,,,,,,,VANILLA_TECH,,10,20,20,20,10,10,20,10,10,10,15,10,10,5,5,5,,5,,,6,,15,15,15,,5,,20,20,10,10,10
+LR PD Laser,lrpdlaser,FALSE,small,energy,,,,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,VANILLA_TECH,2,10,,20,10,10,10,10,,,10,15,,10,5,5,5,,5,,,6,,10,10,10,,5,,10,10,10,10,10
+Burst PD Laser,pdburst,FALSE,small,energy,,,TRUE,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,VANILLA_TECH,3,10,10,10,20,10,10,20,,,10,15,,10,10,5,5,,5,,,4,,15,10,10,,5,,20,20,10,10,10
+Antimatter Blaster,amblaster,FALSE,small,energy,,,,,,TRUE,,ENERGY,,,TRUE,,TRUE,,,VANILLA_TECH,4,10,,,20,10,10,20,,,,15,,10,10,5,5,,5,,,2,,15,10,10,,5,,20,20,10,10,10
+Graviton Beam,gravitonbeam,FALSE,medium,energy,,,,TRUE,,,,KINETIC,,TRUE,,,,TRUE,,VANILLA_TECH,2,10,10,20,20,10,10,20,,,10,15,,10,10,5,5,,5,,,6,,15,10,10,,5,,10,20,10,10,10
+Mining Blaster,miningblaster,FALSE,medium,energy,,,,,TRUE,,,ENERGY,,,TRUE,,,,,VANILLA_TECH,,10,,,,10,10,,10,10,10,5,10,2,,5,5,,5,,,2,,10,10,10,,5,,,5,10,10,10
+Pulse Laser,pulselaser,FALSE,medium,energy,,,,,,,,ENERGY,TRUE,,,,,,,VANILLA_TECH,,10,20,20,20,10,10,20,10,10,10,15,,10,5,5,5,,5,,,6,,15,15,15,,5,,20,20,10,10,10
+Heavy Blaster,heavyblaster,FALSE,medium,energy,,,,,TRUE,,,ENERGY,,,TRUE,,,,,VANILLA_TECH,4,,,10,20,10,5,20,,,10,15,,10,10,5,5,,,,,2,,20,,10,,5,,20,20,10,10,10
+Phase Lance,phasebeam,FALSE,medium,energy,,,,,,,,ENERGY,TRUE,,TRUE,,,,,VANILLA_TECH,4,10,10,20,20,10,10,20,10,10,10,15,,10,10,5,5,,5,,,6,,15,10,10,,5,,10,20,10,10,10
+Heavy Burst Laser,heavyburst,FALSE,medium,energy,,,TRUE,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,VANILLA_TECH,3,,10,10,20,10,5,20,,,10,15,,10,10,5,5,,,,,2,,20,10,10,,5,,20,20,10,10,10
+Ion Pulser,ionpulser,FALSE,medium,energy,,,,,,,,ENERGY,TRUE,,TRUE,,TRUE,,TRUE,VANILLA_TECH,3,10,,20,20,10,10,20,10,10,10,15,,10,10,5,5,,5,,,6,,15,10,10,,5,,20,20,10,10,10
+Ion Beam,ionbeam,FALSE,medium,energy,,,,,,,,ENERGY,,TRUE,,,,TRUE,TRUE,VANILLA_TECH,4,10,,20,20,10,10,20,10,10,10,15,,10,10,5,5,,5,,,6,,15,10,10,,5,,10,20,10,10,10
+Autopulse Laser,autopulse,FALSE,large,energy,,,TRUE,,,,,ENERGY,TRUE,TRUE,,,,,,VANILLA_TECH,,10,20,20,20,10,10,20,10,10,10,15,,10,10,5,,,5,,,6,,15,15,15,,5,,20,20,10,10,10
+High Intensity Laser,hil,FALSE,large,energy,,,,,,,,ENERGY,,TRUE,,,,TRUE,,VANILLA_TECH,2,10,10,20,20,10,10,20,10,10,10,15,,10,10,5,,,5,,,6,,15,10,10,,5,,10,20,10,10,10
+Guardian PD System,guardian,FALSE,large,energy,,,TRUE,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,VANILLA_TECH,3,,,10,20,10,5,20,,,10,15,,10,10,5,,,,,,2,,20,,10,,5,,20,20,10,10,10
+Plasma Cannon,plasma,FALSE,large,energy,,,,,TRUE,,,ENERGY,TRUE,,,,,,,VANILLA_TECH,5,,,,20,10,5,20,,,,15,,10,10,5,,,,,,,,20,,10,,5,,20,20,10,10,10
+Tachyon Lance,tachyonlance,FALSE,large,energy,,,,,TRUE,,,ENERGY,,TRUE,,,,TRUE,TRUE,VANILLA_TECH,4,,,,20,10,5,20,,,,15,,10,10,5,,,,,,,,20,,10,,5,,10,20,10,10,10
+Hammer-class Torpedo (Single),hammer_single,TRUE,small,missile,0,1,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Swarmer SRM Launcher,swarmer_fighter,TRUE,small,missile,1,4,,,,,,HIGH_EXPLOSIVE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Thermal Pulse Cannon,tpc,TRUE,large,energy,0,22,TRUE,,,,,ENERGY,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Shredder MG,brvulcan,FALSE,small,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,BLACKROCK,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+INM Attack Gun,brdy_ag,FALSE,small,ballistic,,,TRUE,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,BLACKROCK,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+Shard Gun,br_minishard,FALSE,small,ballistic,,,,,,,,KINETIC,TRUE,TRUE,,,,,,BLACKROCK,4,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Shard Cannon,brdy_ac,FALSE,small,ballistic,,,,,,,,KINETIC,TRUE,TRUE,,,,,,BLACKROCK,4,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+Burst Cannon,brdy_pcc,FALSE,small,ballistic,,,TRUE,,,,,ENERGY,,TRUE,,TRUE,,TRUE,,BLACKROCK,3,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Volley Gun,brdy_volley,FALSE,small,ballistic,,,,,,,,KINETIC,TRUE,,,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Comet Light Artillery,brdy_comet,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,BLACKROCK,3,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Shredder Battery,br_iwbattery,FALSE,medium,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,BLACKROCK,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Gale Cannon,brdy_squallgun,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,BLACKROCK,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Ferrogun,brdy_solenoid,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,TRUE,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Dual Shard Cannon,brdy_dualac,FALSE,medium,ballistic,,,,,,,,KINETIC,TRUE,TRUE,,,,,,BLACKROCK,4,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+Extended Gale Cannon,brdy_galecannon,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,TRUE,,BLACKROCK,2,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Bolide Heavy Artillery,brdy_bolide,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,BLACKROCK,3,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Gale Battery,brdy_squallbattery,FALSE,large,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,BLACKROCK,,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Mega Shard Cannon,brdy_hshard,FALSE,large,ballistic,,,,,,,,KINETIC,TRUE,TRUE,,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+Ferrocannon,brdy_solenoidlarge,FALSE,large,ballistic,,,,,,,,KINETIC,,TRUE,TRUE,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Ironweaver,brdy_iwcannon,FALSE,large,ballistic,,,TRUE,,,,,FRAGMENTATION,TRUE,,,TRUE,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Fury-class Torpedo (Single),brdy_fury,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,ENERGY,,,TRUE,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Light Dart SRM,brdy_afmissile,FALSE,small,missile,,,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,TRUE,,,,BLACKROCK,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Quill Rocket Launcher,brdy_quill,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,KINETIC,TRUE,TRUE,,,,,,BLACKROCK,2,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Voidspear MRM,voidspear_srm,FALSE,small,missile,,,TRUE,TRUE,,,,ENERGY,TRUE,,,,,,,BLACKROCK,4,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Achilles LRM,achilles_mrm,FALSE,small,missile,,,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,,,TRUE,TRUE,BLACKROCK,5,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Fury-class Torpedo Rack,brdy_2xfury,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,ENERGY,,,TRUE,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Rage SRM,br_rage_srm,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,BLACKROCK,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Dart SRM Launcher,brdy_afmissilebig,FALSE,small,missile,,,,TRUE,,,,FRAGMENTATION,,TRUE,,TRUE,,,,BLACKROCK,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Light SPL,scalaron_torpedo_small,FALSE,small,missile,,,,,,,,ENERGY,,TRUE,,,,TRUE,,BLACKROCK,3,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Fury Torpedo Launcher,furylauncher,FALSE,medium,missile,,,TRUE,TRUE,,TRUE,,ENERGY,,,TRUE,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Rage SRM Pod,br_rage_pod,FALSE,medium,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,BLACKROCK,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Quill Rocket Pod,brdy_quillpod,FALSE,medium,missile,,,TRUE,TRUE,,TRUE,,KINETIC,TRUE,,,,,,,BLACKROCK,2,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Voidspear MRM Pod,voidspearpod,FALSE,medium,missile,,,TRUE,TRUE,,,,ENERGY,TRUE,,,,,,,BLACKROCK,4,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Achilles LRM Pod,achillespod,FALSE,medium,missile,,,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,,,TRUE,TRUE,BLACKROCK,5,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Heavy SPL,scalaron_torpedo_med,FALSE,medium,missile,,,,,,,,ENERGY,,TRUE,,,,TRUE,,BLACKROCK,3,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Micro Argus PD,brdy_miniargus,FALSE,small,energy,,,TRUE,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,BLACKROCK,2,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Argus Particle Beam,brdy_argussmall,FALSE,small,energy,,,TRUE,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,BLACKROCK,2,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Linear Pulse Gun,brdy_linear,FALSE,small,energy,,,,,,,,ENERGY,TRUE,,,,,,,BLACKROCK,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Sunjet PDE,br_fpde,FALSE,small,energy,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Particle Lance,brdy_plance,FALSE,small,energy,,,,,,,,KINETIC,,TRUE,,,,TRUE,,BLACKROCK,2,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Scalaron Blaster,brdy_plasma,FALSE,medium,energy,,,TRUE,,TRUE,,,ENERGY,,,TRUE,,,,,BLACKROCK,4,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,10,10
+Sunfire PDE,br_pde,FALSE,medium,energy,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Argus PD Array,brburst,FALSE,medium,energy,,,TRUE,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,BLACKROCK,2,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Particle Rifle,br_particlerifle,FALSE,medium,energy,,,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,,,,,BLACKROCK,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+Scalaron Repeater,brdy_scannon,FALSE,medium,energy,,,,,,,,ENERGY,TRUE,,,,,,,BLACKROCK,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+Sunstorm PDE,br_xlpde,FALSE,large,energy,,,,,TRUE,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Spinal Gale Cannon,brdy_dronegale,TRUE,medium,ballistic,2,13,,,,,,HIGH_EXPLOSIVE,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Raze Cannon,brdy_raze,TRUE,large,ballistic,3,22,,,,,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hammerclaw,brdy_hammerclaw,TRUE,large,missile,0,5,,TRUE,,,,KINETIC,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Scalaron Beam,brdy_miniargusb,TRUE,small,energy,1,4,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Arclite LFO,homing_laser,TRUE,small,energy,3,9,TRUE,,,,,ENERGY,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Plasma Charge Launcher,br_plasmacharge_m,TRUE,medium,energy,2,13,TRUE,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rift Cannon,br_damocles,TRUE,large,energy,3,16,,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Antimatter Lance,brdy_amlance,TRUE,large,energy,3,30,TRUE,,TRUE,,,ENERGY,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Void Buster,brdy_superscalarbeam,TRUE,large,energy,3,30,,,TRUE,,,ENERGY,TRUE,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Copperhead LAG,fox_copperhead,FALSE,small,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,CITADEL,,,,,,5,2.5,,,,,2.5,,,,5,30,,,,,,,,,5,,,,,2.5,,10,10
+Revolver AC,fox_lightacel,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,CITADEL,,,,,,5,2.5,,,,,2.5,,,,5,40,,,,,,,,,5,,,,,2.5,,10,10
+Viper AG,fox_viper,FALSE,small,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,CITADEL,2,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,10,10
+K-Barrage,fox_kbarrage,FALSE,small,ballistic,,,,,,TRUE,,KINETIC,TRUE,,,,,,,CITADEL,3,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10
+Cobra Autogun,fox_cobra,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,CITADEL,3,,,,,5,2.5,,,,,2.5,,,,5,40,,,,,,,,,5,,,,,2.5,,10,10
+Rotunda Accelerator,fox_rotunda,FALSE,medium,ballistic,,,,,,,,KINETIC,TRUE,TRUE,,,,,,CITADEL,3,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,10,10
+Rotunda Battery,fox_rotunda_large,FALSE,large,ballistic,,,,,,,,KINETIC,TRUE,TRUE,,,,,,CITADEL,3,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,10,10
+Zeus ,fox_zeus,FALSE,large,ballistic,,,,,,,,ENERGY,,TRUE,TRUE,,,TRUE,,CITADEL,5,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10
+Blitz Torpedo,fox_torpedo_single,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,,,,CITADEL,2,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10
+Meteor SRM Rack,fox_meteor,FALSE,small,missile,,,,TRUE,,TRUE,,KINETIC,TRUE,,,,,,,CITADEL,2,,,,,5,2.5,,,,,2.5,,,,5,40,,,,,,,,,5,,,5,,5,,10,10
+Parabola LRM Launcher,fox_ksupportmissile,FALSE,small,missile,,,,TRUE,,,,KINETIC,,TRUE,,,,TRUE,,CITADEL,2,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,10,10
+Blitz Launcher,fox_torpedo,FALSE,medium,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,,,,CITADEL,2,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10
+Striker SRM Launcher,fox_striker,FALSE,medium,missile,,,TRUE,TRUE,,TRUE,,KINETIC,TRUE,,,,,,,CITADEL,2,,,,,5,2.5,,,,,2.5,,,,5,30,,,,,,,,,5,,,5,,5,,10,10
+Blitz Array,fox_torpedo_large,FALSE,large,missile,,,,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,,,,CITADEL,2,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10
+Diode PD,fox_pd2,FALSE,small,energy,,,,TRUE,,,TRUE,HIGH_EXPLOSIVE,,,,TRUE,,,,CITADEL,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10
+eFlak ,fox_miniflak,FALSE,small,energy,,,TRUE,TRUE,,,TRUE,ENERGY,,,,TRUE,TRUE,,,CITADEL,3,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,10,10
+Calidity ,fox_plasmathrower_small,FALSE,small,energy,,,,,,TRUE,,ENERGY,,,TRUE,,,,,CITADEL,2,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10
+E-Barrage,fox_ebarrage,FALSE,small,energy,,,TRUE,,,TRUE,,ENERGY,TRUE,,,,,,,CITADEL,3,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10
+Heavy eFlak,fox_flak,FALSE,medium,energy,,,TRUE,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,CITADEL,3,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,10,10
+Ion Repeater ,fox_ionrepeater,FALSE,medium,energy,,,,,,,,ENERGY,,TRUE,,,,,TRUE,CITADEL,3,,,,,5,2.5,,,,,2.5,,,,5,20,,,,,,,,,5,,,,,5,,10,10
+Plasma Blaster,fox_hypermatter,FALSE,medium,energy,,,,,,,,ENERGY,TRUE,,TRUE,,,,,CITADEL,3,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,10,10
+Plasma Projector,fox_esniper,FALSE,medium,energy,,,TRUE,,,,,ENERGY,,TRUE,,,,TRUE,,CITADEL,4,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,10,10
+Concussion Beam,fox_antifrigatelaser,FALSE,large,energy,,,TRUE,,,,,ENERGY,TRUE,TRUE,,,,,TRUE,CITADEL,5,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,10,10
+Chirped Pulse Laser,fox_kineticcpl,FALSE,large,energy,,,,,,,,KINETIC,,TRUE,TRUE,,TRUE,,,CITADEL,3,,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10
+Siege Beam,fox_seigelaser,FALSE,large,energy,,,,,TRUE,,,HIGH_EXPLOSIVE,,,TRUE,,,,,CITADEL,,,,,,,,,,,,,,,,,4,,,,,,,,,,,,,,,,2,2
+X-Gatling,fox_hegatling,TRUE,small,ballistic,1,4,,,,,,HIGH_EXPLOSIVE,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+K-Gatling,fox_kngatling,TRUE,small,ballistic,1,5,,,,,,KINETIC,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Aegis PD,fox_monoPD,TRUE,small,energy,2,5,,TRUE,,,TRUE,HIGH_EXPLOSIVE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Supernova,fox_supernova,TRUE,small,missile,3,10,TRUE,,,,,ENERGY,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Calidity (f),fox_plasmathrower_small_ftr,TRUE,small,energy,2,9,,,,TRUE,,ENERGY,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Warden Beam,fox_monoInterdictor,TRUE,medium,energy,2,12,,,,,,ENERGY,TRUE,,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Plasma Launcher,fox_plance,TRUE,medium,energy,3,13,,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy eFlak,fox_monoLPD,TRUE,large,energy,3,20,TRUE,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Vindictive Autogun,exigency_vindictive,FALSE,small,ballistic,,,,TRUE,,,,HIGH_EXPLOSIVE,,,,TRUE,,,,EXIGENCY,,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Mini Duster Autocannon,exigency_dustermini,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,EXIGENCY,,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Vindictive Battery,exigency_vindictive_battery,FALSE,small,ballistic,,,,TRUE,,,,HIGH_EXPLOSIVE,,,,TRUE,,,,EXIGENCY,,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Duster,exigency_duster,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,EXIGENCY,,,,,,,,,,,,,,,,,,,40,40,,,,,,,,,,,,,,10
+Mace,exigency_mace,FALSE,small,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,EXIGENCY,2,,,,,,,,,,,,,,,,,,40,40,,,,,,,,,,,,,,10
+HVC Cannon,exigency_sabot_pd,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,EXIGENCY,4,,,,,,,,,,,,,,,,,,40,40,,,,,,,,,,,,,,10
+Vindictive Array,exigency_vindictive_array,FALSE,medium,ballistic,,,,TRUE,,,,HIGH_EXPLOSIVE,,,,TRUE,,,,EXIGENCY,,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Azata Minigun,exigency_azataminigun,FALSE,medium,ballistic,,,,,,,,FRAGMENTATION,TRUE,,,TRUE,,,,EXIGENCY,,,,,,,,,,,,,,,,,,,40,40,,,,,,,,,,,,,,10
+Sweeper,exigency_sweeper,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,EXIGENCY,,,,,,,,,,,,,,,,,,,40,40,,,,,,,,,,,,,,10
+Flail,exigency_flail,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,TRUE,,EXIGENCY,2,,,,,,,,,,,,,,,,,,40,40,,,,,,,,,,,,,,10
+Twin HVC Cannon,exigency_twin_sabot,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,EXIGENCY,4,,,,,,,,,,,,,,,,,,40,40,,,,,,,,,,,,,,10
+CIGEN Autocannon,exigency_cigenautocannon,FALSE,medium,ballistic,,,,,,,,KINETIC,TRUE,TRUE,,,,,,EXIGENCY,3,,,,,,,,,,,,,,,,,,20,20,,,,,,,,,,,,,,10
+Lancet ASM (Single),exigency_lancet_rack_single,FALSE,small,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,TRUE,TRUE,,,,,,EXIGENCY,2,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Bolo Mini Torpedo Rack,exigency_bolo_rack,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,EXIGENCY,,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Avenger Missile Pod,exigency_scattermissile_pod,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,,,EXIGENCY,4,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Sidewinder Battery,exigency_drumlauncher,FALSE,medium,missile,,,TRUE,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,EXIGENCY,4,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Horizon LRM Pod,exigency_horizonmissile_pod,FALSE,medium,missile,,,TRUE,TRUE,,,,KINETIC,TRUE,,,,,TRUE,,EXIGENCY,2,,,,,,,,,,,,,,,,,,40,40,,,,,,,,,,,,,,10
+Lancet ASM Pod,exigency_lancetmissile_pod,FALSE,medium,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,TRUE,TRUE,,,,,,EXIGENCY,2,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Interceptor PDM Launcher,exigency_interceptorPDM_launcher,FALSE,medium,missile,,,TRUE,TRUE,,,,FRAGMENTATION,,,,TRUE,,TRUE,,EXIGENCY,,,,,,,,,,,,,,,,,,,40,40,,,,,,,,,,,,,,10
+Kestros MIRV Pod,exigency_kestrosmissile_pod,FALSE,medium,missile,,,,TRUE,,,,FRAGMENTATION,,TRUE,,,,TRUE,,EXIGENCY,5,,,,,,,,,,,,,,,,,,40,40,,,,,,,,,,,,,,10
+Ball Lightning Gun,exigency_lightning_gun,FALSE,small,energy,,,,,,,TRUE,ENERGY,,,,TRUE,,,,EXIGENCY,3,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Repulsor Beam,exigency_repulsor_beam,FALSE,medium,energy,,,,,,,,ENERGY,,TRUE,,,,,TRUE,EXIGENCY,3,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Repulsor Blaster,exigency_repulsor_blaster,FALSE,medium,energy,,,,,TRUE,,,ENERGY,,TRUE,,,,TRUE,TRUE,EXIGENCY,3,,,,,,,,,,,,,,,,,,30,30,,,,,,,,,,,,,,10
+Azata Minigun,exigency_azataminigun_f,TRUE,medium,ballistic,2,10,,,,,,FRAGMENTATION,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CIGEN Repeater P,exipirated_cigenrepeater_p,TRUE,medium,ballistic,3,16,,,,,,KINETIC,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CIGEN Repeater,exigency_cigenrepeater,TRUE,medium,ballistic,3,25,TRUE,,,,,KINETIC,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CIGEN Cannon,exigency_rr,TRUE,large,ballistic,3,35,TRUE,,TRUE,,,KINETIC,,TRUE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CIGEN Cannon P,exipirated_rr_p,TRUE,large,ballistic,3,60,TRUE,,TRUE,,,KINETIC,,TRUE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Avenger Missile,exigency_scatter_single,TRUE,small,missile,2,1,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bolo Mini Torpedo,exigency_bolo_miniTorp_single,TRUE,small,missile,1,1,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lancet ASM,exigency_lancet_single,TRUE,small,missile,2,1,TRUE,TRUE,,,,HIGH_EXPLOSIVE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Big-Bang Bomb,exigency_bb_bomb,TRUE,small,missile,2,2,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Spike Rocket Launcher,exigency_stinger,TRUE,small,missile,1,5,,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mx1,exigency_mmm_s,TRUE,small,missile,1,1,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mx4 Array,exigency_mmm_f,TRUE,small,missile,2,4,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mx10 Array,exigency_mmm,TRUE,medium,missile,2,10,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lancet ASM Launcher,exigency_lancet,TRUE,medium,missile,2,12,,TRUE,,,,HIGH_EXPLOSIVE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Big-Bang Torpedo,exigency_bb_torp,TRUE,large,missile,2,12,,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Sledge Gun,ii_sledgegun,FALSE,small,ballistic,,,,,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,IMPERIUM,3,5,,,,5,5,,,,5,2.5,,,,40,5,,2.5,,,1,,5,5,5,,5,,,2.5,10,10,10
+Lux Repeater,ii_lux,FALSE,small,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,TRUE,,,,TRUE,,IMPERIUM,4,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,10,10,10
+Hailfire Chaingun,ii_hailfire,FALSE,medium,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,IMPERIUM,,5,,,,5,5,,,,5,2.5,,,,20,5,,2.5,,,1,,5,5,5,,5,,,2.5,10,10,10
+Sledge Cannon,ii_sledgecannon,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,IMPERIUM,3,5,,,,5,5,,,,5,2.5,,,,40,5,,2.5,,,1,,5,5,5,,5,,,2.5,10,10,10
+Sagittarius ADC,ii_sagittarius,FALSE,medium,ballistic,,,,,TRUE,,,FRAGMENTATION,,TRUE,,TRUE,,,,IMPERIUM,2,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10,10
+Solis Cannon,ii_solis,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,IMPERIUM,4,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,10,10,10
+Telum Autocannon,ii_telum,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,IMPERIUM,5,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,10,10,10
+Javelin ASM (Single),ii_javelinsingle,FALSE,small,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,,,IMPERIUM,2,1.25,,,,1.25,1.5,,,,1.25,0.5,,,,20,1.25,,0.625,,,0.25,,1.25,1.25,1.25,,1.25,1.25,,1.25,5,5,5
+Javelin ASM Rack,ii_javelinsmall,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,,,IMPERIUM,2,2.5,,,,2.5,2.5,,,,2.5,1.5,,,,40,2.5,,1.25,,,0.5,,2.5,2.5,2.5,,2.5,2.5,,2.5,10,10,10
+Light Ballista Rack,ii_smallballista,FALSE,small,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,IMPERIUM,3,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,10,10,10
+Javelin ASM Launcher,ii_javelin,FALSE,medium,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,,,IMPERIUM,2,2.5,,,,2.5,2.5,,,,2.5,1.5,,,,40,2.5,,1.25,,,0.5,,2.5,2.5,2.5,,2.5,2.5,,2.5,10,10,10
+Ballista LRM Launcher,ii_ballista,FALSE,medium,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,IMPERIUM,4,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,10,10,10
+Scorpio Javelin Launcher,ii_javelinlarge,FALSE,large,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,,,IMPERIUM,3,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,10,10,10
+Heavy Ballista Launcher,ii_heavyballista,FALSE,large,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,IMPERIUM,5,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,10,10,10
+Pulsar Cannon,ii_pulsar,FALSE,small,energy,,,TRUE,,,,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,IMPERIUM,2,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,10,10,10
+Pulsar Repeater,ii_pulsarrepeater,FALSE,medium,energy,,,TRUE,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,TRUE,,,IMPERIUM,2,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10,10
+Heavy Pulsar Cannon,ii_heavypulsar,FALSE,medium,energy,,,TRUE,,,,,HIGH_EXPLOSIVE,,,TRUE,,,,,IMPERIUM,2,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,10,10,10
+Heavy Pulse Laser,ii_heavypulselaser,FALSE,medium,energy,,,,,,,,ENERGY,TRUE,,,,,,,IMPERIUM,,5,,,,5,5,,,,5,2.5,,,,30,5,,2.5,,,1,,5,5,5,,5,,,5,10,10,10
+Crocea Mors,ii_mac,TRUE,large,ballistic,3,30,,,,,,ENERGY,,TRUE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Apocalypse Missile,ii_apocalypse_mirv,TRUE,small,missile,1,2,,TRUE,,,,HIGH_EXPLOSIVE,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Armageddon Launcher,ii_armageddon,TRUE,large,missile,2,16,TRUE,,,,,HIGH_EXPLOSIVE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Apocalypse MIRV Siegebreaker,ii_apocalypse_w,TRUE,large,missile,2,85,,,,,,HIGH_EXPLOSIVE,TRUE,TRUE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TITAN Planetbreaker,ii_titan_w,TRUE,large,missile,2,100,,,,,,HIGH_EXPLOSIVE,TRUE,TRUE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Super TITAN,ii_supertitan_w,TRUE,large,missile,3,150,,,,,,HIGH_EXPLOSIVE,TRUE,TRUE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Particle Gun,ii_particlegun,TRUE,small,energy,1,3,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Particle Repeater,ii_particlerepeater,TRUE,small,energy,1,3,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fusion Pulse Cannon,ii_fpc_left,TRUE,medium,energy,2,12,,,,,,HIGH_EXPLOSIVE,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fusion Pulse Cannon,ii_fpc_right,TRUE,medium,energy,2,12,,,,,,HIGH_EXPLOSIVE,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Photon Blaster,ii_photonblaster_left,TRUE,medium,energy,2,15,,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Photon Blaster,ii_photonblaster_right,TRUE,medium,energy,2,15,,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Photon Beam Cannon,ii_photonbeam,TRUE,large,energy,2,25,,,,,,ENERGY,TRUE,,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gravity Cannon,ii_gravitycannon,TRUE,large,energy,2,30,,,TRUE,,,FRAGMENTATION,,TRUE,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lightspear,ii_lightspear,TRUE,large,energy,3,30,,,TRUE,,,ENERGY,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Wave Motion Cannon,ii_wavemotion,TRUE,large,energy,3,40,,,TRUE,,,ENERGY,,,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Secace Autocannon,tem_secace,FALSE,small,ballistic,,,,,,,,ENERGY,,TRUE,,,,,TRUE,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,20,,,,,,,,,,,10
+Galatine Heavy Disruptor,tem_galatine,FALSE,medium,ballistic,,,,,,,,ENERGY,,TRUE,TRUE,,,TRUE,TRUE,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,20,,,,,,,,,,,10
+Arondight Accelerator,tem_arondight,FALSE,large,ballistic,,,,,TRUE,,,ENERGY,,TRUE,TRUE,,,TRUE,TRUE,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,20,,,,,,,,,,,5
+Clarent SRM (Single),tem_clarent_single,FALSE,small,missile,,,TRUE,,,,,ENERGY,TRUE,,TRUE,,TRUE,,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,15,,,,,,,,,,,10
+Clarent SRM,tem_clarent,FALSE,small,missile,,,TRUE,,,,,ENERGY,TRUE,,TRUE,,TRUE,,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,30,,,,,,,,,,,10
+Crucifix MRM,tem_crucifix,FALSE,small,missile,,,,,,,,ENERGY,TRUE,TRUE,,,,,TRUE,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,20,,,,,,,,,,,10
+Clarent SRM Tube,tem_clarent_tube,FALSE,medium,missile,,,TRUE,,,,,ENERGY,TRUE,,TRUE,,TRUE,,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,30,,,,,,,,,,,10
+Crucifix MRM Array,tem_crucifix_array,FALSE,medium,missile,,,,,,,,ENERGY,TRUE,TRUE,,,,,TRUE,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,20,,,,,,,,,,,10
+Trucidare LRM,tem_trucidare,FALSE,medium,missile,,,,,,,,ENERGY,,TRUE,,,,TRUE,TRUE,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,15,,,,,,,,,,,10
+ROLAND System,tem_roland,FALSE,large,missile,,,TRUE,,TRUE,,,ENERGY,TRUE,,TRUE,,,TRUE,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,20,,,,,,,,,,,5
+Merced Cannon,tem_merced,FALSE,small,energy,,,,,,,,ENERGY,TRUE,,,,,,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,40,,,,,,,,,,,10
+Pax Cannon,tem_pax,FALSE,small,energy,,,,,,,,ENERGY,,TRUE,,,,,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,20,,,,,,,,,,,10
+Rhon Laser,tem_rhon,FALSE,small,energy,,,,,,,,ENERGY,TRUE,TRUE,,,,,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,20,,,,,,,,,,,10
+Sentenia Assault Cannon,tem_sentenia,FALSE,medium,energy,,,,,,,,ENERGY,TRUE,,,,,,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,40,,,,,,,,,,,10
+Longinus Heavy Laser,tem_longinus,FALSE,medium,energy,,,,,TRUE,,,ENERGY,TRUE,TRUE,,,,,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,20,,,,,,,,,,,10
+Juger Heavy Cannon,tem_juger,FALSE,large,energy,,,TRUE,,TRUE,,,ENERGY,TRUE,,,TRUE,,TRUE,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,40,,,,,,,,,,,5
+Joyeuse Fractal Laser,tem_joyeuse,FALSE,large,energy,,,,,TRUE,,,ENERGY,TRUE,,TRUE,,,TRUE,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,20,,,,,,,,,,,5
+Carnwennan Multi-Beam,tem_carnwennan,TRUE,small,energy,3,3,,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Interdictor Beam,tem_interdictor,TRUE,small,energy,4,5,,TRUE,,,,KINETIC,,TRUE,,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Lancelot Lance,tem_lancelot,TRUE,large,energy,4,50,,,TRUE,,,ENERGY,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Lockdown HMG,ms_lockdown,FALSE,medium,ballistic,,,,TRUE,,,,KINETIC,,TRUE,,,,,TRUE,SHADOW,,5,,,,,2.5,,,,5,6,,,,,,,2.5,,30,1,,5,5,,,,,5,,,10,10
+Shrike ASM (Single),ms_shrike_single,FALSE,small,missile,,,TRUE,TRUE,,,,KINETIC,TRUE,TRUE,,,,,,SHADOW,2,,,,,,,,,,,6,,,,,,,,,20,,,,,,,,,,,,10,10
+Tusk Torpedo (Single),ms_tusk_single,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,,,SHADOW,3,,,,,,,,,,,6,,,,,,,,,20,,,,,,,,,,,,10,10
+Blackcap Rotary Launcher,ms_blackcap_6x,FALSE,small,missile,,,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,TRUE,,,,SHADOW,,5,,,,5,5,,5,5,5,9,,,,5,5,,2.5,,30,1,,5,5,5,,5,5,5,5,,10,10
+Shrike ASM,ms_shrike_rack,FALSE,small,missile,,,TRUE,TRUE,,,,KINETIC,TRUE,TRUE,,,,,,SHADOW,2,,,,,,,,,,,9,,,,,,,,,30,,,,,,,,,,,,10,10
+Splinter Rocket Launcher,ms_splinter_launcher,FALSE,small,missile,,,,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,SHADOW,,5,,,,5,5,,5,5,5,9,,,,5,5,,2.5,,30,1,,5,5,5,,5,5,5,5,,10,10
+Tusk Torpedo Rack,ms_tusk_rack,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,,,SHADOW,3,,,,,,,,,,,9,,,,,,,,,30,,,,,,,,,,,,10,10
+Blackcap Pod,ms_blackcap_pod,FALSE,medium,missile,,,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,TRUE,,,,SHADOW,,5,,,,5,5,,5,5,5,6,,,,5,5,,2.5,,30,1,,5,5,5,,5,5,5,5,,10,10
+Shrike ASM Pod,ms_shrike_pod,FALSE,medium,missile,,,TRUE,TRUE,,,,KINETIC,TRUE,TRUE,,,,,,SHADOW,2,,,,,,,,,,,8,,,,,,,,,40,,,,,,,,,,,,10,10
+Splinter Rocket Pod,ms_splinter_pod,FALSE,medium,missile,,,,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,SHADOW,,5,,,,5,5,,5,5,5,8,,,,5,5,,2.5,,40,1,,5,5,5,,5,5,5,5,,10,10
+Narwahl Tusk Launcher,ms_tusk_pod,FALSE,medium,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,,,SHADOW,3,,,,,,,,,,,6,,,,,,,,,30,,,,,,,,,,,,10,10
+Barrago LRM,ms_barrago,FALSE,medium,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,SHADOW,,,,,,,,,,,,8,,,,,,,,,40,,,,,,,,,,,,10,10
+Light CEPC,ms_pdcepc,FALSE,small,energy,,,TRUE,TRUE,,,TRUE,ENERGY,,TRUE,,TRUE,,,,SHADOW,,2.5,,,,,1.5,,,,2.5,6,,,,,,,1.25,,30,0.5,,2.5,2.5,,,,,2.5,,,10,10
+CEPC,ms_cepc,FALSE,small,energy,,,TRUE,,,,,ENERGY,TRUE,TRUE,,,,,,SHADOW,,2.5,,,,,1.5,,,,2.5,8,,,,,,,1.25,,40,0.5,,2.5,2.5,,,,,2.5,,,10,10
+Trishula Tactical Laser,ms_trishula,FALSE,small,energy,,,,TRUE,,,,ENERGY,,TRUE,,,,TRUE,,SHADOW,2,,,,,,,,,,,8,,,,,,,,,40,,,,,,,,,,,,10,10
+Polarizer,ms_lempGun,FALSE,small,energy,,,,,,,,ENERGY,,,,TRUE,,,TRUE,SHADOW,2,,,,,,,,,,,4,,,,,,,,,20,,,,,,,,,,,,10,10
+Urumi Fan Laser,ms_spreadbeam,FALSE,small,energy,,,,,,,,ENERGY,,,,TRUE,,,,SHADOW,3,,,,,,,,,,,6,,,,,,,,,30,,,,,,,,,,,,10,10
+'Chaingang' CEPC,ms_chaingang,FALSE,medium,energy,,,,TRUE,,,TRUE,ENERGY,TRUE,,TRUE,,TRUE,,,SHADOW,,5,,,,,2.5,,,,5,3,,,,,,,2.5,,30,1,,5,5,,,,,5,,,10,10
+Murti CAS Beam,ms_slowbeamM,FALSE,medium,energy,,,,,TRUE,,,ENERGY,TRUE,,TRUE,,TRUE,,,SHADOW,5,,,,,,,,,,,3,,,,,,,,,30,,,,,,,,,,,,10,10
+Scatter CEPC,ms_scattercepc,FALSE,medium,energy,,,TRUE,,TRUE,,,ENERGY,TRUE,,TRUE,,,,,SHADOW,2,2.5,,,,,1.5,,,,2.5,3,,,,,,,1.25,,30,0.5,,2.5,2.5,,,,,2.5,,,10,10
+Medium CEPC,ms_mcepc,FALSE,medium,energy,,,TRUE,,,,,ENERGY,TRUE,,,,,,,SHADOW,,2.5,,,,,1.5,,,,2.5,4,,,,,,,1.25,,40,0.5,,2.5,2.5,,,,,2.5,,,10,10
+Storm Blaster,ms_stormBlaster,FALSE,medium,energy,,,,,,,,FRAGMENTATION,TRUE,,,,TRUE,,,SHADOW,3,,,,,,,,,,,3,,,,,,,,,30,,,,,,,,,,,,10,10
+Wavepulse Cannon,ms_wamgun,FALSE,large,energy,,,,,,,,ENERGY,TRUE,TRUE,,,TRUE,,,SHADOW,2,,,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,10,10
+Heavy Polarizer,ms_hempGun,FALSE,large,energy,,,,,,,,ENERGY,,,,TRUE,TRUE,,TRUE,SHADOW,2,,,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,,10,10
+Deva Heavy CAS Beam,ms_slowbeamH,FALSE,large,energy,,,,,TRUE,,,ENERGY,TRUE,,TRUE,,TRUE,,,SHADOW,5,,,,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,10,10
+Mini Flak,ms_miniflak,TRUE,small,ballistic,0,2,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Auto Flak,ms_autoflak,TRUE,small,ballistic,1,3,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Type 17 AC,ms_neriad_gun,TRUE,small,ballistic,0,4,,,,,,HIGH_EXPLOSIVE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Blackcap Rotary Launcher,ms_blackcap_3x,TRUE,small,missile,0,2,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Splinter Rocket Launcher,ms_splinterKol,TRUE,small,missile,1,3,TRUE,TRUE,,,,KINETIC,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bit Gun,ms_bitgun,TRUE,small,energy,1,2,,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Barbette PD System,ms_pdburstCustom,TRUE,small,energy,2,3,TRUE,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Particle Cannon,ms_pbc,TRUE,small,energy,2,5,,TRUE,,,,ENERGY,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Drone Gun,ms_phzdn_gun,TRUE,small,energy,2,8,TRUE,,,,,HIGH_EXPLOSIVE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phased Graviton Beam,ms_phasebeam,TRUE,medium,energy,3,10,,,,,,KINETIC,,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Mass/Bubble Projector,ms_phasegun,TRUE,medium,energy,3,12,TRUE,,,,,ENERGY,TRUE,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pandora Array,ms_pandora,TRUE,large,energy,2,22,,,,,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Nidhoggr Lance,ms_rhpbc,TRUE,large,energy,3,25,,,TRUE,,,ENERGY,,,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mega Chain CEPC,ms_gigacepc,TRUE,large,energy,2,35,TRUE,,TRUE,,,ENERGY,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Grav Driver,ilk_hvy_driver,FALSE,large,ballistic,,,TRUE,,TRUE,,,KINETIC,TRUE,TRUE,,,,,,MAYORATE,2,,,,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,10,10
+Phoenix II Rocket Launcher,ilk_phoenix,FALSE,small,missile,,,,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,MAYORATE,4,5,,,,,2.5,,,,,,,,,,,,2.5,,,30,,5,5,,,,,,,,10,10
+Windstalker MRM,ilk_windstalker,FALSE,small,missile,,,TRUE,TRUE,,,,KINETIC,,TRUE,,,,,,MAYORATE,2,5,,,,,2.5,,,,,,,,,,,,2.5,,,30,,5,5,,,,,,,,10,10
+Laserhead LRM Launcher,ilk_laserhead,FALSE,medium,missile,,,,TRUE,,,,ENERGY,TRUE,TRUE,,,,TRUE,,MAYORATE,,,,,,,,,,,,,,,,,,,,,,30,,,,,,,,,,,10,10
+Tornado AM Battery,ilk_nuke_large,FALSE,large,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,,,MAYORATE,4,,,,,,,,,,,,,,,,,,,,,30,,,,,,,,,,,10,10
+Graser PD,ilk_graser_pd,FALSE,small,energy,,,,TRUE,,,TRUE,ENERGY,,,,TRUE,TRUE,,,MAYORATE,2,,,,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,10,10
+PPC,ilk_ppc,FALSE,small,energy,,,,,,,,ENERGY,TRUE,,,,,,,MAYORATE,2,,,,,,,,,,,,,,,,,,,,,30,,,,,,,,,,,10,10
+Light Graser,ilk_graser_light,FALSE,small,energy,,,,,,,,ENERGY,TRUE,TRUE,,,,,,MAYORATE,2,,,,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,10,10
+Belial PPC,ilk_shotgun,FALSE,medium,energy,,,,,,,,ENERGY,TRUE,,TRUE,,TRUE,,,MAYORATE,2,,,,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,10,10
+Disruptor,ilk_disruptor,FALSE,medium,energy,,,,,,,,ENERGY,,,TRUE,,,TRUE,TRUE,MAYORATE,4,,,,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,10,10
+Heavy Disruptor,ilk_disruptor_heavy,FALSE,large,energy,,,,,,,,ENERGY,,,TRUE,,,TRUE,TRUE,MAYORATE,4,,,,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,10,10
+Graser,ilk_graser,FALSE,large,energy,,,,,,,,ENERGY,TRUE,TRUE,,,TRUE,,,MAYORATE,2,,,,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,10,10
+Flux Torpedo,ilk_fluxtorp,FALSE,large,energy,,,,,TRUE,,,ENERGY,,,TRUE,,TRUE,,,MAYORATE,3,,,,,,,,,,,,,,,,,,,,,20,,,,,,,,,,,10,10
+Grav Cannon,ilk_driver,TRUE,large,ballistic,2,19,,,TRUE,,,KINETIC,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Pulse Gun,ilk_pulse_gun,TRUE,medium,energy,1,12,TRUE,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light TPC,ilk_repeater,TRUE,medium,energy,1,15,TRUE,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Thermal Lance,ilk_thermal_lance,TRUE,large,energy,3,25,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Tracer Rocket Launcher,ilk_tracer_angha,TRUE,small,missile,1,7,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Scatter PD Laser,junk_pirates_scatterpd,FALSE,small,energy,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,JUNK_PIRATE,,5,,,,,2.5,,5,,,,,,,,,,2.5,,,1,,40,5,,,,,,,,10,10
+Light Excimer,junk_pirates_lexcimer,FALSE,small,energy,,,,TRUE,,,,ENERGY,TRUE,,,,TRUE,,,JUNK_PIRATE,,5,,,,,2.5,,5,,,,,,,,,,2.5,,,1,,30,5,,,,,,,,10,10
+Grapeshot,junk_pirates_grapeshot_s,FALSE,small,missile,,,,TRUE,,,,FRAGMENTATION,,,,TRUE,,,,JUNK_PIRATE,,5,,,,,2.5,,5,,,,,,,,,,2.5,,,1,,40,5,,,,,,,,10,10
+Grape Launcher,junk_pirates_grapeshot_m,FALSE,medium,missile,,,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,TRUE,,,,JUNK_PIRATE,,5,,,,,2.5,,5,,,,,,,,,,2.5,,,1,,40,5,,,,,,,,10,10
+Grape Cannon,junk_pirates_grapeshot,FALSE,large,missile,,,TRUE,TRUE,,,,FRAGMENTATION,,TRUE,,TRUE,,,,JUNK_PIRATE,,5,,,,,2.5,,5,,,,,,,,,,2.5,,,1,,40,5,,,,,,,,10,10
+Cutlass,junk_pirates_cutlass,FALSE,medium,energy,,,,,,,,ENERGY,TRUE,,,,TRUE,,,JUNK_PIRATE,,5,,,,,2.5,,5,,,,,,,,,,2.5,,,1,,40,5,,,,,,,,10,10
+Scorpion,junk_pirates_scorpion,TRUE,medium,energy,2,14,TRUE,,,,,ENERGY,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Haymaker,junk_pirates_haymaker,TRUE,medium,energy,1,15,TRUE,,,,,ENERGY,TRUE,,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stygian Drill,junk_pirates_welder,TRUE,large,energy,1,22,,,TRUE,,,KINETIC,TRUE,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PICA,junk_pirates_pica,TRUE,large,energy,0,25,,,,,,ENERGY,TRUE,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Ripsaw,pack_ripsaw,TRUE,medium,ballistic,1,10,TRUE,,,,,KINETIC,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Affenpinscher,pack_affenpinscher,TRUE,medium,energy,2,13,TRUE,,,,,ENERGY,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Defense Autonailer,SCY_nailer,FALSE,small,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,SCY,,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+HEMor mk.1,SCY_hemor1,FALSE,small,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+KAcc mk.1,SCY_kacc1,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Light Flak Gun,SCY_flak,FALSE,small,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Nano-needle Minigun mk.1,SCY_minigun1,FALSE,small,ballistic,,,,,,,,FRAGMENTATION,TRUE,,,,,,,SCY,3,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Beehive Nailer,SCY_burst,FALSE,medium,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+HEMor mk.2,SCY_hemor2,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+KAcc mk.2,SCY_kacc2,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,,,,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Nano-needle Minigun mk.2,SCY_minigun2,FALSE,medium,ballistic,,,,,,,,FRAGMENTATION,TRUE,,,,,,,SCY,3,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Zone Scorcher,SCY_scorcher,FALSE,large,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,TRUE,,TRUE,,TRUE,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,10,10
+HEMor mk.3,SCY_hemor3,FALSE,large,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+KAcc mk.3,SCY_kacc3,FALSE,large,ballistic,,,,,TRUE,,,KINETIC,,TRUE,,,,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Ricochet Gun,SCY_ricochet,FALSE,large,ballistic,,,TRUE,,,,,HIGH_EXPLOSIVE,TRUE,TRUE,,,,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Orion Artillery,SCY_orion,FALSE,large,ballistic,,,TRUE,,,,,ENERGY,,TRUE,,,,TRUE,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,20,,,,,,10,10
+Nano-needle Minigun mk.3,SCY_minigun3,FALSE,large,ballistic,,,,,,,,FRAGMENTATION,TRUE,,,,,,,SCY,3,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Rocket Pod mk.1,SCY_rocket1,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,SCY,,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Coasting Missile Rack,SCY_coasting1,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Cluster Torpedo Rack,SCY_cluster1,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,,,SCY,3,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Rocket Pod mk.2,SCY_rocket2,FALSE,medium,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,SCY,,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Coasting Missile Pod,SCY_coasting2,FALSE,medium,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Arc Missile Pod,SCY_arc,FALSE,medium,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,,TRUE,SCY,3,,,,,,,,,,,,,,,,,,,,,,,,,,20,,,,,,10,10
+Cluster Torpedo Pod,SCY_cluster2,FALSE,medium,missile,,,,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,SCY,3,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Laser Torpedo Rack,SCY_laser2,FALSE,medium,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,,,SCY,4,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Anti-Missiles Pad,SCY_anti2,FALSE,medium,missile,,,,TRUE,,,,FRAGMENTATION,,,,TRUE,,,,SCY,,,,,,,,,,,,,,,,,,,,,,,,,,,20,,,,,,10,10
+Rocket Pod mk.3,SCY_rocket3,FALSE,large,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,SCY,,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Phased Missile Launcher,SCY_phased,FALSE,large,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,SCY,4,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Heavy Modular Swarmer,SCY_swarmer,FALSE,large,missile,,,,TRUE,,,,ENERGY,TRUE,,,TRUE,TRUE,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,10,10
+Laser Torpedo Pod,SCY_laser3,FALSE,large,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,TRUE,,SCY,4,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Singularity Torpedo Launcher,SCY_singularity,FALSE,large,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,TRUE,TRUE,SCY,5,,,,,,,,,,,,,,,,,,,,,,,,,,20,,,,,,10,10
+Hacking CommLink,SCY_hack,FALSE,small,energy,,,,TRUE,,,TRUE,ENERGY,,,,TRUE,,,TRUE,SCY,3,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,10,10
+Oscillating Beam,SCY_oscillating,FALSE,small,energy,,,,TRUE,,,,ENERGY,,TRUE,,TRUE,,TRUE,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,10,10
+Light Energy Blaster,SCY_seb,FALSE,small,energy,,,TRUE,,,,,ENERGY,TRUE,,TRUE,,TRUE,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,10,10
+Light Vehicle Defense System,SCY_lvds,FALSE,medium,energy,,,,TRUE,,,,ENERGY,,,,TRUE,,,,SCY,,,,,,,,,,,,,,,,,,,,,,,,,,,20,,,,,,10,10
+Triple Energy Blaster,SCY_teb,FALSE,medium,energy,,,TRUE,,TRUE,,,ENERGY,TRUE,,TRUE,,TRUE,,,SCY,3,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Scatter Beam,SCY_scatter,FALSE,medium,energy,,,TRUE,,,,,ENERGY,TRUE,,,,,,,SCY,3,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,10,10
+Ultra Heavy Energy Blaster,SCY_uheb,FALSE,large,energy,,,TRUE,,TRUE,,,ENERGY,,,TRUE,,TRUE,,,SCY,4,,,,,,,,,,,,,,,,,,,,,,,,,,50,,,,,,10,10
+Super-Charged Pulse Beam,SCY_scpb,FALSE,large,energy,,,TRUE,,TRUE,,,ENERGY,TRUE,,TRUE,,,TRUE,,SCY,5,,,,,,,,,,,,,,,,,,,,,,,,,,30,,,,,,10,10
+Small Flak,SCY_Fflak,TRUE,small,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Spear Thrower,SCY_stymphalianMain,TRUE,large,ballistic,3,20,,,TRUE,,,ENERGY,,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Brontios,SCY_sirenMain,TRUE,large,ballistic,3,25,TRUE,,TRUE,,,KINETIC,,,TRUE,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Astrapios,SCY_ketoMain,TRUE,large,ballistic,3,28,,,TRUE,,,KINETIC,,,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cluster Torpedo (single),SCY_Fcluster,TRUE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rocket Rack,SCY_Frocket,TRUE,small,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Kinetic Penetrator,SCY_Fsabot,TRUE,small,missile,,,TRUE,TRUE,,,,KINETIC,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Auxiliary Anti-Missile Launcher,SCY_anti1,TRUE,small,missile,1,6,,TRUE,,,,FRAGMENTATION,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MRM Array,SCY_mrm,TRUE,large,missile,1,18,,TRUE,,,,KINETIC,TRUE,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Single Energy Blaster,SCY_Fseb,TRUE,small,energy,,,TRUE,,,,,ENERGY,TRUE,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Beam,SCY_Fbeam,TRUE,small,energy,,,,TRUE,,,,ENERGY,,TRUE,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deconstruction Beam,SCY_telchineMain,TRUE,large,energy,0,14,,,TRUE,,,FRAGMENTATION,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gamma Ray Radiation Reactor,SCY_khalkotauroiMain,TRUE,large,energy,2,22,,,TRUE,,,ENERGY,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Burst Flak Cannon,tiandong_burstflakcannon,FALSE,medium,ballistic,,,TRUE,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,TIANDONG,,5,5,5,5,5,5,,5,5,5,5,,5,5,5,5,,2.5,,,2,,5,5,5,,40,,5,2.5,10,10,10
+Rotary Autocannon,tiandong_minigun,FALSE,medium,ballistic,,,,,,,,KINETIC,TRUE,TRUE,,,,,,TIANDONG,,5,5,5,5,5,5,,5,5,5,5,,5,5,5,5,,2.5,,,2,,5,5,5,,40,,5,2.5,10,10,10
+Superheavy Machine Gun,tiandong_super_machinegun,FALSE,large,ballistic,,,,TRUE,,,,KINETIC,TRUE,,,TRUE,TRUE,,,TIANDONG,,5,5,5,5,5,5,,5,5,5,5,,,5,5,5,,2.5,,,2,,5,5,5,,20,,5,2.5,10,10,10
+Mauler Battery,tiandong_mauler_battery,FALSE,large,ballistic,,,,,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,TIANDONG,2,5,5,5,5,5,5,,5,5,5,5,,5,5,5,5,,2.5,,,2,,5,5,5,,20,,5,2.5,10,10,10
+Ultra Autocannon,tiandong_ultraautocannon,FALSE,large,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,TIANDONG,2,3,3,3,3,3,3,,3,3,3,3,,5,3,3,3,,1.5,,,1.2,,3,3,3,,12,,3,1.5,6,6,6
+Punisher Torpedo Rack,tiandong_punisher_rack,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,TIANDONG,,5,,,,5,5,,5,5,5,2.5,5,5,,,,,2.5,,,1,,5,5,5,,40,5,,5,10,10,10
+Concussion Missile Rack,tiandong_concussion_missile_rack,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,,,TIANDONG,,5,,,,5,5,,5,5,5,2.5,5,5,,,,,2.5,,,1,,5,5,5,,40,5,,5,10,10,10
+Muscle LRM Launcher,tiandong_mscr_lrm_launcher,FALSE,small,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,TIANDONG,,5,,,,5,5,,5,5,5,2.5,5,5,,,,,2.5,,,1,,5,5,5,,40,5,,5,10,10,10
+Apsis LRT Launcher,tiandong_apsis_LRT_launcher,FALSE,medium,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,,TRUE,,,TRUE,,TIANDONG,,5,,,,5,5,,5,5,5,2.5,,,,,,,2.5,,,1,,5,5,5,,40,5,,5,10,10,10
+Concussion Missile Pod,tiandong_concussion_missile_pod,FALSE,medium,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,,,TIANDONG,,5,,,,5,5,,5,5,5,2.5,5,5,,,,,2.5,,,1,,5,5,5,,40,5,,5,10,10,10
+Heavy Mining Laser,tiandong_heavy_mininglaser,FALSE,medium,energy,,,,TRUE,,,,ENERGY,,TRUE,,,,,,TIANDONG,,5,,,,5,5,,5,5,5,2.5,5,,,,,,2.5,,,1,,5,5,5,,40,,,5,10,10,10
+Annihilator Rocket Rack,tiandong_annihilator_rack,TRUE,small,missile,0,2,,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bulwark Flares,tiandong_bulwarkCountermeasureWeaponVersion,TRUE,small,ballistic,1,2,TRUE,TRUE,,,,FRAGMENTATION,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Assault Chaingun,tiandong_boss_heavychaingun_1,TRUE,large,ballistic,2,18,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Assault Chaingun,tiandong_boss_heavychaingun_2,TRUE,large,ballistic,2,18,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Assault Chaingun,tiandong_boss_heavychaingun_3,TRUE,large,ballistic,2,18,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Macro Cannon,tiandong_macrocannon,TRUE,large,ballistic,3,40,,,TRUE,TRUE,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Triphammer,tiandong_triphammer,TRUE,large,energy,2,20,,,TRUE,TRUE,,ENERGY,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Artassaut Revolver Gun,diableavionics_artassaut,FALSE,small,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,DIABLE,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+IBIS,diableavionics_ibis,FALSE,small,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Recson S,diableavionics_singlerecson,FALSE,small,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Glowtusk Linear Rifle,diableavionics_glowtusk,FALSE,medium,ballistic,,,,,,,,KINETIC,TRUE,,,,,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Raptor Defense System,diableavionics_raptor,FALSE,medium,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Recson V,diableavionics_recson,FALSE,medium,ballistic,,,,,,,,KINETIC,,TRUE,,,,TRUE,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Grave HMG,diableavionics_gravemg,FALSE,medium,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,DIABLE,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Trifire Scatter-Cannon,diableavionics_trifire,FALSE,medium,ballistic,,,,,,,,ENERGY,TRUE,TRUE,,,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Mostro Cannon Array,diableavionics_mostro,FALSE,large,ballistic,,,,,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Hexafire Scatter-Cannon,diableavionics_hexafire,FALSE,large,ballistic,,,,,,,,ENERGY,TRUE,TRUE,,,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Banish Torpedo (Single),diableavionics_banishsmall,FALSE,small,missile,,,,TRUE,,,,ENERGY,,,TRUE,,TRUE,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Micro Missile Launcher,diableavionics_micromissile,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,TRUE,,,DIABLE,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Thunderbolt MRM Rack,diableavionics_thunderboltsmall,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Magicbox PD Missile,diableavionics_magicbox,FALSE,small,missile,,,TRUE,TRUE,,,,FRAGMENTATION,,,,TRUE,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Thunderbolt MRM Pod,diableavionics_thunderboltpod,FALSE,medium,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Thrush LRM System,diableavionics_thrush,FALSE,medium,missile,,,,TRUE,,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Banish Torpedo Launcher,diableavionics_banish,FALSE,medium,missile,,,,TRUE,,,,ENERGY,,,TRUE,,TRUE,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Plover Rocket Pod,diableavionics_plover,FALSE,medium,missile,,,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,TRUE,,,,TRUE,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Burchel Beam Repeater,diableavionics_burchel,FALSE,small,energy,,,TRUE,,,,TRUE,ENERGY,,TRUE,,TRUE,,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+SRAB Heavy Emitter,diableavionics_srab,FALSE,medium,energy,,,,,TRUE,,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,TRUE,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Glaux Lance Repeater,diableavionics_glaux,FALSE,medium,energy,,,TRUE,,TRUE,,,ENERGY,TRUE,,TRUE,,,,,DIABLE,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+State Support Beam,diableavionics_state,FALSE,medium,energy,,,,,,,,ENERGY,,TRUE,,,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Uhlan Siege Laser,diableavionics_uhlan,FALSE,large,energy,,,,,TRUE,,,ENERGY,TRUE,,TRUE,,,TRUE,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Micro Missile Array,diableavionics_microarray,TRUE,large,missile,3,20,TRUE,,,,,HIGH_EXPLOSIVE,,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Thermal Pulse Repeater,diableavionics_lightTPC,TRUE,small,energy,2,6,,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy ILIS,diableavionics_versant_head,TRUE,small,energy,3,6,,TRUE,,,TRUE,ENERGY,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Harvest,diableavionics_versant_harvest_LEFT,TRUE,medium,energy,3,14,,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Harvest,diableavionics_versant_harvest_RIGHT,TRUE,medium,energy,3,14,,,,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Thermal Pulse Cannon,diableavionics_heavythermalpulse,TRUE,large,energy,3,25,TRUE,,TRUE,,,ENERGY,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Choir Emitter,ora_choir,FALSE,small,energy,,,,TRUE,,,TRUE,ENERGY,,,,TRUE,,,TRUE,ORA,2,,,,,,,5,,,,,,,,,,,,,,,,5,,,,,,40,5,,10,10
+Litany Thrower,ora_litany,FALSE,small,energy,,,,,,,,ENERGY,,TRUE,,,,TRUE,,ORA,3,,,,,,,5,,,,,,,,,,,,,,,,5,,,,,,30,5,,10,10
+Echoes Caster,ora_echoes,FALSE,medium,energy,,,,,,,,ENERGY,,,TRUE,TRUE,,,TRUE,ORA,3,,,,,,,2.5,,,,,,,,,,,,,,,,2.5,,,,,,30,2.5,,10,10
+Eschewal Projector,ora_eschewal,FALSE,medium,energy,,,,,,,,ENERGY,,TRUE,,,,,,ORA,2,,,,,,,2.5,,,,,,,,,,,,,,,,2.5,,,,,,40,2.5,,10,10
+Animus Blaster,ora_animus,FALSE,medium,energy,,,TRUE,,TRUE,,,ENERGY,,,TRUE,,TRUE,,,ORA,4,,,,,,,2.5,,,,,,,,,,,,,,,,2.5,,,,,,40,2.5,,10,10
+Sempiternal Repeater,ora_sempiternal,FALSE,large,energy,,,,,,,,ENERGY,TRUE,,TRUE,,TRUE,,,ORA,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,10,10
+Invocation Launcher,ora_invocation,FALSE,large,energy,,,,,,,,ENERGY,,TRUE,TRUE,,,TRUE,,ORA,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,10,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Orchid-class Torpedo Rack,TSC_orchid-S,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,ENERGY,,,TRUE,,TRUE,,TRUE,TYRADOR,,5,,,,5,5,5,,,,2.5,,,,,,,2.5,,,1,,5,5,5,,,,,30,,10,10
+Lotus-class Torpedo,TSC_lotus-S,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,ENERGY,,,TRUE,,TRUE,,TRUE,TYRADOR,3,5,,,,5,5,5,,,,2.5,,,,,,,2.5,,,1,,5,5,5,,,,,40,,10,10
+Caltrop Mine Rack,TSC_CaltropRack,FALSE,medium,missile,,,TRUE,TRUE,TRUE,,,HIGH_EXPLOSIVE,,TRUE,TRUE,,,TRUE,,TYRADOR,2,,,,,2.5,1.5,5,,,,1.5,,,,,,,,,,,,5,,2.5,,,,,40,,10,10
+Rainstorm Lotus Launcher,TSC_lotus-M,FALSE,medium,missile,,,TRUE,TRUE,,TRUE,,ENERGY,,,TRUE,,TRUE,,TRUE,TYRADOR,3,5,,,,5,5,5,,,,2.5,,,,,,,2.5,,,1,,5,5,5,,,,,40,,10,10
+Corvo Drone Rack,TSC_CorvoRack,FALSE,medium,missile,,,TRUE,TRUE,TRUE,,,ENERGY,TRUE,TRUE,,,,TRUE,,TYRADOR,4,,,,,2.5,1.5,5,,,,1.5,,,,,,,,,,,,5,,2.5,,,,,40,,10,10
+Kulbeda Drone Rack,TSC_KulbedaRack,FALSE,medium,missile,,,TRUE,TRUE,TRUE,,,ENERGY,,TRUE,,TRUE,,TRUE,,TYRADOR,3,,,,,2.5,1.5,5,,,,1.5,,,,,,,,,,,,5,,2.5,,,,,40,,10,10
+Corvo Dronepod Launcher,TSC_CorvoPod,FALSE,large,missile,,,TRUE,TRUE,TRUE,,,ENERGY,TRUE,TRUE,,,,TRUE,,TYRADOR,4,,,,,2.5,1.5,5,,,,1.5,,,,,,,,,,,,5,,2.5,,,,,40,,10,10
+Kulbeda Dronepod Launcher,TSC_KulbedaPod,FALSE,large,missile,,,TRUE,TRUE,TRUE,,,ENERGY,,TRUE,,TRUE,,TRUE,,TYRADOR,3,,,,,2.5,1.5,5,,,,1.5,,,,,,,,,,,,5,,2.5,,,,,40,,10,10
+Monsoon Lotus Launcher,TSC_lotus-L,FALSE,large,missile,,,TRUE,TRUE,,TRUE,,ENERGY,,,TRUE,,TRUE,,TRUE,TYRADOR,3,,,,,5,2.5,5,,,,2.5,,,,,,,,,,,,5,,5,,,,,40,,10,10
+Disruptor Burst Beam,TSC_disruptorburst,FALSE,medium,energy,,,TRUE,,,,,ENERGY,TRUE,,TRUE,,,,,TYRADOR,,5,,,,2.5,4,,,,,1.5,,,,,,,2.5,,,1,,5,5,2.5,,,,,40,,10,10
+Warden PD System,TSC_warden,FALSE,large,energy,,,,,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,TYRADOR,,5,,,,2.5,4,,,,,1.5,,,,,,,2.5,,,1,,5,5,2.5,,,,,40,,10,10
+Disruptor Beam Cannon,TSC_disruptor,FALSE,large,energy,,,,,,,,ENERGY,TRUE,TRUE,,,,,,TYRADOR,2,5,,,,2.5,4,,,,,1.5,,,,,,,2.5,,,1,,5,5,2.5,,,,,40,,10,10
+Plasma Lance,TSC_plasma,FALSE,large,energy,,,,,TRUE,,,ENERGY,TRUE,,TRUE,,,,,TYRADOR,,5,,,,2.5,4,,,,,1.5,,,,,,,2.5,,,1,,5,5,2.5,,,,,40,,10,10
+Devastator Cannon Mk.II,TSC_Angon_devastator,TRUE,large,ballistic,1,22,,,,,,HIGH_EXPLOSIVE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Corvo Drone Launcher,TSC_Kestros-drones,TRUE,small,missile,3,5,,TRUE,TRUE,,,ENERGY,TRUE,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kabura-ya Drone Launcher,TSC_Ayllo-drones,TRUE,small,missile,2,5,,TRUE,TRUE,,,ENERGY,,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Judgement,TSC_Claymore-missile,TRUE,large,missile,3,16,,TRUE,TRUE,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kulbeda Drone Bay,TSC_Atlatl-drones,TRUE,large,missile,1,20,,TRUE,TRUE,,,ENERGY,,TRUE,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Warden PD System,TSC_Pavise-PD,TRUE,large,energy,2,15,,,,,,FRAGMENTATION,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Disruptor Beam Cannon,TSC_Halberd-beam,TRUE,large,energy,3,25,,,,,,ENERGY,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Prototype Gauss Cannon,uw_prototype_gauss,TRUE,large,ballistic,0,28,TRUE,,TRUE,,,KINETIC,TRUE,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light TPC,ssp_tpc,TRUE,medium,energy,0,15,TRUE,,,,,ENERGY,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hellfire Cannon,ssp_hellfire,TRUE,large,energy,0,40,,,TRUE,,,ENERGY,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#name,id,builtin,size,type,tier,OPs,limitedAmmo,lowFlux,separateFire,frontOnly,turretOnly,damageType,attack,standoff,alpha,defense,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Reliant HMG,ssp_reliant,FALSE,small,ballistic,,,,TRUE,,,TRUE,KINETIC,,,,TRUE,,,,VANILLA_TECH,,,,,,20,10,,5,5,5,10,10,2,,,0.5,,,,,,,,,20,,2.5,,,5,5,5,5
+Contender Cannon,ssp_contender,FALSE,small,ballistic,,,,TRUE,,,,HIGH_EXPLOSIVE,TRUE,,TRUE,,,,,VANILLA_TECH,,,,10,,20,10,,5,5,5,15,10,2,,,0.5,,,,,2,,,,20,,2.5,,,5,5,5,5
+Plasma Flamer,ssp_plasmaflame,FALSE,medium,ballistic,,,TRUE,,,,,ENERGY,TRUE,,,,TRUE,,,VANILLA_TECH,,30,,,,10,20,,10,10,10,5,10,2,,,5,,15,,,6,,30,30,10,,5,,,2.5,10,10,10
+Aegis Flak Cannon,ssp_tripleflak,FALSE,large,ballistic,,,,TRUE,,,TRUE,FRAGMENTATION,,,,TRUE,TRUE,,,VANILLA_TECH,,10,20,20,20,10,10,10,,,10,15,10,10,10,5,,,5,,,6,,10,15,15,,5,,10,5,10,10,10
+Flare Gun,ssp_flaregun,FALSE,small,missile,,,TRUE,TRUE,,,,ENERGY,,,,TRUE,,,,VANILLA_TECH,,,,,,20,10,,5,5,5,10,10,2,,,0.5,,,,,,,,,20,,2.5,,,10,5,5,5
+Hornet MRM,ssp_hornet,FALSE,small,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,VANILLA_TECH,4,10,10,20,20,10,10,20,10,10,10,15,,10,10,5,5,,5,,,6,,15,10,10,,5,5,20,20,10,10,10
+Ion Torpedo Rack,ssp_iontorpedo,FALSE,small,missile,,,TRUE,TRUE,,TRUE,,FRAGMENTATION,,,TRUE,,,,TRUE,VANILLA_TECH,4,10,,10,20,10,10,20,,,10,15,,10,10,5,5,,5,,,4,,15,10,10,,5,3,20,20,10,10,10
+Inferno MIRV Launcher,ssp_inferno,FALSE,medium,missile,,,,TRUE,,,,FRAGMENTATION,,TRUE,,TRUE,,,,VANILLA_TECH,2,10,10,20,10,10,10,10,10,10,10,15,10,10,5,5,5,,5,,,6,,10,10,10,,5,3,10,10,10,10,10
+Flare Burst Launcher,ssp_flareburst,FALSE,medium,missile,,,TRUE,TRUE,,,,ENERGY,,,,TRUE,,,,VANILLA_TECH,3,,,5,5,5,2.5,10,5,5,5,5,,10,5,2.5,2.5,,,,,1,,10,,5,,2.5,0.5,10,10,5,5,5
+Tornado Hornet Launcher,ssp_tornado,FALSE,medium,missile,,,TRUE,TRUE,,,,HIGH_EXPLOSIVE,TRUE,,,,,,,VANILLA_TECH,4,10,10,20,20,10,10,20,10,10,10,15,,10,10,5,5,,5,,,6,,15,10,10,,5,5,20,20,10,10,10
+Trebuchet LRM Launcher,ssp_trebuchet,FALSE,large,missile,,,,TRUE,,,,ENERGY,,TRUE,,,,TRUE,TRUE,VANILLA_TECH,4,,10,20,20,10,5,20,,,10,15,,10,10,,,,,,,4,,20,10,10,,5,1,20,20,10,10,10
+Mini-Blaster,swp_microblaster,FALSE,small,energy,,,,TRUE,,,TRUE,ENERGY,TRUE,,,TRUE,TRUE,,,VANILLA_TECH,,10,10,20,20,10,10,20,10,10,10,15,,10,10,5,5,,5,,,6,,15,10,10,,5,,10,20,10,10,10
+Light Phase Lance,ssp_lightphaselance,FALSE,small,energy,,,,,,,,ENERGY,TRUE,,TRUE,,,,,VANILLA_TECH,3,10,10,20,20,10,10,20,10,10,10,15,,10,10,5,5,,5,,,6,,15,10,10,,5,,10,20,10,10,10
+Heavy Ion Blaster,ssp_ionblaster,FALSE,medium,energy,,,,,TRUE,,,ENERGY,,,TRUE,,,,TRUE,VANILLA_TECH,4,5,,20,20,5,5,20,,,,12.5,,10,5,2.5,2.5,,2.5,,,5,,12.5,5,5,,2.5,,20,20,5,5,5
+Lightning Gun,ssp_lightninggun,FALSE,medium,energy,,,,,,,,ENERGY,,TRUE,,,,TRUE,,VANILLA_TECH,3,,,10,20,10,5,20,,,,15,,10,10,5,5,,,,,2,,20,,10,,5,,20,20,10,10,10
+Camoflaged Turret,ssp_camoturret,TRUE,large,ballistic,2,24,,,,,,ENERGY,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Klutotekhnes Assault Gun,ssp_klutotekhnes,TRUE,large,ballistic,1,30,TRUE,,TRUE,,,HIGH_EXPLOSIVE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gungnir Cannon,ssp_gungnir,TRUE,large,ballistic,2,30,,,TRUE,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gungnir Cannon,ssp_gungnir_r,TRUE,large,ballistic,2,30,,,TRUE,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Canister Cannon,swp_canistercannon,TRUE,large,ballistic,1,50,,,TRUE,,,HIGH_EXPLOSIVE,,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Redeemer,ssp_redeemer,TRUE,large,ballistic,3,50,,,,,,ENERGY,,TRUE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reaper-class Torpedo,ssp_reaper_fighter,TRUE,small,missile,1,2,TRUE,TRUE,,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Blaster,ssp_lightblaster,TRUE,medium,energy,2,10,,,,,,ENERGY,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Flux Shunt Cannon,ssp_excelsiorcannon,TRUE,medium,energy,3,25,,,,,,ENERGY,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

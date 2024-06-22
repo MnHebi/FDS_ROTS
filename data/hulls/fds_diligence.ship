@@ -1,0 +1,127 @@
+{
+  "bounds": [
+    -37.5,
+    -10.5,
+    -23.5,
+    -29.5,
+    -14,
+    -30.5,
+    -5.5,
+    -16.5,
+    7.5,
+    -27.5,
+    36,
+    -19.5,
+    31.5,
+    -8.5,
+    15.5,
+    -6,
+    15.5,
+    6,
+    31.5,
+    8.5,
+    36,
+    19.5,
+    7.5,
+    27.5,
+    -5.5,
+    16.5,
+    -14,
+    30.5,
+    -23.5,
+    29.5,
+    -37.5,
+    10.5
+  ],
+  "builtInMods": [
+    "tow_cable",
+    "repair_gantry",
+    "drive_field_stabilizer"
+  ],
+  "builtInWeapons": {
+    "WS0001": "blinker_red"
+  },
+  "builtInWings": [],
+  "center": [
+    33,
+    41.5
+  ],
+  "collisionRadius": 51.5,
+  "engineSlots": [
+    {
+      "angle": -180,
+      "contrailSize": 11,
+      "length": 26,
+      "location": [
+        -40.5,
+        9.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "FDS_ENGINE",
+      "width": 11
+    },
+    {
+      "angle": 180,
+      "contrailSize": 11,
+      "length": 26,
+      "location": [
+        -40.5,
+        -9.5
+      ],
+      "style": "CUSTOM",
+      "styleId": "FDS_ENGINE",
+      "width": 11
+    }
+  ],
+  "height": 83,
+  "hullId": "fds_diligence",
+  "hullName": "Diligence",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    0
+  ],
+  "shieldRadius": 49,
+  "spriteName": "graphics/FDS/ships/fds_diligence.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        11,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": 155,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -31,
+        20.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -155,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        -31,
+        -20.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 66
+}

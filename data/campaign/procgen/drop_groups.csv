@@ -1,0 +1,12 @@
+commodity,group,freq
+,,
+maintenance_bots,goods,1
+,,
+maintenance_bots,supply,1
+,,
+maintenance_bots,extended,5
+energy_crystals,extended,1
+,,
+maintenance_bots,freighter_cargo,1
+energy_crystals,freighter_cargo,1
+,,

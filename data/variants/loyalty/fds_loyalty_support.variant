@@ -1,0 +1,39 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "fds_loyalty",
+  "hullMods": [
+    "augmentedengines"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_loyalty_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_Alliance_turbo_P",
+        "WS0008": "fds_Alliance_turbo_L"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "heatseeker",
+        "WS0002": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "gravitonbeam"
+      }
+    }
+  ],
+  "wings": []
+}

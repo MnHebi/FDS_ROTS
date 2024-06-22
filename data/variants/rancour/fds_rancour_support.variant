@@ -1,0 +1,47 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 4,
+  "fluxVents": 3,
+  "goalVariant": true,
+  "hullId": "fds_rancour",
+  "hullMods": [
+    "targetingunit",
+    "augmentedengines",
+    "advancedshieldemitter",
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_rancour_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "fds_hydra_2x_rack",
+        "WS0008": "fds_hydra_2x_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "fds_light_autoblaster_cannon",
+        "WS0010": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "fds_pd_laser_mk_iii",
+        "WS0002": "fds_pd_laser_mk_iii",
+        "WS0003": "fds_light_pd_blaster",
+        "WS0004": "fds_light_pd_blaster",
+        "WS0005": "fds_light_pd_blaster",
+        "WS0006": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

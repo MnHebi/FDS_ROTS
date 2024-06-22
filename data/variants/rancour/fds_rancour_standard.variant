@@ -1,0 +1,46 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 9,
+  "fluxVents": 7,
+  "goalVariant": true,
+  "hullId": "fds_rancour",
+  "hullMods": [
+    "targetingunit",
+    "augmentedengines",
+    "advancedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_rancour_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "harpoon",
+        "WS0008": "harpoon",
+        "WS0009": "fds_light_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "fds_heavy_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "fds_pd_laser_mk_iii",
+        "WS0002": "fds_pd_laser_mk_iii",
+        "WS0003": "fds_light_pd_blaster",
+        "WS0004": "fds_light_pd_blaster",
+        "WS0005": "fds_light_pd_blaster",
+        "WS0006": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,50 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "fds_agony",
+  "hullMods": [
+    "targetingunit",
+    "augmentedengines",
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_agony_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "sabot_single",
+        "WS0002": "sabot_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "fds_light_pd_blaster",
+        "WS0004": "fds_light_pd_blaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_pd_laser_mk_iii",
+        "WS0006": "fds_pd_laser_mk_iii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_light_pd_blaster",
+        "WS0008": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "fds_pd_barrage",
+  "specClass": "projectile",
+  "animationType": "SMOKE",
+  "type": "MISSILE",
+  "barrelMode": "ALTERNATING",
+  "hardpointSprite": "",
+  "turretSprite": "",
+  "hardpointOffsets": [ 0, 20, 0, 10, 0, 0, 0, -10, 0, -20 ],
+  "turretOffsets": [ 0, -20, 0, -10, 0, 0, 0, 10, 0, 20 ],
+  #"hardpointOffsets": [ 0, 20 ],
+  #"turretOffsets": [ 0, -20 ],
+  "hardpointAngleOffsets": [0],
+  "turretAngleOffsets": [0],
+  "size": "MEDIUM",
+  "smokeSpec": {
+    "blowbackDuration": 1.1,
+    "blowbackLength": 20,
+    "blowbackParticleCount": 4,
+    "blowbackSpread": 10,
+    "cloudDuration": 0.9,
+    "cloudParticleCount": 3,
+    "cloudRadius": 8,
+    "particleColor": [ 170, 160, 150, 130 ],
+    "particleSizeMin": 10,
+    "particleSizeRange": 16
+  },
+  "textureType": ROUGH,
+  "projectileSpecId": "fds_pd_missile",
+  "fireSoundTwo": "fds_tali_fighter_launch" #harpoon_fire
+}

@@ -1,0 +1,41 @@
+{
+  "displayName": "Point Defence",
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "goalVariant": false,
+  "hullId": "fds_atonement",
+  "hullMods": [
+    "targetingunit",
+    "fds_pd_matrix"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_atonement_pd_boat",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 5": "gravitonbeam",
+        "WS 6": "gravitonbeam",
+        "WS 7": "dualflak",
+        "WS 8": "dualflak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_iii",
+        "WS 2": "fds_pd_laser_mk_iii",
+        "WS 9": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": []
+}

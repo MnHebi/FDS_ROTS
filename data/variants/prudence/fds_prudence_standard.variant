@@ -1,0 +1,40 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 3,
+  "fluxVents": 2,
+  "goalVariant": true,
+  "hullId": "fds_prudence",
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_prudence_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "fds_defender_I_blaster",
+        "WS0004": "fds_defender_I_blaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "atropos",
+        "WS0002": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

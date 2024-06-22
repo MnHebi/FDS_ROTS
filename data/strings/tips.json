@@ -1,0 +1,8 @@
+{
+    tips:[
+		"[FDS] While using the Engine Signature Dampener, Atonement-class Cruisers are more vulnerable to attacks, use this to your advantage.",
+		"[FDS] Atonement-class Cruisers' active ship system can disable the engines of any enemy ship that uses the Quantum Singularity Generator into its area of effect.",
+		"[FDS] The Engine Signature Dampener ability from ships like the Atonement-class Cruisers does not stack with the effect from other ships with the same ship system, but if two of them overlap and one shuts down, the other will keep up the effect on the enemy ships.",
+		"[FDS] If the 'droidMechanics' settings are enabled in the FDS options file, having some Maintenance Bots will make your Combat Readiness increase up to 50% faster in the campaign, as well as up to 20% less supplies consumed per month for maintenance.",
+    ],
+}

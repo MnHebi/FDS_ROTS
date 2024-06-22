@@ -1,0 +1,49 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 6,
+  "fluxVents": 6,
+  "goalVariant": true,
+  "hullId": "fds_agony",
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_agony_elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_hydra_2x_rack",
+        "WS0002": "fds_hydra_2x_rack"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "railgun",
+        "WS0004": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_pd_laser_mk_iii",
+        "WS0006": "fds_pd_laser_mk_iii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_light_pd_blaster",
+        "WS0008": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,48 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 9,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "fds_despair",
+    "hullMods": [
+        "auxiliarythrusters",
+        "fds_maintenance_bots"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_despair_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "heatseeker",
+                "WS0008": "heatseeker"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "fds_light_autoblaster_cannon",
+                "WS0004": "fds_light_autoblaster_cannon",
+                "WS0005": "fds_light_autoblaster_cannon",
+                "WS0006": "fds_light_autoblaster_cannon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "fds_heavy_autoblaster_cannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_light_pd_blaster",
+                "WS0002": "fds_light_pd_blaster",
+                "WS0009": "fds_light_pd_blaster"
+            }
+        }
+    ]
+}

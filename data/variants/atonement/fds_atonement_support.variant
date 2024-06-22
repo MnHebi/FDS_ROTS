@@ -1,0 +1,43 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 9,
+  "fluxVents": 8,
+  "goalVariant": true,
+  "hullId": "fds_atonement",
+  "hullMods": [
+    "targetingunit",
+    "eccm",
+    "hardenedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_atonement_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 7": "hveldriver",
+        "WS 8": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 5": "pilum",
+        "WS 6": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_iii",
+        "WS 2": "fds_pd_laser_mk_iii",
+        "WS 9": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": []
+}

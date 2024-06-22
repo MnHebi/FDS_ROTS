@@ -1,0 +1,27 @@
+{
+	"id":"fds_torture_forward_cannons",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"graphics/FDS/weapons/fds_torture_forward_cannons_icon.png",
+	"turretGunSprite":"",
+	"hardpointSprite":"graphics/FDS/weapons/fds_torture_forward_cannons_hardpoint.png",
+	"hardpointGunSprite":"graphics/FDS/weapons/fds_torture_forward_cannons_recoil.png",
+	"visualRecoil":7.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[15, 9, 15, 0, 15, -9],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0, 15, -9, 15, 9],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{"length":65.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":15.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":35.0,
+					   "particleDuration":0.75,
+					   "particleCount":50,
+					   "particleColor":[255,70,50,245]},
+	"projectileSpecId":"hellbore_shot",  # projectile that will be fired
+	"fireSoundTwo":"hellbore_fire",
+}

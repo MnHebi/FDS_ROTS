@@ -1,0 +1,1157 @@
+[2019/10/15]
+(v0.11.0)
+	Additions:
+		Ship Systems:
+			Overclocked Sensor Array:
+				- Available in the Terror-class Heavy Battleship;
+				- When active will boost all allied ships with 10% reduced weapon recoil and 10% increased weapon range;
+				- Will interact with ships equipped with the "Augmented Sensor Arrays" to boost combat view range for the duration of the system;
+		Weapons:
+			- PD Barrage: Added (yet) more missiles to the Fear-class Heavy Cruiser, but this time PD missiles and not saturation missiles;
+		Hullmod:
+			- Augmented Sensor Arrays: Built into certain ships, and works well in conjunction with the new ship system of the Terror;
+		Ship:
+			- Wroth: A new Dreadnaught, will be a joke ship for now, and exist only inside a special mission just for it. Speaking of which:
+		Mission:
+			- Johnny's Madness: A mission where you can fight the new FDS joke ship! Enjoy!
+
+	Changes:
+		Economy:
+			- Maintenance Bots Factory: Previously "Astromech Droid Factory", renamed since it produces "Maintenance Bots" now;
+			- Maintenance Bots: Previously two separate droids, now merged into one and renamed. Sprite still needing a change;
+			- Fuel Converter: Now mutually exclusive with the "Fuel Production" industry;
+			- Added the Repair Yards industry to the Vindicta market in the Euclid system;
+			
+		Weapons:
+			- Added trails to the Decimator Cannon and the Dual Autoblaster Cannon;
+			- Added custom projectile to the Ion Battery (was using vanilla ion shot);
+			- Changed size and texture of most weapons (Council Spear included);
+			- Reduced damage per shot of the built-in weapons on the Loyalty-class Combat Freighter from 200 to 50, flux per shot from 100 to 40, and increased its rate of fire to be on par with its competitors;
+
+		Ships:
+			Loyalty:
+				- Fleet Points reduced from 10 to 5;
+				- Cargo Space reduced from 250 to 90;
+				- Fuel capacity reduced from 100 to 40;
+				- PPT reduced from 300 to 200;
+				- Supplies/month increased from 3 to 4;
+			Fidelity:
+				- Fleet Points reduced from 6 to 3;
+				- Supplies/month increased from 2 to 3;
+			Obedience:
+				- Fleet Points reduced from 7 to 5;
+				- Cargo Space reduced from 75 to 25;
+				- Fuel capacity reduced from 1500 to 500;
+				- Price reduced from 55.000 to 25.000;
+				- Supplies/month increased from 3 to 4;
+			Burden:
+				- Fleet Points reduced from 7 to 4;
+				- Cargo Space reduced from 750 to 250;
+				- Fuel capacity reduced from 140 to 100;
+				- Price increased from 26.000 to 32.000;
+				- Supplies/month increased from 3 to 4;
+			Diligence:
+				- PPT reduced from 240 to 200;
+				- Supplies/month increased from 3 to 5;
+			Prudence:
+				- Price increased from 5.000 to 8.000;
+				- Supplies/month increased from 2 to 3;
+			Sorrow:
+				- PPT reduced from 240 to 180;
+				- Supplies/month increased from 3 to 4;
+			Regret:
+				- PPT reduced from 240 to 180;
+				- Supplies/month increased from 5 to 6;
+			Agony:
+				- PPT reduced from 240 to 180;
+				- Supplies/month increased from 3 to 4;
+			Agony Mk.II:
+				- PPT reduced from 320 to 200;
+				- Supplies/month increased from 4 to 5;
+			Grief:
+				- PPT reduced from 240 to 180;
+				- Supplies/month increased from 5 to 6;
+			Grief Mk.II:
+				- PPT reduced from 180 to 160;
+				- Supplies/month increased from 7 to 10;
+			Disturbance:
+				- PPT reduced from 180 to 160;
+				- Supplies/month increased from 7 to 10;
+			Melancholy:
+				- PPT reduced from 200 to 180;
+			Melancholy Mk.II:
+				- Ship System changed from Maneuvering Jets to Phase Skimmer;
+				- PPT reduced from 200 to 180;
+			Affliction:
+				- Ship System changed from Quantum Singularity Generator to Phase Skimmer;
+				- Fleet Points increased from 9 to 12;
+				- Price increased from 35.000 to 45.000;
+				- PPT decreased from 360 to 350;
+				- Supplies/month increased from 9 to 15;
+			Despair:
+				- Fleet Points increased from 6 to 8;
+				- PPT decreased from 330 to 320;
+			Rancour:
+				- Fleet Points increased from 8 to 9;
+				- PPT decreased from 330 to 320;
+			Shame:
+				- Fleet Points increased from 9 to 10;
+				- Price increased from 18.000 to 32.000;
+				- PPT decreased from 360 to 300;
+				- Supplies/month increased from 9 to 10;
+			Desolation:
+				- Price increased from 32.000 to 40.000;
+				- PPT increased from 380 to 400;
+				- Supplies/month increased from 10 to 12;
+			Pride:
+				- Ship System changed from Quantum Singularity Generator to High Energy Focus;
+				- Price increased from 40.000 to 42.000;
+				- PPT decreased from 400 to 360;
+				- Supplies/month increased from 12 to 15;
+			Atonement:
+				- Price increased from 64.000 to 250.000;
+				- PPT decreased from 420 to 360;
+				- Supplies/month increased from 25 to 35;
+			Submission:
+				- Fleet Points increased from 7 to 10;
+				- Price increased from 40.000 to 80.000;
+			Revenge:
+				- Ship System changed from Fast Missile Racks to Missile Autoforge;
+				- Fleet Points increased from 7 to 10;
+				- Price increased from 50.000 to 100.000;
+				- PPT decreased from 430 to 420;
+			Wrath:
+				- Ship System changed from Quantum Singularity Generator to Accelerated Ammo Feeder;
+				- Price increased from 60.000 to 120.000;
+				- PPT decreased from 480 to 420;
+			Retaliation:
+				- Ship System changed from Quantum Singularity Generator to Plasma Jets;
+				- OP increased from 185 to 195;
+				- Fighter Wings increased from 1 to 3;
+				- Price increased from 80.000 to 130.000;
+				- PPT decreased from 460 to 420;
+				- Supplies/month increased from 20 to 25;
+			Fear:
+				- Ship System changed from Quantum Singularity Generator to Burn Drive;
+				- Fleet Points increased from 15 to 16;
+				- Hitpoints increased from 9.000 to 10.000;
+				- Flux Capacity increased from 12.500 to 15.000;
+				- Price increased from 90.000 to 140.000;
+				- PPT increased from 500 to 520;
+			Hatred:
+				- Hitpoints increased from 15.000 to 17.000;
+				- Armor decreased from 1600 to 1500;
+				- Flux Dissipation increased from 800 to 1000;
+				- Price increased from 240.000 to 320.000;
+				- PPT decreased from 660 to 600;
+				- Supplies/month increased from 35 to 40;
+			Suffering:
+				- Hitpoints increased from 18.000 to 20.000;
+				- Armor decreased from 1700 to 1600;
+				- Flux Dissipation increased from 900 to 1200;
+				- Price increased from 260.000 to 350.000;
+				- PPT decreased from 720 to 660;
+				- Supplies/month increased from 40 to 50;
+			Torture:
+				- Hitpoints increased from 17.500 to 22.000;
+				- Flux Dissipation increased from 1100 to 1400;
+				- Price increased from 300.000 to 450.000;
+				- PPT decreased from 720 to 660;
+				- Supplies/month increased from 40 to 60;
+			Terror:
+				- Ship System changed from Quantum Singularity Generator to Overclocked Sensor Array;
+				- Hitpoints increased from 24.000 to 25.000;
+				- Price increased from 350.000 to 500.000;
+				- PPT decreased from 720 to 660;
+				- Supplies/month increased from 50 to 75;
+
+		Misc:
+			- Changed some descriptions to add some fluff;
+			- Reduced the maximum fleet monthly supply cost reduction from the Maintenance Bots gameplay mechanic from 25% to 20%;
+			
+	Deletions:
+		- Removed the Duty-class freighter;
+		- Removed the Astromech Droid variants;
+		
+	Fixes:
+		- Fixed condition_gen_data.csv to support the new planetary type IDs;
+		- Fixed issue with Nexerelin in the prism_ships_blacklist.csv;
+		- Fixed sound files issues with Linux;
+		
+	Misc:
+		- General cleanup of the mod, the package should be considerably lighter now;
+		- Several projectile files were merged to reduce clutter and generalise the projectiles even further;
+
+[2019/--/--]
+  (v0.10.0)
+	Changes:
+		- OOf, forgot to add this changelog...
+
+[2019/--/--]
+  (v0.9.0)
+	Changes:
+		- OOf, forgot to add this changelog...
+
+[2019/01/21]
+  (v0.8.1)
+	Changes:
+	  Ships:
+	    - Fear:
+		  - Cost reduced from 120.000 to 90.000;
+
+    Fixes:
+	  - Fixed variants with OP over capacity;
+
+[2019/01/17]
+  (v0.8.0)
+
+[2018/06/26]
+  (v0.7.1)
+    Fixes:
+	  - Fixed GS Bounties (missing references and corrected dialog messages);
+
+[2018/06/25]
+  (v0.7.0)
+    Additions:
+	  Hullmod:
+	    - Point Defence Matrix: Available to the Atonement-class Cruiser only. Makes all Medium and Small weapon mounts except missiles to automatically target incoming missiles.
+		- New Hullmod icon added for FDS Combat Systems;
+	  Fighter Wings:
+	    - Pain Kinetic Bomber - Bomber equipped with an Ion Missile. The missile deals a small amount of kinetic damage with an addition of a decent amount of EMP damage;
+		- Rage Rocket Bomber - Bomber equipped with two rocket launchers. Fires more rockets than the normal Khopesh but each rocket does slightly less damage in comparison;
+	  GS Bounties:
+	    - Added 3 GS Bounties, make sure to use Snrasha's mod! (Or don't, FDS works without his mod as well)
+	  Misc:
+	    - New FDS related tips! More to come (possibly);
+		- New greetings when encountering FDS fleets.
+		- More ship and/or weapon descriptions;
+	  
+	Changes:
+	  Ships:
+	    - Affliction:
+		  - Hitpoints increased from 3.750 to 4.000;
+	    - Despair:
+		  - Hitpoints increased from 3.250 to 3.500;
+	    - Rancour:
+		  - Hitpoints increased from 2.500 to 3.000;
+		- Shame:
+		  - Hitpoints increased from 2.600 to 4.000;
+		- Desolation:
+		  - Hitpoints increased from 4.500 to 5.000;
+
+		- Atonement:
+		  - Armor decreased from 750 to 600;
+		- Retaliation:
+		  - Armor decreased from 900 to 750;
+		  - Flux capacity decreased from 15.500 to 11.000;
+		- Submission:
+		  - Flux capacity increased from 5.000 to 7.500;
+		- Revenge:
+		  - Armor decreased from 900 to 800;
+		  - Flux capacity decreased from 11.000 to 8.000;
+		  - Flux dissipation decreased from 700 to 400;
+		- Wrath:
+		  - Armor decreased from 1.000 to 900;
+		  - Flux capacity decreased from 17.500 to 10.000;
+
+		- Fear:
+		  - Designation changed from Battlecruiser to Heavy Cruiser;
+		  - OP decreased from 170 to 165;
+		- Torture:
+		  - Active ship system changed from Recall Device to Burn Drive;
+		  - Removed Combat Carrier tags;
+		- Terror:
+		  - Removed Combat Carrier tags;
+		  
+	  Fighters:
+	    - Oppression:
+		  - Changed formation from V to Diamond;
+	    - Distress:
+		  - Changed formation from V to Diamond;
+	    - Guilt:
+		  - Changed role from Fighter to Support;
+	    - Remorse:
+		  - Changed role from Bomber to Assault;
+		  - Changed Role Description from Close Support to Heavy Bomber;
+
+	  Weapons:
+	    - Heavy Autoblaster Cannon:
+		  - Energy per shot increased from 80 to 100;
+		- Light Tali (bomber missile):
+		  - Range decreased from 2500 to 1250;
+		- Kane Blaster:
+		  - Cooldown between shots decreased from 1 second to 0.5 seconds;
+
+
+[2018/04/26]
+  (v0.6.0)
+    Misc:
+	  - Fixed FDS' combat buff so it will affect all FDS ships, regardless of who owns them.
+
+    Additions:
+	  - Added status icon for FDS' combat buff;
+	  - Added some clutter to most systems (mostly in-system Nebulae, for now);
+
+	Deletions:
+	  - Anguish Heavy Bomber removed;
+	  - Removed LR Laser;
+	  - Removed built-in missiles (custom sabot and harpoon) and replaced them with vanilla counterparts;
+	  - Removed all remaining unused and/or duplicate weapons;
+
+    Changes:
+	  Ships:
+		- Terror
+		  - Fleet Points increased from 35 to 40;
+		  - Hitpoints increased from 22.000 to 24.000;
+		  - Flux capacity increased from 17.000 to 26.000;
+		  - Flux dissipation increased from 1.280 to 1.500;
+		  - OP increased from 370 to 400;
+		- Torture
+		  - Flux capacity increased from 17.000 to 18.000;
+		  - OP increased from 290 to 320;
+		- Suffering
+		  - OP increased from 290 to 300;
+		- Hatred
+		  - OP increased from 260 to 275;
+		- Fear
+		  - Active System changed from Fast Missile Racks to Maneuvering Jets;
+		  - OP increased from 160 to 170;
+		- Retaliation
+		  - OP increased from 175 to 185;
+		- Shame
+		  - OP increased from 55 to 70;
+		- Melancholy, Melancholy Mk. II and Agony Mk. II
+		  - Active System changed from Fast Missile racks to Maneuvering Jets;
+		- Disgrace (Bomber)
+		  - Removed turret;
+
+	  Weapons:
+		- Dual Autoblaster Cannon
+		  - Range increased from 700 to 800;
+		- Quad Blaster Battery
+		  - Energy per shot decreased from 120 to 110;
+		- Heavy Autoblaster Battery
+		  - Energy per shot decreased from 200 to 175;
+		- Heavy Autoblaster Cannon
+		  - Range increased from 700 to 750;
+		  - Energy per shot decreased from 100 to 80;
+		- Light Autoblaster Cannon
+		  - Energy per shot decreased from 90 to 70;
+		- Light Blaster (Fighter mounted counterpart of the PD Blaster)
+		  - Chargedown increased from 0.125 to 0.25 seconds;
+		- Ion Battery
+		  - Energy per shot decreased from 200 to 150;
+		- Laser Autocannon (built into the Loyalty)
+		  - Energy per shot decreased from 260 to 100;
+		- PD Laser Mk. II
+		  - Damage incresed from 80 to 100;
+		- Tali MRM
+		  - Speed decreased from 500 to 400;
+		- Tali MRM (Single) (Used by fighters)
+		  - Renamed to Light Tali (Single);
+		  - Damage decreased from 350 to 200;
+		- Kane Blaster
+		  - Energy per shot decreased from 750 to 500
+		- Missile Barrage
+		  - Cooldown decreased from 20 to 12 seconds;
+
+	  Ship Systems:
+	    - Gravity Well Generator
+		  - Hard flux used on activation increased from 20% to 75% base flux capacity;
+		- Hyperspace jump
+		  - Energy per second decreased from 2.500 to 1.250;
+		  - Energy generated per second is now Soft Flux instead of Hard Flux;
+
+	  Hullmods:
+	    - FDS Combat Systems
+		  - Now increases energy weapon's range by 20%;
+
+[2018/04/22]
+  (v0.5.0)
+	Additions:
+	  - Added a skin for the Prudence (old Prudence Mk. II);
+	  - Completely new faction flag, crest remains the same;
+	  - Added a new built-in hullmod, "FDS Combat Systems", inserted into all FDS combat vessels. (EXPERIMENTAL and probably NOT final!);
+	  - Added more descriptions, many more still missing;
+
+	Deletions:
+	  - All Drones were removed, subject to being added in the future if needed;
+	  - Most fighter weapons removed and/or merged into one/two;
+	
+	Changes:
+	  - Deleted and rebuilt most variants (mostly the ones for the utility ships were the only ones left untouched);
+	  - Rebuilt/Renamed the fighters:
+		- Avenger split into Guilt (Heavy Fighter) and Remorse (Close Support);
+		- Viper split into Distress (Interceptor) and Penitence (Fighter);
+		- Oppressor split into Anguish (Heavy Bomber) and Oppression (Fighter), all other "Oppressor" variants were removed;
+		- Hyena renamed into Disgrace (Bomber);
+		- All fighters not mentioned above were removed;
+		- Decreased amount of weapons on some fighters (duplicate or overlapping mounts);
+		- NOTE: ALL fighter stats have been reworked from scratch, sorry if there's nothing in the changelog relative to them;
+	  - Fixed medium mounts' orientation, in most cases the mounts seemed to be backwards for some reason;
+	  - Merged most fighter blasters into the "Light Blaster", having the same stats as the "PD Blaster";
+	  - Fighter and frigate built-in Tali Launchers now have the same damage as normal Tali Missiles, ammo reduced from 4 to 1 and renamed the weapon to include the "(Single)" at the end;
+	  - Changed the icon for the "Blockade Runner" hullmod;
+
+	  Ships:
+		- Terror
+		  - System changed from Burn Drive to High Energy Focus;
+		- Torture
+		  - System changed from Burn Drive to Recall Device;
+		  - Changed some weapon mounts. Less Ballistic and Universal mounts and more Energy/Synergy mounts;
+		- Shame
+		  - System changed from Maneuvering Jets to Targeting Feed;
+		- Loyalty
+		  - Designation changed from Light Freighter to Combat Freighter;
+		  - Hitpoints increased from 2.900 to 4.500;
+		  - Armor increased from 400 to 500;
+		  - Max Flux decreased from 5.000 to 3250;
+		  - Flux Dissipation decreased from 420 to 200;
+		  - Price increased from 16.000 to 18.000;
+		  - Both lateral small turrets changed to small missile hardpoints;
+		- Fidelity
+		  - Designation changed from Light Freighter to Combat Freighter;
+		  - Fleet Points decreased from 7 to 6;
+		  - Hitpoints increased from 1.500 to 2.000;
+		  - Armor increased from 250 to 350;
+		  - Max Flux decreased from 3.600 to 1.750;
+		  - Flux dissipation decreased from 280 to 125;
+		  - Max Cargo space decreased from 150 to 80;
+		  - Max Fuel space decreased from 70 to 30;
+		  - Price increased from 10.000 to 12.500;
+		- Obedience
+		  - Fleet Points increased from 5 to 7;
+		  - Max Cargo space decreased from 500 to 75;
+		  - Max Fuel space decreased from 2.000 to 1.500;
+		- Burden
+		  - Fleet Points increased from 6 to 7;
+		  - Max Cargo space decreased from 1.000 to 750;
+		  - Max Fuel space decreased from 400 to 140;
+		- Duty
+		  - Fleet Points decreased from 9 to 7;
+		  - Max Cargo space decreased from 1.200 to 1.000;
+		  - Max Fuel space decreased from 400 to 250;
+
+	  Weapons:
+		- Dual Autoblaster Cannon
+		  - OP cost decreased from 25 to 20;
+		- Heavy Autoblaster Battery
+		  - Price decreased from 4.500 to 2.750;
+		  - OP cost decreased from 14 to 12;
+		  - Damage Type changed from Energy to High Explosive;
+		- Heavy Autoblaster Cannon
+		  - Tier decreased from 2 to 1;
+		  - Price decreased from 3.500 to 2.500;
+		  - OP cost decreased from 12 to 10;
+		  - Flux per shot decreased from 120 to 100;
+		- Light Autoblaster Cannon
+		  - Tier decreased from 2 to 0;
+		  - Price decreased from 2.800 to 400;
+		  - OP cost decreased from 8 to 7;
+		  - Flux per shot decreased from 100 to 90;
+		- PD Blaster
+		  - Price decreased from 320 to 200;
+		- Ion Battery
+		  - Price decreased from 3.200 to 3.000;
+		- Heavy Beam
+		  - Price increased from 2.200 to 2.600;
+		  - OP cost decreased from 16 to 12;
+		- PD Laser Mk. II
+		  - Price decreased from 250 to 250;
+		  - Damage per second increased from 70 to 80;
+		- PD Laser Mk. III
+		  - Damage increased from 100 to 140;
+		- Remnant Dagger
+		  - Price decreased from 16.000 to 3.000;
+		- Council Spear
+		  - Price increased from 20.000 to 24.000;
+		  - EMP damage increased from 1.000 to 2.000;
+		  - Burst Delay increased from 5 to 10 seconds;
+		- Hydra Guided Torpedo
+		  - Price decreased from 850 to 400;
+		  - Flight time increased from 6.75 to 10 seconds;
+		  - Missile hitpoints increased from 200 to 250;
+		- Hydra Guided Torpedo Rack
+		  - Price decreased from 1.450 to 600;
+		  - Flight time increased from 6.75 to 10 seconds;
+		  - Missile hitpoints increased from 200 to 250;
+		- Hydra Guided Torpedo Pod
+		  - Price decreased from 4.850 to 1.200;
+		  - Flight time increased from 6.75 to 10 seconds;
+		  - Missile hitpoints increased from 200 to 250;
+		- Kane Blaster
+		  - Price decreased from 12.000 to 2.500;
+		- Rapid Laser Cannons
+		  - Damage decreased from 70 to 50;
+		  - Energy per shot decreased from 100 to 40;
+		- Vindicator SRM
+		  - Damage decreased from 500 to 120;
+		  - EMP damage decreased from 750 to 0;
+		- Havoc Chaingun
+		  - Range decreased from 600 to 500;
+		  - Impact increased from 1 to 5;
+		  - Flux per shot decreased from 40 to 30;
+		  - Spread per shot increased from 0.4 to 0.5;
+		  - Projectile speed decreased from 1.000 to 800;
+
+
+[2018/04/10]
+  (v0.4.1)
+	- Fixed use of a SSP weapon in one of the variants;
+
+[2018/04/08]
+  (v0.4.0)
+    Additions:
+	  - Added a new weapon: Kane Blaster;
+	  - Guess who's back? No, not Shady, it's the Prudence!
+	Deletions:
+	  - Removed the following ships:
+		- Agony Mk. III
+		- Affliction  Mk. II
+		- Regret Mk. II
+		- Anguish
+		- Rancour Mk. II
+		- Remorse
+		- Anger
+		- Rage
+		- Terror (Terror is still available in a custom mission);
+		- NOTE: In most cases the removed ship was the Mk. II or Mk. III but in fact the removed ship was the Mk. I, renaming the other ships to fill the gap;
+	  - Removed the following weapons:
+		- Heavy Blaster Battery
+		- Heavy Blaster
+		- Light Blaster
+		- Light Blaster Cannon
+		- Gladiator Beam
+		- Remnant Scythe
+	Changes:
+	  Ships:
+	    - Suffering
+		  - Armor decreased from 1800 to 1700;
+	    - Torture
+		  - Designation changed from Battlecarrier to Dreadnaught;
+		  - Switched the two Large Ballistic mounts to Large Hybrid;
+		  - Hitpoints decreased from 20.000 to 17.500;
+		  - Shield efficiency decreased from 0.7 to 0.9;
+	    - Terror
+		  - Designation changed from Battlecarrier to Dreadnaught;
+		  - Shield efficiency decreased from 0.6 to 0.8;
+		  
+		- Many ship variants edited to accommodate the ship and weapon changes;
+
+	  Weapons:
+		- Tali LRM -> Tali MRM
+		  - Renamed missile to MRM since that is what it is now;
+		  - Damage decreased from 400 to 350;
+		  - Impact decreased from 75 to 30;
+		  - Cooldown increased from 8 to 10 seconds;
+		- Hydra Guided Torpedo
+		  - Damage decreased from 2000 to 1500;
+		  - Impact decreased from 500 to 50;
+		  - Cooldown increased from 1.5 to 2 seconds;
+		  - Hydra Guided Torpedo Pod:
+		    - Ammo decreased from 12 to 8;
+		    - Cooldown increased from 1.5 to 5 seconds;
+		    - Burst size increased from 1 to 2;
+		- Dual Autoblaster Cannon
+		  - Damage per shot increased from 250 to 300;
+		  - Energy per shot increased from 300 to 325;
+		- Ion Battery
+		  - Range decreased from 700 to 600;
+		  - Damage per shot decreased from 180 to 100;
+		- Heavy Beam
+		  - Range decreased from 950 to 800;
+		  - Energy per second increased from 175 to 200;
+		  - Cooldown increased from 1.4 seconds to 2 seconds;
+		- Remnant Dagger
+		  - Price decreased from 22.000 to 16.000;
+		  - Range decreased from 850 to 800;
+		  - Damage per second decreased from 2.000 to 500;
+		  - EMP damage increased from 20 to 50;
+		  - OP cost decreased from 18 to 12;
+		  - Energy per second decreased from 1000 to 750;
+		  - Burst size increased from 0.5 to 1;
+		  - Burst delay decreased from 15 to 2;
+		- Council Spear
+		  - Price decreased from 35.000 to 20.000;
+		  - Damage per second decreased from 4.000 to 1.000;
+		  - EMP damage increased from 500 to 1000;
+		  - OP cost decreased from 30 to 25;
+		  - Burst size increased from 0.5 to 1;
+		  - Burst delay decreased from 15 to 5;
+
+	  Misc:
+	    - Venting color changed to something blue-ish;
+
+[2018/03/30]
+  (v0.3.1)
+    - Fixed weapons placed in incorrect weapon slot types thanks to the removal of most Universal mounts in update v0.2.0;
+
+[2018/03/23]
+  (v0.3.0)
+    Additions:
+	  - Added blinking lights to the following ships: Fidelity, Pride, Shame, Retaliation, Hatred, Torture and Terror;
+	  - Added new ship: Diligence (Utility ship). Think of an Ox and Construction Rig merged into one;
+	Changes:
+	  Ships:
+	    - Sorrow
+		  - Max Speed increased from 120 to 140;
+		  - Acceleration increased from 90 to 110;
+		  - Deceleration increased from 70 to 100;
+		  - Turn Acceleration decreased from 120 to 100;
+	    - Regret
+		  - Max Speed increased from 110 to 120;
+		  - Acceleration increased from 90 to 100;
+		  - Deceleration increased from 70 to 95;
+		  - Turn Acceleration decreased from 120 to 100;
+	    - Regret Mk. II
+		  - Deceleration increased from 70 to 110;
+		  - Max Turn Rate increased from 60 to 80;
+	    - Agony
+		  - Max Speed increased from 110 to 140;
+		  - Acceleration increased from 85 to 110;
+		  - Deceleration increased from 65 to 100;
+		  - Max Turn Rate increased from 45 to 85;
+	    - Agony Mk. II
+		  - Max Speed increased from 110 to 140;
+		  - Acceleration increased from 85 to 120;
+		  - Deceleration increased from 60 to 120;
+		  - Max Turn Rate increased from 45 to 90;
+		  - Turn Acceleration increased from 90 to 95;
+	    - Agony Mk. III
+		  - Max Speed increased from 120 to 160;
+		  - Acceleration increased from 100 to 140;
+		  - Deceleration increased from 60 to 135;
+		  - Max Turn Rate increased from 45 to 95;
+		  - Turn Acceleration increased from 90 to 100;
+	    - Grief
+		  - Acceleration increased from 100 to 120;
+		  - Deceleration increased from 70 to 120;
+		  - Max Turn Rate increased from 45 to 80;
+	    - Grief Mk. II
+		  - Acceleration increased from 100 to 140;
+		  - Deceleration increased from 80 to 140;
+		  - Max Turn Rate increased from 45 to 90;
+		  - Turn Acceleration increased from 90 to 100;
+	    - Disturbance
+		  - Max Speed increased from 150 to 160;
+		  - Acceleration increased from 130 to 180;
+		  - Deceleration increased from 80 to 170;
+		  - Max Turn Rate increased from 50 to 90;
+		  - Turn Acceleration increased from 100 to 120;
+	    - Melancholy
+		  - Acceleration increased from 120 to 140;
+		  - Deceleration increased from 70 to 120;
+		  - Max Turn Rate increased from 75 to 100;
+	    - Melancholy Mk. II
+		  - Acceleration increased from 140 to 160;
+		  - Deceleration increased from 80 to 150;
+		  - Max Turn Rate increased from 90 to 120;
+		
+	    - Affliction
+		  - Acceleration decreased from 70 to 60;
+	    - Affliction Mk. II
+		  - Acceleration decreased from 70 to 60;
+	    - Anguish
+		  - Max Speed decreased from 135 to 100;
+		  - Acceleration decreased from 90 to 70;
+	    - Despair
+		  - Max Speed decreased from 150 to 100;
+		  - Acceleration decreased from 100 to 70;
+	    - Rancour
+		  - Max Speed decreased from 140 to 100;
+		  - Acceleration decreased from 100 to 80;
+	    - Rancour Mk. II
+		  - Max Speed decreased from 130 to 90;
+		  - Acceleration decreased from 90 to 80;
+	    - Shame
+		  - Max Speed decreased from 110 to 65;
+		  - Acceleration decreased from 80 to 50;
+		  - Deceleration decreased from 55 to 40;
+
+	    - Retaliation
+		  - Acceleration increased from 18 to 25;
+		  - Deceleration increased from 18 to 25;
+		  - Max Turn Rate increased from 10 to 15;
+	    - Submission
+		  - Max Speed decreased from 80 to 65;
+		  - Acceleration decreased from 45 to 35;
+	    - Remorse
+		  - Max Speed decreased from 80 to 65;
+		  - Acceleration decreased from 45 to 35;
+
+	  Ship Systems:
+		- Interdictor System
+		  - Flux/s decreased from 600 to 0. The system takes too long to reach full power and gives the carrying ship heavy penalties, there's no need to add another one;;
+		- Hyperspace Jump
+		  - Flux/s increased from 1000 to 2500;
+		  - Added pseudo-kill-switch to prevent players from leaving the map while using this system;
+
+	  Weapons:
+		- Tali LRM - It is a missile, and a fast one in fact;
+		  - Range decreased from 10.000 to 2500 su;
+		  - Speed increased from 200 to 500;
+		  - Flight time decreased from 50 to 5;
+		  - Turn acceleration increased from 50 to 500;
+		  - Turn rate increased from 35 to 200;
+		  - Acceleration increased from 150 to 1500;
+		  - Deceleration increased from 125 to 1000;
+		  - Added custom sound for the Tali's launch sound effect;
+		- Hydra Guided Torpedo - It is a torpedo, so it should act as one;
+		  - Range decreased from 3000 to 2000 su;
+		  - Speed increased from 200 to 300;
+		  - Launch speed increased from 100 to 200;
+		  - Flight time decreased from 30 to 6.75;
+		  - Turn acceleration decreased from 300 to 75;
+		  - Turn rate decreased from 150 to 50;
+		  - Acceleration decreased from 1600 to 200;
+		  - Deceleration decreased from 500 to 175;
+		- Swarmer MRM Launcher
+		  - Speed increased from 250 to 500;
+		  - Flight time decreased from 20 to 3
+		- Turbo Laser
+		  - Renamed to Dual Autoblaster Cannon;
+		  - Damage per shot decreased from 300 to 250;
+		  - Impact reduced from 250 to 10. Why was it 250 anyways?;
+		  - Energy per shot decreased from 330 to 300;
+		  - Weapon cooldown increased from 0.333 seconds to 0.5 seconds;
+		- Heavy Autoblaster
+		  - Renamed to Quad Blaster Battery;
+		  - Damage per shot decreased from 200 to 100;
+		  - Energy per shot decreased from 350 to 120;
+		  - Cooldown decreased from 1.5 seconds to 0.125 seconds. Why? Because it no longer fires in bursts;
+		  - Max spread decreased from 10 to 5 degrees;
+		  - Spread decay per second decreased from 10 to 5;
+		- Imperial Blaster
+		  - Renamed to Heavy Autoblaster Battery;
+		  - Cooldown increased from 0.3 to 1 second;
+		  - Burst delay increased from 0.16 to 0.2 seconds;
+		  - Max Spread decreased from 12 to 10 degrees;
+		  - Spread per shot increased from 0.5 to 1 degrees;
+		  - Spread decay per second decreased from 10 to 5;
+		- Imperial Autoblaster
+		  - Renamed to Heavy Blaster Battery;
+		  - Damage per shot decreased from 300 to 100;
+		  - Energy per shot decreased from 330 to 120;
+		  - Cooldown decreased from 1.2 seconds to 0.25 seconds. Yup, it no longer fires in bursts;
+		  - Max Spread decreased from 10 to 7 degrees;
+		  - Spread per shot decreased from 1 to 0.5;
+		  - Spread decay per second decreased from 10 to 5;
+		- LR Autoblaster Cannon
+		  - Renamed to Heavy Autoblaster Cannon;
+		  - Energy per shot decreased from 130 to 120;
+		  - Cooldown decreased from 0.8 to 0.5 seconds;
+		  - Burst delay increased from 0 to 0.2, because it now fires in bursts;
+		- LR Laser Cannon
+		  - Renamed to Heavy Blaster;
+		  - Energy per shot decreased from 80 to 75;
+		  - Cooldown decreased from 0.3 to 0.25;
+		  - Max spread decreased from 9 to 5 degrees;
+		  - Spread decay per second decreased from 10 to 5;
+		- SR Laser Cannon
+		  - Renamed to Light Blaster;
+		  - Damage per shot increased from 30 to 40;
+		  - Cooldown decreased from 0.28 to 0.25 seconds;
+		  - Max spread decreased from 10 to 4 degrees;
+		  - Spread decay decreased from 10 to 5;
+		- Light Imperial Blaster
+		  - Renamed to Light Autoblaster Cannon;
+		  - Damage per shot decreased from 200 to 75;
+		  - Energy per shot decreased from 250 to 100;
+		  - Cooldown decreased from 0.8 to 0.5;
+		- Light Autoblaster
+		  - Renamed to Light Blaster Cannon;
+		  - Damage per shot decreased from 60 to 50;
+		  - Energy per shot decreased from 100 to 60;
+		  - Cooldown decreased from 0.8 to 0.4, and does not fire in bursts anymore;
+		- Light Blaster
+		  - Renamed to PD Blaster;
+		  - Damage per shot decreased from 15 to 12;
+		  - Cooldown decreased from 0.2 to 0.125;
+
+	  Misc:
+	    - Reduced Kyber Crystals' drop rate;
+		- Renamed some sound IDs, for organisational reasons;
+		- Increased the engine sound for all ships;
+
+[2018/03/20]
+  (v0.2.3)
+    - Fixed remaining unchanged references;
+
+[2018/03/20]
+  (v0.2.2)
+    - Fixed unchanged ship reference in graphics files due to the ship rename (Torment -> Disturbance);
+
+[2018/03/20]
+  (v0.2.1)
+    - Fixed unchanged ship reference in JAR file due to the ship rename (Torment -> Disturbance);
+
+[2018/03/19]
+  (v0.2)
+	Additions:
+	  - Added Comm Relays to the following systems: Coruscant, Yavin and Mon Calamari;
+	Deletions:
+	  - Removed both the Prudence Gunship and Prudence MK. II, to be decided whether they'll be added as a fighter/bomber or something else;
+	  - Removed Assault Gun, Chaingun Needler and Compact Hephaestus;
+	  - Removed ammo dependency on all non-missile weapons;
+	  - Removed old/unused code relative to ancient on-hit effects and unreleased sectors;
+	  - Removed all military sub-markets except the ones from the following sectors: Coruscant, Yavin and Mon Calamari;
+	  - Removed all storage sub-markets except the one in Coruscant;
+	Changes:
+	  Ships: NOTE: All corresponding variants have been tweaked to match the weapon mount changes depicted below. Most replacements are dummy replacements and are subject to change in the near future;
+	    - Sorrow
+		  - Replaced Small Universal mounts with Small Energy;
+		  - Fleet Points decreased from 5 to 4;
+		  - Shield efficiency increased from 1 to 0.9;
+		  - Price increased from 5.000 to 14.000;
+		  - CR per day increased from 1.5 to 10%;
+		  - PPT increased from 140 secs to 240 secs;
+		  - Supplies/month increased from 2 to 3;
+	    - Regret
+		  - Replaced Small Universal mounts with Small Ballistic;
+		  - Shield efficiency increased from 1 to 0.6;
+		  - Price increased from 6.000 to 14.000;
+		  - CR per day increased from 1 to 5%;
+		  - PPT increased from 130 secs to 180 secs;
+		  - Supplies/month increased from 2 to 5;
+	    - Regret Mk. II
+		  - Replaced Medium Missile mounts with Small Universal;
+		  - Shield efficiency increased from 1 to 0.6;
+		  - Price increased from 6.000 to 15.000;
+		  - CR per day increased from 1 to 5%;
+		  - PPT increased from 130 secs to 240 secs;
+		  - Supplies/month increased from 2 to 5;
+	    - Agony
+		  - Replaced Medium Missile mounts with Small Composite ones;
+		  - Replaced Small Universal mounts with Small Ballistic ones;
+		  - Fleet Points decreased from 7 to 3;
+		  - Ordnance Points decreased from 75 to 60;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - Price increased from 7.250 to 15.000;
+		  - CR per day increased from 1.5 to 8%;
+		  - PPT increased from 140 secs to 180 secs;
+		  - Supplies/month increased from 2 to 3;
+	    - Agony Mk. II
+		  - Replaced Medium Missile mounts with Small Composite ones;
+		  - Replaced Medium Ballistic mounts with Small Hybrid ones;
+		  - Fleet Points decreased from 9 to 4;
+		  - Ordnance Points decreased from 90 to 60;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - Price increased from 8.500 to 18.000;
+		  - CR per day increased from 2 to 8%;
+		  - PPT increased from 160 secs to 240 secs;
+		  - Supplies/month increased from 2 to 3;
+	    - Agony Mk. III
+		  - Replaced Medium Missile mounts with Small Hybrid ones;
+		  - Replaced Small Universal mounts with Small Hybrid ones;
+		  - Fleet Points decreased from 8 to 5;
+		  - Ordnance Points decreased from 80 to 60;
+		  - Shield efficiency increased from 1 to 0.7;
+		  - Price increased from 8.500 to 20.000;
+		  - CR per day increased from 2 to 7%;
+		  - PPT increased from 145 secs to 320 secs;
+		  - Supplies/month increased from 2 to 4;
+	    - Grief
+		  - Replaced Medium Missile mounts with Small Composite;
+		  - Replaced Small Universal mounts with Small Energy;
+		  - Fleet Points decreased from 10 to 6;
+		  - Ordnance Points decreased from 85 to 65;
+		  - Shield efficiency increased from 1 to 0.6;
+		  - Price increased from 15.500 to 20.000;
+		  - CR per day increased from 2 to 8%;
+		  - PPT increased from 160 secs to 240 secs;
+		  - Supplies/month increased from 2.5 to 5;
+	    - Grief Mk. II
+		  - Replaced Medium Missile mounts with Small Composite;
+		  - Ordnance Points decreased from 70 to 50;
+		  - Price increased from 17.950 to 32.000;
+		  - CR per day increased from 3 to 6%;
+		  - PPT decreased from 200 secs to 180 secs;
+		  - Supplies/month increased from 3.3 to 7;
+	    - Torment -> Disturbance
+		  - Replaced Small Universal mounts with Small Energy;
+		  - Replaced Medium Missile mounts with Small Composite;
+		  - Name changed from Torment to Disturbance;
+		  - Active System changed from Phase Teleporter to Entropy Amplifier;
+		  - Fleet Points increased from 10 to 15;
+		  - Ordnance Points decreased from 65 to 45;
+		  - Price increased from 20.000 to 35.000;
+		  - CR per day increased from 2.5 to 6%;
+		  - Supplies/month increased from 2 to 7;
+	    - Melancholy
+		  - Replaced Small Universal mounts with Small Energy;
+		  - Fleet Points decreased from 5 to 4;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - Min crew increased from 3 to 5;
+		  - Max crew decreased from 55 to 30;
+		  - Price increased from 5.400 to 15.000;
+		  - CR per day increased from 2 to 7%;
+		  - PPT increased from 145 secs to 200 secs;
+		  - Supplies/month increased from 2 to 3;
+	    - Melancholy Mk. II
+		  - Replaced Small Universal mounts with Small Synergy;
+		  - Fleet Points decreased from 5 to 4;
+		  - Ordnance Points increased from 30 to 35;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - Min crew increased from 3 to 5;
+		  - Max crew decreased from 55 to 30;
+		  - Price increased from 5.400 to 17.000;
+		  - CR per day increased from 2 to 7%;
+		  - PPT increased from 145 secs to 200 secs;
+		  - Supplies/month increased from 2 to 3;
+		
+	    - Affliction
+		  - Replaced Universal weapon mounts with Hybrid ones;
+		  - Fleet Points decreased from 12 to 9;
+		  - Ordnance Points decreased from 116 to 115;
+		  - Shield efficiency increased from 1 to 0.9;
+		  - Min crew increased from 25 to 55;
+		  - Max crew increased from 50 to 70;
+		  - Price increased from 17.800 to 30.000;
+		  - CR per day decreased from 6 to 5%;
+		  - CR to deploy increased from 10 to 12%;
+		  - PPT increased from 330 secs to 360 secs;
+		  - Supplies/month increased from 3 to 9;
+	    - Affliction Mk. II
+		  - Replaced Small Universal and Missile weapon mounts with Synergy;
+		  - Replaced Medium Universal mounts with Hybrid;
+		  - Fleet Points decreased from 12 to 9;
+		  - Ordnance Points decreased from 120 to 110;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - Min crew increased from 25 to 55;
+		  - Max crew increased from 50 to 70;
+		  - Price increased from 17.800 to 35.000;
+		  - CR per day decreased from 6 to 5%;
+		  - CR to deploy increased from 10 to 15%;
+		  - PPT increased from 330 secs to 360 secs;
+		  - Supplies/month increased from 3 to 9;
+	    - Anguish
+		  - Replaced Medium waist Missile hardpoints with Small ones;
+		  - Active System changed from Burn Drive to Flare Launcher;
+		  - Fleet Points decreased from 8 to 6;
+		  - Ordnance Points decreased from 115 to 95;
+		  - Shield efficiency increased from 1 to 0.6;
+		  - Min crew increased from 20 to 40;
+		  - Max crew increased from 40 to 50;
+		  - CR per day decreased from 10 to 5%;
+		  - PPT decreased from 380 secs to 340 secs;
+		  - Supplies/month increased from 3 to 7;
+	    - Despair
+		  - Replaced Small Missile mounts with Small Synergy;
+		  - Replaced Medium Missile mounts with Small Missile;
+		  - Active System changed from Burn Drive to Maneuvering Jets;
+		  - Fleet Points decreased from 8 to 6;
+		  - Ordnance Points decreased from 115 to 95;
+		  - Shield efficiency increased from 1 to 0.6;
+		  - Min crew increased from 20 to 40;
+		  - Max crew increased from 40 to 50;
+		  - CR per day decreased from 10 to 5%;
+		  - PPT decreased from 380 secs to 330 secs;
+		  - Supplies/month increased from 3 to 8;
+	    - Rancour
+		  - Replaced Medium Missile mounts with Small Missile;
+		  - Replaced Medium Universal mount with Medium Synergy;
+		  - Active System changed from Burn Drive to Maneuvering Jets;
+		  - Ordnance Points decreased from 100 to 95;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - Min crew increased from 20 to 40;
+		  - CR per day decreased from 10 to 5%;
+		  - CR to deploy increased from 10 to 15%;
+		  - PPT decreased from 380 secs to 330 secs;
+		  - Supplies/month increased from 3 to 10;
+	    - Rancour Mk. II
+		  - Replaced Small Energy mounts with Small Synergy;
+		  - Replaced Medium Missile mounts with Small Missile;
+		  - Replaced Medium Universal mount with Medium Energy;
+		  - Active System changed from Burn Drive to Flare Launcher;
+		  - Fleet Points decreased from 9 to 7;
+		  - Ordnance Points decreased from 115 to 95;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - Min crew increased from 25 to 35;
+		  - Max crew increased from 35 to 40;
+		  - CR per day decreased from 10 to 5%;
+		  - CR to deploy increased from 10 to 12%;
+		  - PPT decreased from 380 secs to 320 secs;
+		  - Supplies/month increased from 3 to 11;
+	    - Rancour Mk. II
+		  - Active System changed from Burn Drive to Flare Launcher;
+		  - Fleet Points decreased from 9 to 7;
+		  - Ordnance Points decreased from 115 to 95;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - Min crew increased from 25 to 35;
+		  - Max crew increased from 35 to 40;
+		  - CR per day decreased from 10 to 5%;
+		  - CR to deploy increased from 10 to 12%;
+		  - PPT decreased from 380 secs to 320 secs;
+		  - Supplies/month increased from 3 to 11;
+	    - Shame
+		  - Replaced Small Universal mounts with Small Synergy;
+		  - Ordnance Points decreased from 65 to 55;
+		  - Shield efficiency decreased from 1 to 1.2;
+		  - Min crew increased from 20 to 60;
+		  - Max crew increased from 35 to 80;
+		  - Price increased from 14.000 to 18.000;
+		  - CR to deploy increased from 8 to 20%;
+		  - PPT increased from 240 secs to 360 secs;
+		  - Supplies/month increased from 4 to 9;
+	    - Desolation
+		  - Replaced Small Universal mounts with Small Hybrid and Energy;
+		  - Fleet Points decreased from 12 to 9;
+		  - Ordnance Points decreased from 130 to 120;
+		  - Min crew increased from 40 to 50;
+		  - Price increased from 18.900 to 32.000;
+		  - CR to deploy increased from 9 to 12%;
+		  - PPT increased from 340 secs to 380 secs;
+		  - Supplies/month increased from 4 to 10;
+	    - Pride
+		  - Fleet Points decreased from 14 to 10;
+		  - Ordnance Points decreased from 135 to 115;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - Min crew increased from 45 to 60;
+		  - Price increased from 22.000 to 40.000;
+		  - CR per day decreased from 6 to 5%;
+		  - CR to deploy increased from 8 to 15%;
+		  - PPT increased from 350 secs to 400 secs;
+		  - Supplies/month increased from 4 to 12;
+
+	    - Atonement
+		  - Replaced Medium Universal mounts with 2 Hybrid and 2 Synergy;
+		  - Fleet Points increased from 15 to 20;
+		  - Ordnance Points decreased from 105 to 100;
+		  - Shield efficiency decreased from 1 to 1.4;
+		  - Min crew increased from 25 to 125;
+		  - Max crew increased from 115 to 175;
+		  - CR per day decreased from 5 to 3%;
+		  - Supplies/month increased from 20 to 25;
+	    - Retaliation
+		  - Fleet Points increased from 12 to 15;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - Min crew increased from 25 to 150;
+		  - Max crew increased from 115 to 250;
+		  - CR per day decreased from 7 to 4%;
+		  - Supplies/month increased from 16 to 20;
+	    - Submission
+		  - Fleet Points decreased from 10 to 7;
+		  - Ordnance Points decreased from 120 to 115;
+		  - Ship mass increased from 400 to 1000;
+		  - Shield efficiency decreased from 1 to 1.2;
+		  - Min crew increased from 70 to 100;
+		  - Max crew increased from 300 to 600;
+		  - CR per day decreased from 8 to 3%;
+		  - CR to deploy increased from 12 to 20%;
+		  - Supplies/month increased from 15 to 20;
+	    - Remorse
+		  - Fleet Points decreased from 10 to 9;
+		  - Ordnance Points increased from 140 to 150;
+		  - Ship mass increased from 400 to 1000;
+		  - Min crew increased from 90 to 150;
+		  - Max crew increased from 150 to 400;
+		  - CR per day decreased from 8 to 3%;
+		  - CR to deploy increased from 12 to 20%;
+		  - Supplies/month increased from 15 to 20;
+	    - Revenge
+		  - Fleet Points decreased from 15 to 12;
+		  - Ordnance Points decreased from 170 to 160;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - Min crew increased from 90 to 170;
+		  - Max crew increased from 125 to 280;
+		  - CR per day decreased from 6 to 4%;
+		  - CR to deploy increased from 8 to 15%;
+		  - Supplies/month increased from 15 to 22;
+	    - Wrath
+		  - Fleet Points decreased from 19 to 14;
+		  - Ordnance Points decreased from 210 to 205;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - CR per day decreased from 8 to 4%;
+		  - CR to deploy increased from 8 to 15%;
+		  - Supplies/month increased from 15 to 24;
+	    - Fear
+		  - Shield efficiency increased from 1 to 0.9;
+		  - CR per day decreased from 5 to 4%;
+		  - CR to deploy decreased from 15 to 12%;
+		  - Supplies/month increased decreased from 16 to 20;
+	    - Anger
+		  - Fleet Points increased from 15 to 16;
+		  - Shield efficiency increased from 1 to 0.8;
+		  - CR per day decreased from 6 to 4%;
+		  - CR to deploy decreased from 18 to 15%;
+		  - Supplies/month increased decreased from 18 to 25;
+
+	    - Hatred
+		  - Ordnance Points decreased from 290 to 260;
+		  - Shield efficiency increased from 1 to 0.9;
+		  - CR to deploy decreased from 20 to 15%;
+		  - Supplies/month increased from 32 to 35;
+	    - Suffering
+		  - Shield efficiency increased from 1 to 0.8;
+		  - CR per day decreased from 5 to 3%;
+		  - Supplies/month increased from 32 to 40;
+	    - Rage
+		  - Shield efficiency increased from 1 to 0.8;
+		  - CR per day decreased from 4 to 3%;
+		  - CR to deploy decreased from 20 to 15%;
+		  - Supplies/month increased from 32 to 35;
+	    - Torture
+		  - Replaced one Medium Energy mounts with a Small mount;
+		  - Fleet Points increased from 30 to 32;
+		  - Ordnance Points decreased from 320 to 290;
+		  - Fighter bays decreased from 5 to 2;
+		  - Shield efficiency increased from 1 to 0.7;
+		  - Price increased from 270.000 to 300.000;
+		  - CR per day decreased from 5 to 2%;
+		  - Supplies/month increased from 20 to 40;
+	    - Terror
+		  - Removed Expanded Deck Crew as built in hullmod;
+		  - Fleet Points increased from 32 to 35;
+		  - Ordnance Points decreased from 400 to 370;
+		  - Fighter bays decreased from 5 to 2;
+		  - Shield efficiency increased from 1 to 0.6;
+		  - Price increased from 300.000 to 350.000;
+		  - CR per day decreased from 5 to 2%;
+		  - CR to deploy increased from 20 to 22%;
+		  - Supplies/month increased from 20 to 50;
+
+	    - Loyalty
+		  - Ordnance Points decreased from 60 to 35;
+		  - Price decreased from 17.000 to 16.000;
+		  - Supplies/month increased from 2 to 3;
+	    - Fidelity
+		  - Ordnance Points decreased from 45 to 35;
+		  - Price increased from 8.500 to 10.000;
+	    - Obedience
+		  - Ordnance Points decreased from 65 to 45;
+		  - Price increased from 6.800 to 55.000;
+		  - Supplies/month increased from 2 to 7;
+	    - Burden
+		  - Replaced Small Universal mounts with Small Synergy;
+		  - Ordnance Points decreased from 65 to 45;
+		  - Price increased from 8.500 to 26.000;
+		  - Supplies/month increased from 2 to 7;
+	    - Duty
+		  - Ordnance Points decreased from 80 to 45;
+		  - Price increased from 11.000 to 30.000;
+		  - Supplies/month increased from 2 to 7;
+
+	  Ship Systems:
+		- Interdictor System
+		  - Flux/s increased from 0 to 600;
+		- Hyperspace Jump
+		  - Flux/s increased from 1000 to 2500;
+		  - Added pseudo-kill-switch to prevent players from leaving the map while using this system;
+
+	  Weapons:
+		- Reaper-class LR Torpedo -> Light Reaper
+		  - Renamed Reaper-class LR Torpedo to Light Reaper;
+		  - Damage decreased from 3000 to 2000;
+		  - Range decreased from 2500 to 600;
+		  - Impact increased from 40 to 400;
+		  - Flight Time increased from 3.5 to 25;
+		- Hydra Guided Torpedo
+		  - Damage decreased from 2000 to 750;
+
+[2018/03/16]
+  (v0.1.1)
+    - Fixed crash when entering the Naboo system;
+
+[2018/03/13]
+  (v0.1)
+    - First "Experimental" release;

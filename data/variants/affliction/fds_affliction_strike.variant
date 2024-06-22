@@ -1,0 +1,45 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 1,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "fds_affliction",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_affliction_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "heatseeker",
+                "WS0008": "heatseeker",
+                "WS0009": "fds_hydra_3x_rack",
+                "WS0010": "fds_hydra_3x_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "fds_heavy_autoblaster_battery",
+                "WS0006": "fds_heavy_autoblaster_battery",
+                "WS0012": "fds_heavy_beam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_pd_laser_mk_ii",
+                "WS0002": "fds_pd_laser_mk_ii",
+                "WS0011": "fds_pd_laser_mk_ii"
+            }
+        }
+    ]
+}

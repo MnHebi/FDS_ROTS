@@ -1,0 +1,247 @@
+{
+  "bounds": [
+    162,
+    2.5,
+    158,
+    10.5,
+    -61,
+    73.5,
+    -74.5,
+    72.5,
+    -79,
+    63.5,
+    -90,
+    62.5,
+    -90,
+    48.5,
+    -96,
+    47.5,
+    -99,
+    31.5,
+    -92,
+    30.5,
+    -113,
+    24.5,
+    -118,
+    14.5,
+    -103.5,
+    9.5,
+    -122,
+    5.5,
+    -122,
+    -5.5,
+    -103.5,
+    -9.5,
+    -118,
+    -14.5,
+    -113,
+    -24.5,
+    -92,
+    -30.5,
+    -99,
+    -31.5,
+    -96,
+    -47.5,
+    -90,
+    -48.5,
+    -90,
+    -62.5,
+    -79,
+    -63.5,
+    -74.5,
+    -72.5,
+    -61,
+    -73.5,
+    158,
+    -10.5,
+    162,
+    -2.5
+  ],
+  "builtInMods": [
+    "fds_syndicate_combat_systems"
+  ],
+  "builtInWings": [],
+  "center": [
+    76,
+    123.5
+  ],
+  "collisionRadius": 183.006149,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 24,
+      "length": 55,
+      "location": [
+        -122,
+        -0
+      ],
+      "style": "FDS_ENGINE",
+      "width": 24
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 36,
+      "location": [
+        -99,
+        -35
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 36,
+      "location": [
+        -99,
+        35
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 30,
+      "location": [
+        -96,
+        44
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 30,
+      "location": [
+        -96,
+        -44
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 27,
+      "location": [
+        -90,
+        59
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 27,
+      "location": [
+        -90,
+        -59
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    }
+  ],
+  "height": 288,
+  "hullId": "fds_atonement",
+  "hullName": "Atonement",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    6.5,
+    -0
+  ],
+  "shieldRadius": 188.016617,
+  "spriteName": "graphics/FDS/ships/fds_atonement.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 175,
+      "arc": 160,
+      "id": "WS 1",
+      "locations": [
+        -91.5,
+        19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -175,
+      "arc": 160,
+      "id": "WS 2",
+      "locations": [
+        -91.5,
+        -19
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 75,
+      "arc": 190,
+      "id": "WS 5",
+      "locations": [
+        -40.5,
+        34
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -75,
+      "arc": 190,
+      "id": "WS 6",
+      "locations": [
+        -40.5,
+        -34
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 65,
+      "arc": 155,
+      "id": "WS 7",
+      "locations": [
+        15.5,
+        18
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -65,
+      "arc": 155,
+      "id": "WS 8",
+      "locations": [
+        15.5,
+        -18
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS 9",
+      "locations": [
+        91.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 152
+}

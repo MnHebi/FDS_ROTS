@@ -1,0 +1,48 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 5,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "fds_despair",
+    "hullMods": [
+        "auxiliarythrusters",
+        "fds_maintenance_bots"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_despair_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "harpoon",
+                "WS0008": "harpoon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "lightneedler",
+                "WS0006": "lightneedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "heavymauler"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_light_pd_blaster",
+                "WS0002": "fds_pd_laser_mk_iii",
+                "WS0003": "pdburst",
+                "WS0004": "pdburst",
+                "WS0009": "fds_pd_laser_mk_iii"
+            }
+        }
+    ]
+}

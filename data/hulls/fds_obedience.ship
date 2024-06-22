@@ -1,0 +1,263 @@
+{
+  "bounds": [
+    166.5,
+    3.5,
+    153.5,
+    19.5,
+    137.5,
+    26.5,
+    91.5,
+    28.5,
+    87.5,
+    20.5,
+    78,
+    27.5,
+    68.5,
+    20.5,
+    60.5,
+    33.5,
+    -26.5,
+    35.5,
+    -36.5,
+    26.5,
+    -46,
+    34,
+    -56.5,
+    25.5,
+    -95.5,
+    64.5,
+    -116.5,
+    67.5,
+    -133.5,
+    54,
+    -147.5,
+    8,
+    -147.5,
+    -8,
+    -133.5,
+    -54,
+    -116.5,
+    -67.5,
+    -95.5,
+    -64.5,
+    -56.5,
+    -25.5,
+    -46,
+    -34,
+    -36.5,
+    -26.5,
+    -26.5,
+    -35.5,
+    60.5,
+    -33.5,
+    68.5,
+    -20.5,
+    78,
+    -27.5,
+    87.5,
+    -20.5,
+    91.5,
+    -28.5,
+    137.5,
+    -26.5,
+    153.5,
+    -19.5,
+    166.5,
+    -3.5
+  ],
+  "builtInWings": [],
+  "center": [
+    71,
+    150
+  ],
+  "collisionRadius": 192.585052,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -143.5,
+        42
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -143.5,
+        -42
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -144.5,
+        33
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -144.5,
+        -33
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 35,
+      "location": [
+        -145.5,
+        20
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 35,
+      "location": [
+        -145.5,
+        -20
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 40,
+      "location": [
+        -148.5,
+        5
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 40,
+      "location": [
+        -148.5,
+        -5
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    }
+  ],
+  "height": 319,
+  "hullId": "fds_obedience",
+  "hullName": "Obedience",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    -3.5,
+    -0
+  ],
+  "shieldRadius": 187.500671,
+  "spriteName": "graphics/FDS/ships/fds_obedience.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -90,
+      "arc": 140,
+      "id": "WS0001",
+      "locations": [
+        -46,
+        -32.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 140,
+      "id": "WS0002",
+      "locations": [
+        -46,
+        33.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 140,
+      "id": "WS0003",
+      "locations": [
+        78,
+        -26.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 90,
+      "arc": 140,
+      "id": "WS0004",
+      "locations": [
+        78,
+        27.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -80,
+      "arc": 220,
+      "id": "WS0005",
+      "locations": [
+        -111,
+        -45
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 80,
+      "arc": 220,
+      "id": "WS0006",
+      "locations": [
+        -111,
+        46
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 240,
+      "id": "WS0007",
+      "locations": [
+        132,
+        0.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 142
+}

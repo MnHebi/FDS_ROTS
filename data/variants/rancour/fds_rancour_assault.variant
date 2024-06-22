@@ -1,0 +1,46 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 6,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "fds_rancour",
+  "hullMods": [
+    "targetingunit",
+    "augmentedengines",
+    "advancedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_rancour_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "fds_hydra_3x_rack",
+        "WS0004": "fds_hydra_3x_rack",
+        "WS0007": "heatseeker",
+        "WS0008": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "fds_kane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0005": "fds_light_pd_blaster",
+        "WS0006": "fds_light_pd_blaster",
+        "WS0009": "pdlaser"
+      }
+    }
+  ],
+  "wings": []
+}

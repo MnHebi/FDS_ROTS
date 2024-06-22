@@ -1,0 +1,285 @@
+{
+  "bounds": [
+    124.5,
+    3.5,
+    119.5,
+    13.5,
+    76.5,
+    14.5,
+    70.5,
+    24.5,
+    60.5,
+    30.5,
+    29.5,
+    30.5,
+    15.5,
+    19.5,
+    6,
+    29.5,
+    -3.5,
+    17.5,
+    -15.5,
+    28.5,
+    -24,
+    28.5,
+    -33.5,
+    24.5,
+    -35.5,
+    33.5,
+    -60.5,
+    48.5,
+    -90.5,
+    47.5,
+    -91.5,
+    38.5,
+    -115.5,
+    31.5,
+    -115.5,
+    20.5,
+    -93,
+    14.5,
+    -120.5,
+    5.5,
+    -120.5,
+    -5.5,
+    -93,
+    -14.5,
+    -115.5,
+    -20.5,
+    -115.5,
+    -31.5,
+    -91.5,
+    -38.5,
+    -90.5,
+    -47.5,
+    -60.5,
+    -48.5,
+    -35.5,
+    -33.5,
+    -33.5,
+    -24.5,
+    -24,
+    -28.5,
+    -15.5,
+    -28.5,
+    -3.5,
+    -17.5,
+    6,
+    -29.5,
+    15.5,
+    -19.5,
+    29.5,
+    -30.5,
+    60.5,
+    -30.5,
+    70.5,
+    -24.5,
+    76.5,
+    -14.5,
+    119.5,
+    -13.5,
+    124.5,
+    -3.5
+  ],
+  "builtInMods": [
+    "fds_syndicate_combat_systems"
+  ],
+  "builtInWings": [],
+  "center": [
+    51,
+    122
+  ],
+  "collisionRadius": 179.868011,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 45,
+      "location": [
+        -116,
+        -26
+      ],
+      "style": "FDS_ENGINE",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 45,
+      "location": [
+        -116,
+        26
+      ],
+      "style": "FDS_ENGINE",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 45,
+      "location": [
+        -121,
+        -0
+      ],
+      "style": "FDS_ENGINE",
+      "width": 20
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 35,
+      "location": [
+        -92,
+        -44
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 35,
+      "location": [
+        -92,
+        44
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    }
+  ],
+  "height": 249,
+  "hullId": "fds_despair",
+  "hullName": "Despair",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    -6,
+    -0
+  ],
+  "shieldRadius": 170.500732,
+  "spriteName": "graphics/FDS/ships/fds_despair.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -70,
+      "arc": 160,
+      "id": "WS0001",
+      "locations": [
+        -46,
+        -27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 70,
+      "arc": 160,
+      "id": "WS0002",
+      "locations": [
+        -46,
+        27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -100,
+      "arc": 140,
+      "id": "WS0003",
+      "locations": [
+        34,
+        -18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 100,
+      "arc": 140,
+      "id": "WS0004",
+      "locations": [
+        34,
+        18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -75,
+      "arc": 170,
+      "id": "WS0005",
+      "locations": [
+        61,
+        -18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 75,
+      "arc": 170,
+      "id": "WS0006",
+      "locations": [
+        61,
+        18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -90,
+      "arc": 10,
+      "id": "WS0007",
+      "locations": [
+        6,
+        -26
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 10,
+      "id": "WS0008",
+      "locations": [
+        6,
+        26
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 270,
+      "id": "WS0009",
+      "locations": [
+        94,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 260,
+      "id": "WS0010",
+      "locations": [
+        -15,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    }
+  ],
+  "width": 102
+}

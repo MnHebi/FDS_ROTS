@@ -1,0 +1,317 @@
+{
+  "bounds": [
+    79.5,
+    1.5,
+    70.5,
+    5.5,
+    56.5,
+    6.5,
+    32.5,
+    12.5,
+    37.5,
+    15.5,
+    21.5,
+    34.5,
+    8.5,
+    34.5,
+    6.5,
+    37,
+    12.5,
+    39.5,
+    12.5,
+    50.5,
+    -2.5,
+    52.5,
+    -24.5,
+    63.5,
+    -35.5,
+    58.5,
+    -30.5,
+    46.5,
+    -33.5,
+    17.5,
+    -54.5,
+    13.5,
+    -54.5,
+    4.5,
+    -38.5,
+    -0,
+    -54.5,
+    -4.5,
+    -54.5,
+    -13.5,
+    -33.5,
+    -17.5,
+    -30.5,
+    -46.5,
+    -35.5,
+    -58.5,
+    -24.5,
+    -63.5,
+    -2.5,
+    -52.5,
+    12.5,
+    -50.5,
+    12.5,
+    -39.5,
+    6.5,
+    -37,
+    8.5,
+    -34.5,
+    21.5,
+    -34.5,
+    37.5,
+    -15.5,
+    32.5,
+    -12.5,
+    56.5,
+    -6.5,
+    70.5,
+    -5.5,
+    79.5,
+    -1.5
+  ],
+  "builtInMods": [
+    "fds_syndicate_combat_systems"
+  ],
+  "builtInWeapons": {
+    "WS0001": "fds_light_blaster_double",
+    "WS0002": "sabot_single",
+    "WS0003": "sabot_single",
+    "WS0004": "harpoon_single",
+    "WS0005": "harpoon_single"
+  },
+  "builtInWings": [],
+  "center": [
+    66,
+    56
+  ],
+  "collisionRadius": 112.571091,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -38,
+        -36
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -38,
+        36
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35,
+        -23
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -35,
+        23
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 45,
+      "location": [
+        -55.5,
+        -9
+      ],
+      "style": "FDS_ENGINE",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 45,
+      "location": [
+        -55.5,
+        9
+      ],
+      "style": "FDS_ENGINE",
+      "width": 14
+    }
+  ],
+  "height": 138,
+  "hullId": "fds_agony_mk_ii",
+  "hullName": "Agony Mk. II",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 109.165016,
+  "spriteName": "graphics/FDS/ships/fds_agony_mk_iii.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 100,
+      "id": "WS0001",
+      "locations": [
+        76,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        39,
+        -18
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        39,
+        18
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        30,
+        -29
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        30,
+        29
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0006",
+      "locations": [
+        11.5,
+        -45
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        11.5,
+        45
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -130,
+      "arc": 220,
+      "id": "WS0008",
+      "locations": [
+        -18,
+        -48
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 130,
+      "arc": 220,
+      "id": "WS0009",
+      "locations": [
+        -18,
+        48
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -45,
+      "arc": 120,
+      "id": "WS0010",
+      "locations": [
+        4,
+        -16
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 45,
+      "arc": 120,
+      "id": "WS0011",
+      "locations": [
+        4,
+        16
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "HYBRID"
+    },
+    {
+      "angle": 0,
+      "arc": 230,
+      "id": "WS0012",
+      "locations": [
+        32,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 132
+}

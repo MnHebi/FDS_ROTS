@@ -1,0 +1,69 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+
+    "rebelFleetSuffix":"Insurgent",
+    
+    "directoryUseShortName":true,
+	
+	"marketSpawnWeight":0.8,
+	
+	"startRelationships":{ "independent":0.1, "hegemony": -0.5 },
+    "maxRelationships":{ "independent":0.5, "hegemony": -0.5 },
+    "diplomacyPositiveChance":{ "independent":0.5, },
+    "diplomacyNegativeChance":{ "hegemony":1, },
+	"diplomacyTraits":["helps_allies", "stalwart", "likes_ai", "neutralist"],
+    
+    "alignments":{
+        "technocratic":0.5,
+        "diplomatic":0.5,
+        "militarist":-0.1,
+		"ideological":-0.5,
+    },
+    
+    "startShipsSolo":[["fds_loyalty_standard"]],
+    "startShipsTradeSmall":[
+		["fds_loyalty_standard", "fds_fidelity_standard", "fds_sorrow_standard"],
+		["fds_loyalty_standard", "fds_melancholy_assault", "fds_melancholy_strike"]
+	],
+    "startShipsTradeLarge":[
+		["fds_burden_standard", "fds_loyalty_standard", "fds_sorrow_standard"],
+		["fds_burden_standard", "fds_fidelity_standard", "fds_sorrow_standard"]
+	],
+    "startShipsCombatSmall":[
+		["fds_desolation_standard", "fds_agony_assault", "fds_grief_support"],
+		["fds_despair_standard", "fds_agony_mk_ii_standard", "fds_grief_standard"]
+	],
+    "startShipsCombatLarge":[
+		["fds_wrath_standard", "fds_rancour_assault", "fds_grief_elite"],
+		["fds_revenge_support", "fds_pride_standard", "fds_grief_assault"]
+	],
+    "startShipsCarrierSmall":[
+		["fds_shame_support", "fds_agony_assault", "fds_sorrow_support"],
+		["fds_shame_support", "fds_grief_assault", "fds_melancholy_standard"]
+	],
+    "startShipsCarrierLarge":[
+		["fds_retaliation_support", "fds_desolation_assault", "fds_grief_standard"],
+		["fds_retaliation_standard", "fds_affliction_standard", "fds_agony_standard"]
+	],
+    
+    "startSpecialItems":[
+        [["fds_base_package", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"nanoforge_pristine", "count":1},
+    ],
+}

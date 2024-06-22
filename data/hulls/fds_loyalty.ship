@@ -1,0 +1,195 @@
+{
+  "bounds": [
+    37.5,
+    5,
+    87,
+    12.5,
+    25.5,
+    41.5,
+    13.5,
+    42.5,
+    -25.5,
+    44,
+    -47.5,
+    29.5,
+    -57.5,
+    25.5,
+    -64.5,
+    6.5,
+    -64.5,
+    -6.5,
+    -57.5,
+    -25.5,
+    -47.5,
+    -29.5,
+    -25.5,
+    -44,
+    12,
+    -43,
+    18.5,
+    -53.5,
+    38,
+    -53.5,
+    38,
+    -45.5,
+    26,
+    -41.5,
+    87,
+    -12.5,
+    37.5,
+    -5
+  ],
+  "builtInWeapons": {
+    "WS0007": "fds_Alliance_turbo_P",
+    "WS0008": "fds_Alliance_turbo_L"
+  },
+  "builtInWings": [],
+  "center": [
+    52,
+    66
+  ],
+  "collisionRadius": 106.668877,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 30,
+      "location": [
+        -65,
+        5
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 30,
+      "location": [
+        -65,
+        -5
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 25,
+      "location": [
+        -62,
+        15
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 25,
+      "location": [
+        -62,
+        -15
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 22,
+      "location": [
+        -58,
+        24
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 22,
+      "location": [
+        -58,
+        -24
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    }
+  ],
+  "height": 153,
+  "hullId": "fds_loyalty",
+  "hullName": "Loyalty",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    2.5,
+    -0
+  ],
+  "shieldRadius": 101.741096,
+  "spriteName": "graphics/FDS/ships/fds_loyalty.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -90,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        -11,
+        -44
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        -11,
+        44
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0004",
+      "locations": [
+        -11,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        73.5,
+        -12
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0008",
+      "locations": [
+        73.5,
+        12
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 109
+}

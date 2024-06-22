@@ -1,0 +1,43 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 6,
+  "fluxVents": 5,
+  "goalVariant": true,
+  "hullId": "fds_grief_mk_ii",
+  "hullMods": [
+    "targetingunit",
+    "fds_maintenance_bots",
+    "auxiliarythrusters"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_grief_mk_ii_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_chaingun_L",
+        "WS0009": "fds_chaingun_P"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lightag",
+        "WS0002": "lightag"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_pd_laser_mk_ii",
+        "WS0006": "fds_pd_laser_mk_ii",
+        "WS0008": "fds_pd_laser_mk_ii"
+      }
+    }
+  ],
+  "wings": []
+}

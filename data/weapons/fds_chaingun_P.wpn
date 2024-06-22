@@ -1,0 +1,26 @@
+{
+	"id":"fds_chaingun_P",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/FDS/weapons/rotary/fds_rotary_chaingun_turret_P_base00.png",
+	"hardpointSprite":"graphics/FDS/weapons/rotary/fds_rotary_chaingun_hardpoint_P_base00.png",	
+	"numFrames":4,	
+	"frameRate":20,
+	"turretOffsets":[23, 3],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[23, 3],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":30.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0.0,
+					   "particleSizeMin":7.0,
+					   "particleSizeRange":7.0,
+					   "particleDuration":0.2,
+					   "particleCount":12,
+					   "particleColor":[255,240,165,200]},	
+	"projectileSpecId":"heavymg_shot",  # projectile that will be fired
+	"fireSoundOne":"fds_chaingun_startup",
+	"fireSoundTwo":"fds_chaingun_fire",	
+}

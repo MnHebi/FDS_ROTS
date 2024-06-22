@@ -1,0 +1,35 @@
+{
+	"plugins":{
+		"FDS_CombatUtilsPlugin":"data.scripts.FDS_CombatUtilsPlugin",
+		"FDS_FactionCombatBuff":"data.scripts.plugins.FDS_FactionCombatBuff",
+		"FDS_SpriteRenderManager":"data.scripts.plugins.FDS_SpriteRenderManager",
+		"FDS_ProjectilePlugin":"data.scripts.plugins.FDS_ProjectilePlugin",
+	},
+	"graphics":{
+		"campaignMissions":{
+			"FDS_StoryIcon":"graphics/FDS/icons/missions/FDS_Story.png",
+		},
+		"terrain":{
+			"fds_blue_nebula":"graphics/FDS/terrain/fds_blue_nebula.png",
+			"fds_blue_nebula_map":"graphics/FDS/terrain/fds_blue_nebula_map.png",
+		},
+		"trails":{
+			"fds_trail":"graphics/FDS/fx/fds_trail.png",
+			"fds_jagged_trail":"graphics/FDS/fx/fds_jagged_trail.png",
+		},
+        "ui":{
+            "fds_combat_buff":"graphics/FDS/icons/tactical/fds_combat_buff.png",
+        },
+		"misc":{
+            "fds_signature_dampener_area":"graphics/FDS/icons/tactical/fds_signature_dampener_area.png",
+            "fds_overclocked_sensor":"graphics/FDS/icons/tactical/fds_overclocked_sensor.png",
+        },
+		"blueprint_packages":{
+			"fds_civ_package":"graphics/FDS/icons/cargo/fds_package.png",
+			"fds_military_package":"graphics/FDS/icons/cargo/fds_package.png",
+			"fds_base_package":"graphics/FDS/icons/cargo/fds_package.png",
+			"fds_adv_package":"graphics/FDS/icons/cargo/fds_package.png",
+			"fds_missile_package":"graphics/FDS/icons/cargo/fds_package.png",
+		},
+	},
+}

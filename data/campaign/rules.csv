@@ -1,0 +1,249 @@
+id,trigger,conditions,script,text,options,notes
+#Nexerelin menu options,,,,,,
+ExerelinNGCListFringeDefenceSyndicate,ExerelinNGCListFactions2,,,,exerelinNGCJoinFringeDefenceSyndicate:Fringe Defence Syndicate,
+ExerelinNGCJoinFringeDefenceSyndicate,NewGameOptionSelected,$option == exerelinNGCJoinFringeDefenceSyndicate,"$playerFaction = fringe_defence_syndicate
+FireBest ExerelinNGCJoinFaction",,,
+ExerelinFactionDirectoryListFringeDefenceSyndicate,ExerelinFactionDirectoryList2,$directoryFactions:fringe_defence_syndicate,,,exerelinFactionDirectoryGetFringeDefenceSyndicate:Fringe Defence Syndicate,
+ExerelinFactionDirectoryGetFringeDefenceSyndicate,DialogOptionSelected,$option == exerelinFactionDirectoryGetFringeDefenceSyndicate,"$_directoryFaction = fringe_defence_syndicate 0
+FireBest ExerelinFactionDirectorySubmit",,,
+,,,,,,
+##############################################,#############################,####################################################,##########################################################################,,,
+,,,,,,
+## Comms Options,,,,,,
+# Fringe Defence Syndicate,,,,,,
+greetingFriendlyFringeDefenceSyndicate,OpenCommLink,"$faction.id == fringe_defence_syndicate
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","Communication established.
+
+""Greetings, commander. What business do you want with the Syndicate today?""
+OR
+The Syndicate $personRank salutes you in a very strict but welcoming fashion.
+
+""Commander, good to see you! The Syndicate welcomes you and hopes your journey has gone unscathed.""
+OR
+The Syndicate $personRank greets you with a warm welcome.
+
+""Commander, glad to see you well! On behalf of the Syndicate I wish you a continuine good luck on your endeavours.""",,
+greetingHostileWeakerFringeDefenceSyndicate,OpenCommLink,"$faction.id == fringe_defence_syndicate
+$entity.isHostile
+$entity.relativeStrength < 0",$ignorePlayerCommRequests = true 1,"After a silent period of nothing but static the Syndicate $personRank finally appears.
+
+""Commander, what an unexpected visit... I advise you to stand down and nobody will get hurt.""",cutCommLink:Cut the comm link,
+greetingHostileWeakerDefiantFringeDefenceSyndicate,OpenCommLink,"$faction.id == fringe_defence_syndicate
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$ignorePlayerCommRequests = true 1,"An angry $personRank appears on screen...
+
+""Commander, let me warn you a battle between us will end in nothing but death on both sides, but if you choose to do so the Syndicate will NOT surrender!""
+
+The comm is abruptly cut as the $heOrShe strikes the terminal.
+OR
+A very confident $personRank appears on screen...
+
+""Captain, I hope you do not greet us with a white flag, we still have quite a few salvaged from the last fleet that attempted to destroy us.""",cutCommLink:Cut the comm link,
+greetingHostileStrongerFringeDefenceSyndicate,OpenCommLink,"$faction.id == fringe_defence_syndicate
+$entity.isHostile
+$entity.relativeStrength >= 0",$ignorePlayerCommRequests = true 1,"The Syndicate's crest appears on screen moments before a very imposing $personRank calmly starts to speak.
+
+""You are an enemy of the $faction, surrender now or prepare to face a swift death.""
+OR
+A very confident and aggressive $personRank appears on screen...
+
+""You stand no chance against the full power of the Syndicate. You have no choice but to surrender if you wish to be spared from certain doom!!""
+
+The $personRank glares at you one last time before quickly turning his back to the console while shouting battle commands to the crew of the $shipOrFleet.
+OR
+The Syndicate's crest appears on the comm-line and a strong voice is heard.
+
+""This is $personName, $personRank of the $faction. I will give you one chance to surrender before we open fire on your $shipOrFleet!""
+OR
+The $personRank proptly appears on the comms console...
+
+""Make it quick, our weapons are getting cold""
+OR
+After a lengthly delay, the $personRank finally appears answers the comm request...
+
+""I'm terribly sorry Commander, I was laughing with my crew while looking at your fleet... I do hope you enjoy your last moments alive!""",cutCommLink:Cut the comm link,
+greetingNeutralFringeDefenceSyndicate,OpenCommLink,"$faction.id == fringe_defence_syndicate
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","Communication established.
+
+""The Syndicate greets you. Tread carefully as the $faction does not take aggression lightly!""
+OR
+A $personRank appears in a hurry...
+
+""State your business with the Syndicate at once, we have no time to deal with this kind of nuisances...""",,
+,,,,,,
+flavorTextMarketFringeDefenceSyndicate,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == fringe_defence_syndicate","AddText ""As the ships approach the market area multiple escort frigates immediately engage each ship scanning for any threats or unwanted goods. The sky is filled with ships coming from all sides of the sector, dwarfing even some of the most imposing military fleets."" marketFlavorTextColor
+AddText ""Upon landing, multiple Syndicate banners are visible in each dock, with each hangar being heavily guarded my armed soldiers, almost as if the entire army was guarding the market."" marketFlavorTextColor",,,
+flavorTextMarketSmallFringeDefenceSyndicate,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == fringe_defence_syndicate
+$market.size < 4","AddText ""A small stream of ships roam around the docks breaking the otherwise calm and peaceful environment. Small contingents of military forces guard the docks, easily scanning every ship coming in and out of each hangar, with each soldier bearing the Syndicate's insinia in their shoulders."" marketFlavorTextColor",,,
+flavorTextMarketCoruscant,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == fringe_defence_syndicate
+$market.id == CoruscantPlanet","AddText ""A true megalopolis, traders fill both the streets and the skies, with as many clients passing by as the entire population of some planets."" marketFlavorTextColor
+AddText ""In the distance, several large buildings cutting through the sky can be spotted, marking the center of the diplomatic district, the core and capital of all of the Fringe Worlds owned by the Syndicate. Banners as large as the whole buildings can be seen covering most of the largest structures, with entire military fleets patrolling the skies."" marketFlavorTextColor",,,
+,,,,,,
+marketPostOpenSiegedFringeDefenceSyndicate,MarketPostOpen,"$hasMarket
+$market.sieged == true score:1000","$marketLeaveTooltip = ""$Market is besieged."" 0
+$menuState = main 0
+$tradeMode = NONE 0","A fleet of the Syndicate is holding their position preventing any ship from entering or leaving $market, engaging anyone attempting to ignore the blockade.",,
+,,,,,,
+aiCores_turnInOptionSellFringeDefenceSyndicate,DialogOptionSelected,"$option == aiCores_startTurnIn
+$faction.id == fringe_defence_syndicate",FireAll PopulateCoresTurnInOptions,"""The Syndicate would be grateful and reward you so you would allow us to take possession of this sort of objects. Each of these helps with our war efforts and will allow for the development of new technologies.""",,
+aiCores_turnInResponseFringeDefenceSyndicate,AICoresTurnedIn,$faction.id == fringe_defence_syndicate,FireAll PopulateOptions,The $PersonRank $personLastName greets you one last time before closing the comms with the crest of the Syndicate.,,
+,,,,,,
+##############################################,#############################,####################################################,##########################################################################,,,
+,,,,,,
+## Star Wars Story,,,,,,
+# initial interaction with main contact,,,,,,
+,,,,,,
+fds_mainContactBegin,PickGreeting,"$swr_mainContact score:100
+$global.swr_stage == CONTACT",ShowPersonVisual,"As you enter Chalmun's Cantina you find a very observant and attentive character carefully watching you from the other end of the room.
+
+You decide to approach him and ask for the reason he can't take his gaze away from you.
+
+""You're not from around here, are you? You seem quite surprised to see so many alien races in one place, if I had to guess I'd say you have never seen a single one of them other than our own.""","0:swsNegative:""I've never seen these sectors... What is all this?""
+1:swsAffirmative:""I've seen lots of systems and different races, nothing new here...""",
+fds_mainBackground1,DialogOptionSelected,$option == swsNegative,,"""Welcome to the dominion of the Fringe Defence Syndicate. Try not to piss them off or you will be in serious trouble!""",0:tutBgCont1:Continue,
+fds_mainGetDataInfo1,DialogOptionSelected,$option == swsAffirmative,,"""You are either a liar or you worry less about the current state of affairs than you should...
+Do you seriously think the Hegemony will protect you? Or the Tri-Tachyon? None of them can face the Empire on it's own!
+
+Sadly for us, both of them are quite friendly towards the Empire so our chances of retaliation get lower by the day...""","0:swsAssign:""Ok, so who can face the Empire?""",
+fds_mainGetDataInfo2,DialogOptionSelected,$option == swsAssign,,"""There is a group of soldiers that keep resisting and fighting back the advances of the Empire, but they are weak and not very effective. They need all the help they can get, and they could use a man with your skills.
+
+You should look for the Rebel Alliance's headquarters and volunteer to help them. I can't give you an exact location because they like to keep it a secret but it should be somewhere north of the Coruscant system.
+Just be careful not to fall into the imperial hands or allow yourself to be followed by them, without the rebels there won't be many left to fight back and eventually we'll all become slaves to the Empire.""","0:tutCont2a:""Why me?""
+1:tutCont2b:""What's in it for me?""",
+,,,,,,
+fds_mainGetDataWhyMe,DialogOptionSelected,$option == tutCont2a,"AdjustRep $personFaction.id WELCOMING 1
+AdjustRepActivePerson WELCOMING 2","""Why not? I'm not exactly spoiled for choice, and you've shown some ability to handle ... difficulties.
+
+It's not going to be a milk run, that's for sure.""","2:tutContGoDark:""What's the plan?""",
+fds_mainGetDataWhatsInIt,DialogOptionSelected,$option == tutCont2b,AddRemoveCommodity credits 2000 true,"""Ah, a mercenary. Some credits, naturally, with more along the way - and if all goes to plan, we'll be able to reconnect with the rest of the Sector, such as it is.""","2:tutContGoDark:""What's the plan?""",
+fds_mainGetDataGoDark,DialogOptionSelected,$option == tutContGoDark,"SetTextHighlights ""\""Go Dark\""""
+AddAbility go_dark 1","""First off, make sure to turn off your transponder once you undock. I've instructed the security detachment not to give you any trouble about that.
+
+If you're lucky, the pirates may even think you're one of their own and let you approach Derinkuyu without any trouble. Still, it makes sense to ""Go Dark"" as you get closer, to make sure they can't get too good a reading on your fleet.""","2:tutContEBurn:""And if they do notice me?""",
+fds_mainGetDataEBurn,DialogOptionSelected,$option == tutContEBurn,"SetTextHighlights ""\""Emergency Burn\""""
+AddAbility emergency_burn 3","""Then you're in trouble - activate ""Emergency Burn"" to get out of there, lose them, and then come back around to try again.
+
+Don't e-burn unless you really need to, though. It's hard on the ships, and will cost you more supplies to recover from. Eats up a good chunk of fuel, too.""","2:tutCont3:""Very well.""",
+fds_mainGetDataAccept,DialogOptionSelected,$option == tutCont3,CallEvent $fds_eventRef startGetData,"""Excellent. Thank you for being willing to help - come back when you've got the data. Good luck!""",0:cutCommLinkPolite:Cut the comm link,
+fds_mainComeBackNoStageMatch,PickGreeting,$fds_mainContact score:100,ShowPersonVisual,"""You should leave and forget you know me, it's safer for both of us.""",0:cutCommLinkPolite:Cut the comm link,
+,,,,,,
+# getting data from agent,,,,,,
+fds_dataContactStart,PickGreeting,"$fds_dataContact score:100
+$global.tutStage == GO_GET_DATA","ShowPersonVisual
+CallEvent $fds_eventRef endGetData",You contact the agent and exchange passphrases to verify each others' identities. The agent then transmits a data file with recent raw sensor readings of the unstable jump-points.,0:cutCommLinkPolite:Cut the comm link,
+,,,,,,
+# returned to main contact with data,,,,,,
+fds_mainContactReturnData,PickGreeting,"$fds_mainContact score:100
+$global.tutStage == GOT_DATA","ShowPersonVisual
+AddRemoveCommodity credits 5000 true
+AdjustRep $personFaction.id WELCOMING 2
+AdjustRepActivePerson WELCOMING 4
+AddText ""There's a chime in the background, and $heOrShe looks concerned.""","""You have the data! Well done.""
+
+There's a brief wait as you transmit the datafile.
+
+""Now, while the system is running a preliminary analysis of the data - I believe you're due a reward.""","tutGotDataCont1:""Is there a problem?""",
+fds_mainContactProbe1,DialogOptionSelected,$option == tutGotDataCont1,,"""Yes - the system estimates it'd take about a cycle to analyze the data and come up with a stabilization algorithm. Naturally, by then, the data would be out of date and any algorithm based on it, meaningless.
+
+If we had an AI core on hand, we could analyze the data more quickly. Fortunately, there's a survey probe somewhere in this system - one left over from the initial exploration of the Sector by the Domain. It should have at least one AI core serving as its brain.""","tutGotDataCont2:""Where is it, and why hasn't it been salvaged before?""",
+fds_mainContactProbe2,DialogOptionSelected,$option == tutGotDataCont2,,"""To answer your second question, Domain artifacts are usually protected by automated defenses that still function to this day, and this probe is no exception. And the Hegemony generally forbids civilian interference with Domain artifacts, for the sake of public safety of course.""
+
+""Desperate times, however...""",tutGotDataCont3:Continue,
+fds_mainContactProbe3,DialogOptionSelected,$option == tutGotDataCont3,"SetTextHighlights ""\""Active Sensor Burst\""""
+AddAbility sensor_burst 2
+CallEvent $fds_eventRef goSalvage","""As to where it is, my data indicates it's somewhere beyond the orbit of Pontus - get there, then head out beyond the asteroid belt, and use an ""Active Sensor Burst"". You should at the very least get a sensor contact with the probe.
+
+Head towards it, perform salvage, and bring back an AI core.
+
+If you lack the skill for a full salvage op, just pound it into scrap and scavenge through the resulting debris field - there's a good chance an AI core will survive.""
+
+(""Pontus"" is a gas giant in the outer system. To see its name on the map, you might have to turn off the ""Inhabited"" option in map filter.)","cutCommLinkPolite:""I'll see what I can do.""",
+,,,,,,
+# returned with AI core,,,,,,
+fds_mainContactReturnCore,PickGreeting,"$fds_mainContact score:100
+$global.tutStage == GOT_AI_CORE","ShowPersonVisual
+AddRemoveCommodity credits 8000 true
+AdjustRep $personFaction.id WELCOMING 3
+AdjustRepActivePerson WELCOMING 6
+AddRemoveCommodity gamma_core -1 true","""Solid work. I'll get my technicians working on this right away. In the meantime, this should cover your expenses, hopefully with a good amount left over.""",tutGotCore1:Continue,
+fds_mainContactCore1,DialogOptionSelected,$option == tutGotCore1,,"""I'll send you the stabilization algorithm when the core works it up. Once you have it, it should be a simple matter of running it using your fleet's drive field as a means of interacting with the jump-point.
+
+However, there's still the matter of the miners guarding both jump-points out of the system.""","tutGotCore2:""And you've said their forces are significant?""",
+fds_mainContactCore2,DialogOptionSelected,$option == tutGotCore2,,"""Well, it's all relative. Our security detachment could handle them easily, but as I've mentioned, it's tied down defending Ancyra.
+
+Your fleet, on the other hand... you might be able to handle them with some stellar piloting and a bit of luck, but it's best not to take such chances.
+
+Especially not when there's an alternative.""","tutGotCore3:""What alternative is that?""",
+fds_mainContactCore3,DialogOptionSelected,$option == tutGotCore3,CallEvent $fds_eventRef goRecover,"""There's a ship graveyard around Tetra. Ships that were deemed not worth the effort to restore, awaiting bulk transit to one of the ship-breaking facilities elsewhere.
+
+Now, though, they'll serve our needs. Go there and recover all the ships you can - and break the ones you can't for supplies. Make sure to bring enough crew to operate the recovered ships - perhaps an extra hundred or so will do.
+
+You'll need to transport them somehow, too - here, take this Mudskipper transport; consider it part of your reward.""","cutCommLinkPolite:""Thank you. I'll return with the ships.""",
+,,,,,,
+# back after recovering ships,,,,,,
+fds_mainContactReturnShips,PickGreeting,"$fds_mainContact score:100
+$global.tutStage == RECOVERED_SHIPS","ShowPersonVisual
+RepairAll false","""Welcome back!
+
+A bunch of rust buckets, aren't they? But put some weapons on them, get a proper refit done, and with a dedicated crew, they'll do alright. It's no worse than what the pirates have got, at any rate.","tutGotShips1:""Speaking of weapons...""",
+fds_mainContactReturnShips1,DialogOptionSelected,$option == tutGotShips1,CallEvent $fds_eventRef printRefitHint,"""Yeah, was just about to talk to you about that. Not much to buy on the open market, but we have some stores.
+
+I've already ordered local storage space to be assigned to you, and some suitable weapons transferred there - along with enough supplies to speedily bring the new ships back to full combat readiness.
+
+Use them to outfit your new ships, make sure you've got enough crew for a full complement on every ship, and then break the rogue miner defenses at the inner jump-point!","tutGotShips2:""I take it you've got the stabilization algorithm, then?""",
+fds_mainContactReturnShips2,DialogOptionSelected,$option == tutGotShips2,,"""Correct! These cores seem like they can work miracles sometimes. Let me transmit the results.
+
+Good luck to you! If you fail... well, we'll have to send the security force to do the job, and then it could get very messy.""","tutGotShips3:""It's good to know you're already working on a Plan B.""",
+fds_mainContactReturnShips3,DialogOptionSelected,$option == tutGotShips3,CallEvent $fds_eventRef goStabilize,"""Come now, it's not so grim - I have every expectation you'll succeed, or I wouldn't send you. But it's my responsibility as commander to plan for every eventuality, and not rely on a miraculous savior.
+
+Now, about those miners - the two fleets guarding the jump-point will aid each other if you engage one when the other is nearby, so it'll be an easier fight if you manage to separate them first. If you can't, it should still be a fight you can win, though.""","cutCommLinkPolite:""Copy that. I'll be back here when the job's done.""",
+,,,,,,
+# stabilized jump-point and returned to Ancyra,,,,,,
+fds_mainContactStabilized,PickGreeting,"$fds_mainContact score:100
+$global.tutStage == STABILIZED","ShowPersonVisual
+AddRemoveCommodity credits 10000 true
+AdjustRep $personFaction.id WELCOMING 5
+AdjustRepActivePerson WELCOMING 10
+CallEvent $fds_eventRef pickJangalaContact","""Well done!""
+
+$PersonPost $personLastName seems a bit giddy with excitement.
+
+""We actually did it! You just never know with these things, it's such a relief not to be cooped up in this system anymore.
+
+Here's your reward, well earned and with my gratitude.""",tutStabilized1:Continue,
+fds_mainContactStabilized1,DialogOptionSelected,$option == tutStabilized1,"SetTextHighlights $jangalaFuel
+CallEvent $fds_eventRef deliverReport","""Now, I expect the authorities at the headquarters on Jangala, in the Corvus system, would like to hear about the recent events. Would you deliver a report for me?
+
+Ask to speak with $jangalaContactPost $jangalaContactLastName when you get there.
+
+Oh, and make sure to take enough fuel to make the trip; flying in-system as you have been doesn't use fuel, so it's easy to forget that flying in hyperspace does. It's not too far, but with your current fleet you'll need at least $jangalaFuel units to get there.""",tutStabilized2:Continue,
+fds_mainContactStabilized2,DialogOptionSelected,$option == tutStabilized2,"SetTextHighlights ""\""Distress Call\""""
+AddAbility distress_call 9","""If you do manage to run out of fuel somehow, and get stuck in an uninhabited system - and that'd be a real feat on the Galatia-Corvus route, let me tell you - you can always issue a ""Distress Call"" and wait for help to arrive.""",tutStabilized3:Continue,
+fds_mainContactStabilized3,DialogOptionSelected,$option == tutStabilized3,,"""I'm also declaring a bounty on the remaining rogue miner fleets here. If you like, you can stick around here and help mop up before going to Corvus.""","cutCommLinkPolite:""Ok, I'll consider my options.""",
+,,,,,,
+,,,,,,
+# delivering report to Jangala,,,,,,
+fds_janContactReport,PickGreeting,"$fds_jangalaContact score:100
+$global.tutStage == DELIVER_REPORT","ShowPersonVisual
+AdjustRep $personFaction.id WELCOMING 5
+AdjustRepActivePerson WELCOMING 10
+CallEvent $fds_eventRef reportDelivered","Your connection request is accepted after a slight delay.
+
+""Yes, and you are? Ah, you have a report for me, let's just take a look.
+
+Galatia is back on the map? That's excellent news. Says here you've had quite a hand in it, too. That won't be forgotten.""","tutReport1:""What do I do now?""",
+fds_janContactReport1,DialogOptionSelected,$option == tutReport1,,"""I don't have anything specific for you right now, but you've got options.
+
+There's a bounty in this system right now due to unusually high pirate activity. You've already got some experience dealing with pirates, so that could be a good way to earn some credits.""",tutReport2:Continue,
+fds_janContactReport2,DialogOptionSelected,$option == tutReport2,,"""You could also try your hand at salvaging - load up on fuel, machinery, and supplies, and head for the outer systems. 
+
+It's a good idea to pick up a mission first, so you're not running blind - someone's usually offering good money to analyze this planet or that derelict, and where there's one, there's often more.""",tutReport3:Continue,
+fds_janContactReport3,DialogOptionSelected,$option == tutReport3,,"""Finally, you could take a comission with the Hegemony - due to the Galatia business, your standing is high enough that such a request would be accepted.
+
+You'll be expected to fight our enemies, though, so it's quite a commitment. If I were you, I'd hold off on it until you've got a more solid fleet behind you.""","cutCommLinkPolite:""Thanks, I'll think about it.""",

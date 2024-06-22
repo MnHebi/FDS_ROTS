@@ -1,0 +1,11 @@
+{
+    #"fds_hoth_nebula":{
+    #    "plugin":"data.scripts.campaign.terrain.FDS_HothNebulaTerrainPlugin",
+    #    "musicSuppression":1,
+    #   "loopTwo":"terrain_nebula",
+    #    "loopFour":"terrain_hyperspace_storm",
+    #    "custom":{
+    #        "stormSound":"terrain_hyperspace_lightning"
+    #    }
+    #},
+}

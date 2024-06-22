@@ -1,0 +1,49 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 5,
+  "fluxVents": 4,
+  "goalVariant": true,
+  "hullId": "fds_atonement",
+  "hullMods": [
+    "targetingunit",
+    "eccm",
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_atonement_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 7": "fds_heavy_autoblaster_battery",
+        "WS 8": "fds_heavy_autoblaster_battery"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 5": "fds_tali_mrm",
+        "WS 6": "fds_tali_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 9": "fds_light_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_iii",
+        "WS 2": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": []
+}

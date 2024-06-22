@@ -1,0 +1,279 @@
+{
+  "bounds": [
+    100,
+    1.5,
+    97,
+    4.5,
+    81,
+    7.5,
+    75,
+    6.5,
+    48,
+    13.5,
+    48,
+    17.5,
+    24,
+    39.5,
+    11,
+    47.5,
+    17,
+    50.5,
+    17,
+    61.5,
+    0,
+    64.5,
+    -28,
+    78.5,
+    -31,
+    67.5,
+    -22,
+    48.5,
+    -22,
+    35.5,
+    -46,
+    26.5,
+    -46,
+    19.5,
+    -23,
+    10.5,
+    -54,
+    8.5,
+    -69,
+    3.5,
+    -69,
+    -3.5,
+    -54,
+    -8.5,
+    -23,
+    -10.5,
+    -46,
+    -19.5,
+    -46,
+    -26.5,
+    -22,
+    -35.5,
+    -22,
+    -48.5,
+    -31,
+    -67.5,
+    -28,
+    -78.5,
+    0,
+    -64.5,
+    17,
+    -61.5,
+    17,
+    -50.5,
+    11,
+    -47.5,
+    24,
+    -39.5,
+    48,
+    -17.5,
+    48,
+    -13.5,
+    75,
+    -6.5,
+    81,
+    -7.5,
+    97,
+    -4.5,
+    100,
+    -1.5
+  ],
+  "builtInMods": [
+    "fds_syndicate_combat_systems"
+  ],
+  "builtInWeapons": {
+    "WS0007": "fds_chaingun_L",
+    "WS0009": "fds_chaingun_P"
+  },
+  "builtInWings": [],
+  "center": [
+    81,
+    70.5
+  ],
+  "collisionRadius": 128.063461,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 18,
+      "length": 32,
+      "location": [
+        -46,
+        23
+      ],
+      "style": "FDS_ENGINE",
+      "width": 18
+    },
+    {
+      "angle": -180,
+      "contrailSize": 18,
+      "length": 32,
+      "location": [
+        -46,
+        -23
+      ],
+      "style": "FDS_ENGINE",
+      "width": 18
+    },
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 35,
+      "location": [
+        -69,
+        -0
+      ],
+      "style": "FDS_ENGINE",
+      "width": 20
+    }
+  ],
+  "height": 173,
+  "hullId": "fds_grief_mk_ii",
+  "hullName": "Grief Mk. II",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    10.5,
+    -0
+  ],
+  "shieldRadius": 115.491341,
+  "spriteName": "graphics/FDS/ships/phase/fds_phase_grief_mk_ii.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        16,
+        56
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        16,
+        -56
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "COMPOSITE"
+    },
+    {
+      "angle": 0,
+      "arc": 235,
+      "id": "WS0008",
+      "locations": [
+        54.5,
+        0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 50,
+      "arc": 130,
+      "id": "WS0005",
+      "locations": [
+        7.5,
+        25
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -50,
+      "arc": 130,
+      "id": "WS0006",
+      "locations": [
+        7.5,
+        -25
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0007",
+      "locations": [
+        44,
+        24
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0009",
+      "locations": [
+        44,
+        -24
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -125,
+      "arc": 120,
+      "id": "WS0010",
+      "locations": [
+        -25.5,
+        -72
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 125,
+      "arc": 120,
+      "id": "WS0011",
+      "locations": [
+        -25.5,
+        72
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -170,
+      "arc": 100,
+      "id": "WS0012",
+      "locations": [
+        -10.5,
+        -36
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 170,
+      "arc": 100,
+      "id": "WS0013",
+      "locations": [
+        -10.5,
+        36
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 162
+}

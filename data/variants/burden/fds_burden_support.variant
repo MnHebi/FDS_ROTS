@@ -1,0 +1,38 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 6,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "fds_burden",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_burden_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "fds_light_pd_blaster",
+                "WS0004": "fds_light_pd_blaster",
+                "WS0007": "fds_light_autoblaster_cannon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "heatseeker",
+                "WS0002": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "fds_pd_laser_mk_iii",
+                "WS0006": "fds_pd_laser_mk_iii"
+            }
+        }
+    ]
+}

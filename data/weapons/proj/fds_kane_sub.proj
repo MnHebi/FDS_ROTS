@@ -1,0 +1,18 @@
+{
+	"id":"fds_kane_sub",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":10.0,
+	"width":6,
+	"fadeTime":0.3,
+	"fringeColor":[255,0,0,225],
+	"coreColor":[255,255,255,200],
+	"glowColor":[200,50,30,75],
+	"glowRadius":35,
+	"hitGlowRadius":25,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_small.png"	
+}

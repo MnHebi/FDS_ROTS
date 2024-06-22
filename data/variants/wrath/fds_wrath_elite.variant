@@ -1,0 +1,58 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 5,
+    "fluxVents": 5,
+    "hullId": "fds_wrath",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_wrath_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "chaingun",
+                "WS0016": "chaingun"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "fds_tali_mrm",
+                "WS0010": "fds_tali_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "fds_heavy_autoblaster_battery",
+                "WS0006": "fds_heavy_autoblaster_battery",
+                "WS0007": "fds_kane",
+                "WS0008": "fds_kane",
+                "WS0013": "heavyneedler",
+                "WS0014": "heavyneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_pd_laser_mk_iii",
+                "WS0002": "fds_pd_laser_mk_iii",
+                "WS0003": "fds_pd_laser_mk_iii",
+                "WS0004": "fds_pd_laser_mk_iii",
+                "WS0011": "pdburst",
+                "WS0012": "pdburst",
+                "WS0017": "fds_pd_laser_mk_iii",
+                "WS0018": "fds_pd_laser_mk_iii",
+                "WS0019": "fds_pd_laser_mk_iii"
+            }
+        }
+    ]
+}

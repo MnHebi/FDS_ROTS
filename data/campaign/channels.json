@@ -1,0 +1,26 @@
+{
+        "defaultChannels":[
+            "fds_public",
+        ],
+        
+        "fds_public":{
+		"name":"Fringe Worlds Public Service",
+		"logo":"graphics/FDS/icons/intel/fds_icon.png",
+		"icon":"graphics/FDS/icons/intel/fds_icon.png",
+		"image":"graphics/FDS/factions/fringe_defence_syndicate.png",
+		"sound":"ui_channel_news",
+		"faction":"fringe_defence_syndicate",
+		"type":"News Report",
+		"shortType":"News",
+	},
+	"fds_internal":{
+		"name":"Fringe Defence Syndicate Intelligence",
+		"logo":"graphics/FDS/icons/intel/fds_icon.png",
+		"icon":"graphics/FDS/icons/intel/fds_icon.png",
+		"image":"graphics/FDS/factions/fringe_defence_syndicate.png",
+		"sound":"ui_channel_comm_secure",
+		"faction":"fringe_defence_syndicate",
+		"type":"Intelligence Report",
+		"shortType":"Intel",
+	},
+}

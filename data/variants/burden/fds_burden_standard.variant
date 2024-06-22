@@ -1,0 +1,38 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 12,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "fds_burden",
+    "hullMods": [],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_burden_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "heatseeker",
+                "WS0002": "heatseeker"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "swarmer",
+                "WS0004": "swarmer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "fds_pd_laser_mk_iii",
+                "WS0006": "fds_pd_laser_mk_iii",
+                "WS0007": "fds_pd_laser_mk_ii"
+            }
+        }
+    ]
+}

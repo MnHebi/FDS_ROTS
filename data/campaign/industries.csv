@@ -1,0 +1,4 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+fds_maintenance_bots_factory,Maintenance Bots Factory,60,30,,3,,,fds_maintenance_bots_factory,,graphics/FDS/icons/industry/fds_maintenance_bots_factory.png,data.scripts.campaign.econ.FDS_MaintenanceBotsFactory,A facility that builds and stores Maintenance Bots.,4000
+fds_repair_yards,Repair Yards,60,45,,6,,,fds_repair_yards,,graphics/FDS/icons/industry/fds_repair_yards.png,data.scripts.campaign.econ.FDS_RepairYards,A facility that helps increase the quality of the ships produced by this colony.,4001
+fds_fuel_converter,Fuel Converter,120,75,,8,,,fds_fuel_converter,,graphics/FDS/icons/industry/fds_fuel_converter.png,data.scripts.campaign.econ.FDS_FuelConverter,This facility converts the energy on Energy Crystals into usable fuel.,4002

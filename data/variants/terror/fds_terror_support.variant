@@ -1,0 +1,67 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "goalVariant": true,
+  "hullId": "fds_terror",
+  "hullMods": [
+    "targetingunit",
+    "hardened_subsystems"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_terror_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0023": "pilum",
+        "WS0024": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "fds_light_autoblaster_cannon",
+        "WS0012": "fds_light_autoblaster_cannon",
+        "WS0013": "fds_heavy_beam",
+        "WS0014": "fds_heavy_beam",
+        "WS0015": "fds_light_autoblaster_cannon",
+        "WS0016": "fds_light_autoblaster_cannon",
+        "WS0017": "fds_heavy_beam",
+        "WS0018": "fds_heavy_beam",
+        "WS0021": "fds_dual_autoblaster_cannon",
+        "WS0022": "fds_dual_autoblaster_cannon",
+        "WS0027": "fds_heavy_autoblaster_cannon",
+        "WS0028": "fds_heavy_autoblaster_cannon",
+        "WS0029": "fds_dual_autoblaster_cannon",
+        "WS0030": "fds_dual_autoblaster_cannon",
+        "WS0031": "fds_heavy_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_pd_laser_mk_iii",
+        "WS0008": "fds_pd_laser_mk_iii",
+        "WS0009": "fds_pd_laser_mk_ii",
+        "WS0010": "fds_pd_laser_mk_ii",
+        "WS0019": "fds_pd_laser_mk_ii",
+        "WS0020": "fds_pd_laser_mk_ii",
+        "WS0025": "fds_pd_laser_mk_ii",
+        "WS0026": "fds_pd_laser_mk_ii",
+        "WS0032": "fds_pd_laser_mk_iii",
+        "WS0033": "fds_pd_laser_mk_ii",
+        "WS0034": "fds_pd_laser_mk_iii",
+        "WS0035": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": [
+    "fds_guilt_wing",
+    "fds_guilt_wing"
+  ]
+}

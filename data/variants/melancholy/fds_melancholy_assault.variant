@@ -1,0 +1,52 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 6,
+  "fluxVents": 7,
+  "goalVariant": true,
+  "hullId": "fds_melancholy",
+  "hullMods": [
+    "targetingunit",
+    "auxiliarythrusters"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_melancholy_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_defender_blaster_L",
+        "WS0002": "fds_defender_blaster_P"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "fds_tali_mrm_single",
+        "WS0004": "fds_tali_mrm_single",
+        "WS0005": "fds_tali_mrm_single",
+        "WS0006": "fds_tali_mrm_single",
+        "WS0007": "fds_tali_mrm_single",
+        "WS0008": "fds_tali_mrm_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "fds_light_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "fds_light_pd_blaster",
+        "WS0011": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

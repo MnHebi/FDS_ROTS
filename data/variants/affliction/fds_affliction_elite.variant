@@ -1,0 +1,51 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 8,
+    "fluxVents": 7,
+    "hullId": "fds_affliction",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_affliction_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "fds_hydra_3x_rack",
+                "WS0008": "fds_hydra_3x_rack"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "fds_remnant_dagger",
+                "WS0006": "fds_remnant_dagger"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0012": "fds_kane"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_light_autoblaster_cannon",
+                "WS0002": "fds_light_autoblaster_cannon",
+                "WS0009": "fds_light_autoblaster_cannon",
+                "WS0010": "fds_light_autoblaster_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0011": "fds_light_pd_blaster"}
+        }
+    ]
+}

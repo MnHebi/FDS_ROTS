@@ -1,0 +1,62 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 18,
+  "fluxVents": 16,
+  "goalVariant": true,
+  "hullId": "fds_fear",
+  "hullMods": [
+    "targetingunit",
+    "stabilizedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_fear_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "fds_missile_barrage",
+        "WS0002": "fds_missile_barrage"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 5": "fds_tali_mrm",
+        "WS 6": "fds_tali_mrm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 7": "fds_remnant_dagger",
+        "WS 8": "fds_remnant_dagger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 11": "fds_kane",
+        "WS 12": "fds_kane"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_iii",
+        "WS 10": "fds_pd_laser_mk_iii",
+        "WS 13": "fds_pd_laser_mk_iii",
+        "WS 2": "fds_pd_laser_mk_iii",
+        "WS 3": "fds_pd_laser_mk_iii",
+        "WS 4": "fds_pd_laser_mk_iii",
+        "WS 9": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": []
+}

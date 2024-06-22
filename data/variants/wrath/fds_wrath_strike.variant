@@ -1,0 +1,59 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "fds_wrath",
+    "hullMods": [
+        "targetingunit",
+        "stabilizedshieldemitter"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_wrath_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0015": "heavymauler",
+                "WS0016": "heavymauler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "fds_tali_mrm",
+                "WS0010": "fds_tali_mrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "fds_heavy_autoblaster_battery",
+                "WS0006": "fds_heavy_autoblaster_battery",
+                "WS0007": "fds_heavy_autoblaster_battery",
+                "WS0008": "fds_heavy_autoblaster_battery",
+                "WS0013": "hveldriver",
+                "WS0014": "hveldriver"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_pd_laser_mk_iii",
+                "WS0002": "fds_pd_laser_mk_iii",
+                "WS0003": "fds_pd_laser_mk_iii",
+                "WS0004": "fds_pd_laser_mk_iii",
+                "WS0011": "pdburst",
+                "WS0012": "pdburst",
+                "WS0017": "fds_light_pd_blaster",
+                "WS0018": "fds_light_pd_blaster",
+                "WS0019": "fds_light_pd_blaster"
+            }
+        }
+    ]
+}

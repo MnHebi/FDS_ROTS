@@ -1,0 +1,5 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,icon
+Engine Signature Dampener,fds_signature_dampener,,,0.02,,,,,,,10,,5,30,TRUE,,TRUE,TRUE,,,,,,TRUE,graphics/icons/hullsys/interdictor_array.png
+Singularity Generator,fds_quantum_generator,,,,,,0.2,,,,1,1,0.25,30,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,TRUE,TRUE,graphics/icons/hullsys/teleporter.png
+YEEET Drive,fds_yeetdrive,,,,,,,,,,1,,1,10,TRUE,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+OC Sensor Array,fds_overclocked_sensor_array,,,,,,,,,,,15,,60,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png

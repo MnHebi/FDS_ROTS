@@ -1,0 +1,134 @@
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Broadsword Heavy Fighter,broadsword_wing,FALSE,,,TRUE,,,,,TRUE,,,,,,,LOW_TECH,,20,15,10,5,10,15,5,15,15,10,10,10,,,30,,,10,,,6,,12.5,17.5,12.5,,5,,,10,10,10,10
+Xyphos Support Fighter,xyphos_wing,FALSE,,,,,TRUE,,,,,,TRUE,,,TRUE,HIGH_TECH,4,,,5,15,10,5,20,,,,12.5,,,10,5,10,,,,,1,,20,,10,,,,15,20,10,10,10
+Gladius Fighter,gladius_wing,FALSE,,,TRUE,,TRUE,,TRUE,TRUE,,,,,,,MIDLINE,,10,10,15,10,10,10,10,5,10,10,12.5,,,5,20,10,,5,,,5,,10,10,10,,2.5,,5,10,10,10,10
+Warthog Assault Fighter,warthog_wing,FALSE,,,,TRUE,,,TRUE,TRUE,,,,,,,MIDLINE,3,10,10,15,10,10,10,10,5,10,10,12.5,,,5,5,10,,5,,,5,,10,10,10,,2.5,,5,10,10,10,10
+Thunder Heavy Interceptor,thunder_wing,FALSE,,,TRUE,,,,TRUE,,,,,,TRUE,TRUE,MIDLINE,4,10,10,15,10,10,10,10,5,10,10,12.5,,,5,20,10,,5,,,5,,10,10,10,,2.5,,5,10,10,10,10
+Claw Fighter,claw_wing,FALSE,,,,,TRUE,,,,,,,,,TRUE,HIGH_TECH,4,,5,5,15,10,5,20,,,,12.5,,,10,5,10,,,,,1,,20,5,7.5,,,,15,20,10,10,10
+Talon Interceptor,talon_wing,FALSE,,,,,,TRUE,TRUE,,,TRUE,,,,,LOW_TECH,,20,15,10,5,10,15,,15,15,10,10,10,,,,,,10,,,6,,20,17.5,12.5,,5,,,10,10,10,10
+Wasp Interceptor Drone,wasp_wing,FALSE,,,,,TRUE,,,,,TRUE,TRUE,,,,HIGH_TECH,,5,5,5,15,10,7.5,20,,,,12.5,,,10,,10,,2.5,,,2,,12.5,5,7.5,,,,15,20,10,10,10
+Khopesh Rocket Bomber,hoplon_wing,FALSE,,,,TRUE,,,TRUE,,TRUE,,,,,,LOW_TECH,3,20,15,10,5,10,15,5,15,15,10,10,10,,,10,,,10,,,6,,12.5,17.5,12.5,,5,,,10,10,10,10
+Dagger Torpedo Bomber,dagger_wing,FALSE,,,,TRUE,,,,,TRUE,,,,,,HIGH_TECH,2,,5,5,15,10,5,20,,,,12.5,,,10,,10,,,,,1,,20,5,7.5,,,,15,20,10,10,10
+Piranha Bomber,piranha_wing,FALSE,,,,TRUE,,,,,TRUE,,,,,,LOW_TECH,,20,15,10,5,10,15,,15,15,10,10,10,,,,,,10,,,6,,20,17.5,12.5,,5,,,10,10,10,10
+Trident Torpedo Bomber,trident_wing,FALSE,,,,TRUE,,,,,TRUE,,,,,,HIGH_TECH,3,,5,5,15,10,5,20,,,,12.5,,,10,,10,,,,,1,,20,5,7.5,,,,15,20,10,10,10
+Longbow Kinetic Bomber,longbow_wing,FALSE,,,TRUE,,,,,,TRUE,,,,,TRUE,HIGH_TECH,3,5,5,5,15,10,7.5,20,,,,12.5,,,10,15,10,,2.5,,,2,,12.5,5,7.5,,,,15,20,10,10,10
+Mining Pod Auxiliary,mining_drone_wing,FALSE,,,,,TRUE,,,,,TRUE,,TRUE,,,LOW_TECH,,4,3,2,1,10,7,,7.5,3,2,6,10,,,2,,,2,,,1.2,,4,3.5,6.5,,1,,,10,2,2,2
+Flash Bomber,flash_wing,FALSE,,,,TRUE,,,,,TRUE,TRUE,,,,,REMNANT,2,,,,2,,,3,,,,1,,10,5,,,,,,,,,3,,,,,,,,,2,10
+Spark Interceptor Drone,spark_wing,FALSE,,,,,TRUE,,,,,TRUE,TRUE,,,,REMNANT,5,,,,2,,,3,,,,1,,10,5,,,,,,,,,3,,,,,,,,,2,10
+Lux Heavy Fighter,lux_wing,FALSE,,,,,TRUE,,TRUE,TRUE,,,,,,,REMNANT,,,,,2,,,3,,,,1,,10,5,,,,,,,,,3,,,,,,,,,2,10
+Borer Drone,borer_wing,TRUE,0,3,,,TRUE,,,,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Terminator Drone,terminator_wing,TRUE,3,8,,,TRUE,,TRUE,,,,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Krait Heavy Fighter,brdy_krait_wing,FALSE,1,,,TRUE,,TRUE,TRUE,,,,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+Dipteron Interceptor,brdy_dipteron_wing,FALSE,0,,,,,TRUE,,,,TRUE,,,,,BLACKROCK,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+Vespa Torpedo Bomber,brdy_vespa_wing,FALSE,2,0.9,,,TRUE,,,,TRUE,,,,,,BLACKROCK,3,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+Serket Phase Fighter,brdy_serket_wing,FALSE,3,0.6,TRUE,,,TRUE,TRUE,TRUE,,,,,,,BLACKROCK,5,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Mosquito Missile Bomber,brdy_mosquito_wing,FALSE,0,,,TRUE,,,,,TRUE,,,,,,BLACKROCK,2,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+Taipan Heavy Interceptor,brdy_taipan_wing,FALSE,1,,TRUE,,,TRUE,,,,TRUE,,,TRUE,TRUE,BLACKROCK,4,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,10,10
+Nadir Defense Fighter,brdy_nadir_wing,FALSE,2,0.5,TRUE,,TRUE,,,,,TRUE,TRUE,,,,BLACKROCK,,,,,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,10,10
+Neutrocyte AEX Drone,brdy_stenosdrone_wing,TRUE,3,0,,TRUE,,TRUE,TRUE,,,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+#Citadel,citadel,FALSE,,,,,,,,,,,,,,,CITADEL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+#Exigency,exigency,FALSE,,,,,,,,,,,,,,,EXIGENCY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+#Ahriman,exipirated,FALSE,,,,,,,,,,,,,,,AHRIMAN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Flamen Interceptor,ii_flamen_wing,FALSE,,,,,,TRUE,,TRUE,,TRUE,,,,,IMPERIUM,,5,,,,5,5,,,,5,2.5,,,,40,5,,2.5,,,1,,5,5,5,,5,,,5,10,10,10
+Draconarius Fighter,ii_draconarius_wing,FALSE,,,,TRUE,,,TRUE,,,,,,,,IMPERIUM,2,2.5,,,,2.5,2.5,,,,2.5,1.5,,,,30,2.5,,1.25,,,0.5,,2.5,2.5,2.5,,2.5,,,2.5,10,10,10
+Vicarius Corvette,ii_vicarius_wing,FALSE,,,TRUE,TRUE,,,TRUE,TRUE,,,,TRUE,,,IMPERIUM,3,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,10,10,10
+Scutum Defense Drone,ii_scutum_wing,FALSE,,,,,,TRUE,,,,TRUE,,,,,IMPERIUM,3,,,,,,,,,,,,,,,20,,,,,,,,,,,,,,,,10,10,10
+Inferna Bomber,ii_inferna_wing,FALSE,,,,TRUE,,,,,TRUE,,,,,,IMPERIUM,,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,10,10,10
+Scalprum Drone,ii_scalprum_wing,TRUE,2,12,TRUE,,,,TRUE,,,,,TRUE,,,IMPERIUM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Teuton Provoker,tem_teuton_fighter_wing,FALSE,,,,,TRUE,,TRUE,,,,,TRUE,,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,40,,,,,,,,,,,10
+Teuton Castigator,tem_teuton_assault_wing,FALSE,,,,,TRUE,,TRUE,,,,,TRUE,,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,40,,,,,,,,,,,10
+Teuton Annuler,tem_teuton_support_wing,FALSE,,,,,TRUE,,,,,,TRUE,TRUE,,TRUE,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,40,,,,,,,,,,,10
+Teuton Smiter,tem_teuton_bomber_wing,FALSE,,,,,TRUE,,,,TRUE,,,TRUE,,,TEMPLAR,5,,,,,,,,,,,,,,1,,,,,,,,40,,,,,,,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Skinwalker Heavy Fighter,ms_skinwalker_wing,FALSE,,,TRUE,TRUE,TRUE,,TRUE,,,,,,,,SHADOW,3,,,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,10,10
+Neriad Interceptor,ms_neriad_wing,FALSE,,,,TRUE,,TRUE,,,,TRUE,,,,,SHADOW,2,,,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,10,10
+Rakshasa Bomber,ms_raksasha_wing,FALSE,,,,TRUE,,,,,TRUE,,,,,,SHADOW,4,,,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,10,10
+Kobold Support Fighter,ms_kobold_wing,FALSE,,,TRUE,,,,,,,,TRUE,,,,SHADOW,2,,,,,,,,,,,,,,,,,,,,40,,,,,,,,,,,,10,10
+Shikome Elite,ms_shikome_wing,FALSE,,,,TRUE,TRUE,,TRUE,,TRUE,,,,,,SHADOW,4,,,,,,,,,,,,,,,,,,,,25,,,,,,,,,,,,10,10
+Wraith Drone,ms_wraith_wing,FALSE,,,,TRUE,,TRUE,,,,TRUE,TRUE,,,,SHADOW,2,2.5,,,,2.5,2.5,,,,2.5,1.5,,,,2.5,2.5,,1.25,,20,0.5,,2.5,2.5,2.5,,2.5,,,2.5,,5,5
+Dromedary Drone,ms_dromedary_wing,FALSE,,,,,TRUE,,TRUE,,,,,TRUE,,,SHADOW,,5,,,,5,5,,,,5,2.5,,,,5,5,,2.5,,20,1,,5,5,5,,5,,,5,,5,5
+Hydra Phase Drone,ms_hydra_wing,TRUE,3,10,,TRUE,,TRUE,TRUE,TRUE,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Stevedore Drone,ms_loader_wing,TRUE,0,0,,,TRUE,,,,,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+#Mayorate,mayorate,FALSE,,,,,,,,,,,,,,,MAYORATE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Shard Escort,junk_pirates_shard_wing,FALSE,,,,,TRUE,,,,,TRUE,,,,,JUNK_PIRATE,,2.5,,,,,1.5,,5,,,,,,,,,,1.25,,,0.5,,20,2.5,,,,,,,,10,10
+Cleat Bomber,junk_pirates_cleat_wing,FALSE,,,,TRUE,,,TRUE,,,,,,,,JUNK_PIRATE,2,2.5,,,,,1.5,,5,,,,,,,,,,1.25,,,0.5,,20,2.5,,,,,,,,10,10
+Spike Fighter,junk_pirates_spike_wing,FALSE,,,TRUE,TRUE,,,,,,TRUE,,,,,JUNK_PIRATE,,5,,,,,2.5,,5,,,,,,,,,,2.5,,,1,,30,5,,,,,,,,10,10
+Splinter Fighter,junk_pirates_splinter_wing,FALSE,,,TRUE,TRUE,,,,,,TRUE,,,,,JUNK_PIRATE,,5,,,,,2.5,,5,,,,,,,,,,2.5,,,1,,40,5,,,,,,,,10,10
+Phase Drone Standard,junk_pirates_drone_phase,TRUE,2,2,,,,,,,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TNT Drone Standard,junk_pirates_tnt_drone,TRUE,0,0,,TRUE,,,,,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Welding Drone Standard,junk_pirates_welding_drone,TRUE,0,0,,,TRUE,,,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Insult Drone Standard,junk_pirates_insult_drone,TRUE,2,10,,,TRUE,,TRUE,,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Ion Drone Standard,pack_drone_ion,TRUE,2,4,,,,,,,,,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FELIX Drone Standard,pack_felix_drone,TRUE,1,8,,,TRUE,,,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Constrictor Support,syndicate_asp_constrictor_wing,FALSE,,,TRUE,,TRUE,,,,TRUE,,,,,,ASP,,,,,,2.5,1.5,,,,,1.5,,,,,,,,,,,,,,20,,,,,2.5,,10,10
+Venom Interceptor,syndicate_asp_venom_wing,FALSE,,,,TRUE,TRUE,,,,,TRUE,,,,,ASP,,,,,,5,2.5,,,,,2.5,,,,,,,,,,,,,,40,,,,,5,,10,10
+Bite Drone,syndicate_asp_bite_wing,FALSE,,,,,TRUE,,,,,,TRUE,,,,ASP,,,,,,5,2.5,,,,,2.5,,,,,,,,,,,,,,40,,,,,5,,10,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Akhlys Escort,SCY_akhlys_wing,FALSE,,,,,,TRUE,TRUE,,,TRUE,TRUE,,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Nosos Interceptor,SCY_nosos_wing,FALSE,,,TRUE,,TRUE,,,TRUE,,TRUE,,,,,SCY,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Stygere Attack,SCY_stygere_wing,FALSE,,,,TRUE,TRUE,,TRUE,TRUE,,,,,,,SCY,2,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Ker Bomber,SCY_ker_wing,FALSE,,,,TRUE,,,,,TRUE,,,,,,SCY,3,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Eris Interceptor,SCY_eris_wing,FALSE,,,,,,TRUE,,,,TRUE,,,,,SCY,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,,10,10
+Automatos Miner,SCY_automatos_wing,TRUE,1,8,,,,TRUE,,,,TRUE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Anaplekte CIWS,SCY_anaplekte_wing,TRUE,3,8,,,,TRUE,TRUE,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+#Tiandong,tiandong,FALSE,,,,,,,,,,,,,,,TIANDONG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Arbitrator Fast Interceptor,diableavionics_arbitrator_wing,FALSE,,,,TRUE,,TRUE,,,,TRUE,,,TRUE,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Frost Escort Wanzer,diableavionics_frost_wing,FALSE,,,,TRUE,,TRUE,,,,TRUE,,,,,DIABLE,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Strife Combat Wanzer,diableavionics_strife_wing,FALSE,,,,TRUE,,TRUE,TRUE,,,,TRUE,,,,DIABLE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Warlust Sniper Wanzer,diableavionics_warlust_wing,FALSE,,,,,TRUE,,TRUE,,,,TRUE,TRUE,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Valiant Versatile Wanzer,diableavionics_valiant_wing,FALSE,,,,,TRUE,TRUE,TRUE,,,TRUE,,,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Raven Heavy Wanzer,diableavionics_raven_wing,FALSE,,,TRUE,TRUE,,,TRUE,,,,,,,,DIABLE,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+Blizzaia Artillery Wanzer,diableavionics_blizzaia_wing,FALSE,,,,TRUE,TRUE,,,,TRUE,,,TRUE,,,DIABLE,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,40,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Fervor Gunship,ora_fervor_wing,FALSE,,,,,TRUE,,,TRUE,,TRUE,TRUE,,,TRUE,ORA,4,,,,,,,5,,,,,,,,,,,,,,,,5,,,,,,40,5,,10,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Tomahawk Attack Gunship,TSC_Tomahawk_wing,FALSE,2,0.5,,TRUE,TRUE,,TRUE,TRUE,,,,,,,TYRADOR,,,,,,5,2.5,5,,,,2.5,,,,,,,,,,,,5,,5,,,,,40,,10,10
+Javelin Heavy Bomber,TSC_Javelin_wing,FALSE,2,0.3,,,TRUE,,,,TRUE,,,,,TRUE,TYRADOR,4,,,,,2.5,1.5,5,,,,1.5,,,,,,,,,,,,5,,2.5,,,,,40,,10,10
+Chakram Support Gunship,TSC_Chakram_wing,FALSE,2,0.5,,,TRUE,,TRUE,TRUE,,,,,,TRUE,TYRADOR,3,,,,,5,2.5,5,,,,2.5,,,,,,,,,,,,5,,5,,,,,40,,10,10
+Kunai Strike Fighter,TSC_Kunai_wing,FALSE,1,,,TRUE,,,TRUE,,,,,,,,TYRADOR,,5,,,,5,5,5,,,,2.5,,,,,,,2.5,,,1,,5,5,5,,,,,40,,10,10
+Shuriken Interceptor,TSC_Shuriken_wing,FALSE,1,,,,TRUE,,TRUE,,,TRUE,,,,,TYRADOR,3,5,,,,5,5,5,,,,2.5,,,,,,,2.5,,,1,,5,5,5,,,,,40,,10,10
+Scimitar Attack Corvette,TSC_Scimitar_wing,FALSE,3,0.3,,TRUE,TRUE,,TRUE,,TRUE,,,,TRUE,,TYRADOR,,,,,,2.5,1.5,5,,,,1.5,,,,,,,,,,,,5,,2.5,,,,,40,,10,10
+Buckler Shield Drone,TSC_DroneBuckler_wing,FALSE,2,,,,TRUE,,,,,TRUE,TRUE,TRUE,,,TYRADOR,,2.5,,,,5,4,5,,,,2.5,,,,,,,1.25,,,0.5,,3.75,2.5,5,,,,,40,,10,10
+Misericorde Phase Drone,TSC_DroneMisericorde_wing,FALSE,2,,,,TRUE,,TRUE,TRUE,,,,,,,TYRADOR,5,2.5,,,,5,4,5,,,,2.5,,,,,,,1.25,,,0.5,,3.75,2.5,5,,,,,40,,10,10
+Sai Defense Drone,TSC_DroneSai_wing,FALSE,1,,,,TRUE,,,,,TRUE,,,,,TYRADOR,,5,,,,5,5,5,,,,2.5,,,,,,,2.5,,,1,,5,5,5,,,,,40,,10,10
+Loader Cargo Drone,TSC_DroneLoader_wing,TRUE,1,0,,,TRUE,,,,,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SCV Construction Corvette,TSC_SCV_wing,TRUE,1,0,,,TRUE,,,,,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Revolver Support Fighter,uw_revolver_wing,FALSE,,,,,,TRUE,,,,TRUE,TRUE,,,,LOW_TECH,,30,,,,10,20,,10,10,,5,,,,,,,15,,,6,,30,30,10,,,,,10,10,10,10
+Razor Fighter,uw_razor_wing,FALSE,,,TRUE,,,,TRUE,,,,,TRUE,,,LOW_TECH,2,30,,,,10,20,,10,10,,5,,,,,,,15,,,6,,30,30,10,,,,,10,10,10,10
+Wasp Mod-Interceptor Drone,ssp_boss_wasp_wing,FALSE,,,,,TRUE,,,,,TRUE,TRUE,,,,HIGH_TECH,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name,id,builtin,tier,OPs,kinetic,highExplosive,energy,fragmentation,attack,interfere,alpha,defense,support,closeRange,longRange,disable,techType,leetness,pirates,hegemony,sindrian_diktat,lions_guard,independent,scavengers,tritachyon,luddic_path,luddic_church,knights_of_ludd,persean,derelict,remnant,cabal,interstellarimperium,citadeldefenders,blackrock_driveyards,exipirated,exigency,shadow_industry,mayorate,templars,junk_pirates,pack,syndicate_asp,SCY,tiandong,diableavionics,ORA,Coalition,domain,sector,everything
+Lightning Phase Bomber,ssp_lightning_wing,FALSE,,,,,TRUE,,,,TRUE,,,,,,HIGH_TECH,5,,,5,15,10,5,20,,,,12.5,,,10,,10,,,,,1,,20,,10,,,,15,20,10,10,10
+Hexblade Heavy Fighter,swp_hexblade_wing,FALSE,,,,,TRUE,,TRUE,,,,,,,,HIGH_TECH,2,,,5,15,10,5,20,,,,12.5,,,10,5,10,,,,,1,,20,,10,,,,15,20,10,10,10
+Assault Drone,swp_assault_drone_wing,TRUE,1,4,,,TRUE,,TRUE,,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Flak Drone,swp_flakdrone_wing,TRUE,2,16,,,,TRUE,,,,TRUE,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

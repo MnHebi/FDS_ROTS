@@ -1,0 +1,46 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 17,
+    "fluxVents": 15,
+    "goalVariant": true,
+    "hullId": "fds_pride",
+    "hullMods": [
+        "targetingunit",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_pride_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "harpoon",
+                "WS0010": "harpoon",
+                "WS0011": "sabot_single",
+                "WS0012": "sabot_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_heavy_autoblaster_cannon",
+                "WS0002": "fds_heavy_autoblaster_cannon",
+                "WS0003": "fds_heavy_autoblaster_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "fds_pd_laser_mk_ii",
+                "WS0005": "fds_pd_laser_mk_ii",
+                "WS0006": "fds_pd_laser_mk_iii",
+                "WS0007": "fds_pd_laser_mk_iii",
+                "WS0008": "fds_light_pd_blaster"
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "displayName": "Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "fds_oppression",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_oppression",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 1": "fds_light_blaster",
+        "WS 2": "fds_light_blaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 3": "fds_vindicator_srm",
+        "WS 4": "fds_vindicator_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 5": "fds_light_pd_blaster"
+	  }
+    }
+  ],
+  "wings": []
+}

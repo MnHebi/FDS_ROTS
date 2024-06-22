@@ -1,0 +1,59 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 26,
+  "fluxVents": 26,
+  "goalVariant": true,
+  "hullId": "fds_hatred",
+  "hullMods": [
+    "targetingunit",
+    "hardened_subsystems"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_hatred_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 3": "sabot",
+        "WS 4": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 14": "fds_heavy_autoblaster_cannon",
+        "WS 15": "fds_heavy_autoblaster_cannon",
+        "WS 16": "fds_heavy_autoblaster_battery",
+        "WS 17": "fds_heavy_autoblaster_battery",
+        "WS 18": "fds_heavy_autoblaster_cannon",
+        "WS 19": "fds_heavy_autoblaster_cannon",
+        "WS 20": "fds_heavy_autoblaster_cannon",
+        "WS 21": "fds_heavy_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_ii",
+        "WS 10": "fds_pd_laser_mk_iii",
+        "WS 11": "pdburst",
+        "WS 12": "pdburst",
+        "WS 13": "fds_pd_laser_mk_iii",
+        "WS 2": "fds_pd_laser_mk_ii",
+        "WS 5": "fds_pd_laser_mk_iii",
+        "WS 6": "fds_pd_laser_mk_iii",
+        "WS 7": "pdburst",
+        "WS 8": "pdburst",
+        "WS 9": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": [
+    "fds_penitence_wing",
+    "fds_oppression_wing"
+  ]
+}

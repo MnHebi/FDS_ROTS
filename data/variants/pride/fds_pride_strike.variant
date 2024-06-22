@@ -1,0 +1,46 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 11,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "fds_pride",
+    "hullMods": [
+        "stabilizedshieldemitter",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_pride_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "fds_hydra_2x_rack",
+                "WS0010": "fds_hydra_2x_rack",
+                "WS0011": "reaper",
+                "WS0012": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_remnant_dagger",
+                "WS0002": "fds_heavy_autoblaster_cannon",
+                "WS0003": "fds_heavy_autoblaster_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "pdburst",
+                "WS0005": "pdburst",
+                "WS0006": "fds_pd_laser_mk_iii",
+                "WS0007": "fds_pd_laser_mk_iii",
+                "WS0008": "pdburst"
+            }
+        }
+    ]
+}

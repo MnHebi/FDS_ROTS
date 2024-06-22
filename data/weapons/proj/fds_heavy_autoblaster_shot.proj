@@ -1,0 +1,19 @@
+{
+	"id":"fds_heavy_autoblaster_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":50.0,
+	"width":20.0,
+	"hitGlowRadius":20,
+	"fadeTime":0.25,
+	"fringeColor":[255,0,0,225],
+	"coreColor":[255,255,255,200],
+	"textureType":"ROUGH",  # only needed for BEAM spawnType
+	#"textureType":["graphics/fx/beam_rough2_fringe.png","graphics/fx/beamcore.png"],
+	"textureScrollSpeed":64.0,
+	#"pixelsPerTexel":5.0
+	"pixelsPerTexel":1.0
+}

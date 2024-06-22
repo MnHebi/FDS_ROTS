@@ -1,0 +1,27 @@
+{
+    "TierWeights": {
+        "0": 0.1,
+        "1": 2,
+        "2": 1,
+        "3": 0.25,
+        "4": 0.01
+    },
+    "TechWeightsWeapon": {
+        "VANILLA_TECH": 0.5,
+        "FDS": 1
+    },
+    "MasterWeaponScale": 0.4,
+    "TechWeightsFighter": {
+        "LOW_TECH": 0.4,
+        "MIDLINE": 1,
+        "HIGH_TECH": 0.6,
+        "FDS": 2
+    },
+    "MasterFighterScale": 2.43,
+    "WeaponTypeWeights": {
+        "BALLISTIC": 0.5,
+        "MISSILE": 1,
+        "ENERGY": 1
+    },
+    "FactionID": "fringe_defence_syndicate"
+}

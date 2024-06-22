@@ -1,0 +1,40 @@
+{
+	"id":"fds_quad_blaster_battery",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"displayArcRadius":750,
+	"turretSprite":"graphics/FDS/weapons/fds_quad_blaster_battery_turret.png",
+	"turretGunSprite":"graphics/FDS/weapons/fds_quad_blaster_battery_turret_recoil.png",
+        "turretGlowSprite":"graphics/FDS/weapons/fds_quad_blaster_battery_turret_glow.png",
+	"hardpointSprite":"graphics/FDS/weapons/fds_quad_blaster_battery_hardpoint.png",
+	"hardpointGunSprite":"graphics/FDS/weapons/fds_quad_blaster_battery_hardpoint_recoil.png",
+        "hardpointGlowSprite":"graphics/FDS/weapons/fds_quad_blaster_battery_hardpoint_glow.png",	
+	"visualRecoil":8.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+        "turretOffsets":[15, -12, 20, -7, 20, 7, 15, 12],
+	"turretAngleOffsets":[0, 0, 0, 0],
+	"hardpointOffsets":[25, -12, 20, -7, 25, 7, 20, 12],
+	"hardpointAngleOffsets":[0, 0, 0, 0],
+	"fringeColor":[0,0,155,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[100,100,255,255],
+	#"fringeColor":[0,155,0,255],
+	#"coreColor":[255,255,255,255],
+	#"glowColor":[100,255,100,255],
+	"width":15.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":128.0,
+	"pixelsPerTexel":5.0,
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":10.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":8.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":10.0,
+					   "particleDuration":0.12,
+					   "particleCount":12,
+					   "particleColor":[110,100,255,255]},
+	"projectileSpecId":"fds_autoblaster_shot",  # projectile that will be fired
+	"fireSoundTwo":"fds_auto_blaster",
+}

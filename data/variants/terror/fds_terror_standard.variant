@@ -1,0 +1,68 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 25,
+  "fluxVents": 25,
+  "goalVariant": true,
+  "hullId": "fds_terror",
+  "hullMods": [
+    "targetingunit",
+    "hardened_subsystems",
+    "stabilizedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_terror_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0023": "fds_tali_mrm",
+        "WS0024": "fds_tali_mrm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "fds_light_autoblaster_cannon",
+        "WS0012": "fds_light_autoblaster_cannon",
+        "WS0013": "fds_heavy_autoblaster_battery",
+        "WS0014": "fds_heavy_autoblaster_battery",
+        "WS0015": "fds_light_autoblaster_cannon",
+        "WS0016": "fds_light_autoblaster_cannon",
+        "WS0017": "fds_heavy_autoblaster_cannon",
+        "WS0018": "fds_heavy_autoblaster_cannon",
+        "WS0019": "fds_light_autoblaster_cannon",
+        "WS0020": "fds_light_autoblaster_cannon",
+        "WS0021": "fds_quad_blaster_battery",
+        "WS0022": "fds_quad_blaster_battery",
+        "WS0025": "fds_light_autoblaster_cannon",
+        "WS0026": "fds_light_autoblaster_cannon",
+        "WS0027": "fds_heavy_autoblaster_cannon",
+        "WS0028": "fds_heavy_autoblaster_cannon",
+        "WS0029": "fds_quad_blaster_battery",
+        "WS0030": "fds_quad_blaster_battery",
+        "WS0031": "fds_heavy_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_pd_laser_mk_ii",
+        "WS0008": "fds_pd_laser_mk_ii",
+        "WS0009": "fds_pd_laser_mk_ii",
+        "WS0010": "fds_pd_laser_mk_ii",
+        "WS0032": "fds_pd_laser_mk_ii",
+        "WS0033": "fds_pd_laser_mk_ii",
+        "WS0034": "fds_pd_laser_mk_ii",
+        "WS0035": "fds_pd_laser_mk_ii"
+      }
+    }
+  ],
+  "wings": [
+    "fds_penitence_wing",
+    "fds_disgrace_wing"
+  ]
+}

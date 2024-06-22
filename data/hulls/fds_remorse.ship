@@ -1,0 +1,221 @@
+{
+  "bounds": [
+    16.5,
+    4,
+    5.5,
+    6.5,
+    9.5,
+    26.5,
+    0.5,
+    40.5,
+    -16.5,
+    2.5,
+    -16.5,
+    -2.5,
+    0.5,
+    -40.5,
+    9.5,
+    -26.5,
+    5.5,
+    -6.5,
+    16.5,
+    -4
+  ],
+  "builtInWings": [],
+  "center": [
+    43,
+    22
+  ],
+  "collisionRadius": 45.524719,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 22,
+      "location": [
+        -16.5,
+        11.5
+      ],
+      "style": "FDS_BOMBER",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 22,
+      "location": [
+        -16.5,
+        -11.5
+      ],
+      "style": "FDS_BOMBER",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 12,
+      "location": [
+        -11.5,
+        -21
+      ],
+      "style": "FDS_BOMBER",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 12,
+      "location": [
+        -11.5,
+        21
+      ],
+      "style": "FDS_BOMBER",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 8,
+      "location": [
+        -8.5,
+        26
+      ],
+      "style": "FDS_BOMBER",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 8,
+      "location": [
+        -8.5,
+        -26
+      ],
+      "style": "FDS_BOMBER",
+      "width": 4
+    }
+  ],
+  "height": 50,
+  "hullId": "fds_remorse",
+  "hullName": "Remorse",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 44.28318,
+  "spriteName": "graphics/FDS/ships/fds_remorse.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        18.5,
+        4
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        18.5,
+        -4
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 140,
+      "id": "WS0005",
+      "locations": [
+        -17.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        6.5,
+        25.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        6.5,
+        -25.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        6.5,
+        19.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        6.5,
+        -19.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        2.5,
+        25
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0009",
+      "locations": [
+        2.5,
+        -25
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 86
+}

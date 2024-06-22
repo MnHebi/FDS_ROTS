@@ -1,0 +1,59 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 30,
+  "fluxVents": 27,
+  "goalVariant": true,
+  "hullId": "fds_suffering",
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_suffering_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 3": "sabot",
+        "WS 4": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 14": "fds_heavy_autoblaster_cannon",
+        "WS 15": "fds_heavy_autoblaster_cannon",
+        "WS 16": "fds_heavy_autoblaster_battery",
+        "WS 17": "fds_heavy_autoblaster_battery",
+        "WS 18": "fds_heavy_beam",
+        "WS 19": "fds_heavy_beam",
+        "WS 20": "fds_kane",
+        "WS 21": "fds_kane",
+        "WS0001": "fds_ion_battery",
+        "WS0002": "fds_ion_battery",
+        "WS0003": "fds_light_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_iii",
+        "WS 10": "fds_pd_laser_mk_iii",
+        "WS 11": "fds_light_pd_blaster",
+        "WS 12": "fds_light_pd_blaster",
+        "WS 13": "fds_pd_laser_mk_iii",
+        "WS 2": "fds_pd_laser_mk_iii",
+        "WS 5": "fds_pd_laser_mk_iii",
+        "WS 6": "fds_pd_laser_mk_iii",
+        "WS 7": "fds_light_pd_blaster",
+        "WS 8": "fds_light_pd_blaster",
+        "WS 9": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": []
+}

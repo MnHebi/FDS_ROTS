@@ -1,0 +1,2 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+Energy Crystal Caves,fds_crystal_caves,TRUE,,data.scripts.campaign.econ.FDS_CrystalCaves,Energy Crystals can be found inside these caves. Their use is still being investigated.,graphics/FDS/icons/markets/crystal_caves.png,300

@@ -1,0 +1,68 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 18,
+  "fluxVents": 16,
+  "goalVariant": true,
+  "hullId": "fds_terror",
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter",
+    "auxiliarythrusters"
+  ],
+  "permaMods": [],
+  "quality": 0.6,
+  "variantId": "fds_terror_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0017": "sabotpod",
+        "WS0018": "sabotpod",
+        "WS0023": "annihilatorpod",
+        "WS0024": "annihilatorpod",
+        "WS0031": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "fds_heavy_beam",
+        "WS0014": "fds_heavy_beam",
+        "WS0021": "fds_quad_blaster_battery",
+        "WS0022": "fds_quad_blaster_battery",
+        "WS0027": "fds_heavy_autoblaster_cannon",
+        "WS0028": "fds_heavy_autoblaster_cannon",
+        "WS0029": "fds_council_spear",
+        "WS0030": "fds_council_spear"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_pd_laser_mk_ii",
+        "WS0008": "fds_pd_laser_mk_ii",
+        "WS0009": "fds_light_pd_blaster",
+        "WS0010": "fds_light_pd_blaster",
+        "WS0011": "pdburst",
+        "WS0012": "pdburst",
+        "WS0015": "fds_light_pd_blaster",
+        "WS0016": "fds_light_pd_blaster",
+        "WS0019": "fds_pd_laser_mk_iii",
+        "WS0020": "fds_pd_laser_mk_iii",
+        "WS0025": "fds_pd_laser_mk_iii",
+        "WS0026": "fds_pd_laser_mk_iii",
+        "WS0032": "pdburst",
+        "WS0033": "pdburst",
+        "WS0034": "fds_light_pd_blaster",
+        "WS0035": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": [
+    "fds_oppression_wing",
+    "fds_remorse_wing"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 26,
+  "fluxVents": 25,
+  "goalVariant": true,
+  "hullId": "fds_suffering",
+  "hullMods": [
+    "targetingunit",
+    "hardened_subsystems",
+    "fds_maintenance_bots"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_suffering_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 14": "fds_tali_mrm",
+        "WS 15": "fds_tali_mrm",
+        "WS 3": "fds_hydra_3x_rack",
+        "WS 4": "fds_hydra_3x_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 10": "taclaser",
+        "WS 16": "fds_heavy_autoblaster_battery",
+        "WS 17": "fds_heavy_autoblaster_battery",
+        "WS 18": "fds_heavy_autoblaster_battery",
+        "WS 19": "fds_heavy_autoblaster_battery",
+        "WS 20": "fds_heavy_autoblaster_cannon",
+        "WS 21": "fds_heavy_autoblaster_cannon",
+        "WS 7": "taclaser",
+        "WS 8": "taclaser",
+        "WS 9": "taclaser",
+        "WS0001": "fds_heavy_beam",
+        "WS0002": "fds_heavy_beam",
+        "WS0003": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_iii",
+        "WS 11": "fds_pd_laser_mk_iii",
+        "WS 12": "fds_pd_laser_mk_iii",
+        "WS 13": "fds_pd_laser_mk_iii",
+        "WS 2": "fds_pd_laser_mk_iii",
+        "WS 5": "fds_pd_laser_mk_iii",
+        "WS 6": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": []
+}

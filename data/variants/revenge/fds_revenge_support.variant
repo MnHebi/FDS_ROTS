@@ -1,0 +1,56 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "goalVariant": true,
+  "hullId": "fds_revenge",
+  "hullMods": [
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_revenge_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "fds_heavy_beam",
+        "WS0004": "fds_heavy_beam",
+        "WS0005": "fds_heavy_beam",
+        "WS0006": "fds_heavy_beam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_tali_mrm",
+        "WS0002": "fds_tali_mrm",
+        "WS0015": "pilum",
+        "WS0016": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "fds_pd_laser_mk_ii",
+        "WS0012": "fds_pd_laser_mk_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_pd_laser_mk_iii",
+        "WS0008": "fds_pd_laser_mk_iii",
+        "WS0009": "fds_pd_laser_mk_iii",
+        "WS0010": "fds_pd_laser_mk_iii",
+        "WS0013": "fds_pd_laser_mk_iii",
+        "WS0014": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,337 @@
+{
+  "bounds": [
+    126,
+    8.5,
+    120,
+    27.5,
+    105,
+    27.5,
+    100,
+    11.5,
+    69.5,
+    14,
+    65,
+    24.5,
+    57,
+    30.5,
+    24.5,
+    30.5,
+    10,
+    19.5,
+    0.5,
+    29.5,
+    -9,
+    17.5,
+    -21,
+    28.5,
+    -31.5,
+    28.5,
+    -38,
+    24.5,
+    -44,
+    36.5,
+    -67,
+    48.5,
+    -93.5,
+    48.5,
+    -94,
+    35,
+    -102,
+    34.5,
+    -102,
+    27.5,
+    -92.5,
+    25.5,
+    -115,
+    17.5,
+    -115,
+    6,
+    -99,
+    2,
+    -99,
+    -2,
+    -115,
+    -6,
+    -115,
+    -17.5,
+    -92.5,
+    -25.5,
+    -102,
+    -27.5,
+    -102,
+    -34.5,
+    -94,
+    -35,
+    -93.5,
+    -48.5,
+    -67,
+    -48.5,
+    -44,
+    -36.5,
+    -38,
+    -24.5,
+    -31.5,
+    -28.5,
+    -21,
+    -28.5,
+    -9,
+    -17.5,
+    0.5,
+    -29.5,
+    10,
+    -19.5,
+    24.5,
+    -30.5,
+    57,
+    -30.5,
+    65,
+    -24.5,
+    69.5,
+    -14,
+    100,
+    -11.5,
+    105,
+    -27.5,
+    120,
+    -27.5,
+    126,
+    -8.5
+  ],
+  "builtInMods": [
+    "fds_syndicate_combat_systems",
+    "fds_blockade_runner"
+  ],
+  "builtInWings": [],
+  "center": [
+    51,
+    116.5
+  ],
+  "collisionRadius": 177.58519,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 20,
+      "length": 45,
+      "location": [
+        -115.5,
+        -12
+      ],
+      "style": "FDS_ENGINE",
+      "width": 20
+    },
+    {
+      "angle": -180,
+      "contrailSize": 20,
+      "length": 45,
+      "location": [
+        -115.5,
+        12
+      ],
+      "style": "FDS_ENGINE",
+      "width": 20
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 36,
+      "location": [
+        -103.5,
+        -31
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 36,
+      "location": [
+        -103.5,
+        31
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 35,
+      "location": [
+        -97.5,
+        44
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 35,
+      "location": [
+        -97.5,
+        -44
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    }
+  ],
+  "height": 245,
+  "hullId": "fds_rancour",
+  "hullName": "Rancour",
+  "hullSize": "DESTROYER",
+  "shieldCenter": [
+    2.5,
+    -0
+  ],
+  "shieldRadius": 170.047058,
+  "spriteName": "graphics/FDS/ships/fds_rancour.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -100,
+      "arc": 170,
+      "id": "WS0001",
+      "locations": [
+        -51.5,
+        -27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 100,
+      "arc": 170,
+      "id": "WS0002",
+      "locations": [
+        -51.5,
+        27
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -100,
+      "arc": 140,
+      "id": "WS0003",
+      "locations": [
+        28.5,
+        -18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": 100,
+      "arc": 140,
+      "id": "WS0004",
+      "locations": [
+        28.5,
+        18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "SYNERGY"
+    },
+    {
+      "angle": -75,
+      "arc": 170,
+      "id": "WS0005",
+      "locations": [
+        55.5,
+        -18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 75,
+      "arc": 170,
+      "id": "WS0006",
+      "locations": [
+        55.5,
+        18
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -90,
+      "arc": 10,
+      "id": "WS0007",
+      "locations": [
+        0.5,
+        -26
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 90,
+      "arc": 10,
+      "id": "WS0008",
+      "locations": [
+        0.5,
+        26
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 250,
+      "id": "WS0009",
+      "locations": [
+        88.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 240,
+      "id": "WS0010",
+      "locations": [
+        -20.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 170,
+      "arc": 50,
+      "id": "WS0011",
+      "locations": [
+        -85,
+        12
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": -170,
+      "arc": 50,
+      "id": "WS0012",
+      "locations": [
+        -85,
+        -12
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 102
+}

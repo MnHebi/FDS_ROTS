@@ -1,0 +1,42 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 4,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "fds_melancholy",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_melancholy_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "fds_defender_blaster_L",
+                "WS0002": "fds_defender_blaster_P"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0003": "fds_tali_mrm_single",
+                "WS0004": "fds_tali_mrm_single",
+                "WS0005": "fds_tali_mrm_single",
+                "WS0006": "fds_tali_mrm_single",
+                "WS0007": "fds_tali_mrm_single",
+                "WS0008": "fds_tali_mrm_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "fds_light_autoblaster_cannon",
+                "WS0010": "ioncannon",
+                "WS0011": "ioncannon"
+            }
+        }
+    ]
+}

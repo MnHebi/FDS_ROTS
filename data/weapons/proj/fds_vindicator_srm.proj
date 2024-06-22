@@ -1,0 +1,22 @@
+{
+	"id":"fds_vindicator_srm",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/FDS/missiles/fds_vindicator_srm.png",
+	"size":[5,15],	
+	"center":[2.5,7],
+	"collisionRadius":14,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"engineSpec":{"turnAcc":1250,
+				  "turnRate":240,
+				  "acc":400,
+				  "dec":300},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-6, 0],
+				    "style":"MISSILE_MIDLINE",
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0}]
+}

@@ -1,0 +1,51 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 9,
+  "fluxVents": 7,
+  "goalVariant": true,
+  "hullId": "fds_rancour",
+  "hullMods": [
+    "targetingunit",
+    "augmentedengines"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_rancour_elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "fds_heavy_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_light_pd_blaster",
+        "WS0006": "fds_light_pd_blaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "fds_hydra_3x_rack",
+        "WS0004": "fds_hydra_3x_rack",
+        "WS0007": "fds_hydra_3x_rack",
+        "WS0008": "fds_hydra_3x_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "fds_pd_laser_mk_iii",
+        "WS0002": "fds_pd_laser_mk_iii",
+        "WS0009": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,68 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 22,
+  "fluxVents": 22,
+  "goalVariant": true,
+  "hullId": "fds_terror",
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics",
+    "fluxbreakers"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_terror_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "sabot",
+        "WS0012": "sabot",
+        "WS0023": "fds_hydra_2x_pod",
+        "WS0024": "fds_hydra_2x_pod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "fds_remnant_dagger",
+        "WS0014": "fds_remnant_dagger",
+        "WS0015": "fds_light_autoblaster_cannon",
+        "WS0016": "fds_light_autoblaster_cannon",
+        "WS0017": "fds_remnant_dagger",
+        "WS0018": "fds_remnant_dagger",
+        "WS0021": "fds_quad_blaster_battery",
+        "WS0022": "fds_quad_blaster_battery",
+        "WS0027": "fds_heavy_beam",
+        "WS0028": "fds_heavy_beam",
+        "WS0029": "fds_council_spear",
+        "WS0030": "fds_council_spear",
+        "WS0031": "fds_ion_battery"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_pd_laser_mk_iii",
+        "WS0008": "fds_pd_laser_mk_iii",
+        "WS0009": "fds_pd_laser_mk_iii",
+        "WS0010": "fds_pd_laser_mk_iii",
+        "WS0019": "fds_pd_laser_mk_iii",
+        "WS0020": "fds_pd_laser_mk_iii",
+        "WS0025": "fds_pd_laser_mk_iii",
+        "WS0026": "fds_pd_laser_mk_iii",
+        "WS0032": "fds_light_pd_blaster",
+        "WS0033": "fds_light_pd_blaster",
+        "WS0034": "fds_light_pd_blaster",
+        "WS0035": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": [
+    "fds_distress_wing",
+    "fds_disgrace_wing"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 5,
+  "fluxVents": 3,
+  "goalVariant": true,
+  "hullId": "fds_regret",
+  "hullMods": [
+    "fds_maintenance_bots",
+    "auxiliarythrusters",
+    "advancedoptics",
+    "targetingunit",
+    "hardened_subsystems"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_regret_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "swarmer",
+        "WS0004": "swarmer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "fds_pd_laser_mk_ii",
+        "WS0002": "fds_pd_laser_mk_ii",
+        "WS0007": "fds_pd_laser_mk_ii"
+      }
+    }
+  ],
+  "wings": []
+}

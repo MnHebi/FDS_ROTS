@@ -1,0 +1,13 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 3,
+  "fluxVents": 2,
+  "goalVariant": true,
+  "hullId": "fds_diligence",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_diligence_standard",
+  "weaponGroups": [],
+  "wings": []
+}

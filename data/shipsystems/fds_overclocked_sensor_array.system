@@ -1,0 +1,12 @@
+{
+    "id":"fds_overclocked_sensor_array",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.scripts.ai.FDS_OverclockedSensorArrayAIScript",
+    "statsScript":"data.shipsystems.scripts.FDS_OverclockedSensorArrayScript",
+
+    #"useSound":"system_use",
+    #"loopSound":"system_loop",
+	#"deactivateSound":"system_deactivate",
+	#"outOfUsesSound":"system_out_of_ammo",
+}

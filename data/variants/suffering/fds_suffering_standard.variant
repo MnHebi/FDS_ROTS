@@ -1,0 +1,60 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 21,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "fds_suffering",
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics",
+    "stabilizedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_suffering_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 14": "fds_hydra_2x_pod",
+        "WS 15": "fds_hydra_2x_pod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 11": "fds_light_autoblaster_cannon",
+        "WS 12": "fds_light_autoblaster_cannon",
+        "WS 16": "fds_heavy_beam",
+        "WS 17": "fds_heavy_beam",
+        "WS 18": "fds_remnant_dagger",
+        "WS 19": "fds_remnant_dagger",
+        "WS 20": "fds_heavy_autoblaster_cannon",
+        "WS 21": "fds_heavy_autoblaster_cannon",
+        "WS 3": "fds_light_autoblaster_cannon",
+        "WS 4": "fds_light_autoblaster_cannon",
+        "WS 7": "fds_light_autoblaster_cannon",
+        "WS 8": "fds_light_autoblaster_cannon",
+        "WS0001": "fds_heavy_autoblaster_cannon",
+        "WS0002": "fds_heavy_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_ii",
+        "WS 10": "fds_pd_laser_mk_ii",
+        "WS 13": "fds_pd_laser_mk_ii",
+        "WS 2": "fds_pd_laser_mk_ii",
+        "WS 5": "fds_pd_laser_mk_ii",
+        "WS 6": "fds_pd_laser_mk_ii",
+        "WS 9": "fds_pd_laser_mk_ii",
+        "WS0003": "fds_pd_laser_mk_ii"
+      }
+    }
+  ],
+  "wings": []
+}

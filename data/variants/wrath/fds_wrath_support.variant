@@ -1,0 +1,60 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 14,
+  "fluxVents": 14,
+  "goalVariant": true,
+  "hullId": "fds_wrath",
+  "hullMods": [
+    "targetingunit",
+    "stabilizedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_wrath_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "shredder",
+        "WS0016": "shredder"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "pilum",
+        "WS0010": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_ion_battery",
+        "WS0006": "fds_ion_battery",
+        "WS0007": "fds_heavy_beam",
+        "WS0008": "fds_heavy_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "fds_pd_laser_mk_iii",
+        "WS0002": "fds_pd_laser_mk_iii",
+        "WS0003": "fds_pd_laser_mk_iii",
+        "WS0004": "fds_pd_laser_mk_iii",
+        "WS0011": "pdburst",
+        "WS0012": "pdburst",
+        "WS0013": "dualflak",
+        "WS0014": "dualflak",
+        "WS0017": "fds_light_pd_blaster",
+        "WS0018": "fds_light_pd_blaster",
+        "WS0019": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

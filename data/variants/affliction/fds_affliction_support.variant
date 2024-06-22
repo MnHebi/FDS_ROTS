@@ -1,0 +1,44 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 15,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "fds_affliction",
+    "hullMods": [
+        "targetingunit",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_affliction_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "heatseeker",
+                "WS0008": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "fds_heavy_autoblaster_cannon",
+                "WS0006": "fds_heavy_autoblaster_cannon",
+                "WS0009": "taclaser",
+                "WS0010": "taclaser",
+                "WS0012": "fds_heavy_beam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_pd_laser_mk_ii",
+                "WS0002": "fds_pd_laser_mk_ii",
+                "WS0011": "fds_pd_laser_mk_ii"
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id":"fds_signature_dampener",
+    "type":"STAT_MOD",
+    "aiType":"CUSTOM",
+    "aiScript":"data.shipsystems.scripts.ai.FDS_SignatureDampenerSystemAIScript",
+    "statsScript":"data.shipsystems.scripts.FDS_SignatureDampenerSystemScript",
+
+    #"useSound":"system_use",
+    #"loopSound":"system_loop",
+	#"deactivateSound":"system_deactivate",
+	#"outOfUsesSound":"system_out_of_ammo",
+}

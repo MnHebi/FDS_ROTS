@@ -1,0 +1,43 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 16,
+    "fluxVents": 14,
+    "goalVariant": true,
+    "hullId": "fds_pride",
+    "hullMods": ["targetingunit"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_pride_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "swarmer",
+                "WS0010": "swarmer",
+                "WS0011": "heatseeker",
+                "WS0012": "heatseeker"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "ionbeam",
+                "WS0002": "fds_heavy_beam",
+                "WS0003": "fds_heavy_beam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "fds_pd_laser_mk_ii",
+                "WS0005": "fds_pd_laser_mk_ii",
+                "WS0006": "fds_pd_laser_mk_iii",
+                "WS0007": "fds_pd_laser_mk_iii",
+                "WS0008": "fds_light_pd_blaster"
+            }
+        }
+    ]
+}

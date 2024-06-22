@@ -1,0 +1,60 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 17,
+  "fluxVents": 17,
+  "goalVariant": true,
+  "hullId": "fds_wrath",
+  "hullMods": [
+    "targetingunit",
+    "stabilizedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_wrath_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "chaingun",
+        "WS0016": "chaingun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "pilum",
+        "WS0010": "pilum"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_heavy_autoblaster_cannon",
+        "WS0006": "fds_heavy_autoblaster_cannon",
+        "WS0007": "fds_ion_battery",
+        "WS0008": "fds_ion_battery",
+        "WS0013": "heavymauler",
+        "WS0014": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0011": "pdburst",
+        "WS0012": "pdburst",
+        "WS0017": "fds_light_pd_blaster",
+        "WS0018": "fds_light_pd_blaster",
+        "WS0019": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

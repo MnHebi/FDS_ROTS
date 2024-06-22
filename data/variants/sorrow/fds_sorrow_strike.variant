@@ -1,0 +1,42 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
+  "goalVariant": true,
+  "hullId": "fds_sorrow",
+  "hullMods": [
+    "targetingunit",
+    "stabilizedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_sorrow_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 5": "lightdualac",
+        "WS 6": "lightdualac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 3": "annihilator",
+        "WS 4": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "taclaser",
+        "WS 2": "taclaser",
+        "WS 7": "taclaser"
+      }
+    }
+  ],
+  "wings": []
+}

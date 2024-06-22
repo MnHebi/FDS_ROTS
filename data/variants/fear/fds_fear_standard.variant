@@ -1,0 +1,56 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 21,
+  "fluxVents": 21,
+  "goalVariant": true,
+  "hullId": "fds_fear",
+  "hullMods": [
+    "targetingunit",
+    "stabilizedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_fear_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "fds_missile_barrage",
+        "WS0002": "fds_missile_barrage"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 11": "fds_heavy_autoblaster_cannon",
+        "WS 12": "fds_heavy_autoblaster_cannon",
+        "WS 5": "fds_heavy_autoblaster_cannon",
+        "WS 6": "fds_heavy_autoblaster_cannon",
+        "WS 7": "fds_heavy_autoblaster_cannon",
+        "WS 8": "fds_heavy_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 10": "pdburst",
+        "WS 13": "fds_pd_laser_mk_iii",
+        "WS 9": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_ii",
+        "WS 2": "fds_pd_laser_mk_ii",
+        "WS 3": "fds_pd_laser_mk_iii",
+        "WS 4": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": []
+}

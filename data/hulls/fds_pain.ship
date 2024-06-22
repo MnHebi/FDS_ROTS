@@ -1,0 +1,111 @@
+{
+  "bounds": [
+    -8.5,
+    18,
+    -15.5,
+    8,
+    -10,
+    -0,
+    -15.5,
+    -8,
+    -8.5,
+    -18,
+    19.5,
+    -0
+  ],
+  "builtInWeapons": {
+    "WS0003": "blinker_red"
+  },
+  "builtInWings": [],
+  "center": [
+    20.5,
+    18
+  ],
+  "collisionRadius": 34.003677,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 19,
+      "location": [
+        -12.5,
+        -0
+      ],
+      "style": "FDS_BOMBER",
+      "width": 8
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 12,
+      "location": [
+        -12.5,
+        8.5
+      ],
+      "style": "FDS_BOMBER",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 12,
+      "location": [
+        -12.5,
+        -8.5
+      ],
+      "style": "FDS_BOMBER",
+      "width": 4
+    }
+  ],
+  "height": 44,
+  "hullId": "fds_pain",
+  "hullName": "Pain",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 32.68792,
+  "spriteName": "graphics/FDS/ships/fds_pain.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        3,
+        12
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 20,
+      "id": "WS0002",
+      "locations": [
+        16,
+        -5.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        11.5,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 41
+}

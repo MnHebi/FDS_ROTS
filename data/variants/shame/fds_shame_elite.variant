@@ -1,0 +1,37 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 3,
+  "fluxVents": 2,
+  "goalVariant": true,
+  "hullId": "fds_shame",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_shame_elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "fds_hydra_3x_rack",
+        "WS0006": "fds_hydra_3x_rack",
+        "WS0008": "fds_tali_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0007": "pdlaser"
+      }
+    }
+  ],
+  "wings": [
+    "fds_penitence_wing",
+    "fds_guilt_wing"
+  ]
+}

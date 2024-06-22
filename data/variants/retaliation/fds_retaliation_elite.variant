@@ -1,0 +1,59 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "goalVariant": true,
+  "hullId": "fds_retaliation",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_retaliation_elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 5": "fds_heavy_autoblaster_battery",
+        "WS 6": "fds_heavy_autoblaster_battery",
+        "WS 7": "fds_heavy_autoblaster_cannon",
+        "WS 8": "fds_heavy_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 11": "fds_ion_battery",
+        "WS 12": "fds_ion_battery"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 14": "fds_tali_mrm",
+        "WS 15": "fds_tali_mrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_iii",
+        "WS 10": "pdburst",
+        "WS 13": "fds_pd_laser_mk_ii",
+        "WS 2": "fds_pd_laser_mk_iii",
+        "WS 3": "fds_pd_laser_mk_ii",
+        "WS 4": "fds_pd_laser_mk_ii",
+        "WS 9": "pdburst"
+      }
+    }
+  ],
+  "wings": [
+    "fds_oppression_wing",
+    "fds_pain_wing",
+    "fds_distress_wing"
+  ]
+}

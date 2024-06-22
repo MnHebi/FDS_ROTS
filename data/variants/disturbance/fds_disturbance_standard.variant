@@ -1,0 +1,35 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 4,
+  "fluxVents": 4,
+  "goalVariant": true,
+  "hullId": "fds_disturbance",
+  "hullMods": [
+    "auxiliarythrusters",
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_disturbance_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_disturbance_blaster_L",
+        "WS0002": "fds_disturbance_blaster_P",
+        "WS0007": "railgun",
+        "WS0008": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdburst",
+        "WS0004": "pdburst"
+      }
+    }
+  ],
+  "wings": []
+}

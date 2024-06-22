@@ -1,0 +1,63 @@
+{
+	"FDS_ENGINE":{
+		"engineColor":[255,145,75,255],
+		#"contrailParticleSizeMult":2,
+		#"contrailParticleDuration":2,
+		#"contrailParticleFinalSizeMult":2,
+		#"contrailMaxSpeedMult":0.4,
+		#"contrailAngularVelocityMult":0.4,
+		"contrailColor":[100,100,100,25],
+		"contrailCampaignColor":[150,120,100,25],
+		#"type":"GLOW"
+
+		#"engineColor":[49,135,255,255],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":2,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		#"contrailColor":[49,135,255,25],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"FDS_FIGHTER":{
+		"engineColor":[255,140,50,255],
+		"contrailColor":[100,100,100,25],
+		"contrailCampaignColor":[150,120,100,25],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":2,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"type":"GLOW" # GLOW or SMOKE
+		#"engineColor":[50,140,255,255],
+		#"contrailColor":[50,140,255,25],
+		#"contrailCampaignColor":[50,140,255,25],
+		#"contrailParticleSizeMult":4,
+		#"contrailParticleDuration":1,
+		#"contrailParticleFinalSizeMult":2,
+		#"contrailMaxSpeedMult":0.5f,
+		#"contrailAngularVelocityMult":0f,
+		#"type":"GLOW" # GLOW or SMOKE
+	},
+	"FDS_BOMBER":{
+		"engineColor":[255,140,50,255],
+		"contrailColor":[100,100,100,25],
+		"contrailCampaignColor":[150,120,100,25],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":2,
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0f,
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"PLACEHOLDER_MISSILE":{
+		"engineColor":[49,135,255,255],
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":4,
+		"contrailParticleFinalSizeMult":3,
+		"contrailMaxSpeedMult":0.1,
+		"contrailAngularVelocityMult":0.1,
+		"contrailColor":[100,100,100,100],
+		"type":"SMOKE"
+	}
+}

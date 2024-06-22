@@ -1,0 +1,53 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 2,
+  "fluxVents": 2,
+  "goalVariant": true,
+  "hullId": "fds_rancour",
+  "hullMods": [
+    "targetingunit",
+    "advancedoptics",
+    "augmentedengines",
+    "advancedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_rancour_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "fds_hydra_2x_rack",
+        "WS0004": "fds_hydra_2x_rack",
+        "WS0007": "harpoon",
+        "WS0008": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "fds_remnant_dagger"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "fds_light_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "fds_pd_laser_mk_iii",
+        "WS0002": "fds_pd_laser_mk_iii",
+        "WS0005": "fds_light_pd_blaster",
+        "WS0006": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

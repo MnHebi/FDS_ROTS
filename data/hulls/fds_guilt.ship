@@ -1,0 +1,172 @@
+{
+  "bounds": [
+    16.5,
+    4,
+    5,
+    6.5,
+    9.5,
+    26.5,
+    0.5,
+    40.5,
+    -16.5,
+    2.5,
+    -16.5,
+    -2.5,
+    0.5,
+    -40.5,
+    9.5,
+    -26.5,
+    5,
+    -6.5,
+    16.5,
+    -4
+  ],
+  "center": [
+    43,
+    22
+  ],
+  "collisionRadius": 45.524719,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 22,
+      "location": [
+        -16.5,
+        11.5
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 22,
+      "location": [
+        -16.5,
+        -11.5
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 12,
+      "location": [
+        -11.5,
+        -21
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 12,
+      "location": [
+        -11.5,
+        21
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 4
+    },
+    {
+      "angle": 180,
+      "contrailSize": 4,
+      "length": 8,
+      "location": [
+        -8.5,
+        26
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 4
+    },
+    {
+      "angle": -180,
+      "contrailSize": 4,
+      "length": 8,
+      "location": [
+        -8.5,
+        -26
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 4
+    }
+  ],
+  "height": 50,
+  "hullId": "fds_guilt",
+  "hullName": "Guilt",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 44.28318,
+  "spriteName": "graphics/FDS/ships/fds_guilt.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        18.5,
+        4
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        18.5,
+        -4
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0003",
+      "locations": [
+        19,
+        22.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0004",
+      "locations": [
+        19,
+        -22.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 180,
+      "arc": 140,
+      "id": "WS0005",
+      "locations": [
+        -17.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 86
+}

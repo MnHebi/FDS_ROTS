@@ -1,0 +1,53 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 21,
+  "fluxVents": 20,
+  "goalVariant": true,
+  "hullId": "fds_hatred",
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_hatred_assault",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 14": "fds_heavy_autoblaster_battery",
+        "WS 15": "fds_heavy_autoblaster_battery",
+        "WS 16": "fds_heavy_beam",
+        "WS 17": "fds_heavy_beam",
+        "WS 18": "fds_ion_battery",
+        "WS 19": "fds_ion_battery",
+        "WS 20": "fds_heavy_autoblaster_cannon",
+        "WS 21": "fds_heavy_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_ii",
+        "WS 10": "fds_pd_laser_mk_iii",
+        "WS 11": "pdburst",
+        "WS 12": "pdburst",
+        "WS 13": "fds_pd_laser_mk_iii",
+        "WS 2": "fds_pd_laser_mk_ii",
+        "WS 3": "fds_light_pd_blaster",
+        "WS 4": "fds_light_pd_blaster",
+        "WS 5": "fds_pd_laser_mk_iii",
+        "WS 6": "fds_pd_laser_mk_iii",
+        "WS 7": "fds_light_pd_blaster",
+        "WS 8": "fds_light_pd_blaster",
+        "WS 9": "fds_pd_laser_mk_iii"
+      }
+    }
+  ],
+  "wings": [
+    "fds_distress_wing",
+    "fds_disgrace_wing"
+  ]
+}

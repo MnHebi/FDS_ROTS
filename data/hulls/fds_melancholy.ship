@@ -1,0 +1,283 @@
+{
+  "bounds": [
+    61.5,
+    1.5,
+    58.5,
+    4.5,
+    41.5,
+    7.5,
+    21.5,
+    27.5,
+    14.5,
+    56.5,
+    10.5,
+    56.5,
+    1.5,
+    37,
+    -18,
+    56.5,
+    -20.5,
+    49.5,
+    -9,
+    23.5,
+    -26,
+    39.5,
+    -30.5,
+    35.5,
+    -26.5,
+    17.5,
+    -38.5,
+    12,
+    -38.5,
+    -12,
+    -26.5,
+    -17.5,
+    -30.5,
+    -35.5,
+    -26,
+    -39.5,
+    -9,
+    -23.5,
+    -20.5,
+    -49.5,
+    -18,
+    -56.5,
+    1.5,
+    -37,
+    10.5,
+    -56.5,
+    14.5,
+    -56.5,
+    21.5,
+    -27.5,
+    41.5,
+    -7.5,
+    58.5,
+    -4.5,
+    61.5,
+    -1.5
+  ],
+  "builtInMods": [
+    "fds_syndicate_combat_systems"
+  ],
+  "builtInWeapons": {
+    "WS0001": "fds_defender_blaster_L",
+    "WS0002": "fds_defender_blaster_P",
+    "WS0003": "fds_tali_mrm_single",
+    "WS0004": "fds_tali_mrm_single",
+    "WS0005": "fds_tali_mrm_single",
+    "WS0006": "fds_tali_mrm_single",
+    "WS0007": "fds_tali_mrm_single",
+    "WS0008": "fds_tali_mrm_single"
+  },
+  "builtInWings": [],
+  "center": [
+    59,
+    44
+  ],
+  "collisionRadius": 78.1297,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 25,
+      "location": [
+        -33.5,
+        23
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 25,
+      "location": [
+        -33.5,
+        -23
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -39.5,
+        9
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 30,
+      "length": 30,
+      "location": [
+        -39.5,
+        -9
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 31,
+      "location": [
+        -42.5,
+        -0
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    }
+  ],
+  "height": 108,
+  "hullId": "fds_melancholy",
+  "hullName": "Melancholy",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    -0.5,
+    -0
+  ],
+  "shieldRadius": 75.5149,
+  "spriteName": "graphics/FDS/ships/fds_melancholy.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0001",
+      "locations": [
+        38,
+        12
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0002",
+      "locations": [
+        38,
+        -12
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        22,
+        -41.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0006",
+      "locations": [
+        26,
+        29.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0007",
+      "locations": [
+        24,
+        -35.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0008",
+      "locations": [
+        26,
+        -29.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 230,
+      "id": "WS0009",
+      "locations": [
+        17,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -80,
+      "arc": 220,
+      "id": "WS0010",
+      "locations": [
+        0,
+        -25
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 80,
+      "arc": 220,
+      "id": "WS0011",
+      "locations": [
+        0,
+        25
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        22,
+        41.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        24,
+        35.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    }
+  ],
+  "width": 118
+}

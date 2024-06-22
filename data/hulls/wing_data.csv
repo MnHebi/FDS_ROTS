@@ -1,0 +1,10 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,num,role,role desc,refit,base value,Column,Column [1],Column [2],Column [3],Column [4],Column [5],Column [6],Column [7],Column [8],Column [9],Column [10],Column [11],number
+fds_penitence_wing,fds_penitence,"fighter2, fighter, mid, fds_bp, fds_civ_bp",0,,6,8,V,4000,500,6,FIGHTER,Fighter,10,7500,,,,,,,,,,,,,715
+fds_oppression_wing,fds_oppression,"fighter4, fighter, mid, fds_bp, fds_mil_bp",1,,8,10,DIAMOND,4000,500,4,FIGHTER,Fighter,12,8000,,,,,,,,,,,,,705
+fds_distress_wing,fds_distress,"interceptor3, interceptor, mid, fds_bp, fds_mil_bp",0,,5,5,DIAMOND,4000,200,4,INTERCEPTOR,Interceptor,5,5000,,,,,,,,,,,,,709
+fds_pain_wing,fds_pain,"bomber4, bomber, mid, fds_bp, fds_mil_bp",1,,5,12,V,4000,2000,3,BOMBER,Kinetic Bomber,12,12000,,,,,,,,,,,,,709
+fds_disgrace_wing,fds_disgrace,"bomber4, bomber, mid, fds_bp, fds_mil_bp",1,,5,15,V,4000,2000,3,BOMBER,Bomber,15,8500,,,,,,,,,,,,,710
+fds_rage_wing,fds_rage,"bomber5, bomber, mid, fds_bp, fds_mil_bp",1,,6,12,V,4000,2000,2,BOMBER,Rocket Bomber,15,12000,,,,,,,,,,,,,705
+fds_guilt_wing,fds_guilt,"fighter5, fighter, mid, fds_bp, fds_mil_bp",1,,6,15,V,4000,750,3,FIGHTER,Heavy Fighter,12,10000,,,,,,,,,,,,,712
+fds_remorse_wing,fds_remorse,"bomber6, bomber, mid, fds_bp, fds_mil_bp",1,,6,20,V,4000,2000,3,ASSAULT,Heavy Bomber,15,14000,,,,,,,,,,,,,713
+,,,,,,,,,,,,,,,,,,,,,,,,,,,

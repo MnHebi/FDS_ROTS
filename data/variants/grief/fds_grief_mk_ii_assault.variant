@@ -1,0 +1,42 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 7,
+  "fluxVents": 7,
+  "goalVariant": true,
+  "hullId": "fds_grief_mk_ii",
+  "hullMods": [
+    "targetingunit",
+    "auxiliarythrusters"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_grief_mk_ii_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_chaingun_L",
+        "WS0009": "fds_chaingun_P"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_hydra_3x_rack",
+        "WS0002": "fds_hydra_3x_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_pd_laser_mk_ii",
+        "WS0006": "fds_pd_laser_mk_ii",
+        "WS0008": "fds_pd_laser_mk_ii"
+      }
+    }
+  ],
+  "wings": []
+}

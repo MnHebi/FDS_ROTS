@@ -1,0 +1,132 @@
+{
+  "bounds": [
+    12,
+    6,
+    12,
+    10,
+    -10,
+    30,
+    -17,
+    19,
+    -2,
+    -0,
+    -17,
+    -19,
+    -10,
+    -30,
+    11,
+    -13,
+    12,
+    -7,
+    26,
+    -0
+  ],
+  "builtInWeapons": {
+    "WS0005": "blinker_red"
+  },
+  "builtInWings": [],
+  "center": [
+    31.5,
+    19.5
+  ],
+  "collisionRadius": 41.188591,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 20,
+      "location": [
+        -15,
+        12
+      ],
+      "style": "FDS_BOMBER",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 20,
+      "location": [
+        -15,
+        -12
+      ],
+      "style": "FDS_BOMBER",
+      "width": 10
+    }
+  ],
+  "height": 53,
+  "hullId": "fds_rage",
+  "hullName": "Rage",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 39.613762,
+  "spriteName": "graphics/FDS/ships/fds_rage.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        25.5,
+        3.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0002",
+      "locations": [
+        25.5,
+        -3.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        12.5,
+        10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        12.5,
+        -10.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        17,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "DECORATIVE"
+    }
+  ],
+  "width": 63
+}

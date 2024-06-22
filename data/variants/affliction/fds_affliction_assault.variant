@@ -1,0 +1,44 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 7,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "fds_affliction",
+    "hullMods": [
+        "targetingunit",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_affliction_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0007": "fds_hydra_3x_rack",
+                "WS0008": "fds_hydra_3x_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "fds_heavy_autoblaster_cannon",
+                "WS0006": "fds_heavy_autoblaster_cannon",
+                "WS0009": "fds_light_autoblaster_cannon",
+                "WS0010": "fds_light_autoblaster_cannon",
+                "WS0011": "fds_pd_laser_mk_ii",
+                "WS0012": "fds_ion_battery"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_pd_laser_mk_ii",
+                "WS0002": "fds_pd_laser_mk_ii"
+            }
+        }
+    ]
+}

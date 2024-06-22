@@ -1,0 +1,270 @@
+{
+  "bounds": [
+    76.5,
+    1.5,
+    70.5,
+    7.5,
+    46.5,
+    12.5,
+    45.5,
+    19.5,
+    38.5,
+    25.5,
+    31.5,
+    25.5,
+    22.5,
+    35.5,
+    11.5,
+    41.5,
+    16.5,
+    42.5,
+    16.5,
+    53.5,
+    -6.5,
+    56.5,
+    -19.5,
+    55.5,
+    -26.5,
+    40.5,
+    -34.5,
+    39.5,
+    -34.5,
+    27.5,
+    -29.5,
+    25.5,
+    -33.5,
+    16.5,
+    -48.5,
+    15.5,
+    -49.5,
+    7.5,
+    -55.5,
+    7.5,
+    -55.5,
+    -7.5,
+    -49.5,
+    -7.5,
+    -48.5,
+    -15.5,
+    -33.5,
+    -16.5,
+    -29.5,
+    -25.5,
+    -34.5,
+    -27.5,
+    -34.5,
+    -39.5,
+    -26.5,
+    -40.5,
+    -19.5,
+    -55.5,
+    -6.5,
+    -56.5,
+    16.5,
+    -53.5,
+    16.5,
+    -42.5,
+    11.5,
+    -41.5,
+    22.5,
+    -35.5,
+    31.5,
+    -25.5,
+    38.5,
+    -25.5,
+    45.5,
+    -19.5,
+    46.5,
+    -12.5,
+    70.5,
+    -7.5,
+    76.5,
+    -1.5
+  ],
+  "builtInMods": [
+    "fds_syndicate_combat_systems"
+  ],
+  "builtInWings": [],
+  "center": [
+    62,
+    58
+  ],
+  "collisionRadius": 108.00116,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 18,
+      "location": [
+        -36,
+        37.5
+      ],
+      "style": "FDS_ENGINE",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 18,
+      "location": [
+        -36,
+        -37.5
+      ],
+      "style": "FDS_ENGINE",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 26,
+      "location": [
+        -36,
+        30.5
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 26,
+      "location": [
+        -36,
+        -30.5
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 12,
+      "length": 26.5,
+      "location": [
+        -51,
+        12
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": -180,
+      "contrailSize": 12,
+      "length": 26.5,
+      "location": [
+        -51,
+        -12
+      ],
+      "style": "FDS_ENGINE",
+      "width": 12
+    },
+    {
+      "angle": 180,
+      "contrailSize": 14,
+      "length": 34,
+      "location": [
+        -57,
+        4
+      ],
+      "style": "FDS_ENGINE",
+      "width": 14
+    },
+    {
+      "angle": -180,
+      "contrailSize": 14,
+      "length": 34,
+      "location": [
+        -57,
+        -4
+      ],
+      "style": "FDS_ENGINE",
+      "width": 14
+    }
+  ],
+  "height": 137,
+  "hullId": "fds_regret",
+  "hullName": "Regret",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    6,
+    -0
+  ],
+  "shieldRadius": 101.004951,
+  "spriteName": "graphics/FDS/ships/fds_regret_mk_ii.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": -130,
+      "arc": 150,
+      "id": "WS0001",
+      "locations": [
+        -3.5,
+        -33.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 130,
+      "arc": 150,
+      "id": "WS0002",
+      "locations": [
+        -3.5,
+        33.5
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0003",
+      "locations": [
+        15,
+        -48
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0004",
+      "locations": [
+        15,
+        48
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "UNIVERSAL"
+    },
+    {
+      "angle": 0,
+      "arc": 240,
+      "id": "WS0007",
+      "locations": [
+        41,
+        -0
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 360,
+      "id": "WS0008",
+      "locations": [
+        7.5,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 124
+}

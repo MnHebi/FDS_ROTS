@@ -1,0 +1,45 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 7,
+    "fluxVents": 9,
+    "goalVariant": true,
+    "hullId": "fds_submission",
+    "hullMods": [
+        "targetingunit",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_submission_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0012": "fds_heavy_beam",
+                "WS0013": "fds_heavy_beam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "fds_pd_laser_mk_ii",
+                "WS0006": "fds_pd_laser_mk_ii",
+                "WS0009": "fds_pd_laser_mk_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_pd_laser_mk_iii",
+                "WS0002": "fds_pd_laser_mk_iii",
+                "WS0003": "fds_pd_laser_mk_iii",
+                "WS0004": "fds_pd_laser_mk_iii",
+                "WS0007": "fds_pd_laser_mk_iii",
+                "WS0008": "fds_pd_laser_mk_iii"
+            }
+        }
+    ]
+}

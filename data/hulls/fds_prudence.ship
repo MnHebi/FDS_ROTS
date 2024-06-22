@@ -1,0 +1,161 @@
+{
+  "bounds": [
+    15,
+    5,
+    6,
+    9.5,
+    3.5,
+    28.5,
+    -5.5,
+    31.5,
+    -12,
+    6.5,
+    -12,
+    -6.5,
+    -5.5,
+    -31.5,
+    3.5,
+    -28.5,
+    6,
+    -9.5,
+    15,
+    -5
+  ],
+  "builtInMods": [
+    "fds_syndicate_combat_systems"
+  ],
+  "builtInWeapons": {
+    "WS0003": "fds_defender_I_blaster",
+    "WS0004": "fds_defender_I_blaster",
+    "WS0005": "fds_light_pd_blaster"
+  },
+  "builtInWings": [],
+  "center": [
+    34,
+    14
+  ],
+  "collisionRadius": 46.524189,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 20,
+      "location": [
+        -12.5,
+        6.5
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 20,
+      "location": [
+        -12.5,
+        -6.5
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    }
+  ],
+  "height": 41,
+  "hullId": "fds_prudence",
+  "hullName": "Prudence",
+  "hullSize": "FRIGATE",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 44.902672,
+  "spriteName": "graphics/FDS/ships/fds_prudence.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        6.5,
+        14.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        6.5,
+        -14.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 2,
+      "id": "WS0003",
+      "locations": [
+        22,
+        4
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -0,
+      "arc": 2,
+      "id": "WS0004",
+      "locations": [
+        22,
+        -4
+      ],
+      "mount": "HARDPOINT",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": 180,
+      "arc": 0,
+      "id": "WS0005",
+      "locations": [
+        -8,
+        0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "BUILT_IN"
+    },
+    {
+      "angle": -155,
+      "arc": 60,
+      "id": "WS0006",
+      "locations": [
+        -10,
+        -13
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    },
+    {
+      "angle": 155,
+      "arc": 60,
+      "id": "WS0007",
+      "locations": [
+        -10,
+        13
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "SYSTEM"
+    }
+  ],
+  "width": 68
+}

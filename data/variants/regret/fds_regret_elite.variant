@@ -1,0 +1,36 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 7,
+    "fluxVents": 7,
+    "hullId": "fds_regret",
+    "hullMods": [
+        "fds_maintenance_bots",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_regret_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "lightneedler",
+                "WS0004": "lightneedler"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "fds_light_autoblaster_cannon"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_light_pd_blaster",
+                "WS0002": "fds_light_pd_blaster"
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 1,
+    "fluxVents": 4,
+    "hullId": "fds_melancholy_mk_ii",
+    "hullMods": [
+        "auxiliarythrusters",
+        "missleracks"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_melancholy_mk_ii_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0005": "fds_tali_mrm_single",
+                "WS0006": "fds_tali_mrm_single",
+                "WS0007": "fds_tali_mrm_single",
+                "WS0008": "fds_tali_mrm_single",
+                "WS0009": "fds_tali_mrm_single",
+                "WS0010": "fds_tali_mrm_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_light_autoblaster_cannon",
+                "WS0004": "fds_light_blaster_double"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "fds_pd_laser_mk_iii",
+                "WS0003": "fds_pd_laser_mk_iii"
+            }
+        }
+    ]
+}

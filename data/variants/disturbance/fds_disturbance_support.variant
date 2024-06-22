@@ -1,0 +1,42 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 7,
+  "fluxVents": 6,
+  "goalVariant": true,
+  "hullId": "fds_disturbance",
+  "hullMods": [
+    "targetingunit",
+    "auxiliarythrusters",
+    "fds_maintenance_bots"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_disturbance_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_disturbance_blaster_L",
+        "WS0002": "fds_disturbance_blaster_P"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "heatseeker",
+        "WS0008": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "taclaser",
+        "WS0004": "taclaser"
+      }
+    }
+  ],
+  "wings": []
+}

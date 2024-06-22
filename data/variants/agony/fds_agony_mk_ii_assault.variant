@@ -1,0 +1,58 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "fds_agony_mk_ii",
+    "hullMods": [
+        "auxiliarythrusters",
+        "hardenedshieldemitter"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_agony_mk_ii_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "sabot_single",
+                "WS0003": "sabot_single"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0004": "harpoon_single",
+                "WS0005": "harpoon_single"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_light_blaster_double",
+                "WS0006": "lightdualac",
+                "WS0007": "lightdualac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0010": "lightag",
+                "WS0011": "lightag"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "fds_light_pd_blaster",
+                "WS0009": "fds_light_pd_blaster",
+                "WS0012": "fds_light_pd_blaster"
+            }
+        }
+    ]
+}

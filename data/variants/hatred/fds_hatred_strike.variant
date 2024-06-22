@@ -1,0 +1,58 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 25,
+  "fluxVents": 24,
+  "goalVariant": true,
+  "hullId": "fds_hatred",
+  "hullMods": [
+    "targetingunit"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_hatred_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 18": "fds_tali_mrm",
+        "WS 19": "fds_tali_mrm",
+        "WS 3": "fds_hydra_3x_rack",
+        "WS 4": "fds_hydra_3x_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 11": "fds_light_autoblaster_cannon",
+        "WS 12": "fds_light_autoblaster_cannon",
+        "WS 14": "fds_kane",
+        "WS 15": "fds_kane",
+        "WS 16": "fds_remnant_dagger",
+        "WS 17": "fds_remnant_dagger",
+        "WS 20": "fds_heavy_autoblaster_battery",
+        "WS 21": "fds_heavy_autoblaster_battery",
+        "WS 7": "fds_light_autoblaster_cannon",
+        "WS 8": "fds_light_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_pd_laser_mk_ii",
+        "WS 10": "fds_pd_laser_mk_ii",
+        "WS 13": "fds_pd_laser_mk_ii",
+        "WS 2": "fds_pd_laser_mk_ii",
+        "WS 5": "fds_pd_laser_mk_ii",
+        "WS 6": "fds_pd_laser_mk_ii",
+        "WS 9": "fds_pd_laser_mk_ii"
+      }
+    }
+  ],
+  "wings": [
+    "fds_disgrace_wing",
+    "fds_guilt_wing"
+  ]
+}

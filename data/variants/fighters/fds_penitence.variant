@@ -1,0 +1,27 @@
+{
+  "displayName": "Fighter",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "fds_penitence",
+  "hullMods": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_penitence",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_light_blaster",
+        "WS0003": "fds_light_blaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "wings": []
+}

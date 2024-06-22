@@ -1,0 +1,74 @@
+{
+	"fds_fringe_label":{
+		"defaultName":"The Fringe Worlds", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":6,
+		"nameAngle":0,
+		"nameColor":[236,184,160,200],
+		"nameShadowColor":[0,0,0,120], 
+		"scaleNameWithZoom":true,
+	},
+	"fds_inner_rim_label":{
+		"defaultName":"Inner Rim", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":1.2f,
+		"nameAngle":5,
+		"nameColor":[184,193,224,200],
+		"nameShadowColor":[0,0,0,120], 
+		"scaleNameWithZoom":true,
+	},
+	"fds_mid_rim_label":{
+		"defaultName":"Mid Rim", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":1.2f,
+		"nameAngle":-60,
+		"nameColor":[159,147,185,200],
+		"nameShadowColor":[0,0,0,120], 
+		"scaleNameWithZoom":true,
+	},
+	"fds_outer_rim_label":{
+		"defaultName":"Outer Rim", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":1.2f,
+		"nameAngle":10,
+		"nameColor":[127,145,188,200],
+		"nameShadowColor":[0,0,0,120], 
+		"scaleNameWithZoom":true,
+	},
+	"fds_north_outer_rim_label":{
+		"defaultName":"Outer Rim", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":1.2f,
+		"nameAngle":-5,
+		"nameColor":[127,145,188,200],
+		"nameShadowColor":[0,0,0,120], 
+		"scaleNameWithZoom":true,
+	},
+	"fds_unknown_label":{
+		"defaultName":"Outer Rim", # used if name=null in addCustomEntity()
+		"showInCampaign":false,
+		"showIconOnMap":false,
+		"showNameOnMap":true,
+		"nameFont":"graphics/fonts/insignia25LTaa.fnt",
+		"nameFontScale":1.2f,
+		"nameAngle":80,
+		"nameColor":[114,130,166,200],
+		"nameShadowColor":[0,0,0,120], 
+		"scaleNameWithZoom":true,
+	},
+}

@@ -1,0 +1,153 @@
+{
+  "bounds": [
+    19,
+    -2.5,
+    -3,
+    -10.5,
+    3,
+    -22.5,
+    -17,
+    -17.5,
+    -22,
+    -6.5,
+    -14,
+    0,
+    -22,
+    6.5,
+    -17,
+    17.5,
+    3,
+    22.5,
+    -3,
+    10.5,
+    19,
+    2.5
+  ],
+  "builtInWings": [],
+  "center": [
+    25,
+    23.5
+  ],
+  "collisionRadius": 46.61813,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 15,
+      "location": [
+        -17.5,
+        15.5
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 15,
+      "location": [
+        -17.5,
+        -15.5
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 6
+    },
+    {
+      "angle": 180,
+      "contrailSize": 8,
+      "length": 20,
+      "location": [
+        -22.5,
+        6.5
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 8
+    },
+    {
+      "angle": -180,
+      "contrailSize": 8,
+      "length": 20,
+      "location": [
+        -22.5,
+        -6.5
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 8
+    }
+  ],
+  "height": 52,
+  "hullId": "fds_oppression",
+  "hullName": "Oppression",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 45.546681,
+  "spriteName": "graphics/FDS/ships/fds_oppression.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS 1",
+      "locations": [
+        24,
+        2.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS 2",
+      "locations": [
+        24,
+        -2.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 3",
+      "locations": [
+        6.5,
+        11
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 10,
+      "id": "WS 4",
+      "locations": [
+        6.5,
+        -11
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 180,
+      "arc": 80,
+      "id": "WS 5",
+      "locations": [
+        -9,
+        -0
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 50
+}

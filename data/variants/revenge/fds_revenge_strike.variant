@@ -1,0 +1,53 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 6,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "fds_revenge",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_revenge_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "heavymauler",
+                "WS0004": "heavymauler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "fds_hydra_2x_pod",
+                "WS0002": "fds_hydra_2x_pod",
+                "WS0015": "salamanderpod",
+                "WS0016": "salamanderpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0005": "fds_heavy_autoblaster_cannon",
+                "WS0006": "fds_heavy_autoblaster_cannon",
+                "WS0011": "fds_pd_laser_mk_ii",
+                "WS0012": "fds_pd_laser_mk_ii"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "fds_pd_laser_mk_iii",
+                "WS0008": "fds_pd_laser_mk_iii",
+                "WS0009": "fds_pd_laser_mk_iii",
+                "WS0010": "fds_pd_laser_mk_iii",
+                "WS0013": "fds_pd_laser_mk_iii",
+                "WS0014": "fds_pd_laser_mk_iii"
+            }
+        }
+    ]
+}

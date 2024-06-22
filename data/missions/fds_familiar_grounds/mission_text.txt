@@ -1,0 +1,15 @@
+Location: Asteroid Field near Novae Spes
+Date: c+198.10.25
+
+An Hegemony fleet is standing in the asteroid field closest to Novae Spes.
+
+Long range scans indicate the fleet is gathering resources and possibly installing sensor arrays to scout enemy activity in the region.
+
+This action is highly suspect and disrespectful, giving the Syndicate as many valid reasons to engage in combat as in any other situation.
+
+CAUTION!!!
+The whole region is a dense asteroid field, proceed with caution!
+A fleet composed by smaller, agile ships, has been dispatched to engage the enemy fleet, as sending any large capital ships would make this missions more hazardous than it already is.
+
+WARNING!!!
+May cause light/severe FPS drops due to the amount of asteroids present, depending on your hardware!

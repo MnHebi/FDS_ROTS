@@ -1,0 +1,95 @@
+{
+    "displayName": "Very Angry",
+    "fluxCapacitors": 50,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "fds_wroth",
+    "hullMods": [
+        "advancedoptics",
+        "advancedshieldemitter",
+        "augmentedengines",
+        "auxiliarythrusters",
+        "blast_doors",
+        "fds_maintenance_bots",
+        "fluxbreakers",
+        "fluxdistributor",
+        "hardened_subsystems",
+        "hardenedshieldemitter",
+        "heavyarmor",
+        "hiressensors",
+        "magazines",
+        "missleracks",
+        "stabilizedshieldemitter",
+        "targetingunit",
+        "fluxcoil",
+        "extendedshieldemitter",
+        "armoredweapons",
+        "eccm",
+        "ecm",
+        "autorepair",
+        "reinforcedhull"
+    ],
+    "permaMods": [],
+    "variantId": "fds_wroth_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0011": "fds_quad_blaster_battery",
+                "WS0012": "fds_quad_blaster_battery",
+                "WS0013": "fds_quad_blaster_battery",
+                "WS0015": "fds_dual_autoblaster_cannon",
+                "WS0016": "fds_dual_autoblaster_cannon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "fds_tali_mrm",
+                "WS0008": "fds_tali_mrm",
+                "WS0009": "fds_tali_mrm",
+                "WS0010": "fds_tali_mrm",
+                "WS0021": "fds_hydra_3x_rack",
+                "WS0022": "fds_hydra_3x_rack",
+                "WS0035": "fds_hydra_3x_rack",
+                "WS0036": "fds_hydra_3x_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0023": "fds_council_spear",
+                "WS0024": "fds_council_spear"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0017": "fds_kane",
+                "WS0018": "fds_kane",
+                "WS0025": "fds_ion_battery",
+                "WS0026": "fds_ion_battery",
+                "WS0030": "fds_light_autoblaster_cannon",
+                "WS0038": "fds_light_autoblaster_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_pd_laser_mk_iii",
+                "WS0002": "fds_pd_laser_mk_iii",
+                "WS0003": "fds_pd_laser_mk_iii",
+                "WS0004": "fds_pd_laser_mk_iii",
+                "WS0005": "fds_pd_laser_mk_iii",
+                "WS0006": "fds_pd_laser_mk_iii",
+                "WS0027": "fds_pd_laser_mk_iii",
+                "WS0028": "fds_pd_laser_mk_iii"
+            }
+        }
+    ]
+}

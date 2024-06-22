@@ -1,0 +1,40 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 1,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "fds_prudence_e",
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_prudence_elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "fds_defender_I_blaster",
+        "WS0004": "fds_defender_I_blaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_hydra_3x_rack",
+        "WS0002": "fds_hydra_3x_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

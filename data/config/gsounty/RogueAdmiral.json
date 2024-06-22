@@ -1,0 +1,18 @@
+{
+    "faction":"fringe_defence_syndicate",
+    "firstname":"Phobarr",
+    "lastname":"Harwit",
+    "gender":"M",    # M/F/N  (Male, female, any)
+    "officerlevel":-1, # Per default if -1, put the officerLevel max of your settings.
+	"officerPersonality":"aggressive",
+    "mainShip":"fds_terror_standard", # Flagship variant
+	"advships": [], # Variants added after the flagship
+    "randomFleet":true, # If random fleet(from the faction) will be added.
+	"combatPoints":160,
+    "reward":1000000, # Bounty reward.
+    "needBounty":"ArmsStealers",
+    "description":"Admiral Harwit has decided to rebel against the Syndicate and took one of the nation's main flagships with him, so now we shall put him down at all costs. The Admiral is in command of a Terror-class Dreadnought and several other capitals, extreme caution is advised!",
+    "dialog":"You clearly have no idea whom you're talking to. I suggest you stand down and let us pass or we shall scrape your remains off of our ships.",
+    "avatar":"graphics/portraits/portrait_hegemony05.png", # Portrait of the Gladiator
+	"dsrandom":1,
+}

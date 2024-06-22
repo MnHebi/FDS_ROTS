@@ -1,0 +1,42 @@
+{
+    "displayName": "Support",
+    "fluxCapacitors": 5,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "fds_melancholy_mk_ii",
+    "hullMods": [
+        "auxiliarythrusters",
+        "advancedoptics"
+    ],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_melancholy_mk_ii_support",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "heatseeker",
+                "WS0005": "fds_tali_mrm_single",
+                "WS0006": "fds_tali_mrm_single",
+                "WS0007": "fds_tali_mrm_single",
+                "WS0008": "fds_tali_mrm_single",
+                "WS0009": "fds_tali_mrm_single",
+                "WS0010": "fds_tali_mrm_single"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "fds_light_blaster_double"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0002": "fds_pd_laser_mk_ii",
+                "WS0003": "fds_pd_laser_mk_ii"
+            }
+        }
+    ]
+}

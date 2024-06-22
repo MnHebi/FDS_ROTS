@@ -1,0 +1,39 @@
+#name,id,qfMin,qfMax,shields,sortSlots,rare,fastAttack,escortSmall,escortMedium,combatSmall,combatMedium,combatLarge,combatCapital,combatFreighterSmall,combatFreighterMedium,combatFreighterLarge,civilianRandom,carrierSmall,carrierMedium,carrierLarge,freighterSmall,freighterMedium,freighterLarge,tankerSmall,tankerMedium,tankerLarge,personnelSmall,personnelMedium,personnelLarge,linerSmall,linerMedium,linerLarge,tug,crig,utility,miningSmall,miningMedium,miningLarge,techType
+## Cargo,id,qfMin,qfMax,shields,sortSlots,rare,fastAttack,escortSmall,escortMedium,combatSmall,combatMedium,combatLarge,combatCapital,combatFreighterSmall,combatFreighterMedium,combatFreighterLarge,civilianRandom,carrierSmall,carrierMedium,carrierLarge,freighterSmall,freighterMedium,freighterLarge,tankerSmall,tankerMedium,tankerLarge,personnelSmall,personnelMedium,personnelLarge,linerSmall,linerMedium,linerLarge,tug,crig,utility,miningSmall,miningMedium,miningLarge,techType
+Loyalty,fds_loyalty,0.1,1,STANDARD,TRUE,,,,,,,,,10,,,,,,,10,,,10,,,,,,,,,,,,,,,FDS
+Fidelity,fds_fidelity,0.1,1,STANDARD,TRUE,,,,,,,,,10,,,,,,,10,,,10,,,,,,,,,,,,,,,FDS
+Obedience,fds_obedience,0,1,STANDARD,TRUE,,,,,,,,,,,,,,,,,,,,2,10,,,,,,,,,,,,,FDS
+Burden,fds_burden,0,1,STANDARD,TRUE,,,,,,,,,,,,,,,,,2,10,,,,,,,,,,,,,,,,FDS
+Duty,fds_duty,0,1,STANDARD,TRUE,,,,,,,,,,2,2,,,,,,2,10,,,,,,,,,,,,,,,,FDS
+## Frigates,id,qfMin,qfMax,shields,sortSlots,rare,fastAttack,escortSmall,escortMedium,combatSmall,combatMedium,combatLarge,combatCapital,combatFreighterSmall,combatFreighterMedium,combatFreighterLarge,civilianRandom,carrierSmall,carrierMedium,carrierLarge,freighterSmall,freighterMedium,freighterLarge,tankerSmall,tankerMedium,tankerLarge,personnelSmall,personnelMedium,personnelLarge,linerSmall,linerMedium,linerLarge,tug,crig,utility,miningSmall,miningMedium,miningLarge,techType
+Sorrow,fds_sorrow,0.2,1,STANDARD,TRUE,,5,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Regret,fds_regret,0.4,1.2,STANDARD,TRUE,,5,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Agony,fds_agony,0.4,1.2,STANDARD,TRUE,,5,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Agony Mk. II,fds_agony_mk_ii,0.6,1.4,STANDARD,TRUE,,5,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Grief,fds_grief,0.2,1,STANDARD,TRUE,,5,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Grief Mk. II,fds_grief_mk_ii,0.4,1.2,STANDARD,TRUE,,5,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Prudence,fds_prudence,0.2,1,STANDARD,TRUE,,10,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Disturbance,fds_disturbance,0.2,1,STANDARD,TRUE,,5,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Melancholy,fds_melancholy,0.2,1,STANDARD,TRUE,,10,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Melancholy Mk. II,fds_melancholy_mk_ii,0.4,1.2,STANDARD,TRUE,,10,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+## Destroyers,id,qfMin,qfMax,shields,sortSlots,rare,fastAttack,escortSmall,escortMedium,combatSmall,combatMedium,combatLarge,combatCapital,combatFreighterSmall,combatFreighterMedium,combatFreighterLarge,civilianRandom,carrierSmall,carrierMedium,carrierLarge,freighterSmall,freighterMedium,freighterLarge,tankerSmall,tankerMedium,tankerLarge,personnelSmall,personnelMedium,personnelLarge,linerSmall,linerMedium,linerLarge,tug,crig,utility,miningSmall,miningMedium,miningLarge,techType
+Affliction,fds_affliction,0.2,1,STANDARD,TRUE,,,,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Despair,fds_despair,0.2,1,STANDARD,TRUE,,,,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Rancour,fds_rancour,0.2,1,STANDARD,TRUE,,,,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Shame,fds_shame,0.2,1.1,STANDARD,TRUE,,,,10,,10,,,,,,,10,,,,,,,,,,,,,,,,,,,,,FDS
+Desolation,fds_desolation,0.2,1,STANDARD,TRUE,,,,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Pride,fds_pride,0.2,1,STANDARD,TRUE,,,,10,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+## Cruisers,id,qfMin,qfMax,shields,sortSlots,rare,fastAttack,escortSmall,escortMedium,combatSmall,combatMedium,combatLarge,combatCapital,combatFreighterSmall,combatFreighterMedium,combatFreighterLarge,civilianRandom,carrierSmall,carrierMedium,carrierLarge,freighterSmall,freighterMedium,freighterLarge,tankerSmall,tankerMedium,tankerLarge,personnelSmall,personnelMedium,personnelLarge,linerSmall,linerMedium,linerLarge,tug,crig,utility,miningSmall,miningMedium,miningLarge,techType
+Atonement,fds_atonement,0.1,1,STANDARD,TRUE,1,,,,,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Retaliation,fds_retaliation,0.3,1.2,STANDARD,TRUE,,,,,,,10,,,,,,,10,,,,,,,,,,,,,,,,,,,,FDS
+Submission,fds_submission,0,1,STANDARD,TRUE,,,,,,,10,,,10,10,,,,,,10,,,,,,10,10,,,,,,,,,,FDS
+Revenge,fds_revenge,0.2,1.2,STANDARD,TRUE,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Wrath,fds_wrath,0.2,1.2,STANDARD,TRUE,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+## Mix,id,qfMin,qfMax,shields,sortSlots,rare,fastAttack,escortSmall,escortMedium,combatSmall,combatMedium,combatLarge,combatCapital,combatFreighterSmall,combatFreighterMedium,combatFreighterLarge,civilianRandom,carrierSmall,carrierMedium,carrierLarge,freighterSmall,freighterMedium,freighterLarge,tankerSmall,tankerMedium,tankerLarge,personnelSmall,personnelMedium,personnelLarge,linerSmall,linerMedium,linerLarge,tug,crig,utility,miningSmall,miningMedium,miningLarge,techType
+Fear,fds_fear,0.4,1.1,STANDARD,TRUE,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Torture,fds_torture,0.6,1.4,STANDARD,TRUE,,,,,,,,10,,,,,,,10,,,,,,,,,,,,,,,,,,,FDS
+Terror,fds_terror,0.7,1.5,STANDARD,TRUE,,,,,,,,10,,,,,,,10,,,,,,,,,,,,,,,,,,,FDS
+## Capitals,id,qfMin,qfMax,shields,sortSlots,rare,fastAttack,escortSmall,escortMedium,combatSmall,combatMedium,combatLarge,combatCapital,combatFreighterSmall,combatFreighterMedium,combatFreighterLarge,civilianRandom,carrierSmall,carrierMedium,carrierLarge,freighterSmall,freighterMedium,freighterLarge,tankerSmall,tankerMedium,tankerLarge,personnelSmall,personnelMedium,personnelLarge,linerSmall,linerMedium,linerLarge,tug,crig,utility,miningSmall,miningMedium,miningLarge,techType
+Hatred,fds_hatred,0.5,1.3,STANDARD,TRUE,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+Suffering,fds_suffering,0.6,1.4,STANDARD,TRUE,,,,,,,,10,,,,,,,,,,,,,,,,,,,,,,,,,,FDS
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

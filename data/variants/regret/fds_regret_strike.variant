@@ -1,0 +1,36 @@
+{
+  "displayName": "Strike",
+  "fluxCapacitors": 7,
+  "fluxVents": 8,
+  "goalVariant": true,
+  "hullId": "fds_regret",
+  "hullMods": [
+    "auxiliarythrusters",
+    "targetingunit",
+    "fluxbreakers",
+    "fds_maintenance_bots"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_regret_strike",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "annihilator",
+        "WS0004": "annihilator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "fds_pd_laser_mk_iii",
+        "WS0002": "fds_pd_laser_mk_iii",
+        "WS0007": "fds_pd_laser_mk_ii"
+      }
+    }
+  ],
+  "wings": []
+}

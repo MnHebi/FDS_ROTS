@@ -1,0 +1,44 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Decimator Cannon,fds_decimator,3,,7000,1000,,600,,250,5,22,,,,HIGH_EXPLOSIVE,1000,,1,3,1,,0,2,1,10,,1200,,,250,,"he20, fds_ballistic_bp, rare_bp",,Fringe Defence Syndicate,,Anti Armor,,,,,,,,,,24
+Dual Autoblaster Cannon,fds_dual_autoblaster_cannon,2,,5600,800,,300,,10,10,20,,,,ENERGY,325,,0,0.5,1,,0,8,0.8,5,,900,,,,,"energy20, fds_energy_bp, rare_bp",,Fringe Defence Syndicate,,General,,,,,,,,,,20
+Quad Blaster Battery ,fds_quad_blaster_battery,2,,6000,700,,100,,10,15,18,,,,ENERGY,110,,0,0.125,1,,0,5,0.8,5,,1000,,,,,"energy18, fds_adv_bp, fds_energy_bp",,Fringe Defence Syndicate,,General,,,,,,,,,,19
+Heavy Autoblaster Battery,fds_heavy_autoblaster_battery,2,,2750,650,,150,,10,15,12,,,,HIGH_EXPLOSIVE,175,,0,1,3,0.2,0,10,1,5,,1000,,,,,"energy15, fds_adv_bp, fds_energy_bp",,Fringe Defence Syndicate,,Anti Armor,,,,,,,,,,16
+Heavy Autoblaster Cannon,fds_heavy_autoblaster_cannon,1,,2500,750,,75,,10,20,10,,,,ENERGY,100,,0,0.25,1,,0,6,0.5,5,,1200,,,,,"energy12, fds_base_bp, fds_energy_bp",,Fringe Defence Syndicate,,General,,,,,,,,,,15
+Light Autoblaster Cannon,fds_light_autoblaster_cannon,0,,400,550,,75,,10,20,7,,,,ENERGY,70,,0,0.5,1,,0,5,0.5,5,,1000,,,,,"energy5, fds_base_bp, fds_energy_bp",,Fringe Defence Syndicate,,General,,,,,,,,,,3
+PD Blaster,fds_light_pd_blaster,0,,200,400,,12,,0,60,3,,,,ENERGY,10,,0,0.125,1,,0,1,0.5,5,,1200,,,,PD,"energy5, pd5, fds_base_bp, fds_energy_bp",,Fringe Defence Syndicate,,Point Defense,,,,,,,,,,2
+Light Blaster,fds_light_blaster,5,,200,400,,12,,0,60,3,,,,ENERGY,10,,0,0.25,1,,0,1,0.5,5,,1200,,,,"SYSTEM, PD","energy5, pd5, fds_base_bp, fds_energy_bp",,Fringe Defence Syndicate,,General,,,,,,,,,,1
+Ion Battery,fds_ion_battery,3,,3000,600,,100,200,10,15,15,,,,KINETIC,150,,0,2,4,0.1,0,5,0.5,5,,1200,,,,,"kinetic10, fds_adv_bp, fds_energy_bp",,Fringe Defence Syndicate,,Suppression,,,,,,,,,,18
+Laser Autocannon,fds_Alliance_turbo_L,5,,6000,600,,50,,10,15,,,,,ENERGY,40,,0,0.25,1,,0,10,1,10,,1200,,,,SYSTEM,,,Fringe Defence Syndicate,,General,,,,,,,,,,406
+Laser Autocannon,fds_Alliance_turbo_P,5,,6000,600,,50,,10,15,,,,,ENERGY,40,,0,0.25,1,,0,10,1,10,,1200,,,,SYSTEM,,,Fringe Defence Syndicate,,General,,,,,,,,,,407
+Heavy Beam,fds_heavy_beam,1,,2600,800,200,,,20,15,12,,,,KINETIC,,200,0.5,2,,,,,,,2600,,,,,,"energy10, beam10, fds_base_bp, fds_energy_bp",,Fringe Defence Syndicate,,Suppression,,,,,,,,,,13
+PD Laser Mk. II,fds_pd_laser_mk_ii,1,,250,400,100,,,0,75,5,,,,ENERGY,,50,0,0.25,,,,,,,2400,,,,,PD,"energy5, beam5, pd5, fds_base_bp, fds_energy_bp",,Fringe Defence Syndicate,,Point Defense,,,,,,,,,,4
+PD Laser Mk. III,fds_pd_laser_mk_iii,1,,400,300,140,,,0,75,5,,,,ENERGY,,50,0,0.25,,,,,,,2400,,,,,PD,"energy5, beam5, pd5, fds_base_bp, fds_energy_bp",,Fringe Defence Syndicate,,Point Defense,,,,,,,,,,5
+Remnant Dagger,fds_remnant_dagger,3,,3000,800,500,,50,0,10,12,,,,ENERGY,,750,0.5,1,1,2,,,,,10000,,,,,,"energy12, beam15, fds_adv_bp, fds_energy_bp",,Fringe Defence Syndicate,,Strike,,,,,,,,,,14
+Council Spear,fds_council_spear,4,,12000,1250,1000,,2000,0,10,25,,,,ENERGY,,2000,0.5,1,1,10,,,,,10000,,,,,,"energy15, beam20, fds_energy_bp, rare_bp",,Fringe Defence Syndicate,,Finisher,,,,,,,,,,25
+Fighter Rocket Pod,fds_fighter_rocket,5,,500,1500,,100,,5,30,,15,,,HIGH_EXPLOSIVE,0,,0,0.1,1,,0,32,15,10,,400,50,3.75,30,SYSTEM,"rocket13, strike8",,Fringe Defence Syndicate,,Anti Armor,,,,,,,,,TRUE,500
+Ion Missile (Single),fds_ion_missile_single,5,,1200,1000,,200,2000,25,10,,1,,,KINETIC,0,,0,5,1,,0,0,0,0,,350,50,4,120,SYSTEM,,,Fringe Defence Syndicate,,Anti Shield,,,,,,,,,TRUE,501
+Hydra Guided Torpedo (Single),fds_hydra_single,5,,200,2000,,1500,,50,10,,1,,,HIGH_EXPLOSIVE,0,,0,2.5,1,,0,0,0,0,,300,200,10,250,"SYSTEM, STRIKE, GUIDED_POOR",,,Fringe Defence Syndicate,,Torpedo,,,,,,,,,TRUE,502
+Hydra Guided Torpedos,fds_hydra_2x_rack,0,,400,2000,,1500,,50,10,4,2,,,HIGH_EXPLOSIVE,0,,0,2,1,,0,0,0,0,,300,200,10,250,"STRIKE, GUIDED_POOR, CONSERVE_1","strike10, missile1, fds_base_bp, fds_missile_bp",,Fringe Defence Syndicate,,Torpedo,,,,,,,,,TRUE,9
+Hydra Guided Torpedo Rack,fds_hydra_3x_rack,0,,600,2000,,1500,,50,10,6,3,,,HIGH_EXPLOSIVE,0,,0,2,1,,0,0,0,0,,300,200,10,250,"STRIKE, GUIDED_POOR, CONSERVE_1","strike7, missile1, fds_base_bp, fds_missile_bp",,Fringe Defence Syndicate,,Torpedo,,,,,,,,,TRUE,10
+Hydra Guided Torpedo Pod,fds_hydra_2x_pod,1,,1200,2000,,1500,,50,10,12,8,,,HIGH_EXPLOSIVE,0,,0,5,2,0.25,0,0,0,0,,300,200,10,250,"STRIKE, GUIDED_POOR, CONSERVE_2","strike5, missile1, fds_base_bp, fds_missile_bp",,Fringe Defence Syndicate,,Torpedo,,,,,,,,,TRUE,11
+Tali MRM Pod,fds_tali_mrm,1,,1200,2500,,350,,30,10,10,40,,,HIGH_EXPLOSIVE,0,,0,10,4,0.25,0,0,0,0,,400,100,7.5,150,"DO_NOT_AIM, CONSERVE_1","strike10, missile1, fds_base_bp, fds_missile_bp",,Fringe Defence Syndicate,,Finisher,,,,,,,,,TRUE,12
+Light Tali (Single),fds_tali_mrm_single,5,,1200,1250,,200,,30,10,,1,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,0,,500,100,5,150,SYSTEM,,,Fringe Defence Syndicate,,Finisher,,,,,,,,,TRUE,8
+Hailstorm Cannon Battery,fds_torture_forward_cannons,5,,14000,900,,750,,200,5,,,,,HIGH_EXPLOSIVE,700,,0,1.3,1,,0,10,1,10,,500,,,400,SYSTEM,,,Fringe Defence Syndicate,,Anti Armor,,,,,,,,,,504
+Kane Blaster,fds_kane,4,,3200,1000,,500,,20,15,14,2,0.5,1,HIGH_EXPLOSIVE,500,,0,0.25,1,,,,,,,800,,,,,"he10, fds_adv_bp, fds_energy_bp",,Fringe Defence Syndicate,,Strike,,,,,,,,,,17
+Kane Blaster Sub,fds_kane_sub,5,,,500,,50,,10,0,,,,,HIGH_EXPLOSIVE,,,0,1,1,,0,0,0,0,,1500,,,25,SYSTEM,,,Fringe Defence Syndicate,,,,,,,,,,,,505
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Laser Cannon,fds_light_blaster_double,5,,220,500,,50,,0,140,,,,,ENERGY,25,,0,0.5,2,0.1,,,,,,1000,,,,SYSTEM,,,Fringe Defence Syndicate,,General,,,,,,,,,,423
+Rapid Laser Cannons,fds_defender_blaster_L,5,,6000,600,,50,,10,15,,,,,ENERGY,40,,,0.33,2,0.15,0,10,1,10,,1200,,,,SYSTEM,,,Fringe Defence Syndicate,,General,,,,,,,,,,432
+Rapid Laser Cannons,fds_defender_blaster_P,5,,6000,600,,50,,10,15,,,,,ENERGY,40,,,0.33,2,0.15,0,10,1,10,,1200,,,,SYSTEM,,,Fringe Defence Syndicate,,General,,,,,,,,,,433
+Rapid Laser Cannons,fds_defender_I_blaster,5,,6000,600,,50,,10,15,,,,,ENERGY,40,,,0.33,2,0.15,0,10,1,10,,1200,,,,SYSTEM,,,Fringe Defence Syndicate,,General,,,,,,,,,,436
+Rapid Laser Cannons,fds_disturbance_blaster_L,5,,6000,600,,50,,10,15,,,,,ENERGY,40,,,0.33,2,0.15,0,10,1,10,,1200,,,,SYSTEM,,,Fringe Defence Syndicate,,General,,,,,,,,,,434
+Rapid Laser Cannons,fds_disturbance_blaster_P,5,,6000,600,,50,,10,15,,,,,ENERGY,40,,,0.33,2,0.15,0,10,1,10,,1200,,,,SYSTEM,,,Fringe Defence Syndicate,,General,,,,,,,,,,435
+Vindicator SRM,fds_vindicator_srm,5,,225,800,,120,,50,30,,2,,,FRAGMENTATION,0,,0,2.5,1,,0,0,0,,,300,50,15,150,"SYSTEM, ANTI_FTR",,,Fringe Defence Syndicate,,Finisher,,,,,,,,,TRUE,450
+Light Reaper,fds_reaper,5,,1000,600,,2000,,40,10,,1,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,120,3.5,250,"SYSTEM, STRIKE, GUIDED_POOR",,,Fringe Defence Syndicate,,Torpedo,,,,,,,,,TRUE,437
+Havoc Chaingun,fds_chaingun_L,5,,1500,500,,40,,5,25,,,,,KINETIC,30,,0,0.12,1,,0,20,0.5,10,,800,,,15,SYSTEM,,,Fringe Defence Syndicate,,Anti Shield,,,,,,,,,,414
+Havoc Chaingun,fds_chaingun_P,5,,1500,500,,40,,5,25,,,,,KINETIC,30,,0,0.12,1,,0,20,0.5,10,,800,,,15,SYSTEM,,,Fringe Defence Syndicate,,Anti Shield,,,,,,,,,,415
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Missile Barrage,fds_missile_barrage,5,,10000,2000,,100,,15,20,,,,,HIGH_EXPLOSIVE,0,0,0,12,10,0.25,0,0,0,0,,400,100,10,50,"SYSTEM, DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES, DO_NOT_AIM",,,Fringe Defence Syndicate,,Anti Small Craft,,,,,,,,,TRUE,400
+PD Missile Barrage,fds_pd_barrage,5,,10000,1000,,100,,2,25,,,,,FRAGMENTATION,0,0,0,15,5,0.1,0,0,0,0,,500,50,5,25,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, PD_ONLY, PD",,,Fringe Defence Syndicate,,Point Defense,Excelent,Excelent,,,,,,,TRUE,401
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

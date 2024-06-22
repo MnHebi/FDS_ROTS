@@ -1,0 +1,93 @@
+{
+  "bounds": [
+    14.5,
+    2,
+    0.5,
+    6.5,
+    7.5,
+    20.5,
+    4.5,
+    20.5,
+    -10.5,
+    4.5,
+    -10.5,
+    -4.5,
+    4.5,
+    -20.5,
+    7.5,
+    -20.5,
+    0.5,
+    -6.5,
+    14.5,
+    -2
+  ],
+  "builtInWings": [],
+  "center": [
+    22,
+    13
+  ],
+  "collisionRadius": 24.596748,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 6,
+      "length": 15,
+      "location": [
+        -11,
+        3.5
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 6
+    },
+    {
+      "angle": -180,
+      "contrailSize": 6,
+      "length": 15,
+      "location": [
+        -11,
+        -3.5
+      ],
+      "style": "FDS_FIGHTER",
+      "width": 6
+    }
+  ],
+  "height": 29,
+  "hullId": "fds_penitence",
+  "hullName": "Penitence",
+  "hullSize": "FIGHTER",
+  "shieldCenter": [
+    0,
+    -0
+  ],
+  "shieldRadius": 23.769728,
+  "spriteName": "graphics/FDS/ships/fds_penitence.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 15,
+      "id": "WS0001",
+      "locations": [
+        13,
+        1.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -0,
+      "arc": 15,
+      "id": "WS0003",
+      "locations": [
+        13,
+        -1.5
+      ],
+      "mount": "HIDDEN",
+      "size": "SMALL",
+      "type": "ENERGY"
+    }
+  ],
+  "width": 44
+}

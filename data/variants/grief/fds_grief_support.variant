@@ -1,0 +1,49 @@
+{
+  "displayName": "Support",
+  "fluxCapacitors": 5,
+  "fluxVents": 4,
+  "goalVariant": true,
+  "hullId": "fds_grief",
+  "hullMods": [
+    "targetingunit",
+    "auxiliarythrusters"
+  ],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "fds_grief_support",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "fds_light_autoblaster_cannon",
+        "WS0006": "fds_light_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_hydra_2x_rack",
+        "WS0002": "fds_hydra_2x_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_heavy_beam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "fds_pd_laser_mk_iii",
+        "WS0004": "fds_pd_laser_mk_iii",
+        "WS0008": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

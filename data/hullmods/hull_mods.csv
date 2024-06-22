@@ -1,0 +1,14 @@
+name,id,tier,rarity,tags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Blockade Runner,fds_blockade_runner,,,,,,TRUE,,0,0,0,0,data.hullmods.FDS_BlockadeRunner,Increases ship maneuverability by %s percent and allows the ship to benefit from the zero flux speed bonus at up to %s percent of the ship's maximum flux capacity.,Increased handling and increased zero flux bonus levels,graphics/FDS/hullmods/blockade_runner.png
+Maintenance Bots,fds_maintenance_bots,1,,"defensive, fds",7500,,,,5,10,15,20,data.hullmods.FDS_MaintenanceBots,Increases engine and weapon repair speed by %s percent and decreases the amount of time the ship remains disabled by %s percent.,Reduced overload time and increased repair speed,graphics/FDS/hullmods/maintenance_bots.png
+Point Defence Matrix,fds_pd_matrix,3,,defensive,15000,,,,10,20,30,40,data.hullmods.FDS_PointDefenceMatrix,"Gives all Small AND Medium non-missile weapons the ability to automatically target incoming enemy missiles.
+
+Incompatible with Integrated Point Defense AI!",All small and medium non-missile weapons act as point-defense.,graphics/FDS/hullmods/point_defense_matrix.png
+FDS Combat Systems,fds_syndicate_combat_systems,,,,,,TRUE,,0,0,0,0,data.hullmods.FDS_SyndicateCombatSystems,"All ships of the Fringe Defence Syndicate are equipped with experimental enhanced combat systems, allowing the ship's weapons to turn at a %s percent higher rate, recover from the effects of recoil %s percent faster while also making energy weapons fire %s percent farther.
+
+Furthermore, fighting alongside allied ships causes less stress to the system, decreasing the rate at which Combat Readiness decreases by %s percent, up to a maximum of %s percent, with allied Syndicate ships providing twice the boost of the ships from other factions.
+
+Incompatible with Advanced Turret Gyros!",,graphics/FDS/hullmods/fds_combat_systems.png
+Augmented Sensor Arrays,fds_augmented_sensor_arrays,,,,,,TRUE,,0,0,0,0,data.hullmods.FDS_AugmentedSensorArrays,"Increases sensor range by %s percent, both in the campaign map and in combat. Its range can be further increased with the aid of a Terror-class Dreadnaught.","Increases sensor range by %s percent, both in the campaign map and in combat.",
+,,,,,,,,,,,,,,,,
+HULLMOD CONFLICT,FDSIncompatibleHullmodWarning,,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.FDSIncompatibleHullmodWarning,"%s, the hullmod you tried to install conflicts with this hull or another previously installed hullmod.",,graphics/icons/intel/investigation.png

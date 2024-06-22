@@ -1,0 +1,290 @@
+{
+	###### WEAPONS ######
+	##energy weapons
+
+	"fds_scythe":[
+
+	{"file":"sounds/FDS/sfx_energy/fds_energy_scythe.ogg","pitch":1,"volume":0.3},
+	],
+    "fds_halberd_charge":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_remnant_halberd_CHARGEUP.ogg","pitch":1.0,"volume":0.65},
+	],
+    "fds_auto_blaster":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_auto_blaster.ogg","pitch":1,"volume":0.2},
+	],
+    "fds_alliance_torture_blaster":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_alliance_torture_blaster.ogg","pitch":0.8,"volume":0.2},
+	],
+    "fds_council_spear_charging":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_council_spear_charging.ogg","pitch":1.0,"volume":0.3},
+	],
+    "fds_council_spear_V2":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_council_spear_V2.ogg","pitch":1.0,"volume":0.65},
+	],
+	"fds_turbo_blaster":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_turbo_blaster.ogg","pitch":1.0,"volume":0.3},
+	],
+	"fds_heavy_blaster":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_lr_blaster.ogg","pitch":1.0,"volume":0.3},
+	],
+	"fds_heavy_beam_fire":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_heavy_beam_fire.ogg","pitch":1.0,"volume":0.4},
+	],
+	"fds_gladiator_beam_fire":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_gladiator_beam_fire.ogg","pitch":0.5,"volume":0.4},
+	],
+	"fds_heavy_beam_loop":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_heavy_beam_loop.ogg","pitch":1.0,"volume":0.4},
+	],
+    "fds_quad_blaster":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_quad_blaster.ogg","pitch":1.0,"volume":0.3},
+	],
+    "fds_light_blaster_cannon":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_light_auto_blaster.ogg","pitch":1.0,"volume":0.65},
+	],
+    "fds_fighter_light_autoblaster":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_light_auto_blaster.ogg","pitch":1.0,"volume":0.33},
+	],
+    "fds_defender_rapid_cannons":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_defender_rapid_cannons.ogg","pitch":1.0,"volume":0.2},
+	],
+	"fds_kane_heavy_blaster":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_kane_heavy_blaster.ogg","pitch":1,"volume":0.6},
+	],
+    "fds_ion_battery":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_ion_battery_shot.ogg","pitch":1.0,"volume":0.3},
+	],
+	"fds_pb_burst_laser":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_pd_burst.ogg","pitch":1,"volume":0.2},
+	],
+	"fds_pd_laser":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_pd_laser.ogg","pitch":1,"volume":0.1},
+	],
+	"fds_pd_light_loop":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_pd_light_loop.ogg","pitch":1,"volume":0.5},
+	],
+	"fds_plasma_autocannon":[ 
+		{"file":"sounds/FDS/sfx_energy/fds_energy_plasma_autocannon.ogg","pitch":1,"volume":0.4},
+	],
+	"fds_plasma_siege_cannon":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_plasma_siege_cannon.ogg","pitch":1,"volume":0.8},
+	],
+	"fds_plasma_super_cannon":[
+		{"file":"sounds/FDS/sfx_energy/fds_energy_plasma_super_cannon01.ogg","pitch":1,"volume":1.8},
+		{"file":"sounds/FDS/sfx_energy/fds_energy_plasma_super_cannon02.ogg","pitch":1,"volume":1.8},
+	],
+
+	##ballistic weapons
+    "fds_decimator_fire":[
+		{"file":"sounds/FDS/sfx_ballistics/fds_fire_decimator_shot.ogg","pitch":1.0,"volume":1},
+	],
+	"fds_harbinger_cannons_fire":
+	[
+		{"file":"sounds/FDS/sfx_ballistics/fds_harbinger_cannons.ogg","pitch":0.95,"volume":1.7},
+		{"file":"sounds/FDS/sfx_ballistics/fds_harbinger_cannons.ogg","pitch":0.975,"volume":1.7},
+		{"file":"sounds/FDS/sfx_ballistics/fds_harbinger_cannons.ogg","pitch":1,"volume":1.7},
+	],
+	"fds_kane_ballistic":[
+		{"file":"sounds/FDS/sfx_ballistics/fds_kane_ballistic.ogg","pitch":1,"volume":0.9},
+	],
+	"fds_heavy_assault_gun":[
+		{"file":"sounds/FDS/sfx_ballistics/fds_fire_heavy_assault_gun.ogg","pitch":1,"volume":0.7},
+	],
+	"fds_chaingun_startup":[
+		{"file":"sounds/FDS/sfx_ballistics/fds_fire_chaingun_startup.ogg","pitch":1,"volume":0.5},
+	],
+	"fds_chaingun_fire":[
+		{"file":"sounds/FDS/sfx_ballistics/fds_fire_chaingun_action.ogg","pitch":1,"volume":0.5},
+	],
+	"fds_light_assault_gun":[
+		{"file":"sounds/FDS/sfx_ballistics/fds_fire_light_assault_gun.ogg","pitch":1,"volume":0.4},
+	],
+	"fds_pd_minigun_needler":[
+		{"file":"sounds/FDS/sfx_ballistics/fds_fire_pd_minigun_needler04a.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/FDS/sfx_ballistics/fds_fire_pd_minigun_needler04b.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/FDS/sfx_ballistics/fds_fire_pd_minigun_needler04c.ogg","pitch":1,"volume":0.15},
+	],
+
+	##torpedos and missiles
+    "fds_hydra":[
+		{"file":"sounds/FDS/sfx_missiles/fds_torpedo_hydra.ogg","pitch":1.0,"volume":0.10},
+	],
+	"fds_tali_fighter_launch":[
+		{"file":"sounds/FDS/sfx_missiles/fds_tali_fighter_launch.ogg","pitch":1,"volume":0.333},
+	],
+	"fds_tali_mrm_launch":[
+		{"file":"sounds/FDS/sfx_missiles/fds_tali_mrm_launch.ogg","pitch":1,"volume":0.333},
+	],
+	"fds_swarmer":[
+		{"file":"sounds/FDS/sfx_missiles/fds_swarmer_launch.ogg","pitch":0.75,"volume":0.2},
+	],
+	"fds_ion_launch":[
+		{"file":"sounds/FDS/sfx_missiles/fds_ion_launch.ogg","pitch":0.75,"volume":0.2},
+	],
+	
+	###### SYSTEMS ######
+	"system_yeet":{
+        "sounds":[
+			{"file":"sounds/FDS/sfx_effect/system_yeet.ogg","pitch":1.0,"volume":0.5}
+		],
+	},
+	"system_quantum_generator":{
+        "sounds":[
+			{"file":"sounds/FDS/sfx_engines/engine_start_1.ogg","pitch":1.0,"volume":1}
+		],
+	},
+	"system_quantum_generator_exit":{
+        "sounds":[
+			{"file":"sounds/FDS/sfx_effect/system_quantum_generator_exit.ogg","pitch":1.0,"volume":1}
+		],
+	},
+	"system_quantum_generator_appear":{
+        "sounds":[
+			{"file":"sounds/FDS/sfx_effect/system_quantum_generator_appear.ogg","pitch":1.0,"volume":1}
+		],
+	},
+	"system_dampener_loop":{
+        "sounds":[
+			{"file":"sounds/FDS/sfx_effect/system_dampener_loop.wav","pitch":1.0,"volume":1}
+		],
+	},
+	
+	###### ENGINES ######
+	"fds_engine_loop":{
+		"sounds":[
+			{"file":"sounds/FDS/sfx_engines/engine_frigate.ogg","pitch":1,"volume":1},    			# index: 0
+			{"file":"sounds/FDS/sfx_engines/engine_destroyer.ogg","pitch":1,"volume":1},  			# index: 1
+			{"file":"sounds/FDS/sfx_engines/engine_cruiser.ogg","pitch":1,"volume":1},    			# index: 2
+			{"file":"sounds/FDS/sfx_engines/engine_capital.ogg","pitch":1,"volume":1},    			# index: 3
+		],
+		"FDS":{"sounds":[0,1,2,3], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.3},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":1},
+		"DESTROYER":{"sounds":[1], "pitch":1, "volume":1},
+		"CRUISER":{"sounds":[2], "pitch":1, "volume":1},
+		"CAPITAL_SHIP":{"sounds":[3], "pitch":1, "volume":1},
+		},
+		"fds_engine_accelerate":{
+			"sounds":[
+			{"file":"sounds/FDS/sfx_engines/engine_start_1.ogg","pitch":1.0,"volume":0.9},		#index 0
+			{"file":"sounds/FDS/sfx_engines/engine_start_2.ogg","pitch":1.0,"volume":0.9}		#index 1
+		],
+		"FDS":{"sounds":[1], "pitch":0.8, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1.1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.6},
+		"DESTROYER":{"sounds":[0], "pitch":0.9, "volume":0.7},
+		"CRUISER":{"sounds":[0], "pitch":0.8, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":0.7, "volume":0.9},
+	},
+	
+	###### OVERLOAD ######
+	"fds_shield_burnout":{
+		"sounds":[
+			{"file":"sounds/sfx_shields/shields_burnout_oneshot.ogg","pitch":1,"volume":1}
+		],
+		"FDS":{"sounds":[0], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1}
+	},
+	"fds_emp_loop":{
+		"sounds":[
+			{"file":"sounds/sfx_shields/shields_burnout_loop.ogg","pitch":1,"volume":0.6}
+		],
+		"FDS":{"sounds":[0], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":1, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1}
+	},
+	
+	###### VENTING ######
+	"fds_flux_loop":{
+		"sounds":[
+			{"file":"sounds/sfx_flux/flux_flush_loop.ogg","pitch":1,"volume":0.8}
+		],
+		"FDS":{"sounds":[0], "pitch":1.2, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1.2, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1.1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":0.9, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":0.8, "volume":1}
+	},
+	"fds_vent_flux":{
+		"sounds":[
+			{"file":"sounds/sfx_flux/flux_vent.ogg","pitch":1,"volume":0.8}
+		],
+		"FDS":{"sounds":[0], "pitch":1.2, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1.2, "volume":0.4},
+		"FRIGATE":{"sounds":[0], "pitch":1.1, "volume":0.7},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[0], "pitch":0.9, "volume":0.9},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":0.8, "volume":1}
+	},
+	
+	###### SHIELDS ######
+	"fds_shield_lower":{
+		"sounds":[
+			{"file":"sounds/sfx_shields/shields_down_large.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_shields/shields_down_medium.ogg","pitch":1,"volume":0.4},
+			{"file":"sounds/sfx_shields/shields_down_small.ogg","pitch":1,"volume":0.4}
+		],
+		"FDS":{"sounds":[0,1,2], "pitch":1.2, "volume":1},
+		"FIGHTER":{"sounds":[2], "pitch":1, "volume":0.6},
+		"FRIGATE":{"sounds":[2], "pitch":1, "volume":0.7},
+		"DESTROYER":{"sounds":[1], "pitch":1, "volume":0.8},
+		"CRUISER":{"sounds":[1], "pitch":1, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":1, "volume":1}
+	},
+	"fds_shield_raise":{
+		"sounds":[
+			{"file":"sounds/FDS/sfx_shields/shields_up.wav","pitch":1,"volume":0.4}
+		],
+		"FDS":{"sounds":[0], "pitch":1, "volume":1},
+		"FIGHTER":{"sounds":[0], "pitch":1.5, "volume":0.5},
+		"FRIGATE":{"sounds":[0], "pitch":1.2, "volume":0.6},
+		"DESTROYER":{"sounds":[0], "pitch":1, "volume":0.7},
+		"CRUISER":{"sounds":[0], "pitch":0.8, "volume":0.8},
+		"CAPITAL_SHIP":{"sounds":[0], "pitch":0.5, "volume":1}
+	},
+	
+	###### ASPLODE ######
+	"fds_explosion_ship":{
+		"sounds":[
+			{"file":"sounds/sfx_impacts/explosion_01.ogg","pitch":1,"volume":1.0},				#index 0
+			{"file":"sounds/sfx_impacts/explosion_02.ogg","pitch":1,"volume":1.0},				#index 1
+			{"file":"sounds/sfx_impacts/explosion_04.ogg","pitch":1,"volume":1.0},				#index 2
+			{"file":"sounds/sfx_impacts/explosion_03_fighter.ogg","pitch":1,"volume":1.0},		#index 3
+			#{"file":"sounds/FDS/sfx_explosions/explosion_rebel.ogg","pitch":1,"volume":1.0},	#index 4
+			#{"file":"sounds/FDS/sfx_explosions/explosion_tie.ogg","pitch":1,"volume":1.0}		#index 5
+		],
+		"FDS":{"sounds":[0,1,2,3], "pitch":1.2, "volume":1},
+		"FIGHTER":{"sounds":[3], "pitch":1.1, "volume":1.0},
+		"FRIGATE":{"sounds":[0,1,2], "pitch":1.0, "volume":1.0},
+		"DESTROYER":{"sounds":[0,1,2], "pitch":1.0, "volume":1.0},
+		"CRUISER":{"sounds":[0,1,2], "pitch":0.9, "volume":1.0},
+		"CAPITAL_SHIP":{"sounds":[0,1,2], "pitch":0.7, "volume":1.0}
+	},
+	
+	###### UI ######
+	"ui_cargo_droids":{
+		"sounds":[
+			#{"file":"sounds/FDS/sfx_cargo/cargo_droids_pickup.ogg","pitch":1,"volume":0.3},
+			{"file":"sounds/sfx_cargo/cargo_goods_pickup.ogg","pitch":1,"volume":0.3},
+		],
+	},
+	"ui_cargo_droids_drop":{
+		"sounds":[
+			#{"file":"sounds/FDS/sfx_cargo/cargo_droids_drop.ogg","pitch":1,"volume":0.3},
+			{"file":"sounds/sfx_cargo/cargo_goods_drop.ogg","pitch":1,"volume":0.3},
+		],
+	},
+}
+
+
+
+
+

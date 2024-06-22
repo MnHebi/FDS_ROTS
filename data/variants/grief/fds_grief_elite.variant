@@ -1,0 +1,38 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 4,
+    "fluxVents": 4,
+    "hullId": "fds_grief",
+    "hullMods": ["missleracks"],
+    "permaMods": [],
+    "quality": 0.5,
+    "variantId": "fds_grief_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "fds_kane",
+                "WS0008": "fds_light_autoblaster_cannon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "fds_hydra_2x_rack",
+                "WS0002": "fds_hydra_2x_rack"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "fds_pd_laser_mk_ii",
+                "WS0004": "fds_pd_laser_mk_ii",
+                "WS0005": "fds_pd_laser_mk_iii",
+                "WS0006": "fds_pd_laser_mk_iii"
+            }
+        }
+    ]
+}

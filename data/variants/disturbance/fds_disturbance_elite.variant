@@ -1,0 +1,42 @@
+{
+  "displayName": "Elite",
+  "fluxCapacitors": 9,
+  "fluxVents": 8,
+  "goalVariant": true,
+  "hullId": "fds_disturbance",
+  "hullMods": [
+    "auxiliarythrusters",
+    "targetingunit",
+    "hardened_subsystems"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_disturbance_elite",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_disturbance_blaster_L",
+        "WS0002": "fds_disturbance_blaster_P"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "fds_hydra_2x_rack",
+        "WS0008": "fds_hydra_2x_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "fds_light_pd_blaster",
+        "WS0004": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,20 @@
+{
+	"id":"fds_dual_autoblaster_cannon_shot",
+	"specClass":"projectile",
+	#"spawnType":"BEAM",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":60.0,
+	"width":10.0,
+	"hitGlowRadius":25,
+	"fadeTime":0.25,
+	"fringeColor":[0,255,0,225],
+	"coreColor":[255,255,255,200],
+	#"textureScrollSpeed":64.0,
+	#"pixelsPerTexel":5.0
+	#"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureType":["graphics/fx/beam_chunky_fringe.png","graphics/fx/beam_laser_fringe.png"],
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

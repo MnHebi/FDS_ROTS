@@ -1,0 +1,18 @@
+{
+    "faction":"fringe_defence_syndicate",
+    "firstname":"Gerleo",
+    "lastname":"Chalum",
+    "gender":"M",    # M/F/N  (Male, female, any)
+    "officerlevel":-1, # Per default if -1, put the officerLevel max of your settings.
+	"officerPersonality":"aggressive",
+    "mainShip":"fds_hatred_strike", # Flagship variant
+	"advships":[], # Variants added after the flagship
+    "randomFleet":true, # If random fleet(from the faction) will be added.
+	"combatPoints":75,
+    "reward":600000, # Bounty reward.
+    "needBounty":"SyndicateSpy",
+    "description":"Commander Chalum is known to use his power to help sell weapons and ships to the enemy. He is flying a Hatred-class Battleship and the entire fleet is considered to be very well equipped.",
+    "dialog":"Do you have any idea what happens to people like you? Give up while you can...",
+    "avatar":"graphics/portraits/portrait_corporate06.png", # Portrait of the Gladiator
+	"dsrandom":1,
+}

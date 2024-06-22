@@ -1,0 +1,43 @@
+{
+  "displayName": "Standard",
+  "fluxCapacitors": 16,
+  "fluxVents": 15,
+  "goalVariant": true,
+  "hullId": "fds_atonement",
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter",
+    "magazines"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_atonement_standard",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 5": "fds_tali_mrm",
+        "WS 6": "fds_tali_mrm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 7": "chaingun",
+        "WS 8": "chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "fds_light_pd_blaster",
+        "WS 2": "fds_light_pd_blaster",
+        "WS 9": "fds_light_pd_blaster"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,45 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 12,
+    "fluxVents": 12,
+    "goalVariant": true,
+    "hullId": "fds_pride",
+    "hullMods": [
+        "targetingunit",
+        "adaptiveshields"
+    ],
+    "permaMods": [],
+    "variantId": "fds_pride_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0009": "fds_hydra_2x_rack",
+                "WS0010": "fds_hydra_2x_rack",
+                "WS0011": "harpoon",
+                "WS0012": "harpoon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "fds_heavy_autoblaster_cannon",
+                "WS0002": "fds_heavy_autoblaster_cannon",
+                "WS0003": "fds_heavy_autoblaster_cannon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "fds_pd_laser_mk_ii",
+                "WS0005": "fds_pd_laser_mk_ii",
+                "WS0006": "fds_pd_laser_mk_iii",
+                "WS0007": "fds_pd_laser_mk_iii",
+                "WS0008": "fds_pd_laser_mk_ii"
+            }
+        }
+    ]
+}

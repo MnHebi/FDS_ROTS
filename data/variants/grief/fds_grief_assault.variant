@@ -1,0 +1,49 @@
+{
+  "displayName": "Assault",
+  "fluxCapacitors": 6,
+  "fluxVents": 6,
+  "goalVariant": true,
+  "hullId": "fds_grief",
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "permaMods": [],
+  "quality": 0.5,
+  "variantId": "fds_grief_assault",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "fds_heavy_autoblaster_cannon",
+        "WS0008": "fds_light_autoblaster_cannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "fds_hydra_3x_rack",
+        "WS0002": "fds_hydra_3x_rack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "fds_pd_laser_mk_ii",
+        "WS0004": "fds_pd_laser_mk_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "mininglaser",
+        "WS0006": "mininglaser"
+      }
+    }
+  ],
+  "wings": []
+}

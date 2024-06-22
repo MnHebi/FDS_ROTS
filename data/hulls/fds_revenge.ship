@@ -1,0 +1,376 @@
+{
+  "bounds": [
+    55.5,
+    2.5,
+    161.5,
+    7.5,
+    167,
+    23.5,
+    151,
+    33.5,
+    50,
+    58.5,
+    33.5,
+    51.5,
+    0.5,
+    60.5,
+    -8.5,
+    78.5,
+    -28.5,
+    84.5,
+    -14.5,
+    90.5,
+    -14.5,
+    100.5,
+    -37.5,
+    104.5,
+    -82.5,
+    82.5,
+    -87.5,
+    73.5,
+    -98.5,
+    72.5,
+    -102,
+    48.5,
+    -124.5,
+    41.5,
+    -127.5,
+    32.5,
+    -112,
+    27.5,
+    -138.5,
+    19.5,
+    -138.5,
+    8.5,
+    -116.5,
+    2.5,
+    -116.5,
+    -2.5,
+    -138.5,
+    -8.5,
+    -138.5,
+    -19.5,
+    -112,
+    -27.5,
+    -127.5,
+    -32.5,
+    -124.5,
+    -41.5,
+    -102,
+    -48.5,
+    -98.5,
+    -72.5,
+    -87.5,
+    -73.5,
+    -82.5,
+    -82.5,
+    -37.5,
+    -104.5,
+    -14.5,
+    -100.5,
+    -14.5,
+    -90.5,
+    -28.5,
+    -84.5,
+    -8.5,
+    -78.5,
+    0.5,
+    -60.5,
+    33.5,
+    -51.5,
+    50,
+    -58.5,
+    151,
+    -33.5,
+    167,
+    -23.5,
+    161.5,
+    -7.5,
+    55.5,
+    -2.5
+  ],
+  "builtInMods": [
+    "fds_syndicate_combat_systems"
+  ],
+  "builtInWings": [],
+  "center": [
+    107,
+    140
+  ],
+  "collisionRadius": 213.070999,
+  "engineSlots": [
+    {
+      "angle": 180,
+      "contrailSize": 22,
+      "length": 48,
+      "location": [
+        -138.5,
+        14
+      ],
+      "style": "FDS_ENGINE",
+      "width": 22
+    },
+    {
+      "angle": -180,
+      "contrailSize": 22,
+      "length": 48,
+      "location": [
+        -138.5,
+        -14
+      ],
+      "style": "FDS_ENGINE",
+      "width": 22
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 36,
+      "location": [
+        -104.5,
+        54
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 36,
+      "location": [
+        -104.5,
+        -54
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": 180,
+      "contrailSize": 10,
+      "length": 30,
+      "location": [
+        -98.5,
+        69
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    },
+    {
+      "angle": -180,
+      "contrailSize": 10,
+      "length": 30,
+      "location": [
+        -98.5,
+        -69
+      ],
+      "style": "FDS_ENGINE",
+      "width": 10
+    }
+  ],
+  "height": 317,
+  "hullId": "fds_revenge",
+  "hullName": "Revenge",
+  "hullSize": "CRUISER",
+  "shieldCenter": [
+    6.5,
+    -0
+  ],
+  "shieldRadius": 204.009796,
+  "spriteName": "graphics/FDS/ships/fds_revenge.png",
+  "style": "FDS",
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "angle": 0,
+      "arc": 0,
+      "id": "WS0001",
+      "locations": [
+        -20.5,
+        -95
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": -0,
+      "arc": 0,
+      "id": "WS0002",
+      "locations": [
+        -20.5,
+        95
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 0,
+      "arc": 5,
+      "id": "WS0003",
+      "locations": [
+        161.5,
+        -18
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -0,
+      "arc": 5,
+      "id": "WS0004",
+      "locations": [
+        161.5,
+        18
+      ],
+      "mount": "HARDPOINT",
+      "size": "MEDIUM",
+      "type": "HYBRID"
+    },
+    {
+      "angle": -75,
+      "arc": 190,
+      "id": "WS0005",
+      "locations": [
+        -58,
+        -44
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 75,
+      "arc": 190,
+      "id": "WS0006",
+      "locations": [
+        -58,
+        44
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 175,
+      "arc": 140,
+      "id": "WS0007",
+      "locations": [
+        -95,
+        37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -175,
+      "arc": 140,
+      "id": "WS0008",
+      "locations": [
+        -95,
+        -37
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -55,
+      "arc": 160,
+      "id": "WS0009",
+      "locations": [
+        -27,
+        -60
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 55,
+      "arc": 160,
+      "id": "WS0010",
+      "locations": [
+        -27,
+        60
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -50,
+      "arc": 140,
+      "id": "WS0011",
+      "locations": [
+        -8,
+        -20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 50,
+      "arc": 140,
+      "id": "WS0012",
+      "locations": [
+        -8,
+        20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -50,
+      "arc": 130,
+      "id": "WS0013",
+      "locations": [
+        109,
+        -20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": 50,
+      "arc": 130,
+      "id": "WS0014",
+      "locations": [
+        109,
+        20
+      ],
+      "mount": "TURRET",
+      "size": "SMALL",
+      "type": "ENERGY"
+    },
+    {
+      "angle": -60,
+      "arc": 145,
+      "id": "WS0015",
+      "locations": [
+        57,
+        -29
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    },
+    {
+      "angle": 60,
+      "arc": 145,
+      "id": "WS0016",
+      "locations": [
+        57,
+        29
+      ],
+      "mount": "TURRET",
+      "size": "MEDIUM",
+      "type": "MISSILE"
+    }
+  ],
+  "width": 214
+}
