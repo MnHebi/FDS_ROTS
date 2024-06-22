@@ -1,0 +1,76 @@
+package data.missions.fds_johnnys_madness;
+
+import com.fs.starfarer.api.fleet.FleetGoal;
+import com.fs.starfarer.api.fleet.FleetMemberType;
+import com.fs.starfarer.api.mission.FleetSide;
+import com.fs.starfarer.api.mission.MissionDefinitionAPI;
+import com.fs.starfarer.api.mission.MissionDefinitionPlugin;
+
+public class MissionDefinition implements MissionDefinitionPlugin {
+   public void defineMission(MissionDefinitionAPI api) {
+      api.initFleet(FleetSide.PLAYER, "HSS", FleetGoal.ATTACK, false);
+      api.initFleet(FleetSide.ENEMY, "FDS", FleetGoal.ATTACK, true);
+      api.setFleetTagline(FleetSide.PLAYER, "Hegemony Revenge Fleet");
+      api.setFleetTagline(FleetSide.ENEMY, "Syndicate High Admiral's Fleet");
+      api.addBriefingItem("Good luck!");
+      api.addToFleet(FleetSide.PLAYER, "onslaught_Elite", FleetMemberType.SHIP, "Strength", true);
+      api.addToFleet(FleetSide.PLAYER, "onslaught_Standard", FleetMemberType.SHIP, "Power", false);
+      api.addToFleet(FleetSide.PLAYER, "onslaught_Standard", FleetMemberType.SHIP, "Invulnerable", false);
+      api.addToFleet(FleetSide.PLAYER, "onslaught_Standard", FleetMemberType.SHIP, "Unshakable", false);
+      api.addToFleet(FleetSide.PLAYER, "onslaught_Outdated", FleetMemberType.SHIP, "Unconquerable", false);
+      api.addToFleet(FleetSide.PLAYER, "legion_Escort", FleetMemberType.SHIP, "Legionnaire", false);
+      api.addToFleet(FleetSide.PLAYER, "mora_Support", FleetMemberType.SHIP, "Meteor", false);
+      api.addToFleet(FleetSide.PLAYER, "dominator_Assault", FleetMemberType.SHIP, "Uprising", false);
+      api.addToFleet(FleetSide.PLAYER, "dominator_Assault", FleetMemberType.SHIP, "Spartacus", false);
+      api.addToFleet(FleetSide.PLAYER, "dominator_AntiCV", FleetMemberType.SHIP, "Bull", false);
+      api.addToFleet(FleetSide.PLAYER, "heron_Attack", FleetMemberType.SHIP, "Valiant", false);
+      api.addToFleet(FleetSide.PLAYER, "heron_Strike", FleetMemberType.SHIP, "Enterprise", false);
+      api.addToFleet(FleetSide.PLAYER, "eagle_Balanced", FleetMemberType.SHIP, "Resolute", false);
+      api.addToFleet(FleetSide.PLAYER, "eagle_Balanced", FleetMemberType.SHIP, "Unity", false);
+      api.addToFleet(FleetSide.PLAYER, "eagle_Balanced", FleetMemberType.SHIP, "Union", false);
+      api.addToFleet(FleetSide.PLAYER, "eagle_Balanced", FleetMemberType.SHIP, "Faithful", false);
+      api.addToFleet(FleetSide.PLAYER, "eagle_Assault", FleetMemberType.SHIP, "Devoted", false);
+      api.addToFleet(FleetSide.PLAYER, "falcon_xiv_Elite", FleetMemberType.SHIP, "Hunter", false);
+      api.addToFleet(FleetSide.PLAYER, "falcon_CS", FleetMemberType.SHIP, "Defiant", false);
+      api.addToFleet(FleetSide.PLAYER, "falcon_CS", FleetMemberType.SHIP, "Bird of Prey", false);
+      api.addToFleet(FleetSide.PLAYER, "falcon_Attack", FleetMemberType.SHIP, "Boxer", false);
+      api.addToFleet(FleetSide.PLAYER, "hammerhead_Elite", FleetMemberType.SHIP, "Shark", false);
+      api.addToFleet(FleetSide.PLAYER, "hammerhead_Elite", FleetMemberType.SHIP, "Killer Whale", false);
+      api.addToFleet(FleetSide.PLAYER, "hammerhead_Balanced", FleetMemberType.SHIP, "Hammer", false);
+      api.addToFleet(FleetSide.PLAYER, "hammerhead_Balanced", FleetMemberType.SHIP, "Nail", false);
+      api.addToFleet(FleetSide.PLAYER, "hammerhead_Balanced", FleetMemberType.SHIP, "Vicious", false);
+      api.addToFleet(FleetSide.PLAYER, "hammerhead_Support", FleetMemberType.SHIP, "Domitius", false);
+      api.addToFleet(FleetSide.PLAYER, "hammerhead_Balanced", FleetMemberType.SHIP, "Hammer", false);
+      api.addToFleet(FleetSide.PLAYER, "hammerhead_Support", FleetMemberType.SHIP, "Anvil", false);
+      api.addToFleet(FleetSide.PLAYER, "sunder_Assault", FleetMemberType.SHIP, "Piercer", false);
+      api.addToFleet(FleetSide.PLAYER, "sunder_Assault", FleetMemberType.SHIP, "Lasher", false);
+      api.addToFleet(FleetSide.PLAYER, "sunder_CS", FleetMemberType.SHIP, "Cutter", false);
+      api.addToFleet(FleetSide.PLAYER, "enforcer_Balanced", FleetMemberType.SHIP, "Executioner", false);
+      api.addToFleet(FleetSide.PLAYER, "enforcer_Assault", FleetMemberType.SHIP, "Pax", false);
+      api.addToFleet(FleetSide.PLAYER, "enforcer_Balanced", FleetMemberType.SHIP, "Nox", false);
+      api.addToFleet(FleetSide.PLAYER, "vigilance_FS", FleetMemberType.SHIP, "Fast", false);
+      api.addToFleet(FleetSide.PLAYER, "vigilance_FS", FleetMemberType.SHIP, "Swift", false);
+      api.addToFleet(FleetSide.PLAYER, "lasher_CS", FleetMemberType.SHIP, "Striker", false);
+      api.addToFleet(FleetSide.PLAYER, "lasher_CS", FleetMemberType.SHIP, "Punisher", false);
+      api.addToFleet(FleetSide.PLAYER, "lasher_PD", FleetMemberType.SHIP, "Terror", false);
+      api.addToFleet(FleetSide.PLAYER, "wolf_hegemony_Assault", FleetMemberType.SHIP, "Pax", false);
+      api.addToFleet(FleetSide.PLAYER, "wolf_hegemony_Assault", FleetMemberType.SHIP, "Nox", false);
+      api.addToFleet(FleetSide.PLAYER, "lasher_Strike", FleetMemberType.SHIP, "Slash", false);
+      api.addToFleet(FleetSide.PLAYER, "lasher_Strike", FleetMemberType.SHIP, "Maul", false);
+      api.addToFleet(FleetSide.PLAYER, "lasher_Strike", FleetMemberType.SHIP, "Grind", false);
+      api.addToFleet(FleetSide.PLAYER, "hound_hegemony_Standard", FleetMemberType.SHIP, "Bulldog", false);
+      api.addToFleet(FleetSide.PLAYER, "hound_hegemony_Standard", FleetMemberType.SHIP, "Pitbull", false);
+      api.addToFleet(FleetSide.PLAYER, "wolf_hegemony_Assault", FleetMemberType.SHIP, "Pack leader", false);
+      api.addToFleet(FleetSide.PLAYER, "lasher_Strike", FleetMemberType.SHIP, "Slasher", false);
+      api.addToFleet(FleetSide.PLAYER, "vigilance_Strike", FleetMemberType.SHIP, "Guardian", false);
+      api.addToFleet(FleetSide.PLAYER, "vigilance_Strike", FleetMemberType.SHIP, "Watchman", false);
+      api.addToFleet(FleetSide.ENEMY, "fds_wroth_standard", FleetMemberType.SHIP, "Mad Man Johnny", true);
+      float width = 10000.0F;
+      float height = 15000.0F;
+      api.initMap(-width / 2.0F, width / 2.0F, -height / 2.0F, height / 2.0F);
+      api.addAsteroidField(0.0F, 0.0F, 0.0F, width, 10.0F, 100.0F, 1000);
+      float minX = -width / 2.0F;
+      float minY = -height / 2.0F;
+      api.addNebula(width * 0.5F, height * 0.5F, 20000.0F);
+   }
+}
