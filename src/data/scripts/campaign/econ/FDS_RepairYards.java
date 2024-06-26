@@ -18,6 +18,7 @@ public class FDS_RepairYards extends BaseIndustry {
       this.demand("maintenance_bots", size - 1);
       this.demand("supplies", size - 2);
       this.demand("heavy_machinery", size - 2);
+      this.supply("ships", size - 2);
       Pair<String, Integer> deficit = this.getMaxDeficit(new String[]{"maintenance_bots", "heavy_machinery", "supplies"});
       float bonus = QUALITY_BONUS;
       if ((Integer)deficit.two > 0) {
