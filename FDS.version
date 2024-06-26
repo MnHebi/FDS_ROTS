@@ -5,8 +5,8 @@
     "modVersion": {
         "major": 0,
         "minor": 11,
-        "patch": 1m
+        "patch": 2m
     },
-	"directDownloadURL": "https://github.com/MnHebi/FDS_ROTS/releases/download/0.11.1m/FDS_ROTS_0_11_1m.zip",
+	"directDownloadURL": "https://github.com/MnHebi/FDS_ROTS/releases/download/0.11.2m/FDS_ROTS_0_11_2m.zip",
 	"changelogURL": "https://raw.githubusercontent.com/MnHebi/FDS_ROTS/main/Changelog.txt"
 }

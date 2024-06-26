@@ -4,6 +4,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.econ.CommoditySpecAPI;
 import com.fs.starfarer.api.campaign.econ.Industry.AICoreDescriptionMode;
 import com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry;
+import com.fs.starfarer.api.impl.campaign.ids.Stats;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
 import com.fs.starfarer.api.util.Pair;
@@ -15,10 +16,23 @@ public class FDS_RepairYards extends BaseIndustry {
    public void apply() {
       super.apply(true);
       int size = this.market.getSize();
+
+      //increase production if production 0
+      int OUTPUT = 3;
+      int ZERO_PROTECTION = size - OUTPUT;
+      if (ZERO_PROTECTION <= 0)
+      {
+         OUTPUT = 1;
+      }
+      else
+      {
+         OUTPUT = ZERO_PROTECTION;
+      }
+
       this.demand("maintenance_bots", size - 1);
       this.demand("supplies", size - 2);
       this.demand("heavy_machinery", size - 2);
-      this.supply("ships", size - 2);
+      this.supply("ships", OUTPUT);
       Pair<String, Integer> deficit = this.getMaxDeficit(new String[]{"maintenance_bots", "heavy_machinery", "supplies"});
       float bonus = QUALITY_BONUS;
       if ((Integer)deficit.two > 0) {
@@ -26,8 +40,8 @@ public class FDS_RepairYards extends BaseIndustry {
          bonus *= 1.0F - (float)(Integer)deficit.two / total;
       }
 
-      this.market.getStats().getDynamic().getMod("production_quality_mod").modifyMult(this.getModId(), 1.0F + bonus, this.getNameForModifier());
-      this.market.getStats().getDynamic().getMod("fleet_quality_mod").modifyMult(this.getModId(), 1.0F + bonus, this.getNameForModifier());
+      this.market.getStats().getDynamic().getMod(Stats.PRODUCTION_QUALITY_MOD).modifyMult(this.getModId(), 1.0F + bonus, this.getNameForModifier());
+      this.market.getStats().getDynamic().getMod(Stats.FLEET_QUALITY_MOD).modifyMult(this.getModId(), 1.0F + bonus, this.getNameForModifier());
       if (!this.isFunctional()) {
          this.supply.clear();
       }
@@ -38,6 +52,27 @@ public class FDS_RepairYards extends BaseIndustry {
       super.unapply();
       this.market.getStats().getDynamic().getMod("production_quality_mod").unmodifyMult(this.getModId());
       this.market.getStats().getDynamic().getMod("fleet_quality_mod").unmodifyMult(this.getModId());
+   }
+
+   @Override
+   protected void addPostDemandSection(TooltipMakerAPI tooltip, boolean hasDemand, IndustryTooltipMode mode) {
+      if (mode != IndustryTooltipMode.NORMAL || isFunctional()) {
+         float SHIP_QUALITY_BONUS = 0.25f;
+
+         float total = SHIP_QUALITY_BONUS;
+         String totalStr = "+" + (int)Math.round(total * 100f) + "%";
+         Color h = Misc.getHighlightColor();
+         if (total < 0) {
+            h = Misc.getNegativeHighlightColor();
+            totalStr = "" + (int)Math.round(total * 100f) + "%";
+         }
+         float opad = 10f;
+         if (total >= 0) {
+            tooltip.addPara("Ship quality: %s", opad, h, totalStr);
+            tooltip.addPara("*Quality bonus only applies for the largest ship producer in the faction.",
+                    Misc.getGrayColor(), opad);
+         }
+      }
    }
 
    protected void applyAlphaCoreModifiers() {

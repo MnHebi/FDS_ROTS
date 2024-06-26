@@ -1,3 +1,13 @@
+[2024/06/26]
+(v0.11.2m)
+	Changes:
+		- Fix incorrect java version selection in build settings that sometimes resulted in a build in Java version Starsector did not like
+		Economy:
+			- All industries protected against zero production, should always produce at least 1 unit
+			- All industries now tagged as such
+			- Fuel Converter: Now requires Heavy Machinery in addition to Energy Crystals
+			- Repair Yards: Now produces Ship Hulls & Weapons cargo
+			- Repair Yards: Now properly states ship quality bonus on tooltip
 [2024/06/22]
 (v0.11.1m)
 	Changes:
