@@ -1,3 +1,11 @@
+[2024/07/09]
+(v0.11.3m
+	Changes:
+		Economy:
+			- Maintenance Bots Factory: Adjust production, now size - 1, so Novae Spes produces enough Maintenace Bots to satisfy demand of the Repair Yards.
+		Weapons:
+			- Adjusted flux statistics of all weapons down by 33%, except PD Laser MK. II and MK. III which had their flux/damage increased to 60 and 70 respectively
+
 [2024/06/26]
 (v0.11.2m)
 	Changes:

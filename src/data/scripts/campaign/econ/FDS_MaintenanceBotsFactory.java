@@ -8,17 +8,7 @@ public class FDS_MaintenanceBotsFactory extends BaseIndustry {
       super.apply(true);
       int size = this.market.getSize();
 
-      //increase production if production 0
-      int OUTPUT = 3;
-      int ZERO_PROTECTION = size - OUTPUT;
-      if (ZERO_PROTECTION <= 0)
-      {
-         OUTPUT = 1;
-      }
-      else
-      {
-         OUTPUT = ZERO_PROTECTION;
-      }
+      int OUTPUT = size + 1;
 
       this.demand("heavy_machinery", size - 1);
       this.demand("volatiles", size - 2);
