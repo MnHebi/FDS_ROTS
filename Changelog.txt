@@ -1,5 +1,5 @@
 [2024/07/09]
-(v0.11.3m
+(v0.11.3m)
 	Changes:
 		Economy:
 			- Maintenance Bots Factory: Adjust production, now size - 1, so Novae Spes produces enough Maintenace Bots to satisfy demand of the Repair Yards.
