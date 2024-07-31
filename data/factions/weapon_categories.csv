@@ -470,7 +470,7 @@ Plasma Lance,TSC_plasma,FALSE,large,energy,,,,,TRUE,,,ENERGY,TRUE,,TRUE,,,,,TYRA
 Devastator Cannon Mk.II,TSC_Angon_devastator,TRUE,large,ballistic,1,22,,,,,,HIGH_EXPLOSIVE,TRUE,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Corvo Drone Launcher,TSC_Kestros-drones,TRUE,small,missile,3,5,,TRUE,TRUE,,,ENERGY,TRUE,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Kabura-ya Drone Launcher,TSC_Ayllo-drones,TRUE,small,missile,2,5,,TRUE,TRUE,,,ENERGY,,TRUE,,,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Judgment,TSC_Claymore-missile,TRUE,large,missile,3,16,,TRUE,TRUE,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Judgement,TSC_Claymore-missile,TRUE,large,missile,3,16,,TRUE,TRUE,TRUE,,HIGH_EXPLOSIVE,,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Kulbeda Drone Bay,TSC_Atlatl-drones,TRUE,large,missile,1,20,,TRUE,TRUE,,,ENERGY,,TRUE,,TRUE,,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Warden PD System,TSC_Pavise-PD,TRUE,large,energy,2,15,,,,,,FRAGMENTATION,,,,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Disruptor Beam Cannon,TSC_Halberd-beam,TRUE,large,energy,3,25,,,,,,ENERGY,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
