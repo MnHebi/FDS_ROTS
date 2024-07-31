@@ -247,3 +247,16 @@ It's a good idea to pick up a mission first, so you're not running blind - someo
 fds_janContactReport3,DialogOptionSelected,$option == tutReport3,,"""Finally, you could take a comission with the Hegemony - due to the Galatia business, your standing is high enough that such a request would be accepted.
 
 You'll be expected to fight our enemies, though, so it's quite a commitment. If I were you, I'd hold off on it until you've got a more solid fleet behind you.""","cutCommLinkPolite:""Thanks, I'll think about it.""",
+fds_nex_NGCPickStartingShips,ExerelinNGCStep3,"$playerFaction == fringe_defence_syndicate
+!$fds_ChangeMind
+$corvusMode","AddText ""Born during a long lasting war, the Fringe Defence Syndicate is the final attempt at defending the Fringe Worlds against attacks that threaten the balance of power in the region. The Syndicate was forced to fundamentally rethink their military doctrine in response to aggression by foreign powers, introducing a new generation of faster, smaller ships to support the larger, more-imposing ship designs that had previously formed most of their fleet.""
+SetTextHighlightColors hColor
+SetTextHighlights Fringe Defence Syndicate
+
+AddText ""The Syndicate's military is anything but friendly, and will not hesitate to cripple or obliterate the enemy, given the opportunity. They are very loyal to their cause, their pursuit of revenge driving them to fight harder and more fearlessly than ever.""
+$fds_ChangeMind = true 0",,,
+fds_nex_NGCPickStartingShips2,ExerelinNGCStep3,"$playerFaction == fringe_defence_syndicate
+EIS_HasModId timid_commissioned_hull_mods
+!$fds_ChangeMind","AddText ""Commissioned Crews Bonus: None.""
+SetTextHighlights Commissioned Crews Bonus
+$fds_ChangeMind = true 0",,,
