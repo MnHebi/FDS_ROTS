@@ -9,6 +9,6 @@ FDS Combat Systems,fds_syndicate_combat_systems,,,,,,TRUE,,0,0,0,0,data.hullmods
 Furthermore, fighting alongside allied ships causes less stress to the system, decreasing the rate at which Combat Readiness decreases by %s percent, up to a maximum of %s percent, with allied Syndicate ships providing twice the boost of the ships from other factions.
 
 Incompatible with Advanced Turret Gyros!",,graphics/FDS/hullmods/fds_combat_systems.png
-Augmented Sensor Arrays,fds_augmented_sensor_arrays,,,,,,TRUE,,0,0,0,0,data.hullmods.FDS_AugmentedSensorArrays,"Increases sensor range by %s percent, both in the campaign map and in combat. Its range can be further increased with the aid of a Terror-class Dreadnaught.","Increases sensor range by %s percent, both in the campaign map and in combat.",
+Augmented Sensor Arrays,fds_augmented_sensor_arrays,,,,,,TRUE,,0,0,0,0,data.hullmods.FDS_AugmentedSensorArrays,"Increases sensor range by %s percent, both in the campaign map and in combat. Its range can be further increased with the aid of a Terror-class Dreadnought.","Increases sensor range by %s percent, both in the campaign map and in combat.",
 ,,,,,,,,,,,,,,,,
 HULLMOD CONFLICT,FDSIncompatibleHullmodWarning,,,,,FALSE,TRUE,,0,0,0,0,data.hullmods.FDSIncompatibleHullmodWarning,"%s, the hullmod you tried to install conflicts with this hull or another previously installed hullmod.",,graphics/icons/intel/investigation.png

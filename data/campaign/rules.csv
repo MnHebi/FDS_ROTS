@@ -23,7 +23,7 @@ The Syndicate $personRank salutes you in a very strict but welcoming fashion.
 OR
 The Syndicate $personRank greets you with a warm welcome.
 
-""Commander, glad to see you well! On behalf of the Syndicate I wish you a continuine good luck on your endeavours.""",,
+""Commander, glad to see you well! On behalf of the Syndicate I wish you continuing good luck on your endeavours.""",,
 greetingHostileWeakerFringeDefenceSyndicate,OpenCommLink,"$faction.id == fringe_defence_syndicate
 $entity.isHostile
 $entity.relativeStrength < 0",$ignorePlayerCommRequests = true 1,"After a silent period of nothing but static the Syndicate $personRank finally appears.
@@ -57,11 +57,11 @@ The Syndicate's crest appears on the comm-line and a strong voice is heard.
 
 ""This is $personName, $personRank of the $faction. I will give you one chance to surrender before we open fire on your $shipOrFleet!""
 OR
-The $personRank proptly appears on the comms console...
+The $personRank promptly appears on the comms console...
 
 ""Make it quick, our weapons are getting cold""
 OR
-After a lengthly delay, the $personRank finally appears answers the comm request...
+After a lengthy delay, the $personRank finally appears answers the comm request...
 
 ""I'm terribly sorry Commander, I was laughing with my crew while looking at your fleet... I do hope you enjoy your last moments alive!""",cutCommLink:Cut the comm link,
 greetingNeutralFringeDefenceSyndicate,OpenCommLink,"$faction.id == fringe_defence_syndicate
@@ -244,7 +244,7 @@ There's a bounty in this system right now due to unusually high pirate activity.
 fds_janContactReport2,DialogOptionSelected,$option == tutReport2,,"""You could also try your hand at salvaging - load up on fuel, machinery, and supplies, and head for the outer systems. 
 
 It's a good idea to pick up a mission first, so you're not running blind - someone's usually offering good money to analyze this planet or that derelict, and where there's one, there's often more.""",tutReport3:Continue,
-fds_janContactReport3,DialogOptionSelected,$option == tutReport3,,"""Finally, you could take a comission with the Hegemony - due to the Galatia business, your standing is high enough that such a request would be accepted.
+fds_janContactReport3,DialogOptionSelected,$option == tutReport3,,"""Finally, you could take a commission with the Hegemony - due to the Galatia business, your standing is high enough that such a request would be accepted.
 
 You'll be expected to fight our enemies, though, so it's quite a commitment. If I were you, I'd hold off on it until you've got a more solid fleet behind you.""","cutCommLinkPolite:""Thanks, I'll think about it.""",
 fds_nex_NGCPickStartingShips,ExerelinNGCStep3,"$playerFaction == fringe_defence_syndicate

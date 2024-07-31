@@ -18,7 +18,7 @@ Council Spear,fds_council_spear,4,,12000,1300,1000,,2000,0,10,25,,,,ENERGY,,1340
 Fighter Rocket Pod,fds_fighter_rocket,5,,500,1500,,100,,5,30,,15,,,HIGH_EXPLOSIVE,0,,0,0.1,1,,0,32,15,10,,400,50,3.75,30,SYSTEM,"rocket13, strike8",,Fringe Defence Syndicate,,Anti Armor,,,,,,,,,TRUE,500
 Ion Missile (Single),fds_ion_missile_single,5,,1200,1000,,200,2000,25,10,,1,,,KINETIC,0,,0,5,1,,0,0,0,0,,350,50,4,120,SYSTEM,,,Fringe Defence Syndicate,,Anti Shield,,,,,,,,,TRUE,501
 Hydra Guided Torpedo (Single),fds_hydra_single,5,,200,2000,,1500,,50,10,,1,,,HIGH_EXPLOSIVE,0,,0,2.5,1,,0,0,0,0,,300,200,10,250,"SYSTEM, STRIKE, GUIDED_POOR",,,Fringe Defence Syndicate,,Torpedo,,,,,,,,,TRUE,502
-Hydra Guided Torpedos,fds_hydra_2x_rack,0,,400,2000,,1500,,50,10,4,2,,,HIGH_EXPLOSIVE,0,,0,2,1,,0,0,0,0,,300,200,10,250,"STRIKE, GUIDED_POOR, CONSERVE_1","strike10, missile1, fds_base_bp, fds_missile_bp",,Fringe Defence Syndicate,,Torpedo,,,,,,,,,TRUE,9
+Hydra Guided Torpedoes,fds_hydra_2x_rack,0,,400,2000,,1500,,50,10,4,2,,,HIGH_EXPLOSIVE,0,,0,2,1,,0,0,0,0,,300,200,10,250,"STRIKE, GUIDED_POOR, CONSERVE_1","strike10, missile1, fds_base_bp, fds_missile_bp",,Fringe Defence Syndicate,,Torpedo,,,,,,,,,TRUE,9
 Hydra Guided Torpedo Rack,fds_hydra_3x_rack,0,,600,2000,,1500,,50,10,6,3,,,HIGH_EXPLOSIVE,0,,0,2,1,,0,0,0,0,,300,200,10,250,"STRIKE, GUIDED_POOR, CONSERVE_1","strike7, missile1, fds_base_bp, fds_missile_bp",,Fringe Defence Syndicate,,Torpedo,,,,,,,,,TRUE,10
 Hydra Guided Torpedo Pod,fds_hydra_2x_pod,1,,1200,2000,,1500,,50,10,12,8,,,HIGH_EXPLOSIVE,0,,0,5,2,0.25,0,0,0,0,,300,200,10,250,"STRIKE, GUIDED_POOR, CONSERVE_2","strike5, missile1, fds_base_bp, fds_missile_bp",,Fringe Defence Syndicate,,Torpedo,,,,,,,,,TRUE,11
 Tali MRM Pod,fds_tali_mrm,1,,1200,2500,,350,,30,10,10,40,,,HIGH_EXPLOSIVE,0,,0,10,4,0.25,0,0,0,0,,400,100,7.5,150,"DO_NOT_AIM, CONSERVE_1","strike10, missile1, fds_base_bp, fds_missile_bp",,Fringe Defence Syndicate,,Finisher,,,,,,,,,TRUE,12
@@ -40,5 +40,5 @@ Havoc Chaingun,fds_chaingun_P,5,,1500,500,,40,,5,25,,,,,KINETIC,21,,0,0.12,1,,0,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Missile Barrage,fds_missile_barrage,5,,10000,2000,,100,,15,20,,,,,HIGH_EXPLOSIVE,0,0,0,12,10,0.25,0,0,0,0,,400,100,10,50,"SYSTEM, DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES, DO_NOT_AIM",,,Fringe Defence Syndicate,,Anti Small Craft,,,,,,,,,TRUE,400
-PD Missile Barrage,fds_pd_barrage,5,,10000,1000,,100,,2,25,,,,,FRAGMENTATION,0,0,0,15,5,0.1,0,0,0,0,,500,50,5,25,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, PD_ONLY, PD",,,Fringe Defence Syndicate,,Point Defense,Excelent,Excelent,,,,,,,TRUE,401
+PD Missile Barrage,fds_pd_barrage,5,,10000,1000,,100,,2,25,,,,,FRAGMENTATION,0,0,0,15,5,0.1,0,0,0,0,,500,50,5,25,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE, PD_ONLY, PD",,,Fringe Defence Syndicate,,Point Defense,Excellent,Excellent,,,,,,,TRUE,401
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
