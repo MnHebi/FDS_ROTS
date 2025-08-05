@@ -42,7 +42,7 @@ public class FDS_PythagorasSystem implements SectorGeneratorPlugin {
       system.getLocation().set(10000.0F, 12000.0F);
       PlanetAPI odium = system.addPlanet("odiumPlanet", pythagoras1, "Odium", "fds_desert", 25.0F, 104.0F, 4000.0F, 100.0F);
       odium.setFaction("independent");
-      FDS_AddMarket.FDS_AddMarket("independent", odium, (ArrayList)null, "Odium", 3, new ArrayList(Arrays.asList("farmland_poor", "rare_ore_moderate", "volatiles_plentiful", "population_4", "vice_demand", "hot", "organized_crime", "arid")), new ArrayList(Arrays.asList("refining", "spaceport", "farming", "fuelprod", "mining", "population")), new ArrayList(Arrays.asList("storage", "black_market", "open_market")), 0.25F);
+      FDS_AddMarket.FDS_AddMarket("independent", odium, (ArrayList)null, "Odium", 4, new ArrayList(Arrays.asList("farmland_poor", "rare_ore_moderate", "volatiles_plentiful", "population_4", "vice_demand", "hot", "organized_crime", "arid")), new ArrayList(Arrays.asList("refining", "spaceport", "farming", "fuelprod", "mining", "population")), new ArrayList(Arrays.asList("storage", "black_market", "open_market")), 0.25F);
 
       JumpPointAPI odiumJumpPoint = Global.getFactory().createJumpPoint("odiumJumpPoint", "Odium Jump-Point");
       OrbitAPI orbit = Global.getFactory().createCircularOrbit(pythagoras1, 70.0F, 4000.0F, 100.0F);
