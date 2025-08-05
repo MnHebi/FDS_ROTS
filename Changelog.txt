@@ -1,3 +1,15 @@
+[2025/08/05]
+(v0.11.4m)
+	Changes:
+		- Recompiled for Starsector 0.98, upgraded Java version.
+		Economy:
+			- Odium is now size 4 to support all the industries it has.
+		Ships:
+			- Adjusted Loyalty cargo capacity to 20. Increased max crew to 60.
+			- Adjusted Fidelty cargo capacity to 150. Increased max crew to 50.
+			- Adjusted Burden cargo capacity to 850. Increased min crew to 45, max crew to 215. Lowered max speed to 45.
+			- Adjusted Obedience cargo capacity to 595. Increased Fuel Capacity to 650. Increased min crew to 45, max crew to 215. Increased max speed to 50, increased acceleration to 25 to match Burden.
+
 [2024/07/09]
 (v0.11.3m)
 	Changes:
@@ -16,6 +28,7 @@
 			- Fuel Converter: Now requires Heavy Machinery in addition to Energy Crystals
 			- Repair Yards: Now produces Ship Hulls & Weapons cargo
 			- Repair Yards: Now properly states ship quality bonus on tooltip
+			
 [2024/06/22]
 (v0.11.1m)
 	Changes:
